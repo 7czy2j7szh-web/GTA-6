@@ -62,7 +62,7 @@ Countdown um 19 Uhr + Meme, Quiz oder Service um 16 Uhr. Vor dem Release hat **n
 
 1. **Ich schicke dir** das fertige MP4 + Caption + Hashtags + Kommentar zum Anpinnen (siehe `content/01-countdown/posting.md`).
 2. **TikTok → „+" → Hochladen → Video wählen.**
-3. **Sound:** Jedes Video hat unseren eigenen Erkennungs-Track **„Leonida Nights"**. Bei Countdown- und News-Videos postest du einfach mit Originalton (das ist Markenbildung). Bei Memes kannst du optional einen Trend-Sound wählen und den Originalton dann auf 0–20 % stellen.
+3. **Sound:** Jedes Video hat unseren eigenen epischen Erkennungs-Track **„Vice Anthem"**. Bei Countdown- und News-Videos postest du einfach mit Originalton (das ist Markenbildung). Bei Memes kannst du optional einen Trend-Sound wählen und den Originalton dann auf 0–20 % stellen.
 4. **Cover:** den Frame mit „NOCH X TAGE" wählen.
 5. Caption einfügen, **Video zur Playlist hinzufügen** („⏳ Countdown"), posten.
 6. **Sofort:** eigenen Kommentar posten und anpinnen. In der ersten Stunde auf Kommentare antworten.

@@ -2,7 +2,7 @@
 
 Zu jedem Video: Datei, Zeitpunkt, Caption, Hashtags, Kommentar zum Anpinnen und Sound-Tipp.
 
-**Sound:** Jedes Video hat jetzt unseren eigenen Erkennungs-Track **„Leonida Nights"** im Hintergrund (selbst komponiert, gehört dir).
+**Sound:** Jedes Video hat jetzt unseren eigenen epischen Erkennungs-Track **„Vice Anthem"** im Hintergrund (selbst komponiert, gehört dir).
 - **Countdown-Videos (19 Uhr):** **keinen** Trend-Sound hinzufügen, einfach mit Originalton posten. So wird der Track zum Markenzeichen, und TikTok legt dafür einen eigenen „Originalton" von deinem Account an.
 - **Meme-Videos (16 Uhr):** Wenn du einen Trend-Sound nutzen willst, stell den **Originalton auf 0–20 %**, damit sich die zwei Musiken nicht beißen. Sonst einfach so posten.
 

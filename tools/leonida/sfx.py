@@ -99,25 +99,31 @@ GEN = {"pop": pop, "whoosh": whoosh, "hit": hit, "chime": chime, "riser": riser,
 MIX_GAIN = {"pop": 0.55, "whoosh": 0.45, "hit": 0.8, "chime": 0.6, "riser": 0.45, "tick": 0.4}
 
 
-# Hintergrundmusik "Leonida Nights": Pegel im fertigen Video (~ -20 LUFS, angenehm leise)
-MUSIC_GAIN = 0.40
-MUSIC_FADE_IN = 0.3
+# Hintergrundmusik. Standard: "vice_anthem" (episch). Alternative: "leonida_nights" (ruhig).
+# gain = Pegel im fertigen Video (~ -19 bzw. -20 LUFS), fade_in kurz beim epischen Track,
+# damit der BRAAM-Schlag in Sekunde 0 voll wirkt.
+DEFAULT_TRACK = "vice_anthem"
+TRACKS = {
+    "vice_anthem": dict(module="epic", gain=0.50, fade_in=0.01),
+    "leonida_nights": dict(module="music", gain=0.40, fade_in=0.3),
+}
 MUSIC_FADE_OUT = 1.0
 
 
-def music_bed(duration: float) -> np.ndarray:
-    from . import music as musicmod  # lazy: scipy nur bei Bedarf
-    track = musicmod.load()
+def music_bed(duration: float, name: str = DEFAULT_TRACK) -> np.ndarray:
+    import importlib
+    cfg = TRACKS[name]
+    track = importlib.import_module(f".{cfg['module']}", __package__).load()  # lazy: scipy nur bei Bedarf
     n = int(duration * SR)
     reps = int(np.ceil(n / len(track)))
-    bed = np.tile(track, (reps, 1))[:n].copy()     # Track ist eine nahtlose Schleife
-    a, b = int(MUSIC_FADE_IN * SR), int(MUSIC_FADE_OUT * SR)
+    bed = np.tile(track, (reps, 1))[:n].copy()     # Tracks sind nahtlose Schleifen
+    a, b = max(int(cfg["fade_in"] * SR), 1), int(MUSIC_FADE_OUT * SR)
     bed[:a] *= np.linspace(0, 1, a)[:, None]
     bed[-b:] *= np.linspace(1, 0, b)[:, None] ** 1.5
-    return bed * MUSIC_GAIN
+    return bed * cfg["gain"]
 
 
-def render_track(events: list[dict], duration: float, path: str, music: bool = True):
+def render_track(events: list[dict], duration: float, path: str, music=True):
     n = int(duration * SR) + SR
     mix = np.zeros(n)
     cache = {}
@@ -135,7 +141,7 @@ def render_track(events: list[dict], duration: float, path: str, music: bool = T
     peak = np.max(np.abs(mix)) or 1
     mix = np.stack([mix, mix], axis=1) / peak * TARGET_PEAK
     if music:
-        mix = mix + music_bed(duration)
+        mix = mix + music_bed(duration, music if isinstance(music, str) else DEFAULT_TRACK)
     top = np.max(np.abs(mix))
     if top > 0.89:                                  # Sicherheitsbegrenzer
         mix *= 0.89 / top

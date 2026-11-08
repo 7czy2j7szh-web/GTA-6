@@ -23,7 +23,8 @@ Faceless-Kanal: ohne Konsole, ohne Stimme, ohne Gesicht.
 | [`content/01-countdown/pakete.md`](content/01-countdown/pakete.md) | Drehbücher Countdown-Phase |
 | `content/01-countdown/specs/` | Video-Baupläne (JSON) für den Renderer |
 | `tools/` | Renderer (`render.py`), Musik (`leonida/music.py`), Asset-Download (`fetch_assets.py`) |
-| `assets/music/leonida_nights.m4a` | Unser eigener Erkennungs-Track „Leonida Nights" (selbst komponiert) |
+| `assets/music/vice_anthem.m4a` | **Erkennungs-Track „Vice Anthem"** (episch, selbst komponiert, Standard in allen Videos) |
+| `assets/music/leonida_nights.m4a` | Alternative: ruhiger Synthwave-Track „Leonida Nights" |
 
 ## Videos neu rendern
 
