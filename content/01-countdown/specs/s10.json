@@ -1,15 +1,16 @@
 {
  "id": "S10",
  "out": "exports/countdown/S10_laeuft-gta6-auf.mp4",
- "duration": 13,
+ "duration": 12.203,
  "fps": 30,
  "progress": false,
- "cover_at": 1.6,
+ "cover_at": 1.271,
+ "music": "chase",
  "scenes": [
   {
    "image": "synth:night",
    "start": 0,
-   "end": 9.6,
+   "end": 8.136,
    "zoom": [
     1.0,
     1.08
@@ -18,8 +19,8 @@
   },
   {
    "image": "assets/official/img/vc_beach_car_v.jpg",
-   "start": 9.6,
-   "end": 13,
+   "start": 8.136,
+   "end": 12.203,
    "zoom": [
     1.05,
     1.15
@@ -29,7 +30,7 @@
  "beats": [
   {
    "t": 0.0,
-   "end": 9.6,
+   "end": 8.136,
    "text": "Ich hab's *getestet:*",
    "style": "hook",
    "y": 0.27,
@@ -38,16 +39,17 @@
   },
   {
    "t": 0.0,
-   "end": 2.4,
+   "end": 2.034,
    "text": "Läuft GTA 6 auf PS4?",
    "style": "search",
    "y": 0.4,
    "anim": "none",
+   "type_cps": 42,
    "exit": "cut"
   },
   {
-   "t": 0.9,
-   "end": 2.4,
+   "t": 1.017,
+   "end": 2.034,
    "text": "NEIN",
    "style": "huge",
    "color": "red",
@@ -59,21 +61,22 @@
    "exit": "cut"
   },
   {
-   "t": 2.4,
-   "end": 4.8,
+   "t": 2.034,
+   "end": 4.068,
    "text": "Läuft GTA 6 auf Omas Laptop?",
    "style": "search",
    "y": 0.4,
    "anim": "type",
+   "type_cps": 42,
    "exit": "cut"
   },
   {
-   "t": 3.5,
-   "end": 4.8,
+   "t": 3.051,
+   "end": 4.068,
    "text": "NEIN",
    "style": "huge",
    "color": "red",
-   "size": 280,
+   "size": 290,
    "y": 0.58,
    "anim": "stamp",
    "rotate": 6,
@@ -81,17 +84,18 @@
    "exit": "cut"
   },
   {
-   "t": 4.8,
-   "end": 7.2,
+   "t": 4.068,
+   "end": 6.102,
    "text": "Läuft GTA 6 auf meinem Taschenrechner?",
    "style": "search",
    "y": 0.4,
    "anim": "type",
+   "type_cps": 42,
    "exit": "cut"
   },
   {
-   "t": 6.0,
-   "end": 7.2,
+   "t": 5.085,
+   "end": 6.102,
    "text": "NEIN",
    "style": "huge",
    "color": "red",
@@ -99,21 +103,22 @@
    "y": 0.58,
    "anim": "stamp",
    "rotate": -5,
-   "shake": 26,
+   "shake": 22,
    "exit": "cut"
   },
   {
-   "t": 7.2,
-   "end": 9.6,
+   "t": 6.102,
+   "end": 8.136,
    "text": "Läuft GTA 6 auf meiner Mikrowelle?",
    "style": "search",
    "y": 0.4,
    "anim": "type",
+   "type_cps": 42,
    "exit": "cut"
   },
   {
-   "t": 8.3,
-   "end": 9.6,
+   "t": 7.119,
+   "end": 8.136,
    "text": "NEIN!!",
    "style": "huge",
    "color": "red",
@@ -125,8 +130,8 @@
    "exit": "cut"
   },
   {
-   "t": 9.6,
-   "end": 13,
+   "t": 8.136,
+   "end": 12.203,
    "text": "Läuft GTA 6 auf PS5?",
    "style": "search",
    "y": 0.36,
@@ -134,8 +139,8 @@
    "exit": "cut"
   },
   {
-   "t": 10.3,
-   "end": 13,
+   "t": 9.153,
+   "end": 12.203,
    "text": "JA!!!",
    "style": "huge",
    "color": "green",
@@ -146,8 +151,8 @@
    "exit": "cut"
   },
   {
-   "t": 11.2,
-   "end": 13,
+   "t": 10.169,
+   "end": 12.203,
    "text": "(und Xbox Series X|S)",
    "style": "small",
    "size": 76,
@@ -158,43 +163,39 @@
  ],
  "sfx": [
   {
-   "t": 0.9,
+   "t": 1.017,
    "type": "hit"
   },
   {
-   "t": 3.5,
+   "t": 3.051,
    "type": "hit"
   },
   {
-   "t": 6.0,
-   "type": "hit"
-  },
-  {
-   "t": 8.3,
-   "type": "hit"
-  },
-  {
-   "t": 2.4,
+   "t": 2.034,
    "type": "pop"
   },
   {
-   "t": 4.8,
+   "t": 5.085,
+   "type": "hit"
+  },
+  {
+   "t": 4.068,
    "type": "pop"
   },
   {
-   "t": 7.2,
+   "t": 7.119,
+   "type": "hit"
+  },
+  {
+   "t": 6.102,
    "type": "pop"
   },
   {
-   "t": 9.45,
-   "type": "whoosh"
-  },
-  {
-   "t": 10.3,
+   "t": 9.153,
    "type": "chime"
   },
   {
-   "t": 10.3,
+   "t": 9.153,
    "type": "hit",
    "gain": 0.6
   }

@@ -272,6 +272,7 @@ class Beat:
     rotate: float = 0
     exit: str = "fade"        # fade | cut
     shake: float = 0          # Wackel-Amplitude in px (erste 0,35 s)
+    type_cps: float = 25      # Tipp-Geschwindigkeit (Zeichen/s) für anim=type
 
     def text_at(self, lt: float) -> str:
         if self.anim == "count":
@@ -280,7 +281,7 @@ class Beat:
             num = self.count_fmt.format(v).replace(",", ".")
             return self.text.replace("{n}", num)
         if self.anim == "type":
-            n = int(len(self.text) * min(1, lt / max(0.04 * len(self.text), 0.1)))
+            n = min(len(self.text), int(lt * self.type_cps) + 1)
             return self.text[:n] if n else ""
         return self.text
 

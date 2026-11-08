@@ -50,6 +50,49 @@ MELODY = [  # (Note | None, Beats) – 8 Takte, heldenhaft mit Sprüngen nach ob
     ("A5", 2), ("E5", 1), ("C#5", 1),
 ]
 
+# ------------------------------------------------------------- Kompositionen
+# "chase" = Variante 4 aus den Hörproben (vom User gewählt, Standard in allen Videos)
+COMPOSITIONS = {
+    "vice_anthem": dict(bpm=96, seed=2026, chords=CHORDS, melody=MELODY,
+                        out=os.path.join(ROOT, "assets", "music", "vice_anthem.wav")),
+    "chase": dict(
+        bpm=118, seed=7,
+        out=os.path.join(ROOT, "assets", "music", "chase.wav"),
+        chords=[  # Am – F – G – Em | Am – F – G – E (E-Dur = Spannung zurück nach Am)
+            dict(bass="A1", pad=["A2", "E3", "A3", "C4", "E4"]),
+            dict(bass="F2", pad=["F3", "A3", "C4", "F4", "A4"]),
+            dict(bass="G1", pad=["G2", "D3", "G3", "B3", "D4"]),
+            dict(bass="E2", pad=["E3", "B3", "E4", "G4", "B4"]),
+            dict(bass="A1", pad=["A2", "E3", "A3", "C4", "E4"]),
+            dict(bass="F2", pad=["F3", "A3", "C4", "F4", "A4"]),
+            dict(bass="G1", pad=["G2", "D3", "G3", "B3", "D4"]),
+            dict(bass="E2", pad=["E3", "B3", "E4", "G#4", "B4"]),
+        ],
+        melody=[  # rasende Achtel-Läufe, 8 Takte
+            ("A4", .5), ("C5", .5), ("E5", .5), ("A5", .5), ("G5", .5), ("E5", .5), ("C5", .5), ("E5", .5),
+            ("F5", 1.5), ("E5", .5), ("C5", 1), ("A4", 1),
+            ("B4", .5), ("D5", .5), ("G5", .5), ("B5", .5), ("A5", .5), ("G5", .5), ("D5", .5), ("G5", .5),
+            ("E5", 2), ("B4", 1), ("E5", 1),
+            ("A4", .5), ("C5", .5), ("E5", .5), ("A5", .5), ("B5", .5), ("A5", .5), ("E5", .5), ("A5", .5),
+            ("C6", 1.5), ("A5", .5), ("F5", 1), ("C5", 1),
+            ("B5", .5), ("A5", .5), ("G5", .5), ("D5", .5), ("G5", 1), ("B5", 1),
+            ("G#5", 2), ("E5", 1), ("B4", 1),
+        ]),
+}
+
+
+def use(name: str):
+    """Setzt Tempo, Akkorde und Melodie der gewählten Komposition."""
+    global BPM, BEAT, BAR, CHORDS, MELODY, rng
+    c = COMPOSITIONS[name]
+    BPM = c["bpm"]
+    BEAT = 60 / BPM
+    BAR = 4 * BEAT
+    CHORDS, MELODY = c["chords"], c["melody"]
+    rng = np.random.default_rng(c["seed"])
+    return c
+
+
 OSTINATO = [0, 0, 12, 0, 7, 0, 12, 7]                      # Streicher-Achtel (Intervalle)
 TAIKO = [(0, 1.0), (0.75, 0.45), (1.5, 0.6), (2, 0.9), (2.75, 0.45), (3.5, 0.7)]
 
@@ -195,8 +238,10 @@ def build(total_s):
     return B, M
 
 
-def render(path: str = OUT) -> str:
+def render(path: str | None = None, comp: str = "vice_anthem") -> str:
     from .music import tape  # gleiche Kassetten-Wärme, nur dezenter
+    c = use(comp)
+    path = path or c["out"]
     total = BARS * BAR
     B, M = build(total + 3.0)
     n = len(M["bass"])
@@ -245,13 +290,15 @@ def render(path: str = OUT) -> str:
     return path
 
 
-def load(path: str = OUT) -> np.ndarray:
+def load(comp: str = "vice_anthem") -> np.ndarray:
+    path = COMPOSITIONS[comp]["out"]
     if not os.path.exists(path):
-        render(path)
+        render(path, comp)
     with wave.open(path, "rb") as w:
         data = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).reshape(-1, 2)
     return data.astype(np.float64) / 32767
 
 
 if __name__ == "__main__":
-    print(render())
+    import sys
+    print(render(comp=sys.argv[1] if len(sys.argv) > 1 else "chase"))

@@ -99,12 +99,14 @@ GEN = {"pop": pop, "whoosh": whoosh, "hit": hit, "chime": chime, "riser": riser,
 MIX_GAIN = {"pop": 0.55, "whoosh": 0.45, "hit": 0.8, "chime": 0.6, "riser": 0.45, "tick": 0.4}
 
 
-# Hintergrundmusik. Standard: "vice_anthem" (episch). Alternative: "leonida_nights" (ruhig).
+# Hintergrundmusik. Standard: "chase" (episch, schnell, vom User gewählt).
+# Alternativen: "vice_anthem" (episch, getragener), "leonida_nights" (ruhig).
 # gain = Pegel im fertigen Video (~ -19 bzw. -20 LUFS), fade_in kurz beim epischen Track,
 # damit der BRAAM-Schlag in Sekunde 0 voll wirkt.
-DEFAULT_TRACK = "vice_anthem"
+DEFAULT_TRACK = "chase"
 TRACKS = {
-    "vice_anthem": dict(module="epic", gain=0.50, fade_in=0.01),
+    "chase": dict(module="epic", comp="chase", gain=0.50, fade_in=0.01),
+    "vice_anthem": dict(module="epic", comp="vice_anthem", gain=0.50, fade_in=0.01),
     "leonida_nights": dict(module="music", gain=0.40, fade_in=0.3),
 }
 MUSIC_FADE_OUT = 1.0
@@ -113,7 +115,8 @@ MUSIC_FADE_OUT = 1.0
 def music_bed(duration: float, name: str = DEFAULT_TRACK) -> np.ndarray:
     import importlib
     cfg = TRACKS[name]
-    track = importlib.import_module(f".{cfg['module']}", __package__).load()  # lazy: scipy nur bei Bedarf
+    mod = importlib.import_module(f".{cfg['module']}", __package__)  # lazy: scipy nur bei Bedarf
+    track = mod.load(cfg["comp"]) if "comp" in cfg else mod.load()
     n = int(duration * SR)
     reps = int(np.ceil(n / len(track)))
     bed = np.tile(track, (reps, 1))[:n].copy()     # Tracks sind nahtlose Schleifen
