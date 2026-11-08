@@ -99,7 +99,25 @@ GEN = {"pop": pop, "whoosh": whoosh, "hit": hit, "chime": chime, "riser": riser,
 MIX_GAIN = {"pop": 0.55, "whoosh": 0.45, "hit": 0.8, "chime": 0.6, "riser": 0.45, "tick": 0.4}
 
 
-def render_track(events: list[dict], duration: float, path: str):
+# Hintergrundmusik "Leonida Nights": Pegel im fertigen Video (~ -20 LUFS, angenehm leise)
+MUSIC_GAIN = 0.40
+MUSIC_FADE_IN = 0.3
+MUSIC_FADE_OUT = 1.0
+
+
+def music_bed(duration: float) -> np.ndarray:
+    from . import music as musicmod  # lazy: scipy nur bei Bedarf
+    track = musicmod.load()
+    n = int(duration * SR)
+    reps = int(np.ceil(n / len(track)))
+    bed = np.tile(track, (reps, 1))[:n].copy()     # Track ist eine nahtlose Schleife
+    a, b = int(MUSIC_FADE_IN * SR), int(MUSIC_FADE_OUT * SR)
+    bed[:a] *= np.linspace(0, 1, a)[:, None]
+    bed[-b:] *= np.linspace(1, 0, b)[:, None] ** 1.5
+    return bed * MUSIC_GAIN
+
+
+def render_track(events: list[dict], duration: float, path: str, music: bool = True):
     n = int(duration * SR) + SR
     mix = np.zeros(n)
     cache = {}
@@ -115,8 +133,13 @@ def render_track(events: list[dict], duration: float, path: str):
     mix = mix[: int(duration * SR)]
     mix = _onepole_lowpass(mix, 7000)          # Höhen weich machen
     peak = np.max(np.abs(mix)) or 1
-    mix = mix / peak * TARGET_PEAK
-    pcm = (np.stack([mix, mix], axis=1) * 32767).astype(np.int16)
+    mix = np.stack([mix, mix], axis=1) / peak * TARGET_PEAK
+    if music:
+        mix = mix + music_bed(duration)
+    top = np.max(np.abs(mix))
+    if top > 0.89:                                  # Sicherheitsbegrenzer
+        mix *= 0.89 / top
+    pcm = (mix * 32767).astype(np.int16)
     with wave.open(path, "wb") as w:
         w.setnchannels(2)
         w.setsampwidth(2)

@@ -22,11 +22,13 @@ Faceless-Kanal: ohne Konsole, ohne Stimme, ohne Gesicht.
 | [`content/01-countdown/posting.md`](content/01-countdown/posting.md) | **Was du wann postest** (Caption, Hashtags, Kommentar) |
 | [`content/01-countdown/pakete.md`](content/01-countdown/pakete.md) | Drehbücher Countdown-Phase |
 | `content/01-countdown/specs/` | Video-Baupläne (JSON) für den Renderer |
-| `tools/` | Renderer (`render.py`) + Asset-Download (`fetch_assets.py`) |
+| `tools/` | Renderer (`render.py`), Musik (`leonida/music.py`), Asset-Download (`fetch_assets.py`) |
+| `assets/music/leonida_nights.m4a` | Unser eigener Erkennungs-Track „Leonida Nights" (selbst komponiert) |
 
 ## Videos neu rendern
 
 ```bash
+pip install -r requirements.txt                        # numpy, pillow, scipy
 python3 tools/fetch_assets.py                          # Bilder & Clips laden (nicht im Git)
 python3 tools/render.py content/01-countdown/specs/c11.json
 python3 tools/render.py content/01-countdown/specs/c11.json --preview 0.5 5 15   # nur Standbilder

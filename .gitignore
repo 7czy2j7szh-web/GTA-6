@@ -5,3 +5,4 @@ assets/free/
 exports/
 __pycache__/
 *.pyc
+assets/music/*.wav

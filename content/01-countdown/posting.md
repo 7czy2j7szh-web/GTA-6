@@ -1,7 +1,10 @@
 # Posting-Fahrplan: fertige Videos
 
 Zu jedem Video: Datei, Zeitpunkt, Caption, Hashtags, Kommentar zum Anpinnen und Sound-Tipp.
-Alle Videos sind **ohne Stimme**. In der App legst du nur einen Trend-Sound darüber (Originalton ca. 50 %, hinzugefügter Sound ca. 40 %).
+
+**Sound:** Jedes Video hat jetzt unseren eigenen Erkennungs-Track **„Leonida Nights"** im Hintergrund (selbst komponiert, gehört dir).
+- **Countdown-Videos (19 Uhr):** **keinen** Trend-Sound hinzufügen, einfach mit Originalton posten. So wird der Track zum Markenzeichen, und TikTok legt dafür einen eigenen „Originalton" von deinem Account an.
+- **Meme-Videos (16 Uhr):** Wenn du einen Trend-Sound nutzen willst, stell den **Originalton auf 0–20 %**, damit sich die zwei Musiken nicht beißen. Sonst einfach so posten.
 
 ---
 
@@ -24,7 +27,7 @@ Alle Videos sind **ohne Stimme**. In der App legst du nur einen Trend-Sound dar�
   ```
 - **Hashtags:** `#gta6 #gta6deutsch #meme #ps5`
 - **Anpinnen:** `Worauf soll ich als Nächstes testen? 😂`
-- **Sound-Tipp:** In TikTok nach „can I play gta 6 on my" suchen. Das ist der bekannte Trend-Sound zu genau diesem Format.
+- **Sound-Tipp (optional):** In TikTok nach „can I play gta 6 on my" suchen. Das ist der bekannte Trend-Sound zu genau diesem Format. Originalton dann auf 0–20 %.
 
 ## Mo 09.11. · 19:00 · `C10_noch-10-tage.mp4` (20 s)
 - **Cover:** Frame mit „NOCH 10 TAGE"
