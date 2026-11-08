@@ -18,11 +18,15 @@ def main():
     ap.add_argument("specs", nargs="+")
     ap.add_argument("--preview", type=float, nargs="*", help="nur Standbilder zu diesen Sekunden rendern")
     ap.add_argument("--no-audio", action="store_true")
+    ap.add_argument("--audio-only", action="store_true", help="nur Soundeffekte im fertigen MP4 erneuern")
     args = ap.parse_args()
     for p in args.specs:
         spec = load_spec(p)
         r = Renderer(spec)
         base = spec["out"].rsplit(".", 1)[0]
+        if args.audio_only:
+            print("Ton erneuert:", r.remux_audio(spec["out"]))
+            continue
         if args.preview is not None:
             for t in args.preview or [0.5]:
                 print(r.still(t, f"{base}_preview_{t:.1f}s.jpg"))

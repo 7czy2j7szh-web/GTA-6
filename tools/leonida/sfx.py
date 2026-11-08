@@ -1,4 +1,13 @@
-"""Selbst erzeugte Soundeffekte (keine Lizenzfragen): Whoosh, Bass-Schlag, Riser, Tick."""
+"""Selbst erzeugte Soundeffekte (keine Lizenzfragen), bewusst leise und weich.
+
+Klangpalette:
+- pop:    kurzer, runder "Plopp" für Text-Einblendungen
+- whoosh: sanftes, dunkles Luftgeräusch für Szenenwechsel
+- hit:    weicher tiefer "Thump" für Stempel (ohne Verzerrung)
+- chime:  helles, warmes Glöckchen für große Zahlen / Auflösungen
+- riser:  leises Anschwellen beim Hochzählen
+- tick:   ganz leises Klicken
+"""
 from __future__ import annotations
 
 import wave
@@ -8,67 +17,86 @@ import numpy as np
 SR = 48000
 rng = np.random.default_rng(7)
 
-
-def _env(n, attack, release):
-    a = max(int(attack * SR), 1)
-    env = np.ones(n)
-    env[:a] = np.linspace(0, 1, a)
-    env[a:] = np.exp(-np.linspace(0, 1, n - a) * release)
-    return env
+# Ziel-Spitzenpegel des fertigen Effekt-Tracks (~ -18 dBFS). Der Trend-Sound
+# aus der TikTok-App soll klar im Vordergrund stehen.
+TARGET_PEAK = 0.125
 
 
-def _lowpass(x, alpha):
+def _onepole_lowpass(x: np.ndarray, cutoff_hz: float) -> np.ndarray:
+    a = 1 - np.exp(-2 * np.pi * cutoff_hz / SR)
     y = np.empty_like(x)
     acc = 0.0
     for i, v in enumerate(x):
-        acc += alpha * (v - acc)
+        acc += a * (v - acc)
         y[i] = acc
     return y
 
 
-def whoosh(length=0.45):
-    n = int(length * SR)
-    noise = rng.standard_normal(n)
-    # Bandpass-Sweep: Tiefpass mit steigender Grenzfrequenz minus stärkerer Tiefpass
-    t = np.linspace(0, 1, n)
-    alpha = 0.02 + 0.25 * np.sin(np.pi * t) ** 2
-    y = np.empty(n)
-    acc = 0.0
-    for i in range(n):
-        acc += alpha[i] * (noise[i] - acc)
-        y[i] = acc
-    y = y - _lowpass(y, 0.01)
-    env = np.sin(np.pi * t) ** 1.5
-    return y * env * 0.9
+def _fade(sig: np.ndarray, fade_in=0.004, fade_out=0.02) -> np.ndarray:
+    n = len(sig)
+    a, b = min(int(fade_in * SR), n), min(int(fade_out * SR), n)
+    sig = sig.copy()
+    if a:
+        sig[:a] *= np.linspace(0, 1, a)
+    if b:
+        sig[-b:] *= np.linspace(1, 0, b)
+    return sig
 
 
-def hit(length=0.9):
+def pop(length=0.09):
     n = int(length * SR)
     t = np.arange(n) / SR
-    f = 38 + 70 * np.exp(-t * 18)
+    f = 520 + 260 * np.exp(-t * 60)          # leicht fallende Tonhöhe = "runder" Plopp
     phase = 2 * np.pi * np.cumsum(f) / SR
-    body = np.sin(phase) * _env(n, 0.003, 5.5)
-    click = rng.standard_normal(n) * np.exp(-t * 90) * 0.35
-    return np.tanh((body + click) * 1.8) * 0.9
+    return _fade(np.sin(phase) * np.exp(-t * 38) * 0.55)
+
+
+def whoosh(length=0.5):
+    n = int(length * SR)
+    t = np.linspace(0, 1, n)
+    noise = _onepole_lowpass(rng.standard_normal(n), 900)   # dunkel, kein Zischen
+    noise = noise - _onepole_lowpass(noise, 120)            # Rumpeln raus
+    env = np.sin(np.pi * t) ** 2
+    return _fade(noise * env * 1.6)
+
+
+def hit(length=0.45):
+    n = int(length * SR)
+    t = np.arange(n) / SR
+    f = 55 + 45 * np.exp(-t * 25)
+    phase = 2 * np.pi * np.cumsum(f) / SR
+    body = np.sin(phase) * np.exp(-t * 9)
+    return _fade(body * 0.9, fade_in=0.006)
+
+
+def chime(length=1.1):
+    n = int(length * SR)
+    t = np.arange(n) / SR
+    tone = (np.sin(2 * np.pi * 880 * t) * 1.0
+            + np.sin(2 * np.pi * 1320 * t) * 0.35
+            + np.sin(2 * np.pi * 1760 * t) * 0.12)
+    return _fade(tone * np.exp(-t * 4.5) * 0.30, fade_in=0.008, fade_out=0.1)
 
 
 def riser(length=1.5):
     n = int(length * SR)
     t = np.linspace(0, 1, n)
-    f = 180 + 900 * t ** 2
+    f = 220 + 440 * t ** 2
     phase = 2 * np.pi * np.cumsum(f) / SR
-    tone = np.sin(phase) * 0.25 + np.sin(phase * 2.01) * 0.12
-    noise = rng.standard_normal(n) * 0.12
-    return (tone + noise) * t ** 1.5 * 0.8
+    tone = np.sin(phase) * 0.6 + np.sin(phase * 1.5) * 0.15
+    return _fade(tone * t ** 2 * 0.35, fade_out=0.06)
 
 
-def tick(length=0.06):
+def tick(length=0.04):
     n = int(length * SR)
     t = np.arange(n) / SR
-    return np.sin(2 * np.pi * 2200 * t) * np.exp(-t * 120) * 0.5
+    return _fade(np.sin(2 * np.pi * 1400 * t) * np.exp(-t * 150) * 0.25, fade_in=0.001)
 
 
-GEN = {"whoosh": whoosh, "hit": hit, "riser": riser, "tick": tick}
+GEN = {"pop": pop, "whoosh": whoosh, "hit": hit, "chime": chime, "riser": riser, "tick": tick}
+
+# Relative Lautstärke je Effekt im Mix
+MIX_GAIN = {"pop": 0.55, "whoosh": 0.45, "hit": 0.8, "chime": 0.6, "riser": 0.45, "tick": 0.4}
 
 
 def render_track(events: list[dict], duration: float, path: str):
@@ -80,13 +108,14 @@ def render_track(events: list[dict], duration: float, path: str):
         key = (kind, ev.get("len"))
         if key not in cache:
             cache[key] = GEN[kind](ev["len"]) if ev.get("len") else GEN[kind]()
-        s = cache[key] * ev.get("gain", 1.0)
+        s = cache[key] * ev.get("gain", 1.0) * MIX_GAIN.get(kind, 0.5)
         i = int(ev["t"] * SR)
         j = min(i + len(s), n)
         mix[i:j] += s[: j - i]
     mix = mix[: int(duration * SR)]
+    mix = _onepole_lowpass(mix, 7000)          # Höhen weich machen
     peak = np.max(np.abs(mix)) or 1
-    mix = mix / peak * 0.5  # bewusst leise: Trend-Sound kommt in der App obendrauf
+    mix = mix / peak * TARGET_PEAK
     pcm = (np.stack([mix, mix], axis=1) * 32767).astype(np.int16)
     with wave.open(path, "wb") as w:
         w.setnchannels(2)

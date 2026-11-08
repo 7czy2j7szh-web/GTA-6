@@ -419,6 +419,20 @@ class Renderer:
             os.remove(wav)
         return out_path
 
+    def remux_audio(self, out_path: str):
+        """Nur die Effekt-Tonspur neu erzeugen und ins vorhandene MP4 legen (Bild bleibt)."""
+        out_path = os.path.join(ROOT, out_path)
+        wav = out_path.rsplit(".", 1)[0] + ".sfx.wav"
+        tmp = out_path.rsplit(".", 1)[0] + ".tmp.mp4"
+        events = self.spec.get("sfx") or auto_sfx(self.spec)
+        sfxmod.render_track(events, self.duration, wav)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out_path, "-i", wav,
+                        "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                        "-shortest", "-movflags", "+faststart", tmp], check=True)
+        os.replace(tmp, out_path)
+        os.remove(wav)
+        return out_path
+
     def still(self, t: float, out_path: str):
         out_path = os.path.join(ROOT, out_path)
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -427,18 +441,26 @@ class Renderer:
 
 
 def auto_sfx(spec: dict) -> list[dict]:
-    """Standard-Sounddesign: Whoosh bei jedem Beat, Bass-Schlag bei Stempeln/großen Zahlen."""
+    """Standard-Sounddesign (leise & weich): Plopp bei Text, Thump + Glöckchen bei
+    großen Zahlen/Stempeln, Riser beim Hochzählen, sanfter Whoosh bei Szenenwechseln."""
     ev = []
     for b in spec["beats"]:
         st = b.get("style", "body")
-        if b.get("anim") == "stamp" or st in ("big", "huge", "stamp"):
+        if b.get("anim") == "count":
+            rise = min(1.6, b["end"] - b["t"] - 0.3)
+            ev.append({"t": b["t"], "type": "riser", "len": rise})
+            ev.append({"t": b["t"] + rise, "type": "chime"})
+        elif st in ("big", "huge"):
             ev.append({"t": b["t"], "type": "hit"})
-        elif b.get("anim") == "count":
-            ev.append({"t": b["t"], "type": "riser", "len": min(1.6, b["end"] - b["t"])})
-        elif st != "label":
-            ev.append({"t": max(b["t"] - 0.05, 0), "type": "whoosh"})
+            ev.append({"t": b["t"], "type": "chime"})
+        elif b.get("anim") == "stamp" or st == "stamp":
+            ev.append({"t": b["t"], "type": "hit", "gain": 0.8})
+        elif st == "label":
+            ev.append({"t": b["t"], "type": "tick"})
+        elif b.get("anim") != "none":
+            ev.append({"t": b["t"], "type": "pop"})
     for sc in spec["scenes"][1:]:
-        ev.append({"t": max(sc["start"] - 0.08, 0), "type": "whoosh", "gain": 0.8})
+        ev.append({"t": max(sc["start"] - 0.15, 0), "type": "whoosh"})
     return ev
 
 
