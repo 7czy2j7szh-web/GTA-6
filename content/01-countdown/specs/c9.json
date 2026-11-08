@@ -1,0 +1,180 @@
+{
+ "id": "C9",
+ "out": "exports/countdown/C9_noch-9-tage.mp4",
+ "duration": 22,
+ "fps": 30,
+ "badge": "GTA 6 · COUNTDOWN",
+ "cover_at": 16.0,
+ "scenes": [
+  {
+   "image": "assets/official/img/art_launch_trailer.jpg",
+   "start": 0,
+   "end": 7.5,
+   "zoom": [
+    1.05,
+    1.18
+   ],
+   "pan": [
+    [
+     0.4,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_convertible.jpg",
+   "start": 7.5,
+   "end": 14.5,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.35,
+     0.5
+    ],
+    [
+     0.55,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_sunset_v.jpg",
+   "start": 14.5,
+   "end": 22,
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 3.0,
+   "text": "Der GTA-6-Preload ist",
+   "style": "hook",
+   "y": 0.38,
+   "anim": "none",
+   "size": 90
+  },
+  {
+   "t": 0.6,
+   "end": 3.0,
+   "text": "LIVE.",
+   "style": "huge",
+   "y": 0.5,
+   "anim": "stamp",
+   "shake": 16
+  },
+  {
+   "t": 3.0,
+   "end": 7.5,
+   "text": "PS5",
+   "style": "label",
+   "y": 0.33,
+   "anim": "slide"
+  },
+  {
+   "t": 3.1,
+   "end": 7.5,
+   "text": "Spielebibliothek →\nGTA VI → Download",
+   "style": "body",
+   "size": 74,
+   "y": 0.41
+  },
+  {
+   "t": 4.9,
+   "end": 7.5,
+   "text": "XBOX",
+   "style": "label",
+   "y": 0.53,
+   "anim": "slide"
+  },
+  {
+   "t": 5.0,
+   "end": 7.5,
+   "text": "Meine Spiele & Apps →\nGTA VI installieren",
+   "style": "body",
+   "size": 74,
+   "y": 0.61
+  },
+  {
+   "t": 7.5,
+   "end": 11.0,
+   "text": "Spielen geht trotzdem erst am *19.11.*",
+   "style": "body",
+   "y": 0.42,
+   "anim": "slide"
+  },
+  {
+   "t": 8.9,
+   "end": 11.0,
+   "text": "Gilt für digitale Vorbestellungen\nbis zu 212 GB",
+   "style": "small",
+   "size": 64,
+   "y": 0.54,
+   "anim": "fade"
+  },
+  {
+   "t": 11.0,
+   "end": 14.5,
+   "text": "Vorbestellen bis *19.11.*",
+   "style": "body",
+   "y": 0.4,
+   "anim": "slide"
+  },
+  {
+   "t": 11.8,
+   "end": 14.5,
+   "text": "= Bonus: Vintage Vice City Pack",
+   "style": "small",
+   "size": 76,
+   "y": 0.5,
+   "anim": "fade"
+  },
+  {
+   "t": 14.5,
+   "end": 22,
+   "text": "NOCH",
+   "style": "hook",
+   "y": 0.33,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 14.65,
+   "end": 22,
+   "text": "9",
+   "style": "huge",
+   "y": 0.45,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 14.85,
+   "end": 22,
+   "text": "TAGE",
+   "style": "hook",
+   "y": 0.57,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 16.5,
+   "end": 22,
+   "text": "Läuft dein Download schon?",
+   "style": "small",
+   "size": 76,
+   "y": 0.68,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ]
+}

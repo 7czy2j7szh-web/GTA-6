@@ -1,34 +1,33 @@
 # GTA 6 TikTok: 0 → 10.000 Follower
 
-Die Projekt-Zentrale. **Claude macht den Content, du lädst hoch.**
+Die Projekt-Zentrale. **Claude macht die Videos fertig, du lädst hoch.**
+Faceless-Kanal: ohne Konsole, ohne Stimme, ohne Gesicht.
 
 | | |
 |---|---|
 | Release GTA 6 | **Do, 19.11.2026** (PS5 & Xbox Series X\|S) |
 | Preload | ab **10.11.2026**, bis zu 212 GB |
-| Ziel | 10.000 Follower (realistisch: Anfang/Mitte Januar 2027) |
-| Status | 🟡 **Phase 1: Plan wartet auf deine Freigabe** |
+| Ziel | 10.000 Follower (realistisch: Januar–März 2027) |
+| Status | 🟢 Countdown läuft: Videos bis 10.11. fertig |
 
 ## Dateien
 
 | Datei | Inhalt |
 |---|---|
-| [`plan/01-strategie.md`](plan/01-strategie.md) | Positionierung, Phasen, Rechnung hinter 10.000, Spielregeln, Kennzahlen |
-| [`plan/02-formate.md`](plan/02-formate.md) | 18 Formate, Hook-Bank, Schnitt-Gesetze, Caption & Hashtags |
-| [`plan/03-workflow.md`](plan/03-workflow.md) | Wer macht was, Tagesablauf, Content-Pack-Vorlage, Aufnahme-Einstellungen |
-| [`plan/04-plugin-vorschau.md`](plan/04-plugin-vorschau.md) | Was das Video-Plugin (Phase 2) können wird |
-| [`content/01-countdown/pakete.md`](content/01-countdown/pakete.md) | **Fertige Skripte für 08.–18.11.** (Countdown + Nebenformate) |
+| [`plan/00-update-faceless.md`](plan/00-update-faceless.md) | **Zuerst lesen:** neuer Rahmen, Bildquellen & Lizenzen, neue Hauptformate |
+| [`plan/01-strategie.md`](plan/01-strategie.md) | Positionierung, Phasen, Rechnung, Spielregeln, Kennzahlen |
+| [`plan/02-formate.md`](plan/02-formate.md) | Format-Bibliothek, Hook-Bank, Schnitt-Gesetze |
+| [`plan/03-workflow.md`](plan/03-workflow.md) | Zusammenarbeit, Wochen-Report |
+| [`plan/04-plugin-vorschau.md`](plan/04-plugin-vorschau.md) | Ausbaustufen des Video-Werkzeugs |
+| [`content/01-countdown/posting.md`](content/01-countdown/posting.md) | **Was du wann postest** (Caption, Hashtags, Kommentar) |
+| [`content/01-countdown/pakete.md`](content/01-countdown/pakete.md) | Drehbücher Countdown-Phase |
+| `content/01-countdown/specs/` | Video-Baupläne (JSON) für den Renderer |
+| `tools/` | Renderer (`render.py`) + Asset-Download (`fetch_assets.py`) |
 
-## Nächste Schritte
+## Videos neu rendern
 
-1. Plan lesen und Feedback geben bzw. freigeben
-2. Account anlegen (Strategie, Phase 0), erstes Video: **„Noch 11 Tage"**
-3. Nach der Freigabe baut Claude das Plugin, zuerst den automatischen Countdown-Renderer und dann den Gameplay-Renderer, fertig vor dem 19.11.
-
-## Offene Entscheidungen (von dir)
-
-- [ ] Account-Name (Vorschläge in der Strategie, Abschnitt 3)
-- [ ] Stimme: eigene Stimme, TikTok-Computerstimme oder keine?
-- [ ] Gesicht zeigen: ja, nein oder nur Hände/Controller?
-- [ ] Konsole: PS5 oder Xbox? Hast du GTA 5 (für Vergleichsvideos)?
-- [ ] Bist du 18+? (Wichtig für LIVE und das Creator Rewards Program)
+```bash
+python3 tools/fetch_assets.py                          # Bilder & Clips laden (nicht im Git)
+python3 tools/render.py content/01-countdown/specs/c11.json
+python3 tools/render.py content/01-countdown/specs/c11.json --preview 0.5 5 15   # nur Standbilder
+```

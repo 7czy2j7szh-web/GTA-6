@@ -1,5 +1,7 @@
 # Workflow: So arbeiten wir zusammen
 
+> ⚠️ **Update 08.11.:** Du nimmst nichts auf und schneidest nichts mehr. Ich liefere fertige MP4s, du lädst hoch und legst einen Trend-Sound darüber. Der neue Ablauf steht in **[00-update-faceless.md](00-update-faceless.md)**. Die Abschnitte zu Aufnahme-Einstellungen und Clip-Übertragung entfallen.
+
 ## Rollen
 
 | Ich (Claude) | Du |

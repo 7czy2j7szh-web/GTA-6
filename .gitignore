@@ -1,0 +1,7 @@
+# Große/fremde Medien nicht ins Git (werden per tools/fetch_assets.py geladen)
+assets/official/
+assets/free/
+# Fertige Videos werden direkt im Chat geliefert
+exports/
+__pycache__/
+*.pyc

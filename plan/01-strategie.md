@@ -2,6 +2,8 @@
 
 > Stand: 08.11.2026 · Release: **Do, 19.11.2026** (in 11 Tagen)
 
+> ⚠️ **Update 08.11.:** Ohne Konsole, Stimme und Gesicht gilt **[00-update-faceless.md](00-update-faceless.md)**. Es ersetzt hier alles, was eigenes Gameplay, Stimme oder Gesicht voraussetzt. Positionierung, Spielregeln und Kennzahlen bleiben gültig.
+
 ## Kurzfassung
 
 - **Was:** Ein **deutschsprachiger, spoilerfreier** GTA-6-Account mit Serien-Formaten.

@@ -1,5 +1,7 @@
 # Format-Bibliothek
 
+> ⚠️ **Update 08.11.:** F08–F10, F12–F14 und F17 brauchen eigenes Gameplay und ruhen vorerst. Die neuen Hauptformate (u. a. **„Echt oder GTA 6?"** und **„Leonida-News"**) stehen in **[00-update-faceless.md](00-update-faceless.md)**. Hook-Bank, Schnitt-Gesetze und die Hashtag-Regeln gelten weiter.
+
 Jedes Format hat einen Zweck. **Serien** bringen Follower, **Chaos** wird geteilt, **Tipps** werden gespeichert.
 ⭐ = Hauptformat (damit wird der Account bekannt)
 

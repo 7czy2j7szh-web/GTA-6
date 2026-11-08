@@ -1,0 +1,35 @@
+{
+  "id": "S10",
+  "out": "exports/countdown/S10_laeuft-gta6-auf.mp4",
+  "duration": 13,
+  "fps": 30,
+  "progress": false,
+  "cover_at": 1.6,
+  "scenes": [
+    {"image": "synth:night", "start": 0, "end": 9.6, "zoom": [1.0, 1.08], "flash": false},
+    {"image": "assets/official/img/vc_beach_car_v.jpg", "start": 9.6, "end": 13, "zoom": [1.05, 1.15]}
+  ],
+  "beats": [
+    {"t": 0.0, "end": 9.6, "text": "Ich hab's *getestet:*", "style": "hook", "y": 0.27, "anim": "none", "exit": "cut"},
+
+    {"t": 0.0, "end": 2.4, "text": "Läuft GTA 6 auf PS4?", "style": "search", "y": 0.40, "anim": "none", "exit": "cut"},
+    {"t": 0.9, "end": 2.4, "text": "NEIN", "style": "huge", "color": "red", "size": 280, "y": 0.58, "anim": "stamp", "rotate": -8, "shake": 22, "exit": "cut"},
+
+    {"t": 2.4, "end": 4.8, "text": "Läuft GTA 6 auf Omas Laptop?", "style": "search", "y": 0.40, "anim": "type", "exit": "cut"},
+    {"t": 3.5, "end": 4.8, "text": "NEIN", "style": "huge", "color": "red", "size": 280, "y": 0.58, "anim": "stamp", "rotate": 6, "shake": 22, "exit": "cut"},
+
+    {"t": 4.8, "end": 7.2, "text": "Läuft GTA 6 auf meinem Taschenrechner?", "style": "search", "y": 0.40, "anim": "type", "exit": "cut"},
+    {"t": 6.0, "end": 7.2, "text": "NEIN", "style": "huge", "color": "red", "size": 300, "y": 0.58, "anim": "stamp", "rotate": -5, "shake": 26, "exit": "cut"},
+
+    {"t": 7.2, "end": 9.6, "text": "Läuft GTA 6 auf meiner Mikrowelle?", "style": "search", "y": 0.40, "anim": "type", "exit": "cut"},
+    {"t": 8.3, "end": 9.6, "text": "NEIN!!", "style": "huge", "color": "red", "size": 330, "y": 0.58, "anim": "stamp", "rotate": 9, "shake": 34, "exit": "cut"},
+
+    {"t": 9.6, "end": 13, "text": "Läuft GTA 6 auf PS5?", "style": "search", "y": 0.36, "anim": "none", "exit": "cut"},
+    {"t": 10.3, "end": 13, "text": "JA!!!", "style": "huge", "color": "green", "size": 320, "y": 0.52, "anim": "stamp", "shake": 20, "exit": "cut"},
+    {"t": 11.2, "end": 13, "text": "(und Xbox Series X|S)", "style": "small", "size": 76, "y": 0.66, "anim": "slide", "exit": "cut"}
+  ],
+  "sfx": [
+    {"t": 0.9, "type": "hit"}, {"t": 3.5, "type": "hit"}, {"t": 6.0, "type": "hit"}, {"t": 8.3, "type": "hit"},
+    {"t": 9.5, "type": "whoosh"}, {"t": 10.3, "type": "hit"}
+  ]
+}
