@@ -1,0 +1,146 @@
+{
+ "id": "C10v2",
+ "out": "exports/countdown/C10v2_212gb.mp4",
+ "duration": 12.203,
+ "fps": 30,
+ "badge": "GTA 6 · COUNTDOWN",
+ "chrome_from": 2.034,
+ "cover_at": 0.6,
+ "music": "chase",
+ "scenes": [
+  {
+   "image": "assets/official/img/vc_day_aerial.jpg",
+   "start": 0,
+   "end": 4.068,
+   "zoom": [
+    1.35,
+    1.08
+   ],
+   "pan": [
+    [
+     0.5,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_bandanas_v.jpg",
+   "start": 4.068,
+   "end": 8.136,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.5,
+     0.3
+    ],
+    [
+     0.5,
+     0.45
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_gasstation_sq.jpg",
+   "start": 8.136,
+   "end": 12.203,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 2.034,
+   "text": "212 GB",
+   "style": "huge",
+   "size": 280,
+   "y": 0.42,
+   "anim": "none",
+   "shake": 0
+  },
+  {
+   "t": 0.0,
+   "end": 2.034,
+   "text": "braucht GTA 6.",
+   "style": "hook",
+   "size": 110,
+   "y": 0.56,
+   "anim": "none"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "PS5:\nrund *1/3* vom Speicher",
+   "style": "hook",
+   "y": 0.45,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "Series S:\n*über die Hälfte*",
+   "style": "hook",
+   "y": 0.45,
+   "anim": "stamp",
+   "shake": 14,
+   "exit": "cut"
+  },
+  {
+   "t": 6.102,
+   "end": 8.136,
+   "text": "Preload startet\n*heute Nacht.*",
+   "style": "hook",
+   "y": 0.45,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "NOCH",
+   "style": "hook",
+   "y": 0.33,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "10",
+   "style": "huge",
+   "y": 0.45,
+   "anim": "stamp",
+   "shake": 18,
+   "exit": "cut"
+  },
+  {
+   "t": 8.644,
+   "end": 12.203,
+   "text": "TAGE",
+   "style": "hook",
+   "y": 0.57,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.169,
+   "end": 12.203,
+   "text": "*Like*, wenn du seit 2013 wartest.",
+   "style": "small",
+   "size": 70,
+   "y": 0.68,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ]
+}

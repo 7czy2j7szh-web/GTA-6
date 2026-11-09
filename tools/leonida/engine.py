@@ -346,6 +346,8 @@ class Renderer:
         canvas.alpha_composite(img, (max(x, -img.width), y))
 
     def _chrome(self, canvas: Image.Image, t: float):
+        if t < self.spec.get("chrome_from", 0):   # Badge/Balken erst nach dem Hook
+            return
         d = ImageDraw.Draw(canvas)
         if self.progress:
             y0 = 212
