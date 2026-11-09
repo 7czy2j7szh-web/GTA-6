@@ -30,6 +30,9 @@
 - Absprung-Spitze wieder bei 0:02 = erster Bildwechsel nach dem Hook.
 - **Stand nach ~73 min (20:15):** 419 Views · 13 Likes · 3 Kommentare · 1 Share · 1 Save · Ø 3,7 s (46 %) · 13,3 % ganz · 0 Follower.
   Interaktion gesamt ~4,3 % (bester Wert bisher). Stunde 1 ≈ 360 Views; Stunde 2 im Diagramm erst angebrochen.
+- **Stand nach ~3 h 50 min (22:51):** 796 Views · 32 Likes · 4 Kommentare · 1 Share · 4 Saves · Ø 4,2 s (**52 %**) · **16 %** ganz · **0 Follower**.
+  Views pro Stunde: 364 → ~280 → ~160 → abflachend. Interaktion ~5,2 %. Ziel „≥ 50 % Ø-Wiedergabe" erstmals erreicht.
+  **Problem:** 4 Videos, ~3.300 Views gesamt, 0 Follower → Profil prüfen (Profilaufrufe, Bild, Bio, angepinnte Videos).
 
 ---
 

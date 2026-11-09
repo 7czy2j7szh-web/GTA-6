@@ -1,0 +1,191 @@
+{
+ "id": "C9v2",
+ "out": "exports/countdown/C9v2_mach-das-heute.mp4",
+ "duration": 12.203,
+ "fps": 30,
+ "badge": "GTA 6 · COUNTDOWN",
+ "chrome_from": 2.034,
+ "cover_at": 0.6,
+ "music": "chase",
+ "flash_strength": 0,
+ "scenes": [
+  {
+   "image": "assets/official/img/art_trailer2_v.jpg",
+   "start": 0,
+   "end": 2.034,
+   "zoom": [
+    1.3,
+    1.08
+   ]
+  },
+  {
+   "image": "assets/official/img/vc_day_aerial.jpg",
+   "start": 2.034,
+   "end": 4.068,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.4,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_bandanas_v.jpg",
+   "start": 4.068,
+   "end": 8.136,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.5,
+     0.3
+    ],
+    [
+     0.5,
+     0.45
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_gasstation_sq.jpg",
+   "start": 8.136,
+   "end": 12.203,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 2.034,
+   "text": "Mach *DAS*\nheute noch.",
+   "style": "huge",
+   "size": 150,
+   "color": "white",
+   "y": 0.4,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 0.0,
+   "end": 2.034,
+   "text": "Sonst wartest du am 19.\n*stundenlang.*",
+   "style": "hook",
+   "size": 78,
+   "y": 0.58,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "Der GTA-6-*Preload*\nist live.",
+   "style": "hook",
+   "size": 112,
+   "y": 0.44,
+   "anim": "stamp",
+   "shake": 12,
+   "exit": "cut"
+  },
+  {
+   "t": 2.542,
+   "end": 4.068,
+   "text": "bei digitaler Vorbestellung · bis zu 212 GB",
+   "style": "small",
+   "size": 58,
+   "y": 0.57,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "PS5",
+   "style": "label",
+   "size": 90,
+   "y": 0.34,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "Spielebibliothek →\nGTA VI → *Download*",
+   "style": "hook",
+   "size": 92,
+   "y": 0.46,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 6.102,
+   "end": 8.136,
+   "text": "XBOX",
+   "style": "label",
+   "size": 90,
+   "y": 0.34,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 6.102,
+   "end": 8.136,
+   "text": "Meine Spiele & Apps →\nGTA VI *installieren*",
+   "style": "hook",
+   "size": 92,
+   "y": 0.46,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "NOCH",
+   "style": "hook",
+   "y": 0.33,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "9",
+   "style": "huge",
+   "y": 0.45,
+   "anim": "stamp",
+   "shake": 18,
+   "exit": "cut"
+  },
+  {
+   "t": 8.644,
+   "end": 12.203,
+   "text": "TAGE",
+   "style": "hook",
+   "y": 0.57,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.169,
+   "end": 12.203,
+   "text": "*Folge* für Tag 8.",
+   "style": "small",
+   "size": 76,
+   "y": 0.68,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ]
+}
