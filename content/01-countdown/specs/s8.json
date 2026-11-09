@@ -1,0 +1,222 @@
+{
+ "id": "S8",
+ "out": "exports/countdown/S8_was-machst-du-zuerst.mp4",
+ "duration": 14.237,
+ "fps": 30,
+ "progress": true,
+ "badge": "GTA 6 · UMFRAGE",
+ "cover_at": 1.5,
+ "music": "chase",
+ "scenes": [
+  {
+   "image": "assets/official/img/vc_night_skyline_v.jpg",
+   "start": 0,
+   "end": 4.068,
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "image": "assets/official/img/vc_beach_car_v.jpg",
+   "start": 4.068,
+   "end": 6.102,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.4,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_heist_v.jpg",
+   "start": 6.102,
+   "end": 8.136,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.4,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_convertible.jpg",
+   "start": 8.136,
+   "end": 10.169,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.4,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/vc_sunset_skyline.jpg",
+   "start": 10.169,
+   "end": 12.203,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.4,
+     0.5
+    ],
+    [
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  {
+   "image": "assets/official/img/art_jl_gasstation_sq.jpg",
+   "start": 12.203,
+   "end": 14.237,
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 4.068,
+   "text": "Was machst du als\n*ALLERERSTES*\nin GTA 6?",
+   "style": "hook",
+   "y": 0.41,
+   "anim": "none"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "Ehrlich jetzt.",
+   "style": "small",
+   "size": 84,
+   "y": 0.6,
+   "anim": "slide"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "A",
+   "style": "label",
+   "size": 150,
+   "y": 0.36,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 4.322,
+   "end": 6.102,
+   "text": "Erstmal an den *Strand*",
+   "style": "hook",
+   "y": 0.5,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 6.102,
+   "end": 8.136,
+   "text": "B",
+   "style": "label",
+   "size": 150,
+   "y": 0.36,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 6.356,
+   "end": 8.136,
+   "text": "Direkt die *Polizei* ärgern",
+   "style": "hook",
+   "y": 0.5,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 10.169,
+   "text": "C",
+   "style": "label",
+   "size": 150,
+   "y": 0.36,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 8.39,
+   "end": 10.169,
+   "text": "Das schnellste *Auto* suchen",
+   "style": "hook",
+   "y": 0.5,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.169,
+   "end": 12.203,
+   "text": "D",
+   "style": "label",
+   "size": 150,
+   "y": 0.36,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 10.424,
+   "end": 12.203,
+   "text": "2 Stunden nur *rumfahren*",
+   "style": "hook",
+   "y": 0.5,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 12.203,
+   "end": 14.237,
+   "text": "A, B, C oder D?",
+   "style": "big",
+   "size": 125,
+   "y": 0.42,
+   "anim": "stamp",
+   "shake": 14,
+   "exit": "cut"
+  },
+  {
+   "t": 12.966,
+   "end": 14.237,
+   "text": "Schreib's in die *Kommentare.*",
+   "style": "small",
+   "size": 80,
+   "y": 0.56,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ]
+}

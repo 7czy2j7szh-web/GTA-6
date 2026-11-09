@@ -1,15 +1,16 @@
 {
  "id": "C10",
  "out": "exports/countdown/C10_noch-10-tage.mp4",
- "duration": 20,
+ "duration": 20.339,
  "fps": 30,
  "badge": "GTA 6 · COUNTDOWN",
- "cover_at": 15.0,
+ "cover_at": 17.034,
+ "music": "chase",
  "scenes": [
   {
    "image": "assets/official/img/vc_day_aerial.jpg",
    "start": 0,
-   "end": 7.0,
+   "end": 8.136,
    "zoom": [
     1.0,
     1.15
@@ -27,8 +28,8 @@
   },
   {
    "image": "assets/official/img/art_jl_bandanas_v.jpg",
-   "start": 7.0,
-   "end": 13.5,
+   "start": 8.136,
+   "end": 16.271,
    "zoom": [
     1.0,
     1.1
@@ -46,8 +47,8 @@
   },
   {
    "image": "assets/official/img/vc_beach_car_v.jpg",
-   "start": 13.5,
-   "end": 20,
+   "start": 16.271,
+   "end": 20.339,
    "zoom": [
     1.0,
     1.1
@@ -57,80 +58,97 @@
  "beats": [
   {
    "t": 0.0,
-   "end": 3.0,
+   "end": 4.068,
    "text": "*Series S*-Besitzer,",
    "style": "hook",
    "y": 0.4,
    "anim": "none"
   },
   {
-   "t": 0.8,
-   "end": 3.0,
+   "t": 1.017,
+   "end": 4.068,
    "text": "setzt euch hin.",
    "style": "hook",
    "y": 0.49,
    "anim": "stamp"
   },
   {
-   "t": 3.0,
-   "end": 7.0,
-   "text": "Morgen startet der *Preload.*",
+   "t": 4.068,
+   "end": 8.136,
+   "text": "Heute Nacht startet der *Preload.*",
    "style": "body",
-   "y": 0.38,
+   "y": 0.33,
    "anim": "slide"
   },
   {
-   "t": 4.4,
-   "end": 7.0,
+   "t": 6.102,
+   "end": 8.136,
    "text": "BIS ZU",
    "style": "small",
    "size": 84,
-   "y": 0.48,
+   "y": 0.47,
    "anim": "fade"
   },
   {
-   "t": 4.5,
-   "end": 7.0,
+   "t": 6.61,
+   "end": 8.136,
    "text": "212 GB",
    "style": "big",
-   "y": 0.57,
+   "y": 0.56,
    "anim": "stamp",
    "shake": 16
   },
   {
-   "t": 7.0,
-   "end": 13.5,
+   "t": 8.136,
+   "end": 12.203,
    "text": "PS5 (825 GB)",
    "style": "label",
    "y": 0.35,
    "anim": "slide"
   },
   {
-   "t": 7.2,
-   "end": 13.5,
+   "t": 8.644,
+   "end": 12.203,
    "text": "= rund *1/3* vom Speicher",
    "style": "body",
    "y": 0.42
   },
   {
-   "t": 9.6,
-   "end": 13.5,
+   "t": 10.169,
+   "end": 12.203,
    "text": "Xbox Series S (512 GB)",
    "style": "label",
    "y": 0.53,
    "anim": "slide"
   },
   {
-   "t": 9.8,
-   "end": 13.5,
+   "t": 10.678,
+   "end": 12.203,
    "text": "= mehr als die *HÄLFTE*",
    "style": "body",
    "y": 0.6,
    "shake": 10
   },
   {
-   "t": 13.5,
-   "end": 20,
+   "t": 12.203,
+   "end": 16.271,
+   "text": "Mach *heute* Platz.",
+   "style": "body",
+   "y": 0.42,
+   "anim": "slide"
+  },
+  {
+   "t": 14.237,
+   "end": 16.271,
+   "text": "Morgen: So startest du den *Preload*",
+   "style": "small",
+   "size": 72,
+   "y": 0.53,
+   "anim": "slide"
+  },
+  {
+   "t": 16.271,
+   "end": 20.339,
    "text": "NOCH",
    "style": "hook",
    "y": 0.33,
@@ -138,17 +156,18 @@
    "exit": "cut"
   },
   {
-   "t": 13.65,
-   "end": 20,
+   "t": 16.271,
+   "end": 20.339,
    "text": "10",
    "style": "huge",
    "y": 0.45,
    "anim": "stamp",
+   "shake": 18,
    "exit": "cut"
   },
   {
-   "t": 13.85,
-   "end": 20,
+   "t": 16.78,
+   "end": 20.339,
    "text": "TAGE",
    "style": "hook",
    "y": 0.57,
@@ -156,22 +175,12 @@
    "exit": "cut"
   },
   {
-   "t": 15.3,
-   "end": 20,
-   "text": "Mach *heute* Platz.",
+   "t": 18.305,
+   "end": 20.339,
+   "text": "*Like*, wenn du seit 2013 wartest.",
    "style": "small",
-   "size": 76,
-   "y": 0.67,
-   "anim": "slide",
-   "exit": "cut"
-  },
-  {
-   "t": 16.8,
-   "end": 20,
-   "text": "Morgen: So startest du den *Preload*",
-   "style": "small",
-   "size": 64,
-   "y": 0.73,
+   "size": 70,
+   "y": 0.68,
    "anim": "slide",
    "exit": "cut"
   }

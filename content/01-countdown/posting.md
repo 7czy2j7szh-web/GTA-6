@@ -29,11 +29,22 @@ Zu jedem Video: Datei, Zeitpunkt, Caption, Hashtags, Kommentar zum Anpinnen und 
 - **Anpinnen:** `Worauf soll ich als Nächstes testen? 😂`
 - **Sound-Tipp (optional):** In TikTok nach „can I play gta 6 on my" suchen. Das ist der bekannte Trend-Sound zu genau diesem Format. Originalton dann auf 0–20 %.
 
+> ✅ C11 und S10 wurden am 08.11. gepostet (je ~2.000 Views, ~20 Likes).
+
+## Mo 09.11. · 16:00 · `S8_was-machst-du-zuerst.mp4` (14 s) · *neu, ersetzt S10*
+- **Cover:** Frame mit der Frage (bei ca. 1,5 s)
+- **Caption:**
+  ```
+  Ehrlich jetzt. A, B, C oder D? 👇 Ich will eure Antworten sehen.
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #vicecity #umfrage`
+- **Anpinnen:** `Ich sag D. 2 Stunden nur fahren und Radio hören 🌴 Und ihr?`
+
 ## Mo 09.11. · 19:00 · `C10_noch-10-tage.mp4` (20 s)
 - **Cover:** Frame mit „NOCH 10 TAGE"
 - **Caption:**
   ```
-  GTA 6 Preload: bis zu 212 GB 😳 Morgen geht's los. Wie viel GB hast du noch frei?
+  GTA 6 Preload: bis zu 212 GB 😳 Heute Nacht geht's los. Wie viel GB hast du noch frei?
   ```
 - **Hashtags:** `#gta6 #gta6deutsch #gta6preload #ps5 #xbox`
 - **Anpinnen:** `Wie viel GB habt ihr noch frei? 😅`
