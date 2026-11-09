@@ -28,6 +28,8 @@
 
 - Beste Bindung bisher (21 % → 28 % → 41 %), aber Stichprobe noch klein.
 - Absprung-Spitze wieder bei 0:02 = erster Bildwechsel nach dem Hook.
+- **Stand nach ~73 min (20:15):** 419 Views · 13 Likes · 3 Kommentare · 1 Share · 1 Save · Ø 3,7 s (46 %) · 13,3 % ganz · 0 Follower.
+  Interaktion gesamt ~4,3 % (bester Wert bisher). Stunde 1 ≈ 360 Views; Stunde 2 im Diagramm erst angebrochen.
 
 ---
 
@@ -42,3 +44,4 @@
 6. **Keine weißen Blitze bei schnellen Bildwechseln** (S8v2 flackerte). Blitz jetzt standardmäßig sanft (`flash_strength` 110, 0 = aus); bei Wechseln < 2 s ganz aus.
 7. **Keine dunklen Hintergründe** (Garage, Nacht-Hafen, Auto-Innenraum) – wirken nach einem Wechsel wie ein schwarzer Bildschirm.
 8. **Hook = offene Frage, nicht die Antwort.** Neugier aufbauen (z. B. „Deine Konsole ist NICHT bereit …"), Auflösung erst am Ende.
+9. **Grund zum Folgen einbauen:** Umfragen mit „Ergebnis kommt morgen" beenden und am nächsten Tag ein Ergebnis-Video posten (Serie über mehrere Tage).
