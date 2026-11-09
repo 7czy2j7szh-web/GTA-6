@@ -21,6 +21,14 @@
 - Views steigen nach 1 h noch gleichmäßig → Ausspielung läuft noch, Endbewertung nach 24 h.
 - **Diagnose:** Der Hook „212 GB braucht GTA 6." liefert die komplette Info sofort → kein Grund zu bleiben.
 
+## S8v3 Umfrage „Was machst du ZUERST?" (gepostet 09.11., 19:02, 8 s) – Stand nach ~14 min
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 91 | 3 | 1 | 0 | 0 | 3,3 s (41 %) | 9,9 % | 0 |
+
+- Beste Bindung bisher (21 % → 28 % → 41 %), aber Stichprobe noch klein.
+- Absprung-Spitze wieder bei 0:02 = erster Bildwechsel nach dem Hook.
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
