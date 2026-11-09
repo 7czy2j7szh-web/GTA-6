@@ -19,3 +19,7 @@
 3. **Badge/Fortschrittsbalken erst nach dem Hook** (`chrome_from`), sonst Präsentations-Look.
 4. **Länge 8–12 s** statt 20 s → mehr Komplett-Views und Loops.
 5. Am Ende **Like-Satz** + Frage im angepinnten Kommentar.
+
+## Technik-Regel (09.11.)
+6. **Keine weißen Blitze bei schnellen Bildwechseln** (S8v2 flackerte). Blitz jetzt standardmäßig sanft (`flash_strength` 110, 0 = aus); bei Wechseln < 2 s ganz aus.
+7. **Keine dunklen Hintergründe** (Garage, Nacht-Hafen, Auto-Innenraum) – wirken nach einem Wechsel wie ein schwarzer Bildschirm.

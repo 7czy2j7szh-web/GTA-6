@@ -303,6 +303,7 @@ class Renderer:
         self.badge = spec.get("badge")
         self.progress = spec.get("progress", True)
         self.watermark = spec.get("watermark")
+        self.flash_strength = spec.get("flash_strength", 110)  # sanfter Blitz bei Bildwechsel (0 = aus)
 
     def _text_img(self, beat: Beat, text: str) -> Image.Image:
         key = (id(beat), text)
@@ -375,7 +376,7 @@ class Renderer:
         for i, (s, e, bg, flash) in enumerate(self.scenes):
             if s <= t < e or (i == len(self.scenes) - 1 and t >= s):
                 canvas = bg.frame((t - s) / max(e - s, 0.01)).convert("RGBA")
-                flash_amt = max(0.0, 1 - (t - s) / 0.12) if (flash and i > 0) else 0
+                flash_amt = max(0.0, 1 - (t - s) / 0.10) if (flash and i > 0) else 0
                 break
         if canvas is None:
             canvas = Image.new("RGBA", (W, H), (20, 10, 30, 255))
@@ -389,7 +390,7 @@ class Renderer:
                     self._place(canvas, self._text_img(b, txt), b, lt, b.end - b.t)
         self._chrome(canvas, t)
         if flash_amt > 0:
-            canvas.alpha_composite(Image.new("RGBA", (W, H), (255, 255, 255, int(200 * flash_amt))))
+            canvas.alpha_composite(Image.new("RGBA", (W, H), (255, 255, 255, int(self.flash_strength * flash_amt))))
         return canvas.convert("RGB")
 
     def render(self, out_path: str, audio: bool = True):
