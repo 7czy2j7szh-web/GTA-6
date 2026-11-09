@@ -11,6 +11,16 @@
 ## S10 „Läuft GTA 6 auf …?" (gepostet 08.11.)
 - ~2.000 Views, ~20 Likes (Details/Screenshot fehlen noch)
 
+## C10v2 „212 GB · Noch 10 Tage" (gepostet 09.11., 18:09, 12 s) – Stand nach ~50 min
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 241 | 5 | 1 | 0 | 0 | 3,4 s (28 %) | 5 % | 0 |
+
+- Meiste Absprünge bei **0:02** (vorher 0:01) = genau beim ersten Textwechsel nach dem Hook.
+- Vergleich zu C11: Wiedergabe 21 % → 28 %, ganz angesehen 2 % → 5 %. Besser, aber noch weit unter Ziel (≥ 50 % / ≥ 20 %).
+- Views steigen nach 1 h noch gleichmäßig → Ausspielung läuft noch, Endbewertung nach 24 h.
+- **Diagnose:** Der Hook „212 GB braucht GTA 6." liefert die komplette Info sofort → kein Grund zu bleiben.
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
@@ -23,3 +33,4 @@
 ## Technik-Regel (09.11.)
 6. **Keine weißen Blitze bei schnellen Bildwechseln** (S8v2 flackerte). Blitz jetzt standardmäßig sanft (`flash_strength` 110, 0 = aus); bei Wechseln < 2 s ganz aus.
 7. **Keine dunklen Hintergründe** (Garage, Nacht-Hafen, Auto-Innenraum) – wirken nach einem Wechsel wie ein schwarzer Bildschirm.
+8. **Hook = offene Frage, nicht die Antwort.** Neugier aufbauen (z. B. „Deine Konsole ist NICHT bereit …"), Auflösung erst am Ende.
