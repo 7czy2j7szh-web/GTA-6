@@ -320,6 +320,10 @@ class Renderer:
                     from .drive import NeonDrive
                     drive_cache[key] = NeonDrive(W, H, bpm=key[0], car=key[1])
                 bg = drive_cache[key]
+            elif sc["image"].startswith("drone:"):
+                # Drohnen-Kamera ohne Verzerrung (Homographie: drehen/neigen/rollen + Vorwärtszoom)
+                from .drone import DroneShot
+                bg = DroneShot(sc["image"][6:], W, H, cam=sc.get("cam"))
             elif sc["image"].startswith("shot:"):
                 # 3D-Kamerafahrt durch einen echten Screenshot (Tiefen-Parallax)
                 from .parallax import ParallaxShot
