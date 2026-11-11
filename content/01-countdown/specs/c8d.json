@@ -1,0 +1,305 @@
+{
+ "id": "C8d",
+ "out": "exports/countdown/C8d_drohnenflug.mp4",
+ "duration": 12.203,
+ "fps": 60,
+ "badge": "GTA 6 · COUNTDOWN",
+ "chrome_from": 2.034,
+ "cover_at": 0.4,
+ "music": "chase",
+ "flash_strength": 0,
+ "overlay_strength": 0.5,
+ "scenes": [
+  {
+   "image": "shot:assets/official/img/vc_day_aerial.jpg",
+   "start": 0,
+   "end": 1.924,
+   "cam": {
+    "par": [
+     0,
+     0
+    ],
+    "dolly": 0,
+    "linear": true,
+    "x": [
+     0.45,
+     0.53
+    ],
+    "y": [
+     0.55,
+     0.5
+    ],
+    "zoom": [
+     1.12,
+     1.18
+    ],
+    "fly": 0.35,
+    "rise": 60,
+    "roll": [
+     -1.5,
+     1.0
+    ]
+   },
+   "focus": 0.3,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "shot:assets/official/gallery/Vice_City_15.jpg",
+   "start": 1.924,
+   "end": 3.958,
+   "cam": {
+    "par": [
+     40,
+     -40
+    ],
+    "dolly": 0,
+    "linear": true,
+    "x": [
+     0.35,
+     0.5
+    ],
+    "y": [
+     0.52,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.2
+    ],
+    "fly": 0.25,
+    "rise": 40,
+    "roll": [
+     1.5,
+     -1.0
+    ]
+   },
+   "focus": 0.3,
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "shot:assets/official/gallery/Vice_City_26.jpg",
+   "start": 3.958,
+   "end": 5.992,
+   "cam": {
+    "par": [
+     0,
+     0
+    ],
+    "dolly": 0,
+    "linear": true,
+    "x": [
+     0.4,
+     0.6
+    ],
+    "y": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.15
+    ],
+    "fly": 0.1,
+    "roll": [
+     -6,
+     4
+    ]
+   },
+   "focus": 0.3,
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "shot:assets/official/img/vc_sunset_skyline.jpg",
+   "start": 5.992,
+   "end": 8.026,
+   "cam": {
+    "par": [
+     -30,
+     30
+    ],
+    "dolly": 0,
+    "linear": true,
+    "x": [
+     0.55,
+     0.45
+    ],
+    "y": [
+     0.55,
+     0.5
+    ],
+    "zoom": [
+     1.12,
+     1.18
+    ],
+    "fly": 0.3,
+    "rise": 50,
+    "roll": [
+     1.0,
+     -1.0
+    ]
+   },
+   "focus": 0.3,
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "shot:assets/official/gallery/Vice_City_27.jpg",
+   "start": 8.026,
+   "end": 12.203,
+   "cam": {
+    "par": [
+     -30,
+     30
+    ],
+    "dolly": 0,
+    "linear": true,
+    "x": [
+     0.5,
+     0.52
+    ],
+    "y": [
+     0.55,
+     0.47
+    ],
+    "zoom": [
+     1.12,
+     1.22
+    ],
+    "fly": 0.3,
+    "rise": 70,
+    "roll": [
+     0.8,
+     -0.8
+    ]
+   },
+   "focus": 0.3,
+   "flash": false,
+   "fade": 0.22
+  }
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 2.034,
+   "text": "Dieses Video hat das *Internet* gebrochen.",
+   "style": "huge",
+   "size": 135,
+   "color": "white",
+   "y": 0.38,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "TRAILER 1 · DEZ. 2023",
+   "style": "label",
+   "y": 0.255,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "*90 Mio.*",
+   "style": "huge",
+   "size": 230,
+   "color": "white",
+   "y": 0.43,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 2.542,
+   "end": 4.068,
+   "text": "Views in 24 Stunden",
+   "style": "hook",
+   "size": 92,
+   "y": 0.55,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "TRAILER 2 · MAI 2025",
+   "style": "label",
+   "y": 0.255,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "{n} Mio.",
+   "style": "huge",
+   "size": 230,
+   "color": "pink",
+   "y": 0.43,
+   "anim": "count",
+   "count_to": 475,
+   "exit": "cut"
+  },
+  {
+   "t": 4.576,
+   "end": 6.102,
+   "text": "Views in 24 Stunden",
+   "style": "hook",
+   "size": 92,
+   "y": 0.55,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 6.102,
+   "end": 8.136,
+   "text": "Mehr als\n*Deadpool & Wolverine.*",
+   "style": "hook",
+   "size": 100,
+   "y": 0.45,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "NOCH",
+   "style": "hook",
+   "y": 0.33,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "8",
+   "style": "huge",
+   "y": 0.45,
+   "anim": "stamp",
+   "shake": 18,
+   "exit": "cut"
+  },
+  {
+   "t": 8.644,
+   "end": 12.203,
+   "text": "TAGE",
+   "style": "hook",
+   "y": 0.57,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.169,
+   "end": 12.203,
+   "text": "*Folge* für Tag 7.",
+   "style": "small",
+   "size": 80,
+   "y": 0.68,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ]
+}

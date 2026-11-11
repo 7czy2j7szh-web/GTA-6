@@ -77,24 +77,44 @@ class ParallaxShot:
         return a[0] + (a[1] - a[0]) * p
 
     def frame(self, p: float) -> Image.Image:
+        """Kamerapose bei Fortschritt p (0..1, >1 = Weiterflug während der Überblendung).
+
+        Drohnen-Parameter (alle optional):
+          fly   = Vorwärtsflug: naher Boden wächst/zieht schneller vorbei als der Horizont
+          rise  = Steigen in Quellpixeln (naher Boden wandert nach unten weg)
+          par   = seitliches Gleiten (Quellpixel bei Tiefe 1), Anfang/Ende
+          roll  = Schräglage in Grad, Anfang/Ende
+          linear= True -> konstante Geschwindigkeit wie eine Drohne
+        """
         c = self.c
-        q = 0.5 - 0.5 * np.cos(np.pi * min(max(p, 0), 1))   # weich anfahren und abbremsen
-        q = q if p <= 1 else 1 + (p - 1) * 0.5                 # bei Überblendung sanft weiterfahren
+        if c.get("linear", False):
+            q = p
+        else:
+            q = 0.5 - 0.5 * np.cos(np.pi * min(max(p, 0), 1))
+            q = q if p <= 1 else 1 + (p - 1) * 0.5
         zoom = self._lerp(c["zoom"], q)
         crop_h = self.sh / zoom
         crop_w = crop_h * self.W / self.H
         cx = self._lerp(c["x"], q) * self.sw
         cy = self._lerp(c["y"], q) * self.sh
-        cx = np.clip(cx, crop_w / 2 + 2, self.sw - crop_w / 2 - 2)
-        cy = np.clip(cy, crop_h / 2 + 2, self.sh - crop_h / 2 - 2)
+        cx = float(np.clip(cx, crop_w / 2 + 2, self.sw - crop_w / 2 - 2))
+        cy = float(np.clip(cy, crop_h / 2 + 2, self.sh - crop_h / 2 - 2))
         s = crop_h / self.H                                    # Quellpixel pro Ausgabepixel
-        bx = (cx + self.u * s).astype(np.float32)
-        by = (cy + self.v * s).astype(np.float32)
+        roll = np.radians(self._lerp(c.get("roll", [0, 0]), q))
+        u, v = self.u, self.v
+        if abs(roll) > 1e-4:
+            cr, sr = np.cos(roll), np.sin(roll)
+            u, v = u * cr - v * sr, u * sr + v * cr
+        bx = (cx + u * s).astype(np.float32)
+        by = (cy + v * s).astype(np.float32)
         d = cv2.remap(self.depth, bx, by, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
         rel = d - self.focus
         par = self._lerp(c["par"], q)
         dolly = c["dolly"] * q
-        mx = (bx + par * rel - (bx - cx) * dolly * rel).astype(np.float32)
-        my = (by + par * 0.15 * rel - (by - cy) * dolly * rel).astype(np.float32)
-        out = cv2.remap(self.src, mx, my, cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
+        fly = c.get("fly", 0.0) * q
+        rise = c.get("rise", 0.0) * q
+        mx = bx + par * rel - (bx - cx) * (dolly * rel + fly * d)
+        my = by + par * 0.15 * rel - (by - cy) * (dolly * rel + fly * d) - rise * d
+        out = cv2.remap(self.src, mx.astype(np.float32), my.astype(np.float32), cv2.INTER_CUBIC,
+                        borderMode=cv2.BORDER_REFLECT)
         return Image.fromarray(out)
