@@ -1,0 +1,142 @@
+{
+ "id": "C8",
+ "out": "exports/countdown/C8_internet-gebrochen.mp4",
+ "duration": 12.203,
+ "fps": 30,
+ "badge": "GTA 6 · COUNTDOWN",
+ "chrome_from": 2.034,
+ "cover_at": 0.6,
+ "music": "chase",
+ "flash_strength": 0,
+ "scenes": [
+  {
+   "image": "anim:drive",
+   "start": 0,
+   "end": 12.203
+  }
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 2.034,
+   "text": "Dieses Video hat das *Internet* gebrochen.",
+   "style": "huge",
+   "size": 140,
+   "color": "white",
+   "y": 0.36,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "",
+   "image": "assets/official/img/art_trailer1_v.jpg",
+   "card_w": 470,
+   "y": 0.47,
+   "anim": "pop",
+   "rotate": -4,
+   "exit": "cut"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "TRAILER 1 · DEZ. 2023",
+   "style": "label",
+   "y": 0.255,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 2.542,
+   "end": 4.068,
+   "text": "*90 Mio.* Views\nin 24 Stunden",
+   "style": "hook",
+   "size": 88,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 8.136,
+   "text": "",
+   "image": "assets/official/img/art_trailer2_v.jpg",
+   "card_w": 470,
+   "y": 0.47,
+   "anim": "pop",
+   "rotate": 4,
+   "exit": "cut"
+  },
+  {
+   "t": 4.068,
+   "end": 8.136,
+   "text": "TRAILER 2 · MAI 2025",
+   "style": "label",
+   "y": 0.255,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 4.576,
+   "end": 6.102,
+   "text": "{n} Mio. Views\nin 24 Stunden",
+   "style": "hook",
+   "size": 88,
+   "color": "pink",
+   "y": 0.75,
+   "anim": "count",
+   "count_to": 475,
+   "exit": "cut"
+  },
+  {
+   "t": 6.102,
+   "end": 8.136,
+   "text": "Mehr als\n*Deadpool & Wolverine.*",
+   "style": "hook",
+   "size": 84,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "NOCH",
+   "style": "hook",
+   "y": 0.33,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 8.136,
+   "end": 12.203,
+   "text": "8",
+   "style": "huge",
+   "y": 0.45,
+   "anim": "stamp",
+   "shake": 18,
+   "exit": "cut"
+  },
+  {
+   "t": 8.644,
+   "end": 12.203,
+   "text": "TAGE",
+   "style": "hook",
+   "y": 0.57,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.169,
+   "end": 12.203,
+   "text": "*Folge* für Tag 7.",
+   "style": "small",
+   "size": 76,
+   "y": 0.68,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ],
+ "overlay_strength": 0.55
+}

@@ -162,6 +162,23 @@ def render_text(text: str, style: str = "body", accent="pink", color=None,
     return img
 
 
+def render_card(path: str, width: int = 620) -> Image.Image:
+    """Bild als Karte: abgerundet, pinker Rahmen, weicher Schatten."""
+    src = Image.open(os.path.join(ROOT, path)).convert("RGB")
+    h = int(src.height * width / src.width)
+    src = src.resize((width, h), Image.LANCZOS)
+    pad, border, r = 40, 8, 28
+    card = Image.new("RGBA", (width + 2 * pad, h + 2 * pad), (0, 0, 0, 0))
+    sh = Image.new("RGBA", card.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([pad, pad + 12, pad + width, pad + h + 12], radius=r, fill=(0, 0, 0, 170))
+    card.alpha_composite(sh.filter(ImageFilter.GaussianBlur(14)))
+    mask = Image.new("L", (width, h), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, width - 1, h - 1], radius=r, fill=255)
+    card.paste(src, (pad, pad), mask)
+    ImageDraw.Draw(card).rounded_rectangle([pad, pad, pad + width, pad + h], radius=r, outline=PINK + (255,), width=border)
+    return card
+
+
 # ---------------------------------------------------------------- Hintergrund
 
 def synth_background(preset: str = "sunset") -> Image.Image:
@@ -273,6 +290,8 @@ class Beat:
     exit: str = "fade"        # fade | cut
     shake: float = 0          # Wackel-Amplitude in px (erste 0,35 s)
     type_cps: float = 25      # Tipp-Geschwindigkeit (Zeichen/s) für anim=type
+    image: str | None = None  # statt Text: Bild als schwebende Karte
+    card_w: int = 620         # Kartenbreite in px
 
     def text_at(self, lt: float) -> str:
         if self.anim == "count":
@@ -292,13 +311,25 @@ class Renderer:
         self.fps = spec.get("fps", 30)
         self.duration = spec["duration"]
         self.scenes = []
+        drive_cache = {}
         for sc in spec["scenes"]:
-            bg = Background(sc["image"], tuple(sc.get("zoom", (1.0, 1.12))),
-                            tuple(tuple(p) for p in sc.get("pan", ((0.5, 0.5), (0.5, 0.5)))),
-                            blur=sc.get("blur", 0))
+            if sc["image"].startswith("anim:drive"):
+                # animierter Neon-Drive-Hintergrund; eine Instanz pro Video, damit die Fahrt durchläuft
+                key = (sc.get("bpm", 118), sc.get("car", True))
+                if key not in drive_cache:
+                    from .drive import NeonDrive
+                    drive_cache[key] = NeonDrive(W, H, bpm=key[0], car=key[1])
+                bg = drive_cache[key]
+            else:
+                bg = Background(sc["image"], tuple(sc.get("zoom", (1.0, 1.12))),
+                                tuple(tuple(p) for p in sc.get("pan", ((0.5, 0.5), (0.5, 0.5)))),
+                                blur=sc.get("blur", 0))
             self.scenes.append((sc["start"], sc["end"], bg, sc.get("flash", True)))
         self.beats = [Beat(**b) for b in spec["beats"]]
         self.overlay = make_overlay()
+        k = spec.get("overlay_strength", 1.0)          # weniger Abdunklung bei hellen/animierten Hintergründen
+        if k != 1.0:
+            self.overlay.putalpha(self.overlay.getchannel("A").point(lambda v: int(v * k)))
         self.cache: dict = {}
         self.badge = spec.get("badge")
         self.progress = spec.get("progress", True)
@@ -308,7 +339,10 @@ class Renderer:
     def _text_img(self, beat: Beat, text: str) -> Image.Image:
         key = (id(beat), text)
         if key not in self.cache:
-            self.cache[key] = render_text(text, beat.style, beat.accent, beat.color, size=beat.size)
+            if beat.image:
+                self.cache[key] = render_card(beat.image, beat.card_w)
+            else:
+                self.cache[key] = render_text(text, beat.style, beat.accent, beat.color, size=beat.size)
             if beat.rotate:
                 self.cache[key] = self.cache[key].rotate(beat.rotate, expand=True, resample=Image.BICUBIC)
         return self.cache[key]
@@ -375,7 +409,10 @@ class Renderer:
         canvas = None
         for i, (s, e, bg, flash) in enumerate(self.scenes):
             if s <= t < e or (i == len(self.scenes) - 1 and t >= s):
-                canvas = bg.frame((t - s) / max(e - s, 0.01)).convert("RGBA")
+                if getattr(bg, "animated", False):
+                    canvas = bg.frame_at(t).convert("RGBA")
+                else:
+                    canvas = bg.frame((t - s) / max(e - s, 0.01)).convert("RGBA")
                 flash_amt = max(0.0, 1 - (t - s) / 0.10) if (flash and i > 0) else 0
                 break
         if canvas is None:
@@ -386,7 +423,7 @@ class Renderer:
             if b.t <= t < b.end:
                 lt = t - b.t
                 txt = b.text_at(lt)
-                if txt:
+                if txt or b.image:
                     self._place(canvas, self._text_img(b, txt), b, lt, b.end - b.t)
         self._chrome(canvas, t)
         if flash_amt > 0:
