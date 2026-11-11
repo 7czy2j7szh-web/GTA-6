@@ -102,3 +102,16 @@ Zu jedem Video: Datei, Zeitpunkt, Caption, Hashtags, Kommentar zum Anpinnen und 
 - **Anpinnen:** `Was willst du noch wissen? Frag mich 👇`
 
 Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. von leonidascout.com / tinyfish.ai.
+
+---
+
+## Prank-Tutorial · `V4_gta6-schon-heute-spielen.mp4` (12 s)
+- **Idee:** Ernst wirkendes Schritt-für-Schritt-Tutorial, Pointe im Video auf dem BRAAM („Schritt 4: Bis zum 19.11. warten. Sorry.").
+  Auflösung bewusst **im Video** (nicht nur in der Bio): sonst irreführend → Sperr-Risiko und Fake-Kommentare.
+- **Caption:**
+  ```
+  Der einzige Weg, GTA 6 jetzt schon zu starten 👀 Bis zum Ende schauen.
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #tutorial #prank #gaming`
+- **Anpinnen:** `Wer ist bei Schritt 2 schon zur Konsole gerannt? 😂`
+- **Bio-Zusatz (passend):** `Nein, du kannst GTA 6 noch nicht spielen 😭`
