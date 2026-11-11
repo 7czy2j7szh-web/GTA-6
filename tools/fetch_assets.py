@@ -37,11 +37,35 @@ def fetch(url: str, dest: str):
     print(f"  FEHLER ({code}): " + os.path.relpath(dest, ROOT))
 
 
+GALLERY_PAGES = ["https://www.rockstargames.com/VI/launch-gallery", "https://www.rockstargames.com/VI/media"]
+GALLERY_RE = r"/VI/_next/static/media/((?:Vice_City|Grassrivers|Leonida_Keys|Port_Gellhorn|Jason_Duval|Lucia_Caminos|Jason_and_Lucia|Jason_Lucia_Rooftop|Jason_Lucia_Lock_And_Load|hero)[A-Za-z0-9_]*)\.[A-Za-z0-9_~.-]*?\.(jpg|jpeg|webp)"
+MIDAS = "https://github.com/isl-org/MiDaS/releases/download/v2_1/model-small.onnx"
+
+
+def fetch_gallery():
+    """Echte GTA-6-Screenshots (4K) aus Rockstars Launch-Gallery/Media-Seite."""
+    import re
+    seen = {}
+    for page in GALLERY_PAGES:
+        html = subprocess.run(["curl", "-sS", "-m", "60", page], capture_output=True, text=True).stdout
+        for m in re.finditer(GALLERY_RE, html):
+            name = m.group(1)
+            if name.endswith(("_landscape", "_square", "_tablet", "_ultrawide")):
+                continue
+            seen.setdefault(f"{name}.{m.group(2)}", "https://www.rockstargames.com" + m.group(0))
+    for fname, url in sorted(seen.items()):
+        fetch(url, os.path.join(ROOT, "assets", "official", "gallery", fname))
+
+
 def main():
     man = json.load(open(os.path.join(ROOT, "assets", "manifest.json"), encoding="utf-8"))
     print("Offizielle Bilder:")
     for a in man["official"]:
         fetch(a["src"], os.path.join(ROOT, "assets", "official", "img", a["name"]))
+    print("Rockstar-Galerie (Screenshots):")
+    fetch_gallery()
+    print("Tiefen-Modell:")
+    fetch(MIDAS, os.path.join(ROOT, "models", "midas_small.onnx"))
     print("Freie Clips:")
     for a in man["free"]:
         fetch(a["src"], os.path.join(ROOT, "assets", "free", a["name"]))

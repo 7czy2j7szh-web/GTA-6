@@ -320,11 +320,16 @@ class Renderer:
                     from .drive import NeonDrive
                     drive_cache[key] = NeonDrive(W, H, bpm=key[0], car=key[1])
                 bg = drive_cache[key]
+            elif sc["image"].startswith("shot:"):
+                # 3D-Kamerafahrt durch einen echten Screenshot (Tiefen-Parallax)
+                from .parallax import ParallaxShot
+                bg = ParallaxShot(sc["image"][5:], W, H, cam=sc.get("cam"), focus=sc.get("focus", 0.35))
             else:
                 bg = Background(sc["image"], tuple(sc.get("zoom", (1.0, 1.12))),
                                 tuple(tuple(p) for p in sc.get("pan", ((0.5, 0.5), (0.5, 0.5)))),
                                 blur=sc.get("blur", 0))
             self.scenes.append((sc["start"], sc["end"], bg, sc.get("flash", True)))
+        self.fades = [sc.get("fade", spec.get("fade", 0.0)) for sc in spec["scenes"]]
         self.beats = [Beat(**b) for b in spec["beats"]]
         self.overlay = make_overlay()
         k = spec.get("overlay_strength", 1.0)          # weniger Abdunklung bei hellen/animierten Hintergründen
@@ -405,14 +410,23 @@ class Renderer:
             wm = self.cache[key]
             canvas.alpha_composite(wm, (int(W / 2 - wm.width / 2), SAFE_BOTTOM - 10))
 
+    def _scene_img(self, i: int, t: float) -> Image.Image:
+        s, e, bg, _ = self.scenes[i]
+        if getattr(bg, "animated", False):
+            return bg.frame_at(t).convert("RGBA")
+        return bg.frame((t - s) / max(e - s, 0.01)).convert("RGBA")
+
     def frame(self, t: float) -> Image.Image:
         canvas = None
         for i, (s, e, bg, flash) in enumerate(self.scenes):
             if s <= t < e or (i == len(self.scenes) - 1 and t >= s):
-                if getattr(bg, "animated", False):
-                    canvas = bg.frame_at(t).convert("RGBA")
-                else:
-                    canvas = bg.frame((t - s) / max(e - s, 0.01)).convert("RGBA")
+                canvas = self._scene_img(i, t)
+                fade = self.fades[i]
+                if i > 0 and fade > 0 and t - s < fade:
+                    # weiche Überblendung: vorherige Szene fährt weiter und blendet aus
+                    a = (t - s) / fade
+                    a = a * a * (3 - 2 * a)
+                    canvas = Image.blend(self._scene_img(i - 1, t), canvas, a)
                 flash_amt = max(0.0, 1 - (t - s) / 0.10) if (flash and i > 0) else 0
                 break
         if canvas is None:
