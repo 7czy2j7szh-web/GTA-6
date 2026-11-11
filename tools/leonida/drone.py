@@ -54,7 +54,7 @@ class DroneShot:
         c = self.c
         # Blickpunkt (x, y) als Grund-Schwenk/-Neigung
         yaw0 = math.degrees(math.atan((self._lerp(c["x"], q) - 0.5) * self.sw / self.f_src))
-        pitch0 = math.degrees(math.atan((self._lerp(c["y"], q) - 0.5) * self.sh / self.f_src))
+        pitch0 = -math.degrees(math.atan((self._lerp(c["y"], q) - 0.5) * self.sh / self.f_src))  # y < 0.5 = nach oben schauen
         R = _rot(yaw0 + self._lerp(c["yaw"], q), pitch0 + self._lerp(c["pitch"], q), self._lerp(c["roll"], q))
         f_out = self.f_src * self._lerp(c["zoom"], q) * self.H / self.sh
         K_out = np.array([[f_out, 0, self.W / 2], [0, f_out, self.H / 2], [0, 0, 1]])

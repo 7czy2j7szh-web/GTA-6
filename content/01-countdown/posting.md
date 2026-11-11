@@ -72,3 +72,33 @@ Zu jedem Video: Datei, Zeitpunkt, Caption, Hashtags, Kommentar zum Anpinnen und 
 ---
 
 **Weiter geht's:** Die Videos ab Mi 11.11. (C8 Weltrekorde, Community-Frage, C7 Leonida-Map …) rendere ich als Nächstes. Schreib einfach **„weiter"**.
+
+---
+
+## Mi 11.11. – 3 Videos (Drohnenflug-Stil, echte GTA-6-Screenshots)
+
+### 1) ca. 18:00 · `V3_ab-wann-genau.mp4` (12 s)
+- **Caption:**
+  ```
+  GTA 6 Release-Uhrzeit: in der Nacht auf Donnerstag, 0:00 Uhr 🕛 (laut Rockstar Mitternacht Ortszeit) Bleibst du wach?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #gta6release #ps5 #xbox`
+- **Anpinnen:** `Wer bleibt bis 0 Uhr wach? 🙋`
+
+### 2) ca. 19:30 · `C8g_drohnenflug.mp4` – Noch 8 Tage (12 s)
+- **Caption:**
+  ```
+  475 Millionen Views an einem Tag 🤯 Trailer 1 oder Trailer 2?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #gta6trailer #vicecity`
+- **Anpinnen:** `Trailer 1 oder 2? Nur die Zahl 👇`
+
+### 3) ca. 21:30 · `V2_alles-in-10-sekunden.mp4` (12 s)
+- **Caption:**
+  ```
+  Alles Wichtige zu GTA 6 in 10 Sekunden ✅ Speicher dir das für den 19.11.!
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #vicecity #gaming`
+- **Anpinnen:** `Was willst du noch wissen? Frag mich 👇`
+
+Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. von leonidascout.com / tinyfish.ai.
