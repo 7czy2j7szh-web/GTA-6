@@ -34,6 +34,16 @@
   Views pro Stunde: 364 → ~280 → ~160 → abflachend. Interaktion ~5,2 %. Ziel „≥ 50 % Ø-Wiedergabe" erstmals erreicht.
   **Problem:** 4 Videos, ~3.300 Views gesamt, 0 Follower → Profil prüfen (Profilaufrufe, Bild, Bio, angepinnte Videos).
 
+## V3 „Ab wann genau kannst du GTA 6 spielen?" (gepostet 11.11., 18:11, 12 s, Drohnen-Stil) – Stand nach ~1 h 30 min
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 704 | 31 | 2 | 0 | 0 | 4,7 s (38 %) | 17,2 % | 0 |
+
+- **Bester Start bisher:** Stunde 1 ≈ 390 Views, Stunde 2 nach ~28 min schon ≈ 230 (Tempo steigt).
+- Like-Rate ~4,4 % (bester Wert). Höchster Komplett-Anteil (17 %) trotz 12 s Länge.
+- Format: brennende Frage → Spannung („Nicht morgens / mittags / abends") → Auflösung am Ende.
+- Weiterhin 0 Follower pro Video → Profil ist der Engpass.
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
@@ -48,3 +58,4 @@
 7. **Keine dunklen Hintergründe** (Garage, Nacht-Hafen, Auto-Innenraum) – wirken nach einem Wechsel wie ein schwarzer Bildschirm.
 8. **Hook = offene Frage, nicht die Antwort.** Neugier aufbauen (z. B. „Deine Konsole ist NICHT bereit …"), Auflösung erst am Ende.
 9. **Grund zum Folgen einbauen:** Umfragen mit „Ergebnis kommt morgen" beenden und am nächsten Tag ein Ergebnis-Video posten (Serie über mehrere Tage).
+10. **Siegerformat „Brennende Frage + Spannung + Auflösung am Ende"** wiederholen (Frage, die alle googeln; Antwort erst bei ~70 % der Länge).
