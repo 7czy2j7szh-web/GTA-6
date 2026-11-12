@@ -115,3 +115,15 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Hashtags:** `#gta6 #gta6deutsch #tutorial #prank #gaming`
 - **Anpinnen:** `Wer ist bei Schritt 2 schon zur Konsole gerannt? 😂`
 - **Bio-Zusatz (passend):** `Nein, du kannst GTA 6 noch nicht spielen 😭`
+
+---
+
+## Banger · `V5_milliarde.mp4` (16 s) · Do 12.11.
+- **Thema (recherchiert, meistdiskutiert diese Woche):** GTA 6 hat laut Sensor-Tower-Schätzung (Washington Post, 11.11.) schon > 1 Mrd. $ und > 10 Mio. Vorbestellungen – eine Woche vor Release. GTA 5 brauchte für 1 Mrd. 3 Tage nach Release (Take-Two/Guinness).
+- **Caption:**
+  ```
+  GTA 6 hat schon über 1 Milliarde Dollar gemacht 🤯 eine Woche BEVOR es rauskommt. Größtes Spiel aller Zeiten?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #gta6news #gaming #vicecity`
+- **Anpinnen:** `Hast du schon vorbestellt? Ja oder Nein 👇`
+- Quellen: washingtonpost.com (11.11.2026), notebookcheck.net, guinnessworldrecords.com
