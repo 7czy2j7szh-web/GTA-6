@@ -131,7 +131,8 @@ def music_bed(duration: float, name: str = DEFAULT_TRACK, offset: float = 0.0) -
 
 
 VOICE_PEAK = 0.70      # Erzählstimme klar vorne
-DUCK = 0.35            # Musik läuft unter der Stimme auf ~35 % (ca. -9 dB)
+DUCK = 0.16            # Musik läuft unter der Stimme auf ~16 % (ca. -16 dB)
+VOICE_MUSIC_GAIN = 0.75  # Musik in Stimm-Videos insgesamt etwas leiser
 
 
 def voice_track(lines: list[dict], duration: float):
@@ -153,7 +154,8 @@ def voice_track(lines: list[dict], duration: float):
     return np.stack([v, v], axis=1), np.clip(env, 0, 1)
 
 
-def render_track(events: list[dict], duration: float, path: str, music=True, voice=None, music_offset=0.0):
+def render_track(events: list[dict], duration: float, path: str, music=True, voice=None, music_offset=0.0,
+                 duck=None, music_gain=None):
     n = int(duration * SR) + SR
     mix = np.zeros(n)
     cache = {}
@@ -177,7 +179,11 @@ def render_track(events: list[dict], duration: float, path: str, music=True, voi
     if music:
         bed = music_bed(duration, music if isinstance(music, str) else DEFAULT_TRACK, music_offset)
         if venv is not None:
-            bed = bed * (1 - (1 - DUCK) * venv[:, None])
+            d = DUCK if duck is None else duck
+            g = VOICE_MUSIC_GAIN if music_gain is None else music_gain
+            bed = bed * g * (1 - (1 - d) * venv[:, None])
+        elif music_gain is not None:
+            bed = bed * music_gain
         mix = mix + bed
     if vstereo is not None:
         mix = mix + vstereo

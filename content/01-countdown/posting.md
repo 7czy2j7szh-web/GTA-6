@@ -171,7 +171,7 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 
 ---
 
-## Mit Stimme (Fenrir) · `V8_ps5-oder-xbox.mp4` (13 s)
+## Mit Stimme (Fenrir) · `V8b_ps5-oder-xbox.mp4` (13 s, Stimme vorne: Musik ~14 dB leiser)
 - **Thema:** Laut Sensor-Tower-Schätzung (Stand 5.11.) ca. 74 % der Vorbestellungen auf PS5, 26 % auf Xbox. Xbox widerspricht (Anteil entspreche Marktanteil).
 - **Stimme:** Gemini „Fenrir", jeder Satz auf seinen Bildwechsel gelegt, Musik unter der Stimme abgesenkt, Crash auf „3 von 4".
 - **Caption:**
