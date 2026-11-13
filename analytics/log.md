@@ -52,6 +52,15 @@
 - Bisher bestes Video: meiste Shares (11), höchste Like-Rate (5,7 %), erste Follower direkt aus einem Video.
 - Gesamt-Follower: 9 → 13 (Stand 12.11.).
 
+## V5 „Wie viel Geld hat GTA 6 schon gemacht?" (gepostet 12.11., 19:22, 16 s) – Stand nach ~25 h
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 1.169 | 32 | 0 | 7 | 3 | **7,0 s** (43 %) | 16,2 % | 2 |
+
+- Meiste Views und längste Ø-Wiedergabe in Sekunden bisher (Gesamtwiedergabe 2 h 20 min).
+- Ausspielung lief ~5 h (≈ 260–360 Views/h), danach Stillstand.
+- Schwächer: Like-Rate 2,7 % (V4: 5,7 %), 0 Kommentare → Frage am Ende zu allgemein.
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
@@ -68,3 +77,4 @@
 9. **Grund zum Folgen einbauen:** Umfragen mit „Ergebnis kommt morgen" beenden und am nächsten Tag ein Ergebnis-Video posten (Serie über mehrere Tage).
 10. **Siegerformat „Brennende Frage + Spannung + Auflösung am Ende"** wiederholen (Frage, die alle googeln; Antwort erst bei ~70 % der Länge).
 11. **Prank mit Wendung** („Tutorial" → Pointe auf dem Crash) bringt die meisten Shares → Format ausbauen; Auflösung immer im Video.
+12. **Kommentare brauchen eine persönliche Ja/Nein- oder Entweder-oder-Frage im Video** (z. B. „Hast du vorbestellt?"), nicht eine allgemeine („Größtes Spiel aller Zeiten?").
