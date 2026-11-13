@@ -369,6 +369,8 @@ class Renderer:
             alpha = min(1, lt / 0.2)
         elif beat.anim == "fade":
             alpha = min(1, lt / 0.35)
+        elif beat.anim == "punch":                      # ab Frame 0 voll lesbar, schrumpft mit Ruck auf 100 %
+            scale = 1.18 - 0.18 * ease_out_cubic(lt / 0.35)
         # Ausblenden
         out = life - lt
         if beat.exit == "fade" and out < 0.18:
@@ -434,7 +436,13 @@ class Renderer:
                 flash_amt = max(0.0, 1 - (t - s) / 0.10) if (flash and i > 0) else 0
                 break
         if canvas is None:
-            canvas = Image.new("RGBA", (W, H), (20, 10, 30, 255))
+            # Absicherung gegen Lücken zwischen Szenen: nie ein dunkles Ersatzbild zeigen,
+            # sondern die zuletzt begonnene Szene weiterlaufen lassen
+            prev = [i for i, sc in enumerate(self.scenes) if sc[0] <= t]
+            if prev:
+                canvas = self._scene_img(prev[-1], t)
+            else:
+                canvas = Image.new("RGBA", (W, H), (20, 10, 30, 255))
             flash_amt = 0
         canvas.alpha_composite(self.overlay)
         for b in self.beats:

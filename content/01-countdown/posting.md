@@ -152,3 +152,19 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Hashtags:** `#gta6 #gta6deutsch #ps5pro #fps #gaming`
 - **Anpinnen:** `Ehrlich: Stört dich 30 FPS? Ja oder Nein 👇`
 - Quellen: tweaktown.com, gamingbible.com, rockstarintel.com (Stand 13.11.)
+
+---
+
+## HOOK-TEST · `V7b_30fps_kurz.mp4` (8 s) – statt `V7_30fps.mp4` posten
+- **Neue Regeln:** 3 Wörter im ersten Bild („NUR 30 FPS?!"), Kamera-Ruck in Sekunde 0–1, erster Schnitt nach 1 s, 8 s Länge, Ende führt zurück zum Anfang, Ein-Wort-Frage.
+- **Ziel:** Mehr als 55 % noch dabei nach 2 Sekunden (Vergleich: Prank-Video = 55 %).
+- **Stimme (optional, TikTok-eigene):** Beim Bearbeiten → „Text" → diesen Satz eintippen → Text antippen → „Text-zu-Sprache" → Stimme wählen → Text klein ziehen/an den Rand schieben:
+  ```
+  Nur 30 FPS? Rockstar hat's bestätigt. Sogar auf der PS5 Pro. GTA 5 hat 60. Okay oder Skandal?
+  ```
+- **Caption:**
+  ```
+  NUR 30 FPS?! 😳 Sogar auf der PS5 Pro. Okay oder Skandal?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #ps5pro #fps #gaming`
+- **Anpinnen:** `Ein Wort: Okay oder Skandal? 👇`

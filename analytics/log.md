@@ -61,6 +61,12 @@
 - Ausspielung lief ~5 h (≈ 260–360 Views/h), danach Stillstand.
 - Schwächer: Like-Rate 2,7 % (V4: 5,7 %), 0 Kommentare → Frage am Ende zu allgemein.
 
+## Bindungskurve V4 (Prank, 12 s) – Stand 13.11., 23:47
+- **Nach 2 s nur noch 55 % dabei** → fast die Hälfte geht in den ersten 2 Sekunden.
+- Danach flache Kurve: wer die ersten 2–3 s übersteht, bleibt größtenteils.
+- Traffic: 98,2 % „Für dich", 0,9 % Profil, 0,6 % Suche.
+- **Diagnose:** Engpass ist ausschließlich der Einstieg (Text-lastiger erster Frame, keine Stimme, bekannte Bilder).
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
@@ -78,3 +84,4 @@
 10. **Siegerformat „Brennende Frage + Spannung + Auflösung am Ende"** wiederholen (Frage, die alle googeln; Antwort erst bei ~70 % der Länge).
 11. **Prank mit Wendung** („Tutorial" → Pointe auf dem Crash) bringt die meisten Shares → Format ausbauen; Auflösung immer im Video.
 12. **Kommentare brauchen eine persönliche Ja/Nein- oder Entweder-oder-Frage im Video** (z. B. „Hast du vorbestellt?"), nicht eine allgemeine („Größtes Spiel aller Zeiten?").
+13. **Hook-Regeln v2:** max. 3–4 Wörter im ersten Bild, Bewegungs-Ruck in Sekunde 0–1, erster Schnitt nach ~1 s, 8–10 s Länge, Schleife; Messgröße: % nach 2 s (Ziel > 55 %, besser 70 %).

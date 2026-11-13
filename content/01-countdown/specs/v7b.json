@@ -1,0 +1,250 @@
+{
+ "id": "V7b",
+ "out": "exports/countdown/V7b_30fps_kurz.mp4",
+ "duration": 8.136,
+ "fps": 60,
+ "music": "chase",
+ "flash_strength": 0,
+ "overlay_strength": 0.8,
+ "chrome_from": 2.034,
+ "cover_at": 0.3,
+ "badge": "GTA 6 · NEWS",
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 1.017,
+   "text": "NUR\n30 FPS?!",
+   "style": "huge",
+   "size": 230,
+   "color": "white",
+   "y": 0.43,
+   "anim": "punch",
+   "exit": "cut"
+  },
+  {
+   "t": 1.017,
+   "end": 2.034,
+   "text": "Rockstar hat's\n*bestätigt.*",
+   "style": "huge",
+   "size": 135,
+   "color": "white",
+   "y": 0.44,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 2.034,
+   "end": 4.068,
+   "text": "Sogar auf der\n*PS5 Pro.*",
+   "size": 140,
+   "y": 0.44,
+   "anim": "stamp"
+  },
+  {
+   "t": 4.068,
+   "end": 6.102,
+   "text": "GTA 5 AUF PS5",
+   "style": "label",
+   "size": 76,
+   "y": 0.29,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 4.068,
+   "end": 6.102,
+   "text": "*60* FPS",
+   "size": 150,
+   "y": 0.37,
+   "anim": "pop"
+  },
+  {
+   "t": 4.831,
+   "end": 6.102,
+   "text": "GTA 6",
+   "style": "label",
+   "size": 76,
+   "y": 0.51,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 4.831,
+   "end": 6.102,
+   "text": "30 FPS",
+   "style": "huge",
+   "size": 150,
+   "color": "pink",
+   "y": 0.59,
+   "anim": "stamp",
+   "shake": 12,
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 6.102,
+   "end": 8.136,
+   "text": "Okay\n*oder*\nSkandal?",
+   "size": 140,
+   "y": 0.42,
+   "anim": "stamp"
+  },
+  {
+   "t": 6.864,
+   "end": 8.136,
+   "text": "Ein Wort in die Kommentare.",
+   "style": "small",
+   "size": 72,
+   "y": 0.6,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "drone:assets/official/gallery/Vice_City_22.jpg",
+   "start": 0,
+   "end": 0.967,
+   "cam": {
+    "x": [
+     0.75,
+     0.75
+    ],
+    "y": [
+     0.3,
+     0.3
+    ],
+    "roll": [
+     -3,
+     0
+    ],
+    "zoom": [
+     1.85,
+     1.42
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_27.jpg",
+   "start": 0.967,
+   "end": 1.944,
+   "cam": {
+    "x": [
+     0.76,
+     0.72
+    ],
+    "y": [
+     0.5,
+     0.46
+    ],
+    "yaw": [
+     2,
+     -1
+    ],
+    "roll": [
+     1,
+     -1
+    ],
+    "zoom": [
+     1.3,
+     1.42
+    ]
+   },
+   "flash": false,
+   "fade": 0.1
+  },
+  {
+   "image": "drone:assets/official/gallery/Leonida_Keys_07.jpg",
+   "start": 1.944,
+   "end": 3.978,
+   "cam": {
+    "x": [
+     0.76,
+     0.72
+    ],
+    "y": [
+     0.55,
+     0.5
+    ],
+    "yaw": [
+     -1,
+     2
+    ],
+    "roll": [
+     3,
+     -3
+    ],
+    "zoom": [
+     1.28,
+     1.42
+    ]
+   },
+   "flash": false,
+   "fade": 0.18
+  },
+  {
+   "image": "drone:assets/official/img/vc_sunset_skyline.jpg",
+   "start": 3.978,
+   "end": 6.012,
+   "cam": {
+    "x": [
+     0.82,
+     0.76
+    ],
+    "y": [
+     0.46,
+     0.48
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     1.5,
+     -1.5
+    ],
+    "zoom": [
+     1.22,
+     1.38
+    ]
+   },
+   "flash": false,
+   "fade": 0.18
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_22.jpg",
+   "start": 6.012,
+   "end": 8.136,
+   "cam": {
+    "x": [
+     0.75,
+     0.75
+    ],
+    "y": [
+     0.3,
+     0.3
+    ],
+    "roll": [
+     0,
+     -2
+    ],
+    "zoom": [
+     1.42,
+     1.7
+    ]
+   },
+   "flash": false,
+   "fade": 0.18
+  }
+ ]
+}
