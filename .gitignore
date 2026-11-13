@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 assets/music/*.wav
 models/
+assets/voice_cache/
