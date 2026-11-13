@@ -44,6 +44,14 @@
 - Format: brennende Frage → Spannung („Nicht morgens / mittags / abends") → Auflösung am Ende.
 - Weiterhin 0 Follower pro Video → Profil ist der Engpass.
 
+## V4 Prank „So spielst du GTA 6 schon heute" (gepostet 11.11., 20:47, 12 s) – Stand 13.11., 20:00
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 1.057 | 60 | 0 | **11** | 5 | 5,1 s (42 %) | 13,9 % | **4** |
+
+- Bisher bestes Video: meiste Shares (11), höchste Like-Rate (5,7 %), erste Follower direkt aus einem Video.
+- Gesamt-Follower: 9 → 13 (Stand 12.11.).
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
@@ -59,3 +67,4 @@
 8. **Hook = offene Frage, nicht die Antwort.** Neugier aufbauen (z. B. „Deine Konsole ist NICHT bereit …"), Auflösung erst am Ende.
 9. **Grund zum Folgen einbauen:** Umfragen mit „Ergebnis kommt morgen" beenden und am nächsten Tag ein Ergebnis-Video posten (Serie über mehrere Tage).
 10. **Siegerformat „Brennende Frage + Spannung + Auflösung am Ende"** wiederholen (Frage, die alle googeln; Antwort erst bei ~70 % der Länge).
+11. **Prank mit Wendung** („Tutorial" → Pointe auf dem Crash) bringt die meisten Shares → Format ausbauen; Auflösung immer im Video.

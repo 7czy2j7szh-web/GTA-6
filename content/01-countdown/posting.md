@@ -127,3 +127,16 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Hashtags:** `#gta6 #gta6deutsch #gta6news #gaming #vicecity`
 - **Anpinnen:** `Hast du schon vorbestellt? Ja oder Nein 👇`
 - Quellen: washingtonpost.com (11.11.2026), notebookcheck.net, guinnessworldrecords.com
+
+---
+
+## Mythos-Check / Prank · `V6_vpn-trick.mp4` (16 s) · Fr 13.11.
+- **Idee:** Tut so, als käme der VPN-Trick („in Neuseeland ist schon Mitternacht → VPN an"), dann **STOPP** auf den Crash und die echte Auflösung:
+  PS5: VPN bringt nichts (Region hängt am Konto). Xbox: Region auf Neuseeland *könnte* klappen – nicht bestätigt, auf eigenes Risiko.
+- **Caption:**
+  ```
+  Der VPN-Trick für GTA 6 – funktioniert er wirklich? 👀 Bis zum Ende schauen.
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #vpn #mythos #ps5 #xbox`
+- **Anpinnen:** `Wer hat schon nach „GTA 6 VPN" gegoogelt? 😂`
+- Quellen: culturedvultures.com, insider-gaming.com, gtasix.org (Stand 13.11.)

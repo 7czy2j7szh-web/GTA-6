@@ -1,0 +1,404 @@
+{
+ "id": "V6",
+ "out": "exports/countdown/V6_vpn-trick.mp4",
+ "duration": 16.271,
+ "fps": 60,
+ "music": "chase",
+ "flash_strength": 0,
+ "overlay_strength": 0.55,
+ "chrome_from": 2.034,
+ "cover_at": 0.4,
+ "badge": "GTA 6 · MYTHOS-CHECK",
+ "beats": [
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 0.0,
+   "end": 2.034,
+   "text": "Mit *DIESEM* Trick\nspielst du GTA 6\n*12 Stunden* früher.",
+   "size": 112,
+   "y": 0.42,
+   "anim": "none"
+  },
+  {
+   "t": 2.034,
+   "end": 4.068,
+   "text": "NEUSEELAND 00:00 · DEUTSCHLAND 12:00",
+   "style": "label",
+   "size": 56,
+   "y": 0.27,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 2.288,
+   "end": 4.068,
+   "text": "In Neuseeland ist\nschon *Mitternacht.*",
+   "size": 118,
+   "y": 0.47,
+   "anim": "stamp"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 4.068,
+   "end": 6.102,
+   "text": "Also einfach\n*VPN an* …",
+   "size": 135,
+   "y": 0.45,
+   "anim": "stamp"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 6.102,
+   "end": 8.136,
+   "text": "… und GTA 6\n*starten?*",
+   "size": 140,
+   "y": 0.45,
+   "anim": "pop"
+  },
+  {
+   "t": 8.136,
+   "end": 10.169,
+   "text": "STOPP.",
+   "style": "huge",
+   "size": 260,
+   "color": "red",
+   "y": 0.43,
+   "anim": "stamp",
+   "shake": 26,
+   "rotate": -4,
+   "exit": "cut"
+  },
+  {
+   "t": 8.898,
+   "end": 10.169,
+   "text": "So funktioniert das *nicht.*",
+   "style": "hook",
+   "size": 96,
+   "y": 0.56,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.169,
+   "end": 12.203,
+   "text": "PS5",
+   "style": "label",
+   "size": 84,
+   "y": 0.29,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 10.169,
+   "end": 12.203,
+   "text": "VPN bringt\n*gar nichts.*",
+   "size": 128,
+   "y": 0.43,
+   "anim": "stamp"
+  },
+  {
+   "t": 10.932,
+   "end": 12.203,
+   "text": "Die Region hängt an deinem Konto.",
+   "style": "small",
+   "size": 62,
+   "y": 0.55,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 12.203,
+   "end": 14.237,
+   "text": "XBOX",
+   "style": "label",
+   "size": 84,
+   "y": 0.26,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 12.203,
+   "end": 14.237,
+   "text": "Region auf\n*Neuseeland* stellen\n*könnte* klappen.",
+   "size": 104,
+   "y": 0.44,
+   "anim": "pop"
+  },
+  {
+   "t": 12.966,
+   "end": 14.237,
+   "text": "Nicht bestätigt · auf eigenes Risiko",
+   "style": "small",
+   "size": 64,
+   "y": 0.585,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 14.237,
+   "end": 16.271,
+   "text": "Ob's klappt,\nsag ich dir\n*am 18.11.*",
+   "size": 115,
+   "y": 0.41,
+   "anim": "stamp"
+  },
+  {
+   "t": 15.0,
+   "end": 16.271,
+   "text": "*Folge*, damit du's nicht verpasst.",
+   "style": "small",
+   "size": 72,
+   "y": 0.585,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "drone:assets/official/img/vc_day_aerial.jpg",
+   "start": 0,
+   "end": 1.924,
+   "cam": {
+    "x": [
+     0.8,
+     0.86
+    ],
+    "y": [
+     0.42,
+     0.38
+    ],
+    "yaw": [
+     -2,
+     2
+    ],
+    "roll": [
+     -1.5,
+     1.5
+    ],
+    "zoom": [
+     1.22,
+     1.38
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_27.jpg",
+   "start": 1.924,
+   "end": 3.958,
+   "cam": {
+    "x": [
+     0.34,
+     0.4
+    ],
+    "y": [
+     0.48,
+     0.44
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     1,
+     -1
+    ],
+    "zoom": [
+     1.22,
+     1.36
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_22.jpg",
+   "start": 3.958,
+   "end": 5.992,
+   "cam": {
+    "x": [
+     0.44,
+     0.5
+    ],
+    "y": [
+     0.34,
+     0.3
+    ],
+    "yaw": [
+     -2,
+     2
+    ],
+    "roll": [
+     -1.5,
+     1.5
+    ],
+    "zoom": [
+     1.35,
+     1.5
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "drone:assets/official/gallery/Grassrivers_08.jpg",
+   "start": 5.992,
+   "end": 8.026,
+   "cam": {
+    "x": [
+     0.86,
+     0.84
+    ],
+    "y": [
+     0.3,
+     0.34
+    ],
+    "yaw": [
+     1,
+     -1
+    ],
+    "roll": [
+     2,
+     -2
+    ],
+    "zoom": [
+     1.3,
+     1.45
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_17.jpg",
+   "start": 8.026,
+   "end": 10.059,
+   "cam": {
+    "x": [
+     0.16,
+     0.24
+    ],
+    "y": [
+     0.42,
+     0.38
+    ],
+    "yaw": [
+     -2,
+     2
+    ],
+    "roll": [
+     2,
+     -1.5
+    ],
+    "zoom": [
+     1.25,
+     1.4
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "drone:assets/official/gallery/Jason_and_Lucia_16.jpg",
+   "start": 10.059,
+   "end": 12.093,
+   "cam": {
+    "x": [
+     0.58,
+     0.64
+    ],
+    "y": [
+     0.44,
+     0.46
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     1,
+     -1
+    ],
+    "zoom": [
+     1.25,
+     1.4
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_15.jpg",
+   "start": 12.093,
+   "end": 14.127,
+   "cam": {
+    "x": [
+     0.6,
+     0.66
+    ],
+    "y": [
+     0.46,
+     0.43
+    ],
+    "yaw": [
+     -2,
+     2
+    ],
+    "roll": [
+     -1.5,
+     1.5
+    ],
+    "zoom": [
+     1.22,
+     1.38
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  },
+  {
+   "image": "drone:assets/official/img/vc_night_skyline_v.jpg",
+   "start": 14.127,
+   "end": 16.271,
+   "cam": {
+    "x": [
+     0.5,
+     0.5
+    ],
+    "y": [
+     0.46,
+     0.52
+    ],
+    "roll": [
+     1,
+     -1
+    ],
+    "zoom": [
+     1.08,
+     1.28
+    ]
+   },
+   "flash": false,
+   "fade": 0.22
+  }
+ ]
+}
