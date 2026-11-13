@@ -140,3 +140,15 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Hashtags:** `#gta6 #gta6deutsch #vpn #mythos #ps5 #xbox`
 - **Anpinnen:** `Wer hat schon nach „GTA 6 VPN" gegoogelt? 😂`
 - Quellen: culturedvultures.com, insider-gaming.com, gtasix.org (Stand 13.11.)
+
+---
+
+## Fakten · `V7_30fps.mp4` (16 s)
+- **Thema:** Rockstar bestätigt offiziell (10.11.): GTA 6 zielt auf 30 FPS – auch auf PS5 Pro (dafür PSSR + Raytracing-Schatten). GTA 5 auf PS5: 60 FPS im Performance-Modus.
+- **Caption:**
+  ```
+  GTA 6 läuft mit 30 FPS – sogar auf der PS5 Pro 😳 Okay oder Skandal?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #ps5pro #fps #gaming`
+- **Anpinnen:** `Ehrlich: Stört dich 30 FPS? Ja oder Nein 👇`
+- Quellen: tweaktown.com, gamingbible.com, rockstarintel.com (Stand 13.11.)
