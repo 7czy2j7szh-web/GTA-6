@@ -1,0 +1,345 @@
+{
+ "id": "V8",
+ "out": "exports/countdown/V8_ps5-oder-xbox.mp4",
+ "duration": 13.08,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 2.356,
+ "flash_strength": 0,
+ "overlay_strength": 0.6,
+ "chrome_from": 1.64,
+ "cover_at": 0.3,
+ "badge": "GTA 6 · NEWS",
+ "beats": [
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 0.0,
+   "end": 1.64,
+   "text": "PS5\noder *XBOX?*",
+   "size": 210,
+   "y": 0.43,
+   "anim": "punch"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 1.64,
+   "end": 3.54,
+   "text": "Wer gewinnt\nbei *GTA 6*?",
+   "size": 140,
+   "y": 0.44,
+   "anim": "stamp"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 3.54,
+   "end": 5.78,
+   "text": "Die *Vorbestellungen*\nverraten es.",
+   "size": 110,
+   "y": 0.44,
+   "anim": "pop"
+  },
+  {
+   "t": 5.78,
+   "end": 8.06,
+   "text": "3 von 4",
+   "style": "huge",
+   "size": 270,
+   "color": "pink",
+   "y": 0.42,
+   "anim": "stamp",
+   "shake": 22,
+   "exit": "cut"
+  },
+  {
+   "t": 6.13,
+   "end": 8.06,
+   "text": "VORBESTELLUNGEN AUF PS5",
+   "style": "label",
+   "size": 72,
+   "y": 0.55,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 6.48,
+   "end": 8.06,
+   "text": "Schätzung: Sensor Tower (Stand 5.11.)",
+   "style": "small",
+   "size": 54,
+   "y": 0.615,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 8.06,
+   "end": 9.8,
+   "text": "Xbox:\nnur *jede vierte.*",
+   "size": 135,
+   "y": 0.44,
+   "anim": "stamp"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 9.8,
+   "end": 13.08,
+   "text": "Team *PS5*\noder Team *XBOX*?",
+   "size": 125,
+   "y": 0.42,
+   "anim": "stamp"
+  },
+  {
+   "t": 10.4,
+   "end": 13.08,
+   "text": "Ein Wort in die Kommentare.",
+   "style": "small",
+   "size": 72,
+   "y": 0.58,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 5.78,
+   "type": "hit"
+  },
+  {
+   "t": 5.78,
+   "type": "chime"
+  },
+  {
+   "t": 1.52,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 3.42,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 7.94,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 9.680000000000001,
+   "type": "whoosh",
+   "gain": 0.7
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.03,
+   "wav": "content/01-countdown/voice/v8/v8_fenrir_1.wav"
+  },
+  {
+   "t": 1.64,
+   "wav": "content/01-countdown/voice/v8/v8_fenrir_2.wav"
+  },
+  {
+   "t": 3.54,
+   "wav": "content/01-countdown/voice/v8/v8_fenrir_3.wav"
+  },
+  {
+   "t": 5.78,
+   "wav": "content/01-countdown/voice/v8/v8_fenrir_4.wav"
+  },
+  {
+   "t": 8.06,
+   "wav": "content/01-countdown/voice/v8/v8_fenrir_5.wav"
+  },
+  {
+   "t": 9.8,
+   "wav": "content/01-countdown/voice/v8/v8_fenrir_6.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "drone:assets/official/img/vc_day_aerial.jpg",
+   "start": 0,
+   "end": 1.56,
+   "cam": {
+    "x": [
+     0.56,
+     0.62
+    ],
+    "y": [
+     0.45,
+     0.42
+    ],
+    "yaw": [
+     -2,
+     2
+    ],
+    "roll": [
+     -3,
+     0
+    ],
+    "zoom": [
+     1.75,
+     1.4
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_26.jpg",
+   "start": 1.56,
+   "end": 3.46,
+   "cam": {
+    "x": [
+     0.45,
+     0.55
+    ],
+    "y": [
+     0.5,
+     0.5
+    ],
+    "roll": [
+     -5,
+     5
+    ],
+    "zoom": [
+     1.2,
+     1.32
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_17.jpg",
+   "start": 3.46,
+   "end": 5.7,
+   "cam": {
+    "x": [
+     0.66,
+     0.72
+    ],
+    "y": [
+     0.36,
+     0.33
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     1.5,
+     -1.5
+    ],
+    "zoom": [
+     1.36,
+     1.5
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_27.jpg",
+   "start": 5.7,
+   "end": 7.98,
+   "cam": {
+    "x": [
+     0.45,
+     0.52
+    ],
+    "y": [
+     0.5,
+     0.46
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     -1,
+     1
+    ],
+    "zoom": [
+     1.2,
+     1.38
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/gallery/Grassrivers_08.jpg",
+   "start": 7.98,
+   "end": 9.72,
+   "cam": {
+    "x": [
+     0.86,
+     0.84
+    ],
+    "y": [
+     0.28,
+     0.32
+    ],
+    "yaw": [
+     1,
+     -1
+    ],
+    "roll": [
+     2,
+     -2
+    ],
+    "zoom": [
+     1.32,
+     1.46
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/gallery/Jason_and_Lucia_16.jpg",
+   "start": 9.72,
+   "end": 13.08,
+   "cam": {
+    "x": [
+     0.72,
+     0.78
+    ],
+    "y": [
+     0.46,
+     0.5
+    ],
+    "yaw": [
+     2,
+     -1
+    ],
+    "roll": [
+     -1,
+     1
+    ],
+    "zoom": [
+     1.22,
+     1.38
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  }
+ ]
+}

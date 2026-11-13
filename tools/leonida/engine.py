@@ -464,7 +464,7 @@ class Renderer:
         if audio:
             wav = out_path.rsplit(".", 1)[0] + ".sfx.wav"
             events = self.spec.get("sfx") or auto_sfx(self.spec)
-            sfxmod.render_track(events, self.duration, wav, music=self.spec.get("music", True))
+            sfxmod.render_track(events, self.duration, wav, music=self.spec.get("music", True), voice=self.spec.get("voice_lines"), music_offset=self.spec.get("music_offset", 0.0))
         cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                "-s", f"{W}x{H}", "-r", str(self.fps), "-i", "-"]
         if wav:
@@ -492,7 +492,7 @@ class Renderer:
         wav = out_path.rsplit(".", 1)[0] + ".sfx.wav"
         tmp = out_path.rsplit(".", 1)[0] + ".tmp.mp4"
         events = self.spec.get("sfx") or auto_sfx(self.spec)
-        sfxmod.render_track(events, self.duration, wav, music=self.spec.get("music", True))
+        sfxmod.render_track(events, self.duration, wav, music=self.spec.get("music", True), voice=self.spec.get("voice_lines"), music_offset=self.spec.get("music_offset", 0.0))
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out_path, "-i", wav,
                         "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                         "-shortest", "-movflags", "+faststart", tmp], check=True)

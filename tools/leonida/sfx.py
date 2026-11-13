@@ -10,11 +10,13 @@ Klangpalette:
 """
 from __future__ import annotations
 
+import os
 import wave
 
 import numpy as np
 
 SR = 48000
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 rng = np.random.default_rng(7)
 
 # Ziel-Spitzenpegel des fertigen Effekt-Tracks (~ -18 dBFS). Der Trend-Sound
@@ -112,21 +114,46 @@ TRACKS = {
 MUSIC_FADE_OUT = 1.0
 
 
-def music_bed(duration: float, name: str = DEFAULT_TRACK) -> np.ndarray:
+def music_bed(duration: float, name: str = DEFAULT_TRACK, offset: float = 0.0) -> np.ndarray:
+    """offset = Startposition im Track (s), z. B. damit der Crash genau auf die Enthüllung fällt."""
     import importlib
     cfg = TRACKS[name]
     mod = importlib.import_module(f".{cfg['module']}", __package__)  # lazy: scipy nur bei Bedarf
     track = mod.load(cfg["comp"]) if "comp" in cfg else mod.load()
     n = int(duration * SR)
-    reps = int(np.ceil(n / len(track)))
-    bed = np.tile(track, (reps, 1))[:n].copy()     # Tracks sind nahtlose Schleifen
+    o = int((offset % (len(track) / SR)) * SR)
+    reps = int(np.ceil((n + o) / len(track))) + 1
+    bed = np.tile(track, (reps, 1))[o:o + n].copy()     # Tracks sind nahtlose Schleifen
     a, b = max(int(cfg["fade_in"] * SR), 1), int(MUSIC_FADE_OUT * SR)
     bed[:a] *= np.linspace(0, 1, a)[:, None]
     bed[-b:] *= np.linspace(1, 0, b)[:, None] ** 1.5
     return bed * cfg["gain"]
 
 
-def render_track(events: list[dict], duration: float, path: str, music=True):
+VOICE_PEAK = 0.70      # Erzählstimme klar vorne
+DUCK = 0.35            # Musik läuft unter der Stimme auf ~35 % (ca. -9 dB)
+
+
+def voice_track(lines: list[dict], duration: float):
+    """lines = [{"t": Start in s, "wav": Pfad}] -> (stereo Stimme, Hüllkurve 0..1)."""
+    from . import voice as voicemod
+    n = int(duration * SR)
+    v = np.zeros(n)
+    for ln in lines:
+        x = voicemod.load(os.path.join(ROOT, ln["wav"]), SR)
+        i = int(ln["t"] * SR)
+        j = min(i + len(x), n)
+        if i < n:
+            v[i:j] += x[: j - i]
+    peak = np.max(np.abs(v)) or 1
+    v = v / peak * VOICE_PEAK
+    env = _onepole_lowpass(np.abs(v), 6)
+    env = np.clip(env / (np.max(env) or 1) * 4, 0, 1)
+    env = _onepole_lowpass(env, 3)                 # weiches Ein-/Ausblenden der Absenkung
+    return np.stack([v, v], axis=1), np.clip(env, 0, 1)
+
+
+def render_track(events: list[dict], duration: float, path: str, music=True, voice=None, music_offset=0.0):
     n = int(duration * SR) + SR
     mix = np.zeros(n)
     cache = {}
@@ -143,11 +170,22 @@ def render_track(events: list[dict], duration: float, path: str, music=True):
     mix = _onepole_lowpass(mix, 7000)          # Höhen weich machen
     peak = np.max(np.abs(mix)) or 1
     mix = np.stack([mix, mix], axis=1) / peak * TARGET_PEAK
+    vstereo, venv = (None, None)
+    if voice:
+        vstereo, venv = voice_track(voice, duration)
+        mix = mix * (1 - 0.5 * venv[:, None])      # Effekte unter der Stimme leiser
     if music:
-        mix = mix + music_bed(duration, music if isinstance(music, str) else DEFAULT_TRACK)
-    top = np.max(np.abs(mix))
-    if top > 0.89:                                  # Sicherheitsbegrenzer
-        mix *= 0.89 / top
+        bed = music_bed(duration, music if isinstance(music, str) else DEFAULT_TRACK, music_offset)
+        if venv is not None:
+            bed = bed * (1 - (1 - DUCK) * venv[:, None])
+        mix = mix + bed
+    if vstereo is not None:
+        mix = mix + vstereo
+    # Sicherheitsbegrenzer auf die *echten* Spitzen (4x überabgetastet), mit Reserve für AAC
+    from scipy.signal import resample_poly
+    top = max(np.max(np.abs(resample_poly(mix[:, c], 4, 1))) for c in range(2))
+    if top > 0.70:
+        mix *= 0.70 / top
     pcm = (mix * 32767).astype(np.int16)
     with wave.open(path, "wb") as w:
         w.setnchannels(2)

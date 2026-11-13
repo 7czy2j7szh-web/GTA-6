@@ -168,3 +168,17 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
   ```
 - **Hashtags:** `#gta6 #gta6deutsch #ps5pro #fps #gaming`
 - **Anpinnen:** `Ein Wort: Okay oder Skandal? 👇`
+
+---
+
+## Mit Stimme (Fenrir) · `V8_ps5-oder-xbox.mp4` (13 s)
+- **Thema:** Laut Sensor-Tower-Schätzung (Stand 5.11.) ca. 74 % der Vorbestellungen auf PS5, 26 % auf Xbox. Xbox widerspricht (Anteil entspreche Marktanteil).
+- **Stimme:** Gemini „Fenrir", jeder Satz auf seinen Bildwechsel gelegt, Musik unter der Stimme abgesenkt, Crash auf „3 von 4".
+- **Caption:**
+  ```
+  PS5 oder Xbox – wer gewinnt bei GTA 6? 🎮 Die Vorbestellungen sind eindeutig.
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #ps5 #xbox #konsolenkrieg`
+- **Anpinnen:** `Ein Wort: PS5 oder Xbox? 👇`
+- **Beste Zeit:** Samstag 12–13 Uhr oder 18–19 Uhr (nicht nachts posten – lieber einplanen).
+- Quellen: tweaktown.com (Sensor Tower, 5.11.), godisageek.com (Xbox-Stellungnahme)
