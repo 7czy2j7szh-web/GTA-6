@@ -130,9 +130,9 @@ def music_bed(duration: float, name: str = DEFAULT_TRACK, offset: float = 0.0) -
     return bed * cfg["gain"]
 
 
-VOICE_PEAK = 0.70      # Erzählstimme klar vorne
-DUCK = 0.16            # Musik läuft unter der Stimme auf ~16 % (ca. -16 dB)
-VOICE_MUSIC_GAIN = 0.75  # Musik in Stimm-Videos insgesamt etwas leiser
+VOICE_PEAK = 0.84        # Erzählstimme klar vorne (danach True-Peak-Begrenzung)
+MUSIC_BELOW_VOICE_DB = 23  # Stimm-Videos: Musik läuft DURCHGEHEND so viel leiser als die Stimme (kein Hochkommen in Pausen)
+VOICE_SFX_GAIN = 0.3     # Soundeffekte in Stimm-Videos deutlich leiser
 
 
 def voice_track(lines: list[dict], duration: float):
@@ -147,7 +147,23 @@ def voice_track(lines: list[dict], duration: float):
         if i < n:
             v[i:j] += x[: j - i]
     peak = np.max(np.abs(v)) or 1
-    v = v / peak * VOICE_PEAK
+    v = v / peak
+    # Stimme verdichten (Kompressor 3:1 ab -20 dB): präsenter, gleichmäßiger, lauter möglich
+    from scipy.signal import lfilter
+    lvl = np.sqrt(lfilter([0.004], [1, -0.996], v ** 2))        # ~5 ms Pegelverfolgung
+    thr, ratio = 0.1, 3.0
+    gain = np.where(lvl > thr, (thr / np.maximum(lvl, 1e-9)) ** (1 - 1 / ratio), 1.0)
+    gain = lfilter([0.0015], [1, -0.9985], gain - 1) + 1         # weich (~15 ms)
+    v = v * gain
+    # Limiter mit Vorausschau: einzelne Spitzen kappen, damit die Stimme insgesamt lauter werden kann
+    from scipy.ndimage import maximum_filter1d
+    v = v / (np.max(np.abs(v)) or 1)
+    ceil = 0.45
+    pk = maximum_filter1d(np.abs(v), size=int(0.006 * SR))
+    g = np.minimum(1.0, ceil / np.maximum(pk, 1e-9))
+    g = np.minimum(g, lfilter([0.02], [1, -0.98], g))           # schnell runter, weich wieder hoch
+    v = v * g
+    v = v / (np.max(np.abs(v)) or 1) * VOICE_PEAK
     env = _onepole_lowpass(np.abs(v), 6)
     env = np.clip(env / (np.max(env) or 1) * 4, 0, 1)
     env = _onepole_lowpass(env, 3)                 # weiches Ein-/Ausblenden der Absenkung
@@ -175,13 +191,16 @@ def render_track(events: list[dict], duration: float, path: str, music=True, voi
     vstereo, venv = (None, None)
     if voice:
         vstereo, venv = voice_track(voice, duration)
-        mix = mix * (1 - 0.5 * venv[:, None])      # Effekte unter der Stimme leiser
+        mix = mix * VOICE_SFX_GAIN
     if music:
         bed = music_bed(duration, music if isinstance(music, str) else DEFAULT_TRACK, music_offset)
         if venv is not None:
-            d = DUCK if duck is None else duck
-            g = VOICE_MUSIC_GAIN if music_gain is None else music_gain
-            bed = bed * g * (1 - (1 - d) * venv[:, None])
+            # Musik konstant leise: Pegel aus dem Stimmpegel berechnen (RMS in Sprechpassagen)
+            below = MUSIC_BELOW_VOICE_DB if duck is None else duck
+            act = venv > 0.6
+            v_rms = np.sqrt(np.mean(vstereo[act, 0] ** 2)) if act.any() else 0.1
+            m_rms = np.sqrt(np.mean(bed[:, 0] ** 2)) or 1
+            bed = bed * (v_rms / m_rms) * 10 ** (-below / 20)
         elif music_gain is not None:
             bed = bed * music_gain
         mix = mix + bed
@@ -190,8 +209,8 @@ def render_track(events: list[dict], duration: float, path: str, music=True, voi
     # Sicherheitsbegrenzer auf die *echten* Spitzen (4x überabgetastet), mit Reserve für AAC
     from scipy.signal import resample_poly
     top = max(np.max(np.abs(resample_poly(mix[:, c], 4, 1))) for c in range(2))
-    if top > 0.70:
-        mix *= 0.70 / top
+    if top > 0.84:
+        mix *= 0.84 / top
     pcm = (mix * 32767).astype(np.int16)
     with wave.open(path, "wb") as w:
         w.setnchannels(2)

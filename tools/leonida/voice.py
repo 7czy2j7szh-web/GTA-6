@@ -78,8 +78,16 @@ def generate(text: str, voice: str = DEFAULT_VOICE, style: str = STYLE, model: s
 
 def load(path: str, sr_out: int = 48000) -> np.ndarray:
     """WAV laden und auf die Mix-Abtastrate hochrechnen (mono float)."""
+    from math import gcd
+    from scipy.signal import resample_poly
     with wave.open(path, "rb") as w:
         x = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float64) / 32768
         sr = w.getframerate()
-    n = int(len(x) * sr_out / sr)
-    return np.interp(np.linspace(0, len(x) - 1, n), np.arange(len(x)), x)
+    if sr != sr_out:                                    # sauberes Hochrechnen (kein Aliasing)
+        g = gcd(sr, sr_out)
+        x = resample_poly(x, sr_out // g, sr // g)
+    f = min(int(0.008 * sr_out), len(x) // 4)           # 8 ms Ein-/Ausblenden gegen Knackser
+    if f > 0:
+        x[:f] *= np.linspace(0, 1, f)
+        x[-f:] *= np.linspace(1, 0, f)
+    return x
