@@ -91,3 +91,35 @@ def load(path: str, sr_out: int = 48000) -> np.ndarray:
         x[:f] *= np.linspace(0, 1, f)
         x[-f:] *= np.linspace(1, 0, f)
     return x
+
+
+def split(full_path: str, approx_bounds: list[float], out_prefix: str, search: float = 0.35) -> list[dict]:
+    """Ganze Aufnahme an den leisesten Stellen nahe den (ungefähren) Satzgrenzen zerschneiden.
+
+    approx_bounds: Zeitpunkte zwischen den Sätzen (z. B. aus einer Abschrift mit Zeitstempeln).
+    Gibt [{"wav": Pfad, "dur": Sekunden}] zurück (Stille an den Rändern abgeschnitten)."""
+    with wave.open(full_path) as w:
+        sr = w.getframerate()
+        pcm = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
+    x = np.abs(pcm.astype(np.float32) / 32768)
+    win = int(0.01 * sr)
+    e = np.array([x[i:i + win].mean() for i in range(0, len(x) - win, win)])
+    e = np.convolve(e, np.ones(8) / 8, mode="same")
+    total = len(pcm) / sr
+    cuts = [0.0]
+    for b in approx_bounds:
+        a, z = max(int((b - search) / 0.01), 1), min(int((b + search) / 0.01), len(e) - 1)
+        cuts.append((a + int(np.argmin(e[a:z]))) * 0.01)
+    cuts.append(total)
+    out = []
+    for k in range(len(cuts) - 1):
+        seg = _trim(pcm[int(cuts[k] * sr):int(cuts[k + 1] * sr)], thresh=0.01, pad=0.02)
+        path = f"{out_prefix}_{k + 1}.wav"
+        os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+        with wave.open(path, "wb") as w:
+            w.setnchannels(1)
+            w.setsampwidth(2)
+            w.setframerate(sr)
+            w.writeframes(seg.tobytes())
+        out.append({"wav": path, "dur": round(len(seg) / sr, 2)})
+    return out

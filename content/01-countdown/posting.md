@@ -182,3 +182,16 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Anpinnen:** `Ein Wort: PS5 oder Xbox? 👇`
 - **Beste Zeit:** Samstag 12–13 Uhr oder 18–19 Uhr (nicht nachts posten – lieber einplanen).
 - Quellen: tweaktown.com (Sensor Tower, 5.11.), godisageek.com (Xbox-Stellungnahme)
+
+---
+
+## Diskussion · `V9_standard-oder-ultimate.mp4` (15 s, Stimme Fenrir)
+- **Thema:** Laut Sensor Tower (Aug. 2026) entfallen 89 % der Vorbestellungen auf die teurere Ultimate Edition (PS5 88,5 %, Xbox 90 %); sonst üblich: 10–20 % Premium-Anteil.
+- **Caption:**
+  ```
+  9 von 10 kaufen die teure GTA 6 Ultimate Edition 😳 Lohnt sich das? Standard oder Ultimate?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #ultimateedition #ps5 #xbox`
+- **Anpinnen:** `Ein Wort: Standard oder Ultimate? 👇`
+- **Beste Zeit:** 12–13 Uhr oder 18–19 Uhr
+- Quellen: hothardware.com, nme.com, gamedev.net (Sensor-Tower-Daten)

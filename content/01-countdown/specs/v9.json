@@ -1,0 +1,343 @@
+{
+ "id": "V9",
+ "out": "exports/countdown/V9_standard-oder-ultimate.mp4",
+ "duration": 15.15,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 0.166,
+ "flash_strength": 0,
+ "overlay_strength": 0.6,
+ "chrome_from": 1.63,
+ "cover_at": 0.3,
+ "badge": "GTA 6 · NEWS",
+ "beats": [
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 0.0,
+   "end": 1.63,
+   "text": "STANDARD\noder *ULTIMATE?*",
+   "size": 165,
+   "y": 0.43,
+   "anim": "punch"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 1.63,
+   "end": 3.78,
+   "text": "Was kaufen\ndie *meisten*?",
+   "size": 145,
+   "y": 0.44,
+   "anim": "stamp"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 3.78,
+   "end": 6.92,
+   "text": "Normal nimmt\nfast jeder die\n*günstige* Version.",
+   "size": 105,
+   "y": 0.41,
+   "anim": "pop"
+  },
+  {
+   "t": 4.68,
+   "end": 6.92,
+   "text": "Premium-Anteil sonst: 10–20 %",
+   "style": "small",
+   "size": 60,
+   "y": 0.585,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 6.92,
+   "end": 7.97,
+   "text": "Doch bei *GTA 6* …",
+   "size": 135,
+   "y": 0.44,
+   "anim": "pop"
+  },
+  {
+   "t": 7.97,
+   "end": 10.36,
+   "text": "89 %",
+   "style": "huge",
+   "size": 300,
+   "color": "pink",
+   "y": 0.41,
+   "anim": "stamp",
+   "shake": 22,
+   "exit": "cut"
+  },
+  {
+   "t": 8.27,
+   "end": 10.36,
+   "text": "NEHMEN DIE ULTIMATE EDITION",
+   "style": "label",
+   "size": 68,
+   "y": 0.54,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 8.57,
+   "end": 10.36,
+   "text": "Schätzung: Sensor Tower",
+   "style": "small",
+   "size": 56,
+   "y": 0.605,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 10.36,
+   "end": 11.55,
+   "text": "Ein *Rekord.*",
+   "size": 170,
+   "y": 0.45,
+   "anim": "stamp",
+   "shake": 12
+  },
+  {
+   "style": "huge",
+   "color": "white",
+   "exit": "cut",
+   "t": 11.55,
+   "end": 15.15,
+   "text": "*Standard*\noder *Ultimate*?",
+   "size": 135,
+   "y": 0.42,
+   "anim": "stamp"
+  },
+  {
+   "t": 12.15,
+   "end": 15.15,
+   "text": "Ein Wort in die Kommentare.",
+   "style": "small",
+   "size": 72,
+   "y": 0.58,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 7.97,
+   "type": "hit"
+  },
+  {
+   "t": 7.97,
+   "type": "chime"
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.03,
+   "wav": "content/01-countdown/voice/v9/fenrir_1.wav"
+  },
+  {
+   "t": 1.63,
+   "wav": "content/01-countdown/voice/v9/fenrir_2.wav"
+  },
+  {
+   "t": 3.78,
+   "wav": "content/01-countdown/voice/v9/fenrir_3.wav"
+  },
+  {
+   "t": 6.92,
+   "wav": "content/01-countdown/voice/v9/fenrir_4.wav"
+  },
+  {
+   "t": 10.36,
+   "wav": "content/01-countdown/voice/v9/fenrir_5.wav"
+  },
+  {
+   "t": 11.55,
+   "wav": "content/01-countdown/voice/v9/fenrir_6.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "drone:assets/official/gallery/Vice_City_15.jpg",
+   "start": 0,
+   "end": 1.55,
+   "cam": {
+    "x": [
+     0.82,
+     0.86
+    ],
+    "y": [
+     0.48,
+     0.45
+    ],
+    "roll": [
+     -3,
+     0
+    ],
+    "zoom": [
+     1.75,
+     1.42
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_26.jpg",
+   "start": 1.55,
+   "end": 3.7,
+   "cam": {
+    "x": [
+     0.22,
+     0.3
+    ],
+    "y": [
+     0.5,
+     0.5
+    ],
+    "roll": [
+     6,
+     -4
+    ],
+    "zoom": [
+     1.22,
+     1.32
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/img/vc_day_aerial.jpg",
+   "start": 3.7,
+   "end": 6.84,
+   "cam": {
+    "x": [
+     0.14,
+     0.22
+    ],
+    "y": [
+     0.5,
+     0.46
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     1.5,
+     -1.5
+    ],
+    "zoom": [
+     1.22,
+     1.36
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/gallery/Vice_City_27.jpg",
+   "start": 6.84,
+   "end": 10.28,
+   "cam": {
+    "x": [
+     0.78,
+     0.72
+    ],
+    "y": [
+     0.5,
+     0.45
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "pitch": [
+     -1,
+     1
+    ],
+    "roll": [
+     -1,
+     1
+    ],
+    "zoom": [
+     1.2,
+     1.38
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/img/vc_night_skyline_v.jpg",
+   "start": 10.28,
+   "end": 11.47,
+   "cam": {
+    "x": [
+     0.5,
+     0.5
+    ],
+    "y": [
+     0.5,
+     0.45
+    ],
+    "roll": [
+     -1,
+     1
+    ],
+    "zoom": [
+     1.1,
+     1.3
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  },
+  {
+   "image": "drone:assets/official/gallery/Jason_and_Lucia_16.jpg",
+   "start": 11.47,
+   "end": 15.15,
+   "cam": {
+    "x": [
+     0.2,
+     0.26
+    ],
+    "y": [
+     0.44,
+     0.42
+    ],
+    "yaw": [
+     2,
+     -2
+    ],
+    "roll": [
+     -1.5,
+     1.5
+    ],
+    "zoom": [
+     1.24,
+     1.4
+    ]
+   },
+   "flash": false,
+   "fade": 0.16
+  }
+ ]
+}
