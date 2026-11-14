@@ -121,3 +121,4 @@
 17. **Bestätigt (V10):** Retention-Baukasten ist der Standard für alle Videos: Karaoke-Untertitel, Zahlen/Grafiken synchron zur Stimme, Schnitt alle 1,5–2 s, Ende führt zum Anfang, Antwort mit einer Zahl oder einem Wort.
 18. **Follower-Hebel:** Jede Frage bekommt eine Fortsetzung („Ergebnis am …"), angekündigt im angepinnten Kommentar und am Videoende.
 19. **Offene Schleife (V14):** Die Antwort wird im Hook versprochen („Verrat ich dir am Ende"), bleibt als Hinweis sichtbar und wird mit 2 Tipps aufgebaut; die Auflösung kommt bei ~80 % der Länge. Tipps laden zum Raten in den Kommentaren ein. Messen: „Ganz angesehen" im Vergleich zu V10 (40 %).
+20. **Technik: Erzählung immer in EINER TTS-Aufnahme.** Sätze aus verschiedenen Aufnahmen klingen wie verschiedene Personen (V14 v1: Hook 210–220 Hz, Rest 120–165 Hz). Neue Sätze = kompletten Text neu aufnehmen, nie Clips mischen.
