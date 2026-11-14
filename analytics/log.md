@@ -103,3 +103,4 @@
 13. **Hook-Regeln v2:** max. 3–4 Wörter im ersten Bild, Bewegungs-Ruck in Sekunde 0–1, erster Schnitt nach ~1 s, 8–10 s Länge, Schleife; Messgröße: % nach 2 s (Ziel > 55 %, besser 70 %).
 14. **Test V10 (Retention):** Karaoke-Untertitel (Wort leuchtet beim Sprechen), Zahlen-Ringe synchron zur Stimme, alle 1,5–2 s neuer Reiz, Antwort-Kästchen am Ende, nahtloser Loop (letztes Bild = erstes Bild). Vergleich mit V9: Ø Wiedergabe und „Ganz angesehen".
 15. **Technik:** Die TTS-Ausgabe hat manchmal ein lautes Knacken am Anfang/Ende (V9 betroffen, Ende). `voice.generate` entfernt das jetzt automatisch.
+16. **Neues Format (V11) nach Vorbild „gta6 DE"** (7,3k Likes, 1,1k Saves, 1,6k Shares): Erklärvideo zu einem Spielsystem mit echten Trailer-Szenen, dunklen Info-Karten (Symbol, Titel, Untertitel), Untertiteln und Auswahl-Karte am Ende. Viele Saves/Shares → Tipps zum Speichern („Speicher dir das für den 19."). Messen: Saves und Shares im Vergleich zu V9/V10.

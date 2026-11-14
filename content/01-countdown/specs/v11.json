@@ -1,0 +1,1122 @@
+{
+ "id": "V11",
+ "out": "exports/countdown/V11_polizei-merkt-sich-alles.mp4",
+ "duration": 16.51,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 1.456,
+ "flash_strength": 0,
+ "overlay_strength": 0.45,
+ "chrome_from": 0,
+ "badge": null,
+ "progress": false,
+ "cover_at": 0.5,
+ "pulses": [
+  [
+   11.19,
+   0.03
+  ],
+  [
+   12.56,
+   0.03
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 0.83,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Die",
+     -0.02
+    ],
+    [
+     "Polizei",
+     0.15
+    ],
+    [
+     "in",
+     0.67
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.83,
+   "end": 1.51,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "GTA",
+     0.0
+    ],
+    [
+     "6",
+     0.34
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 1.51,
+   "end": 2.71,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "merkt",
+     0.0
+    ],
+    [
+     "sich",
+     0.24
+    ],
+    [
+     "alles.",
+     0.56
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.72,
+   "end": 3.23,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Es",
+     0.0
+    ],
+    [
+     "gibt",
+     0.11
+    ],
+    [
+     "wieder",
+     0.28
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.23,
+   "end": 4.21,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "sechs",
+     0.0
+    ],
+    [
+     "Sterne.",
+     0.29
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.22,
+   "end": 4.63,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     0.0
+    ],
+    [
+     "ein",
+     0.13
+    ],
+    [
+     "neues",
+     0.19
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.63,
+   "end": 5.34,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "System",
+     0.0
+    ],
+    [
+     "zeigt",
+     0.44
+    ],
+    [
+     "dir,",
+     0.53
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.34,
+   "end": 5.75,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "was",
+     0.0
+    ],
+    [
+     "die",
+     0.13
+    ],
+    [
+     "Cops",
+     0.19
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.75,
+   "end": 6.68,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "über",
+     0.0
+    ],
+    [
+     "dich",
+     0.22
+    ],
+    [
+     "wissen:",
+     0.47
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 6.68,
+   "end": 7.37,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Dein",
+     -0.01
+    ],
+    [
+     "Gesicht.",
+     0.09
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 7.37,
+   "end": 8.18,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Deine",
+     0.0
+    ],
+    [
+     "Kleidung.",
+     0.21
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.18,
+   "end": 8.97,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Dein",
+     0.0
+    ],
+    [
+     "Auto.",
+     0.23
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.97,
+   "end": 9.41,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "und",
+     -0.02
+    ],
+    [
+     "dass",
+     0.18
+    ],
+    [
+     "ihr",
+     0.34
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 9.41,
+   "end": 10.17,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "zu",
+     0.0
+    ],
+    [
+     "zweit",
+     0.13
+    ],
+    [
+     "seid.",
+     0.37
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.18,
+   "end": 10.98,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Neues",
+     0.0
+    ],
+    [
+     "Auto?",
+     0.35
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.98,
+   "end": 11.63,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Symbol",
+     0.0
+    ],
+    [
+     "weg.",
+     0.17
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.64,
+   "end": 12.35,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Ihr",
+     0.0
+    ],
+    [
+     "trennt",
+     0.09
+    ],
+    [
+     "euch?",
+     0.35
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.36,
+   "end": 12.86,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Auch",
+     0.0
+    ],
+    [
+     "weg.",
+     0.16
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.87,
+   "end": 13.58,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Speicher",
+     0.0
+    ],
+    [
+     "dir",
+     0.4
+    ],
+    [
+     "das",
+     0.51
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.58,
+   "end": 14.61,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "für",
+     0.0
+    ],
+    [
+     "den",
+     0.08
+    ],
+    [
+     "19.",
+     0.16
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.62,
+   "end": 15.3,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Trennen",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.3,
+   "end": 15.82,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "oder",
+     -0.01
+    ],
+    [
+     "zusammen",
+     0.16
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.82,
+   "end": 16.51,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "fliehen?",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 2.71,
+   "text": "",
+   "anim": "punch",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "badge",
+    "icon_at": 0,
+    "title": "Die Polizei merkt\nsich ALLES",
+    "title_size": 74,
+    "border": "red"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.71,
+   "end": 4.21,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "stars",
+    "title": "6 Sterne sind zurück",
+    "subtitle": "GTA 5 hatte nur 5",
+    "at": 0.5,
+    "step": 0.06,
+    "border": "red"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.21,
+   "end": 6.68,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "eye",
+    "icon_at": 0.12,
+    "title": "Neues System",
+    "subtitle": "zeigt, was die Polizei\nüber dich weiß",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.71,
+   "end": 6.68,
+   "text": "laut Rockstar-Gameplay & Previews",
+   "style": "note",
+   "size": 36,
+   "y": 0.495,
+   "anim": "fade",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 6.68,
+   "end": 12.86,
+   "text": "",
+   "anim": "card",
+   "y": 0.33,
+   "card": {
+    "type": "grid",
+    "title": "Das weiß die Polizei:",
+    "tiles": [
+     {
+      "icon": "face",
+      "label": "Gesicht",
+      "at": 0.09,
+      "strike": -1
+     },
+     {
+      "icon": "shirt",
+      "label": "Kleidung",
+      "at": 0.9,
+      "strike": -1
+     },
+     {
+      "icon": "car",
+      "label": "Auto",
+      "at": 1.73,
+      "strike": 4.51
+     },
+     {
+      "icon": "duo",
+      "label": "Zu zweit",
+      "at": 2.73,
+      "strike": 5.88
+     }
+    ],
+    "border": "red"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.86,
+   "end": 14.61,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "bookmark",
+    "icon_at": 0.1,
+    "title": "Speicher dir das!",
+    "subtitle": "für den 19.11.",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.61,
+   "end": 16.51,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "choice",
+    "question": "Was machst du?",
+    "qcolor": "green",
+    "border": "white",
+    "q_at": 1.21,
+    "options": [
+     {
+      "label": "Trennen",
+      "color": "green",
+      "at": 0.06
+     },
+     {
+      "label": "Zusammen",
+      "color": "red",
+      "at": 0.85
+     }
+    ]
+   },
+   "exit": "cut",
+   "x": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 2.63,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 3.21,
+   "type": "tick",
+   "gain": 0.7
+  },
+  {
+   "t": 3.27,
+   "type": "tick",
+   "gain": 0.7
+  },
+  {
+   "t": 3.33,
+   "type": "tick",
+   "gain": 0.7
+  },
+  {
+   "t": 3.39,
+   "type": "tick",
+   "gain": 0.7
+  },
+  {
+   "t": 3.45,
+   "type": "tick",
+   "gain": 0.7
+  },
+  {
+   "t": 3.51,
+   "type": "tick",
+   "gain": 0.7
+  },
+  {
+   "t": 4.13,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 6.6,
+   "type": "whoosh",
+   "gain": 0.8
+  },
+  {
+   "t": 6.77,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 7.58,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 8.41,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 9.41,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 11.19,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 12.56,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 12.78,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 14.53,
+   "type": "whoosh",
+   "gain": 0.7
+  },
+  {
+   "t": 14.67,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 15.46,
+   "type": "pop",
+   "gain": 0.7
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.0,
+   "wav": "content/01-countdown/voice/v11/fenrir_1.wav"
+  },
+  {
+   "t": 2.71,
+   "wav": "content/01-countdown/voice/v11/fenrir_2.wav"
+  },
+  {
+   "t": 4.21,
+   "wav": "content/01-countdown/voice/v11/fenrir_3.wav"
+  },
+  {
+   "t": 6.68,
+   "wav": "content/01-countdown/voice/v11/fenrir_4.wav"
+  },
+  {
+   "t": 7.37,
+   "wav": "content/01-countdown/voice/v11/fenrir_5.wav"
+  },
+  {
+   "t": 8.18,
+   "wav": "content/01-countdown/voice/v11/fenrir_6.wav"
+  },
+  {
+   "t": 8.97,
+   "wav": "content/01-countdown/voice/v11/fenrir_7.wav"
+  },
+  {
+   "t": 10.17,
+   "wav": "content/01-countdown/voice/v11/fenrir_8.wav"
+  },
+  {
+   "t": 10.98,
+   "wav": "content/01-countdown/voice/v11/fenrir_9.wav"
+  },
+  {
+   "t": 11.63,
+   "wav": "content/01-countdown/voice/v11/fenrir_10.wav"
+  },
+  {
+   "t": 12.35,
+   "wav": "content/01-countdown/voice/v11/fenrir_11.wav"
+  },
+  {
+   "t": 12.86,
+   "wav": "content/01-countdown/voice/v11/fenrir_12.wav"
+  },
+  {
+   "t": 14.61,
+   "wav": "content/01-countdown/voice/v11/fenrir_13.wav"
+  },
+  {
+   "t": 15.3,
+   "wav": "content/01-countdown/voice/v11/fenrir_14.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 63.62,
+   "start": 0.0,
+   "end": 0.83,
+   "cam": {
+    "y": 0.36,
+    "h": 0.68,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 65.68,
+   "start": 0.83,
+   "end": 1.51,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.04,
+     1.0
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 66.72,
+   "start": 1.51,
+   "end": 2.71,
+   "cam": {
+    "y": 0.36,
+    "h": 0.68,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.75
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 47.62,
+   "start": 2.71,
+   "end": 4.21,
+   "cam": {
+    "x": 0.62,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.7
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 68.72,
+   "start": 4.21,
+   "end": 5.53,
+   "cam": {
+    "x": 0.47,
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 64.6,
+   "start": 5.53,
+   "end": 6.68,
+   "cam": {
+    "x": 0.8,
+    "y": 0.36,
+    "h": 0.68,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.88
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.55,
+   "start": 6.68,
+   "end": 8.18,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.65,
+   "start": 8.18,
+   "end": 8.97,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 8.97,
+   "end": 10.17,
+   "cam": {
+    "x": 0.47,
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 70.32,
+   "start": 10.17,
+   "end": 11.63,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 49.12,
+   "start": 11.63,
+   "end": 12.86,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 12.86,
+   "end": 14.61,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 61.75,
+   "start": 14.61,
+   "end": 15.3,
+   "cam": {
+    "x": 0.58,
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 62.57,
+   "start": 15.3,
+   "end": 16.51,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.8
+   },
+   "flash": false,
+   "fade": 0
+  }
+ ]
+}

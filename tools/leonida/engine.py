@@ -48,6 +48,7 @@ STYLES = {
     "small": dict(font="BebasNeue-Regular.ttf", size=72, stroke=6, color=WHITE),
     "label": dict(font="BebasNeue-Regular.ttf", size=70, stroke=0, color=WHITE, pill=PINK),
     "stamp": dict(font="Anton-Regular.ttf", size=150, stroke=10, color=WHITE),
+    "note": dict(font="Poppins-SemiBold.ttf", size=38, stroke=5, color=WHITE),
     # Suchleiste (generisch, keine Marke): weiße Pille, dunkler Text, Lupe links
     "search": dict(font="Inter-SemiBold.otf", size=56, stroke=0, color=(32, 33, 36), pill=WHITE,
                    icon="search", min_width=880, align="left"),
@@ -180,13 +181,13 @@ def render_card(path: str, width: int = 620) -> Image.Image:
 
 
 def render_karaoke(words: list[str], shown: int, active: int, size: int = 104,
-                   max_width: int = SAFE_RIGHT - SAFE_LEFT) -> Image.Image:
+                   max_width: int = SAFE_RIGHT - SAFE_LEFT, font_name: str = "Anton-Regular.ttf",
+                   hl=YELLOW, stroke: int = 9) -> Image.Image:
     """Untertitel im Karaoke-Stil: der ganze Block steht, das gerade gesprochene Wort ist gelb
     und etwas größer. Jedes Wort hat einen festen Platz (Breite der großen Variante) -> nichts
     springt, nichts überlappt. shown < len(words) blendet spätere Wörter aus (optional)."""
-    f = font("Anton-Regular.ttf", size)
-    fa = font("Anton-Regular.ttf", int(size * 1.12))
-    stroke = 9
+    f = font(font_name, size)
+    fa = font(font_name, int(size * 1.12))
     space = f.getlength(" ") * 1.1
     slot = [fa.getlength(w) for w in words]
     lines, line = [], []
@@ -212,7 +213,7 @@ def render_karaoke(words: list[str], shown: int, active: int, size: int = 104,
         x = (img_w - lw) / 2
         for i in ln:
             if i < shown:
-                ff, col, yy = (fa, YELLOW, y - (asc_a - asc)) if i == active else (f, WHITE, y)
+                ff, col, yy = (fa, hl, y - (asc_a - asc)) if i == active else (f, WHITE, y)
                 pos = (x + (slot[i] - ff.getlength(words[i])) / 2, yy)
                 sd.text((pos[0] + 6, pos[1] + 8), words[i], font=ff, fill=(0, 0, 0, 170),
                         stroke_width=stroke, stroke_fill=(0, 0, 0, 170))
@@ -372,6 +373,10 @@ class Beat:
     ring_r: int = 230                # Wertungs-Ring: Radius in px
     enter: str = ""                  # Eingangs-Animation überschreiben (z. B. "punch" für einen Ring)
     strike_at: float = -1            # roter Durchstreich-Strich ab dieser Zeit (relativ), -1 = aus
+    card: dict | None = None         # Info-Karte (siehe cards.py)
+    kfont: str = "Anton-Regular.ttf" # Karaoke-Schrift
+    khl: str = "yellow"              # Karaoke-Farbe des aktiven Worts
+    kstroke: int = 9                 # Karaoke-Kontur
 
     def count_p(self, lt: float) -> float:
         cd = self.count_dur if self.count_dur else min(1.6, self.end - self.t - 0.3)
@@ -404,6 +409,11 @@ class Renderer:
                     from .drive import NeonDrive
                     drive_cache[key] = NeonDrive(W, H, bpm=key[0], car=key[1])
                 bg = drive_cache[key]
+            elif sc["image"].startswith("clip:"):
+                # echte Videoszene aus einem offiziellen Trailer
+                from .clip import VideoClip
+                bg = VideoClip(sc["image"][5:], W, H, ss=sc.get("ss", 0.0), dur=sc["end"] - sc["start"],
+                               cam=sc.get("cam"))
             elif sc["image"].startswith("drone:"):
                 # Drohnen-Kamera ohne Verzerrung (Homographie: drehen/neigen/rollen + Vorwärtszoom)
                 from .drone import DroneShot
@@ -436,7 +446,16 @@ class Renderer:
         active = max(sum(1 for _, wt in ws if wt <= lt + 1e-6) - 1, 0)
         key = (id(beat), "k", active)
         if key not in self.cache:
-            self.cache[key] = render_karaoke([w for w, _ in ws], len(ws), active, size=beat.size or 104)
+            self.cache[key] = render_karaoke([w for w, _ in ws], len(ws), active, size=beat.size or 104,
+                                             font_name=beat.kfont, hl=COLORS.get(beat.khl, beat.khl),
+                                             stroke=beat.kstroke)
+        return self.cache[key]
+
+    def _card_img(self, beat: Beat, lt: float) -> Image.Image:
+        from . import cards
+        key = (id(beat), "c", cards.state_key(beat.card, lt))
+        if key not in self.cache:
+            self.cache[key] = cards.render(beat.card, lt)
         return self.cache[key]
 
     def _ring_img(self, beat: Beat, lt: float) -> Image.Image:
@@ -483,6 +502,9 @@ class Renderer:
         if anim in ("pop", "count", "ring"):
             scale = 0.55 + 0.45 * ease_out_back(lt / 0.28)
             alpha = min(1, lt / 0.08)
+        elif anim == "card":                            # Karte springt weich auf
+            scale = 0.86 + 0.14 * ease_out_back(lt / 0.26)
+            alpha = min(1, lt / 0.1)
         elif anim == "karaoke":                         # kurzer Plopp, wenn ein neuer Untertitel kommt
             scale = 0.82 + 0.18 * ease_out_back(lt / 0.16)
             alpha = min(1, lt / 0.05)
@@ -590,6 +612,9 @@ class Renderer:
                     continue
                 if b.anim == "ring":
                     self._place(canvas, self._ring_img(b, lt), b, lt, b.end - b.t)
+                    continue
+                if b.card:
+                    self._place(canvas, self._card_img(b, lt), b, lt, b.end - b.t)
                     continue
                 txt = b.text_at(lt)
                 if txt or b.image:

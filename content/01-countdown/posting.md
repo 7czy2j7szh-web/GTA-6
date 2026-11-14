@@ -217,3 +217,24 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Am 18.11.:** Ergebnis-Video „GTA 6 hat eine …" (Antwort auf die Kommentare)
 - Quellen: gamespot.com, insider-gaming.com, statista.com (Metacritic-Bestenlisten)
 
+---
+
+## Erklärvideo (neues Format) · `V11_polizei-merkt-sich-alles.mp4` (16,5 s, Stimme Fenrir)
+- **Format nach Vorbild „gta6 DE":**
+  - echte Szenen aus den offiziellen Trailern (von Rockstars Medienseite)
+  - dunkle Info-Karten mit farbigem Rahmen und Symbol
+  - Untertitel in Poppins, das gesprochene Wort leuchtet grün
+  - Auswahl-Karte am Ende
+- **Thema:** neues Fahndungssystem.
+  - Bestätigt bzw. aus Rockstars Gameplay-Video und Previews berichtet: 6 Sterne sind zurück; die Polizei merkt sich Gesicht, Kleidung, Auto und ob Jason & Lucia zusammen sind.
+  - Laut Berichten: Ein Autowechsel löscht das Auto-Symbol, Trennen löscht das Duo-Symbol.
+  - Im Video als „laut Rockstar-Gameplay & Previews" gekennzeichnet.
+- **Caption:**
+  ```
+  Die Polizei in GTA 6 vergisst NICHTS 🚔 Das musst du vor dem 19.11. wissen
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #gta6gameplay #gta6news #gaming`
+- **Anpinnen:** `Trennen oder zusammen fliehen? 👇`
+- **Beste Zeit:** morgen (So) 12–13 Uhr oder 18–19 Uhr (heute läuft V10)
+- Quellen: gamesradar.com, wikigtavi.com, grandtheft.gg
+
