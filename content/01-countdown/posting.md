@@ -260,3 +260,22 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Zeit:** heute, solange V10 noch läuft (V11 dann morgen)
 - Quellen: gamesradar.com, nintendolife.com (Elden Ring 96, Zelda TotK 96), siehe V10 für GTA/RDR2
 
+---
+
+## News-Video · `V13_frei-fuer-gta6.mp4` (21 s, Stimme Fenrir, Erklär-Format)
+- **Thema:**
+  - Logitech gibt rund 7.000 Mitarbeitern einen bezahlten Gaming-Tag zum Release („Logi Game Day", gilt für jedes Spiel).
+  - Pocketpair (Palworld) gibt 5 Tage frei (19.–23.11.).
+  - Eine US-Armee-Einheit (9th BEB, Fort Stewart) gibt Soldaten 4 Tage frei, wenn sie sich weiter verpflichten.
+  - Laut BambooHR gibt es 9–17 % mehr Urlaubsanträge für den 19.11. (USA); im Video: „bis zu 17 %".
+  - Umfrage: 50 % der Gamer, die frei wollen, melden sich krank.
+- **Neu:** Zahlen-Karten mit „?", das beim gesprochenen Wort zur Zahl hochzählt.
+- **Caption:**
+  ```
+  7.000 Leute bekommen frei für GTA 6 😳 Und du – Urlaub, krank oder arbeiten?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #gaming #urlaub #ps5`
+- **Anpinnen:** `Urlaub, krank oder arbeiten? Ein Wort 👇`
+- **Zeit:** So 18–19 Uhr (mittags V11)
+- Quellen: fortune.com, yahoo.com (Logitech), pushsquare.com (Pocketpair), stripes.com / washingtonexaminer.com (Fort Stewart), bamboohr.com, money.com
+

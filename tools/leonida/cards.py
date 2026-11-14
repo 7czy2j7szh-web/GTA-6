@@ -112,6 +112,33 @@ def icon(name: str, size: int, color=WHITE) -> Image.Image:
         bot = [(x, s - y) for x, y in top[::-1]]
         d.line(top + bot + [top[0]], fill=c, width=lw, joint="curve")
         d.ellipse([s * 0.36, s * 0.36, s * 0.64, s * 0.64], fill=c)
+    elif name == "calendar":
+        lw = max(int(s * 0.07), 2)
+        d.rounded_rectangle([s * 0.14, s * 0.20, s * 0.86, s * 0.86], radius=s * 0.08, outline=c, width=lw)
+        d.rectangle([s * 0.14, s * 0.20, s * 0.86, s * 0.36], fill=c)
+        for rx in (0.32, 0.68):
+            d.rounded_rectangle([s * rx - s * 0.04, s * 0.10, s * rx + s * 0.04, s * 0.28], radius=s * 0.03, fill=c)
+        d.line([s * 0.33, s * 0.62, s * 0.46, s * 0.74, s * 0.68, s * 0.48], fill=c, width=lw, joint="curve")
+    elif name == "gamepad":
+        d.rounded_rectangle([s * 0.08, s * 0.30, s * 0.92, s * 0.72], radius=s * 0.20, fill=c)
+        for gx in (0.24, 0.76):
+            d.ellipse([s * gx - s * 0.11, s * 0.52, s * gx + s * 0.11, s * 0.84], fill=c)
+        k = PANEL + (255,)
+        d.rectangle([s * 0.23, s * 0.43, s * 0.35, s * 0.47], fill=k)
+        d.rectangle([s * 0.27, s * 0.39, s * 0.31, s * 0.51], fill=k)
+        for bx, by in ((0.68, 0.40), (0.76, 0.48), (0.60, 0.48), (0.68, 0.56)):
+            d.ellipse([s * bx - s * 0.035, s * by - s * 0.035, s * bx + s * 0.035, s * by + s * 0.035], fill=k)
+    elif name == "thermo":
+        lw = max(int(s * 0.07), 2)
+        d.rounded_rectangle([s * 0.40, s * 0.10, s * 0.60, s * 0.66], radius=s * 0.10, outline=c, width=lw)
+        d.ellipse([s * 0.30, s * 0.58, s * 0.70, s * 0.94], fill=c)
+        d.rectangle([s * 0.46, s * 0.36, s * 0.54, s * 0.66], fill=c)
+        for ty in (0.22, 0.32, 0.42):
+            d.line([s * 0.62, s * ty, s * 0.74, s * ty], fill=c, width=max(int(s * 0.04), 2))
+    elif name == "army":                                    # Dienstgrad-Winkel
+        lw = int(s * 0.12)
+        for k2, y0 in enumerate((0.22, 0.44, 0.66)):
+            d.line([s * 0.16, s * y0, s * 0.5, s * (y0 + 0.18), s * 0.84, s * y0], fill=c, width=lw, joint="curve")
     elif name == "bookmark":
         d.polygon([(s * 0.28, s * 0.12), (s * 0.72, s * 0.12), (s * 0.72, s * 0.88), (s * 0.5, s * 0.68),
                    (s * 0.28, s * 0.88)], fill=c)
@@ -337,7 +364,40 @@ def _choice(c: dict, lt: float) -> Image.Image:
     return im
 
 
-RENDER = {"info": _info, "stars": _stars, "grid": _grid, "choice": _choice}
+def _stat(c: dict, lt: float) -> Image.Image:
+    """Große Zahl, die hochzählt (z. B. 0 -> 7.000), darunter ein Untertitel."""
+    W = int(c.get("width", 800)) * SS
+    nf = font(c.get("num_font", "Poppins-Black.ttf"), int(c.get("num_size", 128)) * SS)
+    sf = font("Poppins-SemiBold.ttf", int(c.get("sub_size", 46)) * SS)
+    ic = c.get("icon")
+    ring = 120 * SS if ic else 0
+    sub_lines = c.get("subtitle", "").split("\n") if c.get("subtitle") else []
+    nh, sh = int(nf.size * 1.12), int(sf.size * 1.25)
+    H = 40 * SS + (ring + 12 * SS if ic else 0) + nh + sh * len(sub_lines) + 40 * SS
+    im = _panel(W, H, c.get("border", "green"))
+    pad = 40 * SS
+    d = ImageDraw.Draw(im)
+    y = pad + 40 * SS
+    if ic:
+        s_, a_ = _pop(lt, c.get("icon_at", 0.08))
+        _paste_scaled(im, icon_ring(ic, 120, c.get("border", "green")), pad + W / 2, y + ring / 2, s_, a_)
+        y += ring + 12 * SS
+    v0, v1 = c.get("from", 0), c.get("to", 0)
+    p = ease_out_cubic((lt - c.get("at", 0.0)) / max(c.get("dur", 1.0), 0.05)) if lt >= c.get("at", 0.0) else 0.0
+    v = v0 + (v1 - v0) * p
+    num = c.get("fmt", "{:,.0f}").format(v).replace(",", ".")
+    if c.get("hide") and lt < c.get("at", 0.0):        # vor dem Zählen: Fragezeichen (Spannung)
+        num = "?"
+    _text(d, (pad + W / 2, y + nh / 2), c.get("prefix", "") + num + c.get("suffix", ""), nf,
+          col(c.get("num_color", "white")))
+    y += nh
+    for ln in sub_lines:
+        _text(d, (pad + W / 2, y + sh / 2), ln, sf, (232, 232, 238))
+        y += sh
+    return im
+
+
+RENDER = {"stat": _stat, "info": _info, "stars": _stars, "grid": _grid, "choice": _choice}
 
 
 def state_key(c: dict, lt: float) -> tuple:
@@ -351,7 +411,12 @@ def state_key(c: dict, lt: float) -> tuple:
         ts = [t.get("at", 0.1) for t in c["tiles"]]
     elif c["type"] == "choice":
         ts = [o.get("at", 0.1) for o in c["options"]] + [c.get("q_at", 0.2)]
+    elif c["type"] == "stat":
+        ts = [c.get("icon_at", 0.08)] if c.get("icon") else []
     k = [(-1 if lt < t else _q((lt - t) / 0.24)) for t in ts]
+    if c["type"] == "stat":                            # Zählerstand gehört zum Zustand
+        at, du = c.get("at", 0.0), max(c.get("dur", 1.0), 0.05)
+        k.append(-1 if lt < at else int(min((lt - at) / du, 1.0) * 60))
     strikes = [t.get("strike", -1) for t in c.get("tiles", [])] + [o.get("strike", -1) for o in c.get("options", [])]
     k += [(-1 if s < 0 or lt < s else _q((lt - s) / 0.16, 8)) for s in strikes]
     return tuple(k)

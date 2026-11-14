@@ -1,0 +1,1258 @@
+{
+ "id": "V13",
+ "out": "exports/countdown/V13_frei-fuer-gta6.mp4",
+ "duration": 21.32,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 28.846,
+ "flash_strength": 0,
+ "overlay_strength": 0.45,
+ "chrome_from": 0,
+ "badge": null,
+ "progress": false,
+ "cover_at": 0.5,
+ "pulses": [
+  [
+   13.39,
+   0.04
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 0.56,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Diese",
+     0.0
+    ],
+    [
+     "Firma",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.56,
+   "end": 1.45,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "gibt",
+     0.0
+    ],
+    [
+     "7.000",
+     0.23
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 1.45,
+   "end": 2.14,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Leuten",
+     0.0
+    ],
+    [
+     "frei.",
+     0.31
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.14,
+   "end": 3.47,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Zum",
+     0.0
+    ],
+    [
+     "GTA-6-Release.",
+     0.21
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.47,
+   "end": 4.02,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Logitech.",
+     -0.02
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.02,
+   "end": 5.01,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Ein",
+     -0.02
+    ],
+    [
+     "bezahlter",
+     0.09
+    ],
+    [
+     "Tag,",
+     0.51
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.01,
+   "end": 5.94,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "nur",
+     0.0
+    ],
+    [
+     "zum",
+     0.26
+    ],
+    [
+     "Zocken.",
+     0.46
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.94,
+   "end": 6.78,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Die",
+     -0.02
+    ],
+    [
+     "Palworld-Macher",
+     0.14
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 6.78,
+   "end": 7.26,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "geben",
+     0.0
+    ],
+    [
+     "sogar",
+     0.28
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 7.26,
+   "end": 8.22,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "fünf",
+     0.0
+    ],
+    [
+     "Tage",
+     0.37
+    ],
+    [
+     "frei.",
+     0.57
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.22,
+   "end": 8.63,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     -0.02
+    ],
+    [
+     "eine",
+     0.11
+    ],
+    [
+     "Einheit",
+     0.21
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.63,
+   "end": 9.74,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "der",
+     0.0
+    ],
+    [
+     "US-Armee?",
+     0.08
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 9.74,
+   "end": 10.18,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Vier",
+     0.0
+    ],
+    [
+     "Tage,",
+     0.2
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.18,
+   "end": 10.89,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "wenn",
+     0.0
+    ],
+    [
+     "Soldaten",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.89,
+   "end": 11.2,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "sich",
+     0.0
+    ],
+    [
+     "weiter",
+     0.17
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.2,
+   "end": 11.83,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "verpflichten.",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.84,
+   "end": 12.77,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "In",
+     0.0
+    ],
+    [
+     "den",
+     0.09
+    ],
+    [
+     "USA",
+     0.21
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.77,
+   "end": 13.35,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "gibt",
+     0.0
+    ],
+    [
+     "es",
+     0.14
+    ],
+    [
+     "bis",
+     0.27
+    ],
+    [
+     "zu",
+     0.47
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.35,
+   "end": 14.19,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "17",
+     0.0
+    ],
+    [
+     "Prozent",
+     0.39
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.19,
+   "end": 14.53,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "mehr",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.53,
+   "end": 14.91,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Urlaubsanträge",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.91,
+   "end": 15.75,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "für",
+     0.0
+    ],
+    [
+     "den",
+     0.18
+    ],
+    [
+     "19.",
+     0.28
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.75,
+   "end": 16.53,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     -0.02
+    ],
+    [
+     "laut",
+     0.12
+    ],
+    [
+     "Umfrage",
+     0.36
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 16.53,
+   "end": 17.02,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "meldet",
+     0.0
+    ],
+    [
+     "sich",
+     0.31
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.02,
+   "end": 17.52,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "jeder",
+     0.0
+    ],
+    [
+     "Zweite",
+     0.19
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.52,
+   "end": 18.32,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "einfach",
+     0.0
+    ],
+    [
+     "krank.",
+     0.22
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.32,
+   "end": 18.74,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     -0.02
+    ],
+    [
+     "du?",
+     0.1
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.74,
+   "end": 19.14,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Urlaub,",
+     -0.02
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.14,
+   "end": 19.55,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "krankmelden",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.55,
+   "end": 19.97,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "oder",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.97,
+   "end": 20.38,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "ganz",
+     0.0
+    ],
+    [
+     "normal",
+     0.15
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 20.38,
+   "end": 21.32,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "arbeiten?",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 3.47,
+   "text": "",
+   "anim": "punch",
+   "y": 0.31,
+   "card": {
+    "type": "stat",
+    "icon": "calendar",
+    "icon_at": 0,
+    "from": 7000,
+    "to": 7000,
+    "subtitle": "Leute bekommen frei\nzum GTA-6-Release",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.47,
+   "end": 5.94,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "info",
+    "icon": "gamepad",
+    "icon_at": 0.08,
+    "title": "Logitech",
+    "subtitle": "1 bezahlter Gaming-Tag\nfür alle 7.000",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.32,
+   "end": 5.94,
+   "text": "„Logi Game Day“ – gilt für jedes Spiel",
+   "style": "note",
+   "size": 36,
+   "y": 0.49,
+   "anim": "fade",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.94,
+   "end": 8.22,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "stat",
+    "icon": "calendar",
+    "icon_at": 0.08,
+    "from": 0,
+    "to": 5,
+    "hide": true,
+    "at": 1.3,
+    "dur": 0.35,
+    "suffix": " Tage",
+    "subtitle": "Pocketpair (Palworld)\n19.–23. November",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.22,
+   "end": 11.83,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "stat",
+    "icon": "army",
+    "icon_at": 0.08,
+    "from": 0,
+    "to": 4,
+    "hide": true,
+    "at": 1.5,
+    "dur": 0.35,
+    "suffix": " Tage",
+    "subtitle": "US-Armee-Einheit\nfürs Weiterverpflichten",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.83,
+   "end": 15.75,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "stat",
+    "from": 0,
+    "to": 17,
+    "hide": true,
+    "at": 1.5,
+    "dur": 0.4,
+    "prefix": "+",
+    "suffix": " %",
+    "num_color": "green",
+    "subtitle": "mehr Urlaubsanträge\nam 19.11. (USA)",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.23,
+   "end": 15.75,
+   "text": "Daten: BambooHR",
+   "style": "note",
+   "size": 36,
+   "y": 0.445,
+   "anim": "fade",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.75,
+   "end": 18.32,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "info",
+    "icon": "thermo",
+    "icon_at": 0.08,
+    "title": "Jeder Zweite",
+    "subtitle": "meldet sich krank\n(Umfrage, USA)",
+    "border": "red"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.32,
+   "end": 21.32,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "choice",
+    "question": "Was machst du am 19.?",
+    "qcolor": "green",
+    "border": "white",
+    "q_at": 0.05,
+    "label_size": 42,
+    "q_size": 58,
+    "options": [
+     {
+      "label": "Urlaub",
+      "color": "green",
+      "at": 0.4
+     },
+     {
+      "label": "Krank",
+      "color": "red",
+      "at": 0.82
+     },
+     {
+      "label": "Arbeiten",
+      "color": "yellow",
+      "at": 2.06
+     }
+    ]
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.82,
+   "end": 21.32,
+   "text": "Folg für den Countdown bis zum 19.",
+   "style": "note",
+   "size": 38,
+   "y": 0.47,
+   "anim": "fade",
+   "exit": "cut",
+   "x": 0.47
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 3.41,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 5.88,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 7.24,
+   "type": "riser",
+   "len": 0.35,
+   "gain": 0.5
+  },
+  {
+   "t": 7.59,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 8.16,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 9.72,
+   "type": "riser",
+   "len": 0.35,
+   "gain": 0.5
+  },
+  {
+   "t": 10.07,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 11.77,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 13.33,
+   "type": "riser",
+   "len": 0.4,
+   "gain": 0.5
+  },
+  {
+   "t": 13.73,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 15.69,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 15.75,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 18.26,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 18.72,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 19.14,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 20.38,
+   "type": "pop",
+   "gain": 0.7
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.0,
+   "wav": "content/01-countdown/voice/v13/fenrir_1.wav"
+  },
+  {
+   "t": 2.14,
+   "wav": "content/01-countdown/voice/v13/fenrir_2.wav"
+  },
+  {
+   "t": 3.47,
+   "wav": "content/01-countdown/voice/v13/fenrir_3.wav"
+  },
+  {
+   "t": 4.02,
+   "wav": "content/01-countdown/voice/v13/fenrir_4.wav"
+  },
+  {
+   "t": 5.94,
+   "wav": "content/01-countdown/voice/v13/fenrir_5.wav"
+  },
+  {
+   "t": 8.22,
+   "wav": "content/01-countdown/voice/v13/fenrir_6.wav"
+  },
+  {
+   "t": 9.74,
+   "wav": "content/01-countdown/voice/v13/fenrir_7.wav"
+  },
+  {
+   "t": 11.83,
+   "wav": "content/01-countdown/voice/v13/fenrir_8.wav"
+  },
+  {
+   "t": 15.75,
+   "wav": "content/01-countdown/voice/v13/fenrir_9.wav"
+  },
+  {
+   "t": 18.32,
+   "wav": "content/01-countdown/voice/v13/fenrir_10.wav"
+  },
+  {
+   "t": 18.74,
+   "wav": "content/01-countdown/voice/v13/fenrir_11.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.75,
+   "start": 0.0,
+   "end": 2.14,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.7
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.4,
+   "start": 2.14,
+   "end": 4.02,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 58.52,
+   "start": 4.02,
+   "end": 5.94,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.69
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
+   "start": 5.94,
+   "end": 8.22,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.78
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 72.8,
+   "start": 8.22,
+   "end": 9.74,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.62
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.86,
+   "start": 9.74,
+   "end": 11.83,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.87
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.47,
+   "start": 11.83,
+   "end": 14.19,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.95
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 39.83,
+   "start": 14.19,
+   "end": 15.75,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.95
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 73.3,
+   "start": 15.75,
+   "end": 18.32,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 81.45,
+   "start": 18.32,
+   "end": 19.55,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 83.15,
+   "start": 19.55,
+   "end": 21.32,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  }
+ ]
+}
