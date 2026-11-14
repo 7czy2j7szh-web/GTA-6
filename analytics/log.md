@@ -85,6 +85,18 @@
 
 ---
 
+## V10 „Bekommt GTA 6 eine 100?" (gepostet 14.11., 14:38, 12 s) – Stand 16:00 (nach ~1 h 20 min)
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 2.462 | 51 | **16** | 0 | 1 | **9,0 s (74 %)** | **37,1 %** | 1 |
+
+- **Durchbruch über die 1.000er-Grenze** schon nach 80 Minuten, Kurve steigt steil (Hauptwelle läuft noch).
+- „Ganz angesehen" fast verdreifacht (V8: 13,3 % → V10: 37,1 %) → Regel 14 bestätigt: Karaoke-Untertitel, hochzählende Ringe, alle 1,5–2 s neuer Reiz, nahtloser Loop.
+- Rekord bei Kommentaren (16): Zahl tippen (97/98/99/100) ist eine noch leichtere Antwort als Entweder-oder.
+- Schwach: Shares (0), Saves (1), Follower (1) → Grund zum Folgen fehlt im Video. Lösung: Ergebnis-Video am 18.11. ankündigen (angepinnter Kommentar), V11 zielt auf Saves.
+
+---
+
 ## Erkenntnisse → neue Regeln (ab 09.11.)
 1. **Pointe ins erste Bild**, max. 2–4 Wörter, riesig. Kein Satz, der erst nach 1 s aufgelöst wird.
 2. **Helles Bild mit Bewegung ab Frame 0** (schneller Zoom), keine dunklen Standbilder zum Start.
@@ -104,3 +116,5 @@
 14. **Test V10 (Retention):** Karaoke-Untertitel (Wort leuchtet beim Sprechen), Zahlen-Ringe synchron zur Stimme, alle 1,5–2 s neuer Reiz, Antwort-Kästchen am Ende, nahtloser Loop (letztes Bild = erstes Bild). Vergleich mit V9: Ø Wiedergabe und „Ganz angesehen".
 15. **Technik:** Die TTS-Ausgabe hat manchmal ein lautes Knacken am Anfang/Ende (V9 betroffen, Ende). `voice.generate` entfernt das jetzt automatisch.
 16. **Neues Format (V11) nach Vorbild „gta6 DE"** (7,3k Likes, 1,1k Saves, 1,6k Shares): Erklärvideo zu einem Spielsystem mit echten Trailer-Szenen, dunklen Info-Karten (Symbol, Titel, Untertitel), Untertiteln und Auswahl-Karte am Ende. Viele Saves/Shares → Tipps zum Speichern („Speicher dir das für den 19."). Messen: Saves und Shares im Vergleich zu V9/V10.
+17. **Bestätigt (V10):** Retention-Baukasten ist der Standard für alle Videos: Karaoke-Untertitel, Zahlen/Grafiken synchron zur Stimme, Schnitt alle 1,5–2 s, Ende führt zum Anfang, Antwort mit einer Zahl oder einem Wort.
+18. **Follower-Hebel:** Jede Frage bekommt eine Fortsetzung („Ergebnis am …"), angekündigt im angepinnten Kommentar und am Videoende.
