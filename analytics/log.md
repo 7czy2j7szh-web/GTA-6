@@ -67,6 +67,15 @@
 - Traffic: 98,2 % „Für dich", 0,9 % Profil, 0,6 % Suche.
 - **Diagnose:** Engpass ist ausschließlich der Einstieg (Text-lastiger erster Frame, keine Stimme, bekannte Bilder).
 
+## V8 „PS5 oder Xbox?" (mit Stimme, gepostet 14.11., 00:53, 13 s) – Stand nach ~9 h
+| Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
+|---|---|---|---|---|---|---|---|
+| 794 | 21 | **12** | 0 | 2 | 6,0 s (46 %) | 13,3 % | 0 |
+
+- **Rekord bei Kommentaren (12)** → Konsolen-Duell-Frage („Team PS5 oder Team Xbox?") funktioniert (Regel 12 bestätigt).
+- Trotz Posting um 00:53: Hauptwelle in Stunde 2–5 (~180–290 Views/h), danach Stillstand; morgens leichter Anstieg (32 in Stunde 10).
+- Like-Rate niedrig (2,6 %), 0 Shares.
+
 ---
 
 ## Erkenntnisse → neue Regeln (ab 09.11.)
