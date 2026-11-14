@@ -1,0 +1,1145 @@
+{
+ "id": "V12",
+ "out": "exports/countdown/V12_antwort-robin.mp4",
+ "duration": 17.6,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 2.276,
+ "flash_strength": 0,
+ "overlay_strength": 0.55,
+ "chrome_from": 0,
+ "badge": null,
+ "progress": false,
+ "cover_at": 0.6,
+ "pulses": [
+  [
+   1.8,
+   0.05
+  ],
+  [
+   5.86,
+   0.06
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 0.83,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "ROBIN",
+     -0.01
+    ],
+    [
+     "SAGT:",
+     0.34
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 0.83,
+   "end": 1.45,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "EINE",
+     -0.02
+    ],
+    [
+     "100",
+     0.31
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 1.45,
+   "end": 2.0,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "SCHAFFT",
+     0.0
+    ],
+    [
+     "NIE",
+     0.35
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 2.0,
+   "end": 2.7,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "EIN",
+     0.0
+    ],
+    [
+     "SPIEL.",
+     0.17
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 2.7,
+   "end": 3.78,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "ER",
+     -0.01
+    ],
+    [
+     "TIPPT",
+     0.1
+    ],
+    [
+     "AUF",
+     0.29
+    ],
+    [
+     "96",
+     0.48
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 3.78,
+   "end": 4.91,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "ODER",
+     0.0
+    ],
+    [
+     "97.",
+     0.19
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 4.91,
+   "end": 5.52,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "UND",
+     -0.02
+    ],
+    [
+     "EHRLICH?",
+     0.08
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 5.52,
+   "end": 6.59,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "DAS",
+     -0.02
+    ],
+    [
+     "IST",
+     0.16
+    ],
+    [
+     "REALISTISCH.",
+     0.34
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 6.6,
+   "end": 6.95,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "ELDEN",
+     0.0
+    ],
+    [
+     "RING",
+     0.2
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 6.95,
+   "end": 7.46,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "UND",
+     0.0
+    ],
+    [
+     "ZELDA",
+     0.15
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 7.46,
+   "end": 9.03,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "BEKAMEN",
+     0.0
+    ],
+    [
+     "96.",
+     0.62
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 9.03,
+   "end": 10.04,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "ABER",
+     -0.02
+    ],
+    [
+     "GTA",
+     0.22
+    ],
+    [
+     "4,",
+     0.6
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 10.04,
+   "end": 10.84,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "GTA",
+     0.0
+    ],
+    [
+     "5",
+     0.4
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 10.84,
+   "end": 11.85,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "UND",
+     0.0
+    ],
+    [
+     "RED",
+     0.15
+    ],
+    [
+     "DEAD",
+     0.29
+    ],
+    [
+     "2",
+     0.45
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 11.86,
+   "end": 13.04,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "HATTEN",
+     0.0
+    ],
+    [
+     "ALLE",
+     0.3
+    ],
+    [
+     "97",
+     0.48
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 13.04,
+   "end": 13.67,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "ODER",
+     0.0
+    ],
+    [
+     "MEHR.",
+     0.11
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 13.67,
+   "end": 14.43,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "AM",
+     -0.02
+    ],
+    [
+     "18.",
+     0.05
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 14.43,
+   "end": 14.93,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "WISSEN",
+     0.0
+    ],
+    [
+     "WIR,",
+     0.32
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 14.93,
+   "end": 15.69,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "WER",
+     0.0
+    ],
+    [
+     "RECHT",
+     0.12
+    ],
+    [
+     "HAT.",
+     0.3
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 15.69,
+   "end": 16.23,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "FOLG",
+     -0.02
+    ],
+    [
+     "MIR,",
+     0.2
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 16.23,
+   "end": 16.65,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "DANN",
+     0.0
+    ],
+    [
+     "VERPASST",
+     0.1
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 16.65,
+   "end": 17.6,
+   "text": "",
+   "anim": "karaoke",
+   "size": 96,
+   "y": 0.735,
+   "words": [
+    [
+     "DU",
+     0.0
+    ],
+    [
+     "ES",
+     0.06
+    ],
+    [
+     "NICHT.",
+     0.12
+    ]
+   ],
+   "exit": "cut"
+  },
+  {
+   "t": 0.0,
+   "end": 2.7,
+   "text": "ROBIN SAGT:",
+   "style": "label",
+   "size": 72,
+   "y": 0.4,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 0.0,
+   "end": 2.7,
+   "text": "100",
+   "style": "huge",
+   "color": "white",
+   "size": 320,
+   "y": 0.535,
+   "anim": "punch",
+   "strike_at": 1.8,
+   "exit": "cut"
+  },
+  {
+   "t": 2.7,
+   "end": 4.91,
+   "text": "ROBINS TIPP",
+   "style": "label",
+   "size": 72,
+   "y": 0.4,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 2.67,
+   "end": 4.91,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 130,
+   "ring_r": 150,
+   "x": 0.3,
+   "y": 0.535,
+   "count_from": 0,
+   "count_to": 96,
+   "count_dur": 0.6,
+   "exit": "cut"
+  },
+  {
+   "t": 3.46,
+   "end": 4.91,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 130,
+   "ring_r": 150,
+   "x": 0.645,
+   "y": 0.535,
+   "count_from": 0,
+   "count_to": 97,
+   "count_dur": 0.6,
+   "exit": "cut"
+  },
+  {
+   "t": 4.91,
+   "end": 5.52,
+   "text": "Und *ehrlich?*",
+   "style": "huge",
+   "color": "white",
+   "size": 150,
+   "y": 0.53,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 5.86,
+   "end": 6.59,
+   "text": "REALISTISCH.",
+   "style": "huge",
+   "color": "green",
+   "size": 150,
+   "y": 0.53,
+   "anim": "stamp",
+   "shake": 18,
+   "exit": "cut"
+  },
+  {
+   "t": 5.52,
+   "end": 5.86,
+   "text": "Das ist …",
+   "style": "huge",
+   "color": "white",
+   "size": 150,
+   "y": 0.53,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 6.59,
+   "end": 9.03,
+   "text": "ZULETZT DIE BESTEN:",
+   "style": "label",
+   "size": 68,
+   "y": 0.4,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 6.6,
+   "end": 9.03,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 130,
+   "ring_r": 150,
+   "x": 0.3,
+   "y": 0.53,
+   "count_from": 0,
+   "count_to": 96,
+   "count_dur": 1.58,
+   "exit": "cut"
+  },
+  {
+   "t": 6.64,
+   "end": 9.03,
+   "text": "ELDEN RING",
+   "style": "small",
+   "size": 58,
+   "x": 0.3,
+   "y": 0.645,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 7.1,
+   "end": 9.03,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 130,
+   "ring_r": 150,
+   "x": 0.645,
+   "y": 0.53,
+   "count_from": 0,
+   "count_to": 96,
+   "count_dur": 1.08,
+   "exit": "cut"
+  },
+  {
+   "t": 7.14,
+   "end": 9.03,
+   "text": "ZELDA: TOTK",
+   "style": "small",
+   "size": 58,
+   "x": 0.645,
+   "y": 0.645,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 9.03,
+   "end": 13.67,
+   "text": "ROCKSTAR:",
+   "style": "label",
+   "size": 72,
+   "y": 0.4,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 9.25,
+   "end": 13.67,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 84,
+   "ring_r": 104,
+   "x": 0.215,
+   "y": 0.53,
+   "count_from": 0,
+   "count_to": 98,
+   "count_dur": 0.45,
+   "exit": "cut"
+  },
+  {
+   "t": 9.29,
+   "end": 13.67,
+   "text": "GTA IV",
+   "style": "small",
+   "size": 56,
+   "x": 0.215,
+   "y": 0.62,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 10.04,
+   "end": 13.67,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 84,
+   "ring_r": 104,
+   "x": 0.445,
+   "y": 0.53,
+   "count_from": 0,
+   "count_to": 97,
+   "count_dur": 0.45,
+   "exit": "cut"
+  },
+  {
+   "t": 10.08,
+   "end": 13.67,
+   "text": "GTA V",
+   "style": "small",
+   "size": 56,
+   "x": 0.445,
+   "y": 0.62,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 10.99,
+   "end": 13.67,
+   "text": "{n}",
+   "anim": "ring",
+   "accent": "green",
+   "size": 84,
+   "ring_r": 104,
+   "x": 0.675,
+   "y": 0.53,
+   "count_from": 0,
+   "count_to": 97,
+   "count_dur": 0.45,
+   "exit": "cut"
+  },
+  {
+   "t": 11.03,
+   "end": 13.67,
+   "text": "RDR 2",
+   "style": "small",
+   "size": 56,
+   "x": 0.675,
+   "y": 0.62,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 12.16,
+   "end": 13.67,
+   "text": "ALLE 97+",
+   "style": "huge",
+   "color": "pink",
+   "size": 118,
+   "y": 0.405,
+   "anim": "stamp",
+   "shake": 14,
+   "exit": "cut"
+  },
+  {
+   "t": 13.67,
+   "end": 15.69,
+   "text": "WER HAT\n*RECHT?*",
+   "style": "huge",
+   "color": "white",
+   "size": 140,
+   "y": 0.55,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 13.87,
+   "end": 15.69,
+   "text": "TESTS AM 18.11.",
+   "style": "label",
+   "size": 70,
+   "y": 0.4,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 15.69,
+   "end": 17.6,
+   "text": "+ FOLGEN",
+   "style": "label",
+   "size": 112,
+   "x": 0.44,
+   "y": 0.52,
+   "anim": "pulse",
+   "exit": "cut"
+  },
+  {
+   "t": 15.84,
+   "end": 17.6,
+   "text": "→",
+   "style": "arrow",
+   "size": 170,
+   "x": 0.8,
+   "y": 0.515,
+   "anim": "nudge",
+   "exit": "cut"
+  },
+  {
+   "t": 15.99,
+   "end": 17.6,
+   "text": "Ergebnis am 18.11. – nicht verpassen",
+   "style": "small",
+   "size": 56,
+   "x": 0.47,
+   "y": 0.615,
+   "anim": "slide",
+   "exit": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 1.8,
+   "type": "hit",
+   "gain": 0.9
+  },
+  {
+   "t": 2.6,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 2.67,
+   "type": "riser",
+   "len": 0.6,
+   "gain": 0.6
+  },
+  {
+   "t": 3.27,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 3.46,
+   "type": "riser",
+   "len": 0.6,
+   "gain": 0.6
+  },
+  {
+   "t": 4.06,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 4.81,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 5.86,
+   "type": "hit"
+  },
+  {
+   "t": 6.49,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 6.6,
+   "type": "riser",
+   "len": 1.58,
+   "gain": 0.6
+  },
+  {
+   "t": 7.1,
+   "type": "riser",
+   "len": 1.08,
+   "gain": 0.6
+  },
+  {
+   "t": 7.98,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 8.18,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 8.18,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 8.93,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 9.25,
+   "type": "riser",
+   "len": 0.45,
+   "gain": 0.6
+  },
+  {
+   "t": 9.7,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 10.04,
+   "type": "riser",
+   "len": 0.45,
+   "gain": 0.6
+  },
+  {
+   "t": 10.49,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 10.74,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 10.99,
+   "type": "riser",
+   "len": 0.45,
+   "gain": 0.6
+  },
+  {
+   "t": 11.44,
+   "type": "chime",
+   "gain": 0.5
+  },
+  {
+   "t": 11.75,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 12.16,
+   "type": "hit",
+   "gain": 0.8
+  },
+  {
+   "t": 13.57,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 13.67,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 15.59,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 15.69,
+   "type": "chime",
+   "gain": 0.8
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.0,
+   "wav": "content/01-countdown/voice/v12/fenrir_1.wav"
+  },
+  {
+   "t": 0.83,
+   "wav": "content/01-countdown/voice/v12/fenrir_2.wav"
+  },
+  {
+   "t": 2.7,
+   "wav": "content/01-countdown/voice/v12/fenrir_3.wav"
+  },
+  {
+   "t": 4.91,
+   "wav": "content/01-countdown/voice/v12/fenrir_4.wav"
+  },
+  {
+   "t": 5.52,
+   "wav": "content/01-countdown/voice/v12/fenrir_5.wav"
+  },
+  {
+   "t": 6.59,
+   "wav": "content/01-countdown/voice/v12/fenrir_6.wav"
+  },
+  {
+   "t": 9.03,
+   "wav": "content/01-countdown/voice/v12/fenrir_7.wav"
+  },
+  {
+   "t": 11.85,
+   "wav": "content/01-countdown/voice/v12/fenrir_10.wav"
+  },
+  {
+   "t": 13.67,
+   "wav": "content/01-countdown/voice/v12/fenrir_8.wav"
+  },
+  {
+   "t": 15.69,
+   "wav": "content/01-countdown/voice/v12/fenrir_9.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 10.95,
+   "start": 0.0,
+   "end": 2.7,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 35.5,
+   "start": 2.7,
+   "end": 4.91,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 19.25,
+   "start": 4.91,
+   "end": 6.59,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 6.62,
+   "start": 6.59,
+   "end": 8.08,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.98
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 18.42,
+   "start": 8.08,
+   "end": 9.03,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.72
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 35.72,
+   "start": 9.03,
+   "end": 10.84,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.9
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 138.18,
+   "start": 10.84,
+   "end": 11.85,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.9
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 140.06,
+   "start": 11.85,
+   "end": 13.67,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.75
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
+   "start": 13.67,
+   "end": 15.69,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.89
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 15.69,
+   "end": 17.6,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  }
+ ]
+}

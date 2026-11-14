@@ -238,3 +238,25 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Beste Zeit:** morgen (So) 12–13 Uhr oder 18–19 Uhr (heute läuft V10)
 - Quellen: gamesradar.com, wikigtavi.com, grandtheft.gg
 
+---
+
+## Video-Antwort · `V12_antwort-robin.mp4` (17,6 s, Stimme Fenrir) – Antwort auf Robins Kommentar unter V10
+- **Kommentar:** „ne 100 wird wahrscheinlich nie ein spiel schaffen. Ich tippe eher auf 96 oder 97"
+- **Inhalt:**
+  - Robins Tipp als Ringe (96 und 97), dazu „Realistisch."
+  - Elden Ring und Zelda: Tears of the Kingdom haben je 96.
+  - GTA IV, GTA V und Red Dead 2 hatten alle 97 oder mehr.
+  - Frage „Wer hat recht?" (Tests am 18.11.), am Ende „+ FOLGEN" mit Pfeil.
+- **Posten:**
+  1. V10 öffnen und unter Robins Kommentar auf „Antworten" tippen.
+  2. Das rote Video-Symbol wählen, dann „Hochladen" und dieses Video.
+  3. Den Kommentar-Sticker nach oben ziehen; das Band oberhalb von „ROBIN SAGT:" ist dafür frei.
+- **Caption:**
+  ```
+  Antwort an Robin: Schafft GTA 6 die 100 – oder nicht? 🤔 Am 18.11. wissen wir's
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #metacritic #gaming #ps5`
+- **Anpinnen:** `Wer hat recht – Robin oder die 100? 👇 Folg für das Ergebnis am 18.11.`
+- **Zeit:** heute, solange V10 noch läuft (V11 dann morgen)
+- Quellen: gamesradar.com, nintendolife.com (Elden Ring 96, Zelda TotK 96), siehe V10 für GTA/RDR2
+

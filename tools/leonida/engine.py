@@ -49,6 +49,7 @@ STYLES = {
     "label": dict(font="BebasNeue-Regular.ttf", size=70, stroke=0, color=WHITE, pill=PINK),
     "stamp": dict(font="Anton-Regular.ttf", size=150, stroke=10, color=WHITE),
     "note": dict(font="Poppins-SemiBold.ttf", size=38, stroke=5, color=WHITE),
+    "arrow": dict(font="Inter-SemiBold.otf", size=170, stroke=9, color=PINK),
     # Suchleiste (generisch, keine Marke): weiße Pille, dunkler Text, Lupe links
     "search": dict(font="Inter-SemiBold.otf", size=56, stroke=0, color=(32, 33, 36), pill=WHITE,
                    icon="search", min_width=880, align="left"),
@@ -497,11 +498,19 @@ class Renderer:
         return self.cache[key]
 
     def _place(self, canvas: Image.Image, img: Image.Image, beat: Beat, lt: float, life: float):
-        scale, alpha, dy = 1.0, 1.0, 0.0
+        scale, alpha, dy, dx = 1.0, 1.0, 0.0, 0.0
         anim = beat.enter or beat.anim
         if anim in ("pop", "count", "ring"):
             scale = 0.55 + 0.45 * ease_out_back(lt / 0.28)
             alpha = min(1, lt / 0.08)
+        elif anim == "pulse":                           # aufploppen, dann pulsieren (z. B. Folgen-Button)
+            scale = 0.55 + 0.45 * ease_out_back(lt / 0.28)
+            if lt > 0.3:
+                scale *= 1 + 0.06 * math.sin(2 * math.pi * 2.0 * (lt - 0.3))
+            alpha = min(1, lt / 0.08)
+        elif anim == "nudge":                           # reinrutschen, dann hin- und herstupsen (Pfeil)
+            dx = -80 * (1 - ease_out_cubic(lt / 0.3)) + (18 * math.sin(2 * math.pi * 2.2 * (lt - 0.3)) if lt > 0.3 else 0)
+            alpha = min(1, lt / 0.15)
         elif anim == "card":                            # Karte springt weich auf
             scale = 0.86 + 0.14 * ease_out_back(lt / 0.26)
             alpha = min(1, lt / 0.1)
@@ -538,7 +547,7 @@ class Renderer:
         if beat.shake and lt < 0.35:
             k = beat.shake * (1 - lt / 0.35)
             sx, sy = k * math.sin(lt * 90), k * math.cos(lt * 73)
-        x = int(W * beat.x - img.width / 2 + sx)
+        x = int(W * beat.x - img.width / 2 + sx + dx)
         y = int(H * beat.y - img.height / 2 + dy + sy)
         canvas.alpha_composite(img, (max(x, -img.width), y))
         if beat.strike_at >= 0 and lt >= beat.strike_at:
