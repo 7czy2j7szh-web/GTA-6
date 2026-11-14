@@ -1,10 +1,10 @@
 {
  "id": "V14",
  "out": "exports/countdown/V14_geheime-firma.mp4",
- "duration": 21.67,
+ "duration": 23.67,
  "fps": 60,
  "music": "chase",
- "music_offset": 23.256,
+ "music_offset": 21.256,
  "flash_strength": 0,
  "overlay_strength": 0.45,
  "chrome_from": 0,
@@ -13,7 +13,7 @@
  "cover_at": 0.5,
  "pulses": [
   [
-   17.42,
+   19.42,
    0.07
   ]
  ],
@@ -350,7 +350,7 @@
   },
   {
    "t": 9.26,
-   "end": 9.99,
+   "end": 9.96,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -368,8 +368,81 @@
    "x": 0.47
   },
   {
-   "t": 9.99,
-   "end": 10.4,
+   "t": 9.96,
+   "end": 10.74,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Weißt",
+     -0.01
+    ],
+    [
+     "du's",
+     0.29
+    ],
+    [
+     "schon?",
+     0.44
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.74,
+   "end": 11.22,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Schreib's",
+     0.0
+    ],
+    [
+     "in",
+     0.34
+    ],
+    [
+     "die",
+     0.4
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.22,
+   "end": 11.99,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "green",
+   "kstroke": 8,
+   "words": [
+    [
+     "Kommentare!",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.99,
+   "end": 12.4,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -395,8 +468,8 @@
    "x": 0.47
   },
   {
-   "t": 10.4,
-   "end": 11.51,
+   "t": 12.4,
+   "end": 13.51,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -418,8 +491,8 @@
    "x": 0.47
   },
   {
-   "t": 11.51,
-   "end": 11.95,
+   "t": 13.51,
+   "end": 13.95,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -441,8 +514,8 @@
    "x": 0.47
   },
   {
-   "t": 11.95,
-   "end": 12.66,
+   "t": 13.95,
+   "end": 14.66,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -464,8 +537,8 @@
    "x": 0.47
   },
   {
-   "t": 12.66,
-   "end": 12.97,
+   "t": 14.66,
+   "end": 14.97,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -487,8 +560,8 @@
    "x": 0.47
   },
   {
-   "t": 12.97,
-   "end": 13.63,
+   "t": 14.97,
+   "end": 15.63,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -506,8 +579,8 @@
    "x": 0.47
   },
   {
-   "t": 13.63,
-   "end": 14.29,
+   "t": 15.63,
+   "end": 16.29,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -529,8 +602,8 @@
    "x": 0.47
   },
   {
-   "t": 14.29,
-   "end": 14.67,
+   "t": 16.29,
+   "end": 16.67,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -556,8 +629,8 @@
    "x": 0.47
   },
   {
-   "t": 14.67,
-   "end": 15.2,
+   "t": 16.67,
+   "end": 17.2,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -579,8 +652,8 @@
    "x": 0.47
   },
   {
-   "t": 15.2,
-   "end": 15.81,
+   "t": 17.2,
+   "end": 17.81,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -598,8 +671,8 @@
    "x": 0.47
   },
   {
-   "t": 15.81,
-   "end": 16.7,
+   "t": 17.81,
+   "end": 18.7,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -621,8 +694,8 @@
    "x": 0.47
   },
   {
-   "t": 16.7,
-   "end": 17.42,
+   "t": 18.7,
+   "end": 19.42,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -644,8 +717,8 @@
    "x": 0.47
   },
   {
-   "t": 17.42,
-   "end": 18.67,
+   "t": 19.42,
+   "end": 20.67,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -663,8 +736,8 @@
    "x": 0.47
   },
   {
-   "t": 18.67,
-   "end": 19.09,
+   "t": 20.67,
+   "end": 21.09,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -686,8 +759,8 @@
    "x": 0.47
   },
   {
-   "t": 19.09,
-   "end": 19.49,
+   "t": 21.09,
+   "end": 21.49,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -705,8 +778,8 @@
    "x": 0.47
   },
   {
-   "t": 19.49,
-   "end": 19.9,
+   "t": 21.49,
+   "end": 21.9,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -724,8 +797,8 @@
    "x": 0.47
   },
   {
-   "t": 19.9,
-   "end": 20.32,
+   "t": 21.9,
+   "end": 22.32,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -743,8 +816,8 @@
    "x": 0.47
   },
   {
-   "t": 20.32,
-   "end": 20.73,
+   "t": 22.32,
+   "end": 22.73,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -766,8 +839,8 @@
    "x": 0.47
   },
   {
-   "t": 20.73,
-   "end": 21.67,
+   "t": 22.73,
+   "end": 23.67,
    "text": "",
    "anim": "karaoke",
    "size": 72,
@@ -821,7 +894,7 @@
   },
   {
    "t": 5.03,
-   "end": 17.42,
+   "end": 19.42,
    "text": "GEHEIME FIRMA · AUFLÖSUNG AM ENDE",
    "style": "label",
    "size": 54,
@@ -854,7 +927,7 @@
   },
   {
    "t": 7.34,
-   "end": 9.99,
+   "end": 9.96,
    "text": "",
    "anim": "card",
    "y": 0.31,
@@ -870,19 +943,36 @@
    "x": 0.47
   },
   {
-   "t": 8.18,
-   "end": 9.99,
-   "text": "Schreib deine Vermutung in die Kommentare",
-   "style": "note",
-   "size": 36,
-   "y": 0.485,
-   "anim": "fade",
+   "t": 9.96,
+   "end": 11.99,
+   "text": "",
+   "anim": "card",
+   "y": 0.31,
+   "card": {
+    "type": "info",
+    "icon": "comment",
+    "icon_at": 0.06,
+    "title": "Weißt du's?",
+    "subtitle": "Schreib die Firma\nin die Kommentare!",
+    "border": "pink"
+   },
    "exit": "cut",
    "x": 0.47
   },
   {
-   "t": 9.99,
-   "end": 13.63,
+   "t": 10.74,
+   "end": 11.99,
+   "text": "→",
+   "style": "arrow",
+   "size": 170,
+   "x": 0.82,
+   "y": 0.6,
+   "anim": "nudge",
+   "exit": "cut"
+  },
+  {
+   "t": 11.99,
+   "end": 15.63,
    "text": "",
    "anim": "card",
    "y": 0.31,
@@ -903,8 +993,8 @@
    "x": 0.47
   },
   {
-   "t": 13.63,
-   "end": 15.81,
+   "t": 15.63,
+   "end": 17.81,
    "text": "",
    "anim": "card",
    "y": 0.31,
@@ -920,8 +1010,19 @@
    "x": 0.47
   },
   {
-   "t": 15.81,
-   "end": 17.42,
+   "t": 16.49,
+   "end": 17.81,
+   "text": "Letzte Chance zum Raten!",
+   "style": "note",
+   "size": 38,
+   "y": 0.49,
+   "anim": "fade",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.81,
+   "end": 19.42,
    "text": "",
    "anim": "card",
    "y": 0.31,
@@ -938,8 +1039,8 @@
    "x": 0.47
   },
   {
-   "t": 17.42,
-   "end": 18.67,
+   "t": 19.42,
+   "end": 20.67,
    "text": "",
    "anim": "stamp",
    "y": 0.31,
@@ -957,8 +1058,8 @@
    "x": 0.47
   },
   {
-   "t": 17.82,
-   "end": 18.67,
+   "t": 19.82,
+   "end": 20.67,
    "text": "„Logi Game Day“ – gilt für jedes Spiel",
    "style": "note",
    "size": 36,
@@ -968,8 +1069,8 @@
    "x": 0.47
   },
   {
-   "t": 18.67,
-   "end": 21.67,
+   "t": 20.67,
+   "end": 23.67,
    "text": "",
    "anim": "card",
    "y": 0.31,
@@ -1003,8 +1104,8 @@
    "x": 0.47
   },
   {
-   "t": 19.17,
-   "end": 21.67,
+   "t": 21.17,
+   "end": 23.67,
    "text": "Folg für den Countdown bis zum 19.",
    "style": "note",
    "size": 38,
@@ -1047,63 +1148,68 @@
    "gain": 0.6
   },
   {
-   "t": 9.93,
+   "t": 9.9,
    "type": "whoosh",
    "gain": 0.6
   },
   {
-   "t": 11.49,
+   "t": 11.93,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 13.49,
    "type": "riser",
    "len": 0.35,
    "gain": 0.5
   },
   {
-   "t": 11.84,
+   "t": 13.84,
    "type": "chime",
    "gain": 0.6
   },
   {
-   "t": 13.57,
+   "t": 15.57,
    "type": "whoosh",
    "gain": 0.6
   },
   {
-   "t": 15.75,
+   "t": 17.75,
    "type": "whoosh",
    "gain": 0.6
   },
   {
-   "t": 15.81,
+   "t": 17.81,
    "type": "riser",
    "len": 1.61,
    "gain": 0.8
   },
   {
-   "t": 17.42,
+   "t": 19.42,
    "type": "hit"
   },
   {
-   "t": 17.42,
+   "t": 19.42,
    "type": "chime",
    "gain": 0.9
   },
   {
-   "t": 18.61,
+   "t": 20.61,
    "type": "whoosh",
    "gain": 0.6
   },
   {
-   "t": 19.07,
+   "t": 21.07,
    "type": "pop",
    "gain": 0.7
   },
   {
-   "t": 19.49,
+   "t": 21.49,
    "type": "pop",
    "gain": 0.7
   },
   {
-   "t": 20.73,
+   "t": 22.73,
    "type": "pop",
    "gain": 0.7
   }
@@ -1138,39 +1244,43 @@
    "wav": "content/01-countdown/voice/v14/neu_6.wav"
   },
   {
-   "t": 9.99,
+   "t": 9.96,
+   "wav": "content/01-countdown/voice/v14/neu_12.wav"
+  },
+  {
+   "t": 11.99,
    "wav": "content/01-countdown/voice/v13/fenrir_6.wav"
   },
   {
-   "t": 11.51,
+   "t": 13.51,
    "wav": "content/01-countdown/voice/v13/fenrir_7.wav"
   },
   {
-   "t": 13.63,
+   "t": 15.63,
    "wav": "content/01-countdown/voice/v14/neu_7.wav"
   },
   {
-   "t": 14.29,
+   "t": 16.29,
    "wav": "content/01-countdown/voice/v14/neu_8.wav"
   },
   {
-   "t": 15.81,
+   "t": 17.81,
    "wav": "content/01-countdown/voice/v14/neu_9.wav"
   },
   {
-   "t": 16.7,
+   "t": 18.7,
    "wav": "content/01-countdown/voice/v14/neu_10.wav"
   },
   {
-   "t": 17.42,
+   "t": 19.42,
    "wav": "content/01-countdown/voice/v14/neu_11.wav"
   },
   {
-   "t": 18.67,
+   "t": 20.67,
    "wav": "content/01-countdown/voice/v13/fenrir_10.wav"
   },
   {
-   "t": 19.09,
+   "t": 21.09,
    "wav": "content/01-countdown/voice/v13/fenrir_11.wav"
   }
  ],
@@ -1227,7 +1337,7 @@
    "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
    "ss": 37.47,
    "start": 7.34,
-   "end": 9.99,
+   "end": 9.96,
    "cam": {
     "x": 0.5,
     "zoom": [
@@ -1240,10 +1350,26 @@
    "fade": 0
   },
   {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 8.16,
+   "start": 9.96,
+   "end": 11.99,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.8
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
    "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
    "ss": 72.8,
-   "start": 9.99,
-   "end": 11.51,
+   "start": 11.99,
+   "end": 13.51,
    "cam": {
     "x": 0.45,
     "zoom": [
@@ -1258,8 +1384,8 @@
   {
    "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
    "ss": 141.86,
-   "start": 11.51,
-   "end": 13.63,
+   "start": 13.51,
+   "end": 15.63,
    "cam": {
     "x": 0.5,
     "zoom": [
@@ -1274,8 +1400,8 @@
   {
    "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
    "ss": 39.83,
-   "start": 13.63,
-   "end": 15.81,
+   "start": 15.63,
+   "end": 17.81,
    "cam": {
     "x": 0.5,
     "zoom": [
@@ -1290,8 +1416,8 @@
   {
    "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
    "ss": 35.6,
-   "start": 15.81,
-   "end": 17.42,
+   "start": 17.81,
+   "end": 19.42,
    "cam": {
     "x": 0.5,
     "zoom": [
@@ -1305,8 +1431,8 @@
   {
    "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
    "ss": 2.72,
-   "start": 17.42,
-   "end": 18.67,
+   "start": 19.42,
+   "end": 20.67,
    "cam": {
     "x": 0.5,
     "zoom": [
@@ -1320,8 +1446,8 @@
   {
    "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
    "ss": 81.45,
-   "start": 18.67,
-   "end": 19.9,
+   "start": 20.67,
+   "end": 21.9,
    "cam": {
     "x": 0.5,
     "zoom": [
@@ -1335,8 +1461,8 @@
   {
    "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
    "ss": 83.15,
-   "start": 19.9,
-   "end": 21.67,
+   "start": 21.9,
+   "end": 23.67,
    "cam": {
     "x": 0.5,
     "zoom": [

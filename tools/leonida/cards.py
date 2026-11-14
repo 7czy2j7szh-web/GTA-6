@@ -157,6 +157,11 @@ def icon(name: str, size: int, color=WHITE) -> Image.Image:
         a, b = 0.40, 0.60
         d.rectangle([s * a, s * 0.16, s * b, s * 0.84], fill=c)
         d.rectangle([s * 0.16, s * a, s * 0.84, s * b], fill=c)
+    elif name == "comment":                                 # Sprechblase mit drei Punkten
+        d.rounded_rectangle([s * 0.10, s * 0.16, s * 0.90, s * 0.70], radius=s * 0.18, fill=c)
+        d.polygon([(s * 0.28, s * 0.64), (s * 0.24, s * 0.88), (s * 0.48, s * 0.66)], fill=c)
+        for dx in (0.32, 0.5, 0.68):
+            d.ellipse([s * dx - s * 0.055, s * 0.38, s * dx + s * 0.055, s * 0.49], fill=PANEL + (255,))
     elif name == "bookmark":
         d.polygon([(s * 0.28, s * 0.12), (s * 0.72, s * 0.12), (s * 0.72, s * 0.88), (s * 0.5, s * 0.68),
                    (s * 0.28, s * 0.88)], fill=c)

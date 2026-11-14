@@ -281,14 +281,15 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 
 ---
 
-## Rätsel-Version (statt V13 posten) · `V14_geheime-firma.mp4` (21,7 s, Stimme Fenrir)
+## Rätsel-Version (statt V13 posten) · `V14_geheime-firma.mp4` (23,7 s, Stimme Fenrir)
 - **Idee:** Der Firmenname bleibt bis zum Ende geheim, damit die Frage offen bleibt.
   - Hook: „Eine Firma gibt 7.000 Leuten frei. Pünktlich zu GTA 6. Welche? Verrat ich dir am Ende."
   - Bis zur Auflösung steht oben „GEHEIME FIRMA · AUFLÖSUNG AM ENDE".
   - Dazwischen Fakten: Palworld 5 Tage, US-Armee-Einheit 4 Tage.
-  - Tipp 1: „baut Gaming-Mäuse" (dazu „Schreib deine Vermutung in die Kommentare").
-  - Letzter Tipp: „in der Schweiz gegründet".
-  - „Na, erraten? Es ist: LOGITECH!" mit Knall, Zoom-Stoß und Musik-Crash bei 17,4 s.
+  - Tipp 1: „baut Gaming-Mäuse".
+  - Danach, vor dem nächsten Thema, gesprochen: „Weißt du's schon? Schreib's in die Kommentare!" Dazu eine Sprechblasen-Karte und ein Pfeil zum Kommentar-Button.
+  - Letzter Tipp: „in der Schweiz gegründet" (eingeblendet: „Letzte Chance zum Raten!").
+  - „Na, erraten? Es ist: LOGITECH!" mit Knall, Zoom-Stoß und Musik-Crash bei 19,4 s.
   - Ende: „Urlaub, krankmelden oder arbeiten?"
 - **Caption:**
   ```
