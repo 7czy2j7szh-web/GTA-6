@@ -89,7 +89,9 @@
 | Views | Likes | Kommentare | Shares | Saves | Ø Wiedergabe | Ganz angesehen | Neue Follower |
 |---|---|---|---|---|---|---|---|
 | 2.462 | 51 | **16** | 0 | 1 | **9,0 s (74 %)** | **37,1 %** | 1 |
+| **5.432** (16:57, ~2 h 20 min) | 85 | **28** | 1 | 6 | **9,5 s (78 %)** | **40,5 %** | 1 |
 
+- Views pro Stunde steigen noch (Std. 2: ~2,1k, Std. 3: ~2,7k). Größter Absprung laut TikTok bei 0:01.
 - **Durchbruch über die 1.000er-Grenze** schon nach 80 Minuten, Kurve steigt steil (Hauptwelle läuft noch).
 - „Ganz angesehen" fast verdreifacht (V8: 13,3 % → V10: 37,1 %) → Regel 14 bestätigt: Karaoke-Untertitel, hochzählende Ringe, alle 1,5–2 s neuer Reiz, nahtloser Loop.
 - Rekord bei Kommentaren (16): Zahl tippen (97/98/99/100) ist eine noch leichtere Antwort als Entweder-oder.
