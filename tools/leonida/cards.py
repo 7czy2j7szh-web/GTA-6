@@ -139,6 +139,24 @@ def icon(name: str, size: int, color=WHITE) -> Image.Image:
         lw = int(s * 0.12)
         for k2, y0 in enumerate((0.22, 0.44, 0.66)):
             d.line([s * 0.16, s * y0, s * 0.5, s * (y0 + 0.18), s * 0.84, s * y0], fill=c, width=lw, joint="curve")
+    elif name == "lock":
+        lw = max(int(s * 0.09), 2)
+        d.arc([s * 0.30, s * 0.10, s * 0.70, s * 0.56], 180, 360, fill=c, width=lw)
+        d.line([s * 0.30 + lw / 2, s * 0.33, s * 0.30 + lw / 2, s * 0.46], fill=c, width=lw)
+        d.line([s * 0.70 - lw / 2, s * 0.33, s * 0.70 - lw / 2, s * 0.46], fill=c, width=lw)
+        d.rounded_rectangle([s * 0.20, s * 0.44, s * 0.80, s * 0.90], radius=s * 0.08, fill=c)
+        d.ellipse([s * 0.45, s * 0.56, s * 0.55, s * 0.66], fill=PANEL + (255,))
+        d.rectangle([s * 0.475, s * 0.62, s * 0.525, s * 0.78], fill=PANEL + (255,))
+    elif name == "mouse":
+        lw = max(int(s * 0.07), 2)
+        d.rounded_rectangle([s * 0.26, s * 0.10, s * 0.74, s * 0.90], radius=s * 0.24, outline=c, width=lw)
+        d.line([s * 0.5, s * 0.12, s * 0.5, s * 0.42], fill=c, width=lw)
+        d.line([s * 0.28, s * 0.42, s * 0.72, s * 0.42], fill=c, width=lw)
+        d.rounded_rectangle([s * 0.46, s * 0.20, s * 0.54, s * 0.32], radius=s * 0.03, fill=c)
+    elif name == "swiss":                                   # Schweizer Kreuz
+        a, b = 0.40, 0.60
+        d.rectangle([s * a, s * 0.16, s * b, s * 0.84], fill=c)
+        d.rectangle([s * 0.16, s * a, s * 0.84, s * b], fill=c)
     elif name == "bookmark":
         d.polygon([(s * 0.28, s * 0.12), (s * 0.72, s * 0.12), (s * 0.72, s * 0.88), (s * 0.5, s * 0.68),
                    (s * 0.28, s * 0.88)], fill=c)

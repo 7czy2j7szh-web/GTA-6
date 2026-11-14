@@ -279,3 +279,23 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Zeit:** So 18–19 Uhr (mittags V11)
 - Quellen: fortune.com, yahoo.com (Logitech), pushsquare.com (Pocketpair), stripes.com / washingtonexaminer.com (Fort Stewart), bamboohr.com, money.com
 
+---
+
+## Rätsel-Version (statt V13 posten) · `V14_geheime-firma.mp4` (21,7 s, Stimme Fenrir)
+- **Idee:** Der Firmenname bleibt bis zum Ende geheim, damit die Frage offen bleibt.
+  - Hook: „Eine Firma gibt 7.000 Leuten frei. Pünktlich zu GTA 6. Welche? Verrat ich dir am Ende."
+  - Bis zur Auflösung steht oben „GEHEIME FIRMA · AUFLÖSUNG AM ENDE".
+  - Dazwischen Fakten: Palworld 5 Tage, US-Armee-Einheit 4 Tage.
+  - Tipp 1: „baut Gaming-Mäuse" (dazu „Schreib deine Vermutung in die Kommentare").
+  - Letzter Tipp: „in der Schweiz gegründet".
+  - „Na, erraten? Es ist: LOGITECH!" mit Knall, Zoom-Stoß und Musik-Crash bei 17,4 s.
+  - Ende: „Urlaub, krankmelden oder arbeiten?"
+- **Caption:**
+  ```
+  Diese Firma gibt 7.000 Leuten frei für GTA 6 😳 Errätst du sie vor dem Ende?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #gaming #rätsel #ps5`
+- **Anpinnen:** `Hast du's erraten? Und du am 19.: Urlaub, krank oder arbeiten? 👇`
+- **Zeit:** So 18–19 Uhr (mittags V11)
+- Quellen wie V13 (Logitech gegründet in der Schweiz, „Logitech G" baut Gaming-Mäuse)
+
