@@ -78,6 +78,13 @@
 
 ---
 
+## V9 „Standard oder Ultimate?" (mit Stimme, gepostet 14.11., 15 s) – Stand laut Screenshot
+- 927 Views · 64 Likes (6,9 %, bester Wert bisher) · 12 Kommentare · 10 Saves (Rekord) · 53 % (Wiedergabe-Kennzahl laut Screenshot) · 3 neue Follower
+- Follower gesamt: **20** (Start: 9)
+- Entweder-oder-Frage bringt wieder 12 Kommentare (Regel 12 bestätigt). Views bleiben aber unter 1.000 → Ziel für V10: mehr Leute bis zum Ende halten.
+
+---
+
 ## Erkenntnisse → neue Regeln (ab 09.11.)
 1. **Pointe ins erste Bild**, max. 2–4 Wörter, riesig. Kein Satz, der erst nach 1 s aufgelöst wird.
 2. **Helles Bild mit Bewegung ab Frame 0** (schneller Zoom), keine dunklen Standbilder zum Start.
@@ -94,3 +101,5 @@
 11. **Prank mit Wendung** („Tutorial" → Pointe auf dem Crash) bringt die meisten Shares → Format ausbauen; Auflösung immer im Video.
 12. **Kommentare brauchen eine persönliche Ja/Nein- oder Entweder-oder-Frage im Video** (z. B. „Hast du vorbestellt?"), nicht eine allgemeine („Größtes Spiel aller Zeiten?").
 13. **Hook-Regeln v2:** max. 3–4 Wörter im ersten Bild, Bewegungs-Ruck in Sekunde 0–1, erster Schnitt nach ~1 s, 8–10 s Länge, Schleife; Messgröße: % nach 2 s (Ziel > 55 %, besser 70 %).
+14. **Test V10 (Retention):** Karaoke-Untertitel (Wort leuchtet beim Sprechen), Zahlen-Ringe synchron zur Stimme, alle 1,5–2 s neuer Reiz, Antwort-Kästchen am Ende, nahtloser Loop (letztes Bild = erstes Bild). Vergleich mit V9: Ø Wiedergabe und „Ganz angesehen".
+15. **Technik:** Die TTS-Ausgabe hat manchmal ein lautes Knacken am Anfang/Ende (V9 betroffen, Ende). `voice.generate` entfernt das jetzt automatisch.

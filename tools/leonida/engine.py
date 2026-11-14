@@ -179,6 +179,81 @@ def render_card(path: str, width: int = 620) -> Image.Image:
     return card
 
 
+def render_karaoke(words: list[str], shown: int, active: int, size: int = 104,
+                   max_width: int = SAFE_RIGHT - SAFE_LEFT) -> Image.Image:
+    """Untertitel im Karaoke-Stil: der ganze Block steht, das gerade gesprochene Wort ist gelb
+    und etwas größer. Jedes Wort hat einen festen Platz (Breite der großen Variante) -> nichts
+    springt, nichts überlappt. shown < len(words) blendet spätere Wörter aus (optional)."""
+    f = font("Anton-Regular.ttf", size)
+    fa = font("Anton-Regular.ttf", int(size * 1.12))
+    stroke = 9
+    space = f.getlength(" ") * 1.1
+    slot = [fa.getlength(w) for w in words]
+    lines, line = [], []
+    for i in range(len(words)):
+        trial = sum(slot[j] for j in line + [i]) + space * len(line)
+        if line and trial + 2 * stroke > max_width:
+            lines.append(line)
+            line = [i]
+        else:
+            line.append(i)
+    lines.append(line)
+    asc, desc = f.getmetrics()
+    lh = int((asc + desc) * 1.02)
+    asc_a, _ = fa.getmetrics()
+    widths = [sum(slot[i] for i in ln) + space * max(len(ln) - 1, 0) for ln in lines]
+    pad = stroke + 24 + int(size * 0.12)
+    img_w, img_h = int(max(widths) + 2 * pad), int(lh * len(lines) + 2 * pad)
+    img = Image.new("RGBA", (img_w, img_h), (0, 0, 0, 0))
+    shadow = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    d, sd = ImageDraw.Draw(img), ImageDraw.Draw(shadow)
+    y = pad
+    for ln, lw in zip(lines, widths):
+        x = (img_w - lw) / 2
+        for i in ln:
+            if i < shown:
+                ff, col, yy = (fa, YELLOW, y - (asc_a - asc)) if i == active else (f, WHITE, y)
+                pos = (x + (slot[i] - ff.getlength(words[i])) / 2, yy)
+                sd.text((pos[0] + 6, pos[1] + 8), words[i], font=ff, fill=(0, 0, 0, 170),
+                        stroke_width=stroke, stroke_fill=(0, 0, 0, 170))
+                d.text(pos, words[i], font=ff, fill=col, stroke_width=stroke, stroke_fill=BLACK)
+            x += slot[i] + space
+        y += lh
+    shadow = shadow.filter(ImageFilter.GaussianBlur(6))
+    shadow.alpha_composite(img)
+    return shadow
+
+
+def render_ring(value: float, r: int, color, label: str, size: int, label_color) -> Image.Image:
+    """Wertungs-Ring: Bogen füllt sich bis value/100, Zahl in der Mitte (2x überabgetastet)."""
+    ss, th, pad = 2, int(r * 0.15), 46
+    D = 2 * (r + pad)
+    c, R, T = D * ss / 2, r * ss, th * ss
+    base = Image.new("RGBA", (D * ss, D * ss), (0, 0, 0, 0))
+    d = ImageDraw.Draw(base)
+    d.ellipse([c - R - 6 * ss, c - R - 6 * ss, c + R + 6 * ss, c + R + 6 * ss], fill=(0, 0, 0, 125))
+    box = [c - R, c - R, c + R, c + R]
+    d.arc(box, 0, 360, fill=(255, 255, 255, 70), width=T)
+    frac = min(max(value / 100, 0), 1)
+    if frac > 0.002:
+        arc = Image.new("RGBA", base.size, (0, 0, 0, 0))
+        da = ImageDraw.Draw(arc)
+        a0, a1 = -90, -90 + 360 * frac
+        da.arc(box, a0, a1, fill=color + (255,), width=T)
+        rc = R - T / 2
+        for ang in (a0, a1):                                   # runde Enden
+            px, py = c + rc * math.cos(math.radians(ang)), c + rc * math.sin(math.radians(ang))
+            da.ellipse([px - T / 2, py - T / 2, px + T / 2, py + T / 2], fill=color + (255,))
+        glow = arc.filter(ImageFilter.GaussianBlur(16 * ss))
+        base.alpha_composite(glow)
+        base.alpha_composite(arc)
+    img = base.resize((D, D), Image.LANCZOS)
+    if label:
+        t = render_text(label, "huge", color=label_color, size=size)
+        img.alpha_composite(t, (int(D / 2 - t.width / 2), int(D / 2 - t.height / 2)))
+    return img
+
+
 # ---------------------------------------------------------------- Hintergrund
 
 def synth_background(preset: str = "sunset") -> Image.Image:
@@ -292,10 +367,19 @@ class Beat:
     type_cps: float = 25      # Tipp-Geschwindigkeit (Zeichen/s) für anim=type
     image: str | None = None  # statt Text: Bild als schwebende Karte
     card_w: int = 620         # Kartenbreite in px
+    count_dur: float | None = None   # Dauer des Hochzählens (Standard: min(1,6 s, Länge-0,3))
+    words: list | None = None        # Karaoke: [[Wort, Startzeit relativ zum Beat], ...]
+    ring_r: int = 230                # Wertungs-Ring: Radius in px
+    enter: str = ""                  # Eingangs-Animation überschreiben (z. B. "punch" für einen Ring)
+    strike_at: float = -1            # roter Durchstreich-Strich ab dieser Zeit (relativ), -1 = aus
+
+    def count_p(self, lt: float) -> float:
+        cd = self.count_dur if self.count_dur else min(1.6, self.end - self.t - 0.3)
+        return ease_out_cubic(lt / max(cd, 0.05))
 
     def text_at(self, lt: float) -> str:
         if self.anim == "count":
-            p = ease_out_cubic(lt / max(min(1.6, self.end - self.t - 0.3), 0.1))
+            p = self.count_p(lt)
             v = self.count_from + (self.count_to - self.count_from) * p
             num = self.count_fmt.format(v).replace(",", ".")
             return self.text.replace("{n}", num)
@@ -344,6 +428,43 @@ class Renderer:
         self.progress = spec.get("progress", True)
         self.watermark = spec.get("watermark")
         self.flash_strength = spec.get("flash_strength", 110)  # sanfter Blitz bei Bildwechsel (0 = aus)
+        # Zoom-Stöße des Hintergrunds auf Schlägen: [[Zeit, Stärke], ...]
+        self.pulses = [tuple(p) if isinstance(p, (list, tuple)) else (p, 0.05) for p in spec.get("pulses", [])]
+
+    def _karaoke_img(self, beat: Beat, lt: float) -> Image.Image:
+        ws = beat.words or []
+        active = max(sum(1 for _, wt in ws if wt <= lt + 1e-6) - 1, 0)
+        key = (id(beat), "k", active)
+        if key not in self.cache:
+            self.cache[key] = render_karaoke([w for w, _ in ws], len(ws), active, size=beat.size or 104)
+        return self.cache[key]
+
+    def _ring_img(self, beat: Beat, lt: float) -> Image.Image:
+        v = beat.count_from + (beat.count_to - beat.count_from) * beat.count_p(lt)
+        label = beat.text.replace("{n}", f"{round(v):d}")
+        key = (id(beat), "r", round(v * 2), label)
+        if key not in self.cache:
+            col = COLORS.get(beat.accent, beat.accent) if isinstance(beat.accent, str) else tuple(beat.accent)
+            lab_col = COLORS.get(beat.color, WHITE) if beat.color else WHITE
+            self.cache[key] = render_ring(v, beat.ring_r, col, label, beat.size or 170, lab_col)
+        return self.cache[key]
+
+    def _strike(self, canvas: Image.Image, img: Image.Image, x: int, y: int, beat: Beat, lt: float):
+        p = min(1.0, (lt - beat.strike_at) / 0.14)
+        key = ("strike", id(beat), img.size, int(p * 24))
+        if key not in self.cache:
+            ss, w, h = 2, img.width, img.height
+            layer = Image.new("RGBA", (w * ss, h * ss), (0, 0, 0, 0))
+            d = ImageDraw.Draw(layer)
+            x0, y0 = 0.10 * w * ss, 0.66 * h * ss
+            x1, y1 = x0 + p * 0.80 * w * ss, y0 - p * 0.30 * h * ss
+            t = max(int(h * 0.085), 10) * ss
+            for width, col in ((t + 12 * ss, BLACK), (t, RED)):
+                d.line([x0, y0, x1, y1], fill=col + (255,), width=width)
+                for px, py in ((x0, y0), (x1, y1)):
+                    d.ellipse([px - width / 2, py - width / 2, px + width / 2, py + width / 2], fill=col + (255,))
+            self.cache[key] = layer.resize((w, h), Image.LANCZOS)
+        canvas.alpha_composite(self.cache[key], (max(x, -img.width), y))
 
     def _text_img(self, beat: Beat, text: str) -> Image.Image:
         key = (id(beat), text)
@@ -358,19 +479,27 @@ class Renderer:
 
     def _place(self, canvas: Image.Image, img: Image.Image, beat: Beat, lt: float, life: float):
         scale, alpha, dy = 1.0, 1.0, 0.0
-        if beat.anim in ("pop", "count"):
+        anim = beat.enter or beat.anim
+        if anim in ("pop", "count", "ring"):
             scale = 0.55 + 0.45 * ease_out_back(lt / 0.28)
             alpha = min(1, lt / 0.08)
-        elif beat.anim == "stamp":
+        elif anim == "karaoke":                         # kurzer Plopp, wenn ein neuer Untertitel kommt
+            scale = 0.82 + 0.18 * ease_out_back(lt / 0.16)
+            alpha = min(1, lt / 0.05)
+        elif anim == "stamp":
             scale = 2.2 - 1.2 * ease_out_cubic(lt / 0.18)
             alpha = min(1, lt / 0.06)
-        elif beat.anim == "slide":
+        elif anim == "slide":
             dy = 140 * (1 - ease_out_cubic(lt / 0.35))
             alpha = min(1, lt / 0.2)
-        elif beat.anim == "fade":
+        elif anim == "fade":
             alpha = min(1, lt / 0.35)
-        elif beat.anim == "punch":                      # ab Frame 0 voll lesbar, schrumpft mit Ruck auf 100 %
+        elif anim == "punch":                      # ab Frame 0 voll lesbar, schrumpft mit Ruck auf 100 %
             scale = 1.18 - 0.18 * ease_out_cubic(lt / 0.35)
+        if beat.anim == "ring":                         # Ring "landet": kurzer Stoß, wenn die Zahl steht
+            cd = beat.count_dur if beat.count_dur else min(1.6, beat.end - beat.t - 0.3)
+            if 0 <= lt - cd < 0.3 and beat.count_to != beat.count_from:
+                scale *= 1 + 0.09 * (1 - ease_out_cubic((lt - cd) / 0.3))
         # Ausblenden
         out = life - lt
         if beat.exit == "fade" and out < 0.18:
@@ -390,6 +519,8 @@ class Renderer:
         x = int(W * beat.x - img.width / 2 + sx)
         y = int(H * beat.y - img.height / 2 + dy + sy)
         canvas.alpha_composite(img, (max(x, -img.width), y))
+        if beat.strike_at >= 0 and lt >= beat.strike_at:
+            self._strike(canvas, img, x, y, beat, lt)
 
     def _chrome(self, canvas: Image.Image, t: float):
         if t < self.spec.get("chrome_from", 0):   # Badge/Balken erst nach dem Hook
@@ -444,10 +575,22 @@ class Renderer:
             else:
                 canvas = Image.new("RGBA", (W, H), (20, 10, 30, 255))
             flash_amt = 0
+        for pt, amt in self.pulses:                     # Zoom-Stoß auf dem Schlag
+            dt = t - pt
+            if 0 <= dt < 0.3:
+                k = 1 + amt * (1 - ease_out_cubic(dt / 0.3))
+                cw, ch = W / k, H / k
+                canvas = canvas.resize((W, H), Image.BICUBIC, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
         canvas.alpha_composite(self.overlay)
         for b in self.beats:
             if b.t <= t < b.end:
                 lt = t - b.t
+                if b.anim == "karaoke":
+                    self._place(canvas, self._karaoke_img(b, lt), b, lt, b.end - b.t)
+                    continue
+                if b.anim == "ring":
+                    self._place(canvas, self._ring_img(b, lt), b, lt, b.end - b.t)
+                    continue
                 txt = b.text_at(lt)
                 if txt or b.image:
                     self._place(canvas, self._text_img(b, txt), b, lt, b.end - b.t)

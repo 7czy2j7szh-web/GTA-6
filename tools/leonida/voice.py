@@ -60,6 +60,41 @@ def _trim(pcm: np.ndarray, thresh=0.012, pad=0.03) -> np.ndarray:
     return pcm[s:e]
 
 
+def _strip_edge_clicks(pcm: np.ndarray, min_gap=0.15, max_len=0.25) -> np.ndarray:
+    """Die TTS-Ausgabe hat manchmal ein lautes Knacken ganz am Anfang/Ende (kurzer Ausschlag,
+    durch Stille von der Sprache getrennt). Solche Randstücke entfernen."""
+    win = int(0.01 * SR)
+    x = np.abs(pcm.astype(np.float32) / 32768)
+    n = len(x) // win
+    if n < 3:
+        return pcm
+    e = x[: n * win].reshape(n, win).mean(axis=1)
+    on = e > 0.006
+    segs, i = [], 0
+    while i < n:                                   # zusammenhängende Ton-Abschnitte
+        if on[i]:
+            j = i
+            while j < n and on[j]:
+                j += 1
+            segs.append([i, j])
+            i = j
+        else:
+            i += 1
+    merged = []
+    for a, b in segs:                              # kurze Lücken (< min_gap) gehören zur Sprache
+        if merged and (a - merged[-1][1]) * 0.01 < min_gap:
+            merged[-1][1] = b
+        else:
+            merged.append([a, b])
+    if len(merged) > 1 and (merged[0][1] - merged[0][0]) * 0.01 <= max_len:
+        merged.pop(0)
+    if len(merged) > 1 and (merged[-1][1] - merged[-1][0]) * 0.01 <= max_len:
+        merged.pop()
+    if not merged:
+        return pcm
+    return pcm[max(merged[0][0] - 3, 0) * win: min(merged[-1][1] + 3, n) * win]
+
+
 def generate(text: str, voice: str = DEFAULT_VOICE, style: str = STYLE, model: str = MODEL) -> str:
     os.makedirs(CACHE, exist_ok=True)
     key = hashlib.sha1(f"{model}|{voice}|{style}|{text}".encode()).hexdigest()[:16]
@@ -67,7 +102,7 @@ def generate(text: str, voice: str = DEFAULT_VOICE, style: str = STYLE, model: s
     if os.path.exists(path):
         return path
     pcm = np.frombuffer(_request(text, voice, style, model), dtype=np.int16)
-    pcm = _trim(pcm)
+    pcm = _trim(_strip_edge_clicks(pcm))
     with wave.open(path, "wb") as w:
         w.setnchannels(1)
         w.setsampwidth(2)

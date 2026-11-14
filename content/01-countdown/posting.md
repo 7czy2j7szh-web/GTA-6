@@ -195,3 +195,25 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Anpinnen:** `Ein Wort: Standard oder Ultimate? 👇`
 - **Beste Zeit:** 12–13 Uhr oder 18–19 Uhr
 - Quellen: hothardware.com, nme.com, gamedev.net (Sensor-Tower-Daten)
+
+---
+
+## Retention-Video · `V10_bekommt-gta6-eine-100.mp4` (12 s, Stimme Fenrir)
+- **Thema:** Höchste Metacritic-Wertungen: GTA IV 98, GTA V 97, Red Dead Redemption 2 97. Noch nie hat ein Spiel eine 100 bekommen, der Rekord ist 99 (Zelda: Ocarina of Time). Die Tests zu GTA 6 sollen laut Insidern am 18.11. kommen (nicht offiziell).
+- **Neu im Video:**
+  - Karaoke-Untertitel: Das gesprochene Wort leuchtet gelb auf.
+  - Wertungs-Ringe zählen synchron zur Stimme hoch.
+  - Vergleich aller drei Spiele als Mini-Ringe.
+  - Die „100" wird auf „NIE" rot durchgestrichen, mit Zoom-Stoß und Musik-Crash.
+  - Antwort-Kästchen 97/98/99/100 am Ende.
+  - Das letzte Bild geht nahtlos in das erste über (Loop).
+- **Caption:**
+  ```
+  Bekommt GTA 6 als erstes Spiel überhaupt eine 100? 🤯 Was tippst du?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #metacritic #gaming #ps5`
+- **Anpinnen:** `Deine Zahl: 97, 98, 99 oder 100? 👇`
+- **Beste Zeit:** heute (Sa) 18–19 Uhr
+- **Am 18.11.:** Ergebnis-Video „GTA 6 hat eine …" (Antwort auf die Kommentare)
+- Quellen: gamespot.com, insider-gaming.com, statista.com (Metacritic-Bestenlisten)
+
