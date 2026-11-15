@@ -1,7 +1,7 @@
 {
  "duration": 50.608,
  "fps": 30,
- "crf": 16,
+ "crf": 18,
  "preset": "slow",
  "darken": 0.2,
  "grade": {
@@ -1283,8 +1283,8 @@
      "to": 212,
      "suffix": " GB",
      "size": 220,
-     "at": 0.65,
-     "dur": 0.8
+     "at": 0.15,
+     "dur": 0.9
     },
     {
      "type": "pills",
@@ -1451,7 +1451,7 @@
       "unbestätigt"
      ],
      "bg": "strike",
-     "at": 0.68,
+     "at": 0.1,
      "motion": "punch"
     },
     {
@@ -1790,7 +1790,7 @@
      1.0,
      1.05
     ],
-    "speed": 0.98
+    "speed": 0.871
    }
   },
   {
@@ -1934,9 +1934,9 @@
    "type": "tick"
   },
   {
-   "t": 12.97,
+   "t": 12.47,
    "type": "riser",
-   "len": 0.8
+   "len": 0.9
   },
   {
    "t": 32.72,
