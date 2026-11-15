@@ -184,7 +184,14 @@ class Channel:
         self.subs = spec.get("subs", [])
         self.dark = Image.new("RGBA", (W, H), (0, 0, 0, int(255 * spec.get("darken", 0.2))))
         self.puppet = None
-        if spec.get("mascot") is not None:
+        if spec.get("host") is not None:               # Porträt-Moderatorin statt Maskottchen
+            from .host import HostCard
+            hst, v = spec["host"], spec["voice"]
+            _, level = mouth_levels(os.path.join(ROOT, v["wav"]), v["t"], self.n, self.fps)
+            self.puppet = HostCard(os.path.join(ROOT, hst["image"]), level, to_side=hst.get("to_side", ()),
+                                   to_centre=hst.get("to_centre", ()), enter=hst.get("enter", 0.0), fps=self.fps,
+                                   duration=self.duration)
+        elif spec.get("mascot") is not None:
             m = spec["mascot"]
             v = spec["voice"]
             mouth, level = mouth_levels(os.path.join(ROOT, v["wav"]), v["t"], self.n, self.fps)
