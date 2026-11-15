@@ -184,7 +184,14 @@ class Channel:
         self.subs = spec.get("subs", [])
         self.dark = Image.new("RGBA", (W, H), (0, 0, 0, int(255 * spec.get("darken", 0.2))))
         self.puppet = None
-        if spec.get("host") is not None:               # Porträt-Moderatorin statt Maskottchen
+        if spec.get("presenter") is not None:          # freigestellte Moderatorin (ganzer Oberkörper)
+            from .presenter import PresenterPlacer
+            pr, v = spec["presenter"], spec["voice"]
+            _, level = mouth_levels(os.path.join(ROOT, v["wav"]), v["t"], self.n, self.fps)
+            self.puppet = PresenterPlacer(os.path.join(ROOT, pr["image"]), level, self.fps, x=pr.get("x", 630),
+                                          bottom=pr.get("bottom", 1950), display_h=pr.get("display_h", 1150),
+                                          gestures=pr.get("gestures", ()), enter=pr.get("enter", 0.0))
+        elif spec.get("host") is not None:             # Porträt-Moderatorin statt Maskottchen
             from .host import HostCard
             hst, v = spec["host"], spec["voice"]
             _, level = mouth_levels(os.path.join(ROOT, v["wav"]), v["t"], self.n, self.fps)
@@ -221,7 +228,7 @@ class Channel:
                 self.sub_cache[key] = D.subtitle(words, act, pop)
             im = self.sub_cache[key]
             side = self.puppet.side(t) if self.puppet else 1.0
-            y = 900 + (1050 - 900) * side
+            y = self.spec["sub_y"] if "sub_y" in self.spec else 900 + (1050 - 900) * side
             op, dy, _ = motion("glide", t - pg["t"]) if pg.get("glide", True) else (1, 0, 1)
             dy *= 0.35
             D.paste(canvas, im, W / 2 - im.width / 2, y - im.height / 2 + dy, op)
