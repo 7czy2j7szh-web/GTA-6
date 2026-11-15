@@ -1,0 +1,1111 @@
+{
+ "id": "V17",
+ "out": "exports/countdown/V17_gta-oder-token.mp4",
+ "duration": 21.7,
+ "fps": 30,
+ "crf": 16,
+ "preset": "slow",
+ "music": "chase",
+ "music_offset": 4.766,
+ "flash_strength": 0,
+ "overlay_strength": 0.2,
+ "chrome_from": 0,
+ "badge": null,
+ "progress": false,
+ "cover_at": 3.6,
+ "grade": {
+  "contrast": 1.03,
+  "sat": 1.08,
+  "sharpen": 0.4,
+  "clarity": 0.08
+ },
+ "pulses": [
+  [
+   3.37,
+   0.05
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 0.82,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Würdest",
+     -0.04
+    ],
+    [
+     "du",
+     0.38
+    ],
+    [
+     "eher",
+     0.5
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.82,
+   "end": 1.74,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "einen",
+     0.0
+    ],
+    [
+     "Tag",
+     0.36
+    ],
+    [
+     "früher",
+     0.56
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 1.74,
+   "end": 3.01,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "GTA",
+     0.0
+    ],
+    [
+     "6",
+     0.56
+    ],
+    [
+     "spielen?",
+     0.77
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.01,
+   "end": 3.98,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Oder",
+     -0.02
+    ],
+    [
+     "den",
+     0.19
+    ],
+    [
+     "Pirate",
+     0.36
+    ],
+    [
+     "Token",
+     0.61
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.98,
+   "end": 5.02,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "in",
+     0.0
+    ],
+    [
+     "Fortnite",
+     0.1
+    ],
+    [
+     "finden?",
+     0.46
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.02,
+   "end": 5.62,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Mit",
+     -0.03
+    ],
+    [
+     "dem",
+     0.1
+    ],
+    [
+     "Token",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.62,
+   "end": 6.98,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "ist",
+     0.0
+    ],
+    [
+     "der",
+     0.1
+    ],
+    [
+     "komplette",
+     0.24
+    ],
+    [
+     "Item-Shop",
+     0.78
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 6.98,
+   "end": 8.25,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "14",
+     0.0
+    ],
+    [
+     "Tage",
+     0.29
+    ],
+    [
+     "gratis.",
+     0.62
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.25,
+   "end": 9.13,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Aber",
+     -0.03
+    ],
+    [
+     "die",
+     0.29
+    ],
+    [
+     "Chance:",
+     0.43
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 9.13,
+   "end": 9.5,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "eins",
+     -0.03
+    ],
+    [
+     "zu",
+     0.2
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 9.5,
+   "end": 11.5,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "137.500",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.5,
+   "end": 12.55,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "pro",
+     0.0
+    ],
+    [
+     "Truhe.",
+     0.34
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.55,
+   "end": 13.33,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Accounts",
+     -0.03
+    ],
+    [
+     "mit",
+     0.26
+    ],
+    [
+     "Token",
+     0.43
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.33,
+   "end": 14.18,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "werden",
+     0.0
+    ],
+    [
+     "angeblich",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.18,
+   "end": 15.1,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "für",
+     0.0
+    ],
+    [
+     "10.000",
+     0.26
+    ],
+    [
+     "Dollar",
+     0.68
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.1,
+   "end": 15.97,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "angeboten.",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.97,
+   "end": 16.84,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     -0.03
+    ],
+    [
+     "mit",
+     0.2
+    ],
+    [
+     "GTA",
+     0.34
+    ],
+    [
+     "6",
+     0.69
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 16.84,
+   "end": 17.11,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "spielst",
+     0.0
+    ],
+    [
+     "du,",
+     0.17
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.11,
+   "end": 18.21,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "während",
+     0.0
+    ],
+    [
+     "alle",
+     0.32
+    ],
+    [
+     "anderen",
+     0.53
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.21,
+   "end": 18.84,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "noch",
+     0.0
+    ],
+    [
+     "warten.",
+     0.08
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.84,
+   "end": 19.22,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Also:",
+     -0.03
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.22,
+   "end": 20.21,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "GTA",
+     -0.01
+    ],
+    [
+     "oder",
+     0.29
+    ],
+    [
+     "Token?",
+     0.48
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 20.21,
+   "end": 20.5,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Schreib's",
+     -0.01
+    ],
+    [
+     "in",
+     0.08
+    ],
+    [
+     "die",
+     0.2
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 20.5,
+   "end": 21.7,
+   "text": "",
+   "anim": "karaoke",
+   "size": 64,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "yellow",
+   "kstroke": 8,
+   "words": [
+    [
+     "Kommentare!",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 5.02,
+   "text": "WÜRDEST DU\nEHER …",
+   "style": "cinebig",
+   "size": 100,
+   "y": 0.29,
+   "anim": "punch",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 21.7,
+   "text": "1 TAG FRÜHER GTA 6",
+   "style": "label",
+   "size": 56,
+   "x": 0.33,
+   "y": 0.155,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 0.25,
+   "end": 21.7,
+   "text": "ODER",
+   "style": "label",
+   "size": 70,
+   "x": 0.5,
+   "y": 0.5,
+   "anim": "stamp",
+   "shake": 10,
+   "exit": "cut"
+  },
+  {
+   "t": 3.37,
+   "end": 21.7,
+   "text": "PIRATE TOKEN FINDEN",
+   "style": "label",
+   "size": 56,
+   "x": 0.5,
+   "y": 0.59,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 3.37,
+   "end": 21.7,
+   "text": "",
+   "image": "assets/free/fortnite/pirate_token_placeholder.png",
+   "style": "raw",
+   "card_w": 420,
+   "x": 0.5,
+   "y": 0.78,
+   "anim": "float",
+   "exit": "cut"
+  },
+  {
+   "t": 0.0,
+   "end": 3.37,
+   "text": "?",
+   "style": "cinebig",
+   "size": 260,
+   "color": "white",
+   "x": 0.5,
+   "y": 0.76,
+   "anim": "none",
+   "exit": "cut"
+  },
+  {
+   "t": 5.02,
+   "end": 8.25,
+   "text": "",
+   "anim": "card",
+   "y": 0.305,
+   "card": {
+    "type": "stat",
+    "icon": "calendar",
+    "icon_at": 0.06,
+    "from": 14,
+    "to": 14,
+    "suffix": " Tage",
+    "subtitle": "kompletter Item-Shop\ngratis",
+    "border": "yellow"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.25,
+   "end": 12.55,
+   "text": "",
+   "anim": "card",
+   "y": 0.305,
+   "card": {
+    "type": "stat",
+    "from": 0,
+    "to": 137500,
+    "hide": true,
+    "at": 1.04,
+    "dur": 0.6,
+    "prefix": "1 : ",
+    "num_size": 104,
+    "num_color": "red",
+    "subtitle": "Chance pro Truhe\n(laut Epic)",
+    "border": "red"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.55,
+   "end": 15.97,
+   "text": "",
+   "anim": "card",
+   "y": 0.305,
+   "card": {
+    "type": "stat",
+    "from": 0,
+    "to": 10000,
+    "hide": true,
+    "at": 1.63,
+    "dur": 0.5,
+    "suffix": " $",
+    "num_color": "yellow",
+    "subtitle": "angeblich für Accounts\nmit Token",
+    "border": "yellow"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.97,
+   "end": 18.84,
+   "text": "",
+   "anim": "card",
+   "y": 0.305,
+   "card": {
+    "type": "info",
+    "icon": "calendar",
+    "icon_at": 0.06,
+    "title": "1 Tag Vorsprung",
+    "subtitle": "du spielst –\nalle anderen warten",
+    "border": "pink"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.84,
+   "end": 21.7,
+   "text": "",
+   "anim": "card",
+   "y": 0.305,
+   "card": {
+    "type": "choice",
+    "question": "Was nimmst du?",
+    "qcolor": "yellow",
+    "border": "white",
+    "q_at": 0.05,
+    "options": [
+     {
+      "label": "GTA 6",
+      "color": "pink",
+      "at": 0.37
+     },
+     {
+      "label": "Token",
+      "color": "yellow",
+      "at": 0.86
+     }
+    ]
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 20.5,
+   "end": 21.7,
+   "text": "→",
+   "style": "arrow",
+   "size": 170,
+   "x": 0.82,
+   "y": 0.6,
+   "anim": "nudge",
+   "exit": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 0.25,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 3.37,
+   "type": "chime"
+  },
+  {
+   "t": 3.37,
+   "type": "hit",
+   "gain": 0.8
+  },
+  {
+   "t": 4.96,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 8.19,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 9.29,
+   "type": "riser",
+   "len": 0.6,
+   "gain": 0.5
+  },
+  {
+   "t": 9.89,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 12.49,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 14.18,
+   "type": "riser",
+   "len": 0.5,
+   "gain": 0.5
+  },
+  {
+   "t": 14.68,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 15.91,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 18.78,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 19.21,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 19.7,
+   "type": "pop",
+   "gain": 0.7
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.0,
+   "wav": "content/01-countdown/voice/v17/f_1.wav"
+  },
+  {
+   "t": 3.01,
+   "wav": "content/01-countdown/voice/v17/f_2.wav"
+  },
+  {
+   "t": 5.02,
+   "wav": "content/01-countdown/voice/v17/f_3.wav"
+  },
+  {
+   "t": 8.25,
+   "wav": "content/01-countdown/voice/v17/f_4.wav"
+  },
+  {
+   "t": 9.13,
+   "wav": "content/01-countdown/voice/v17/f_5.wav"
+  },
+  {
+   "t": 12.55,
+   "wav": "content/01-countdown/voice/v17/f_6.wav"
+  },
+  {
+   "t": 15.97,
+   "wav": "content/01-countdown/voice/v17/f_7.wav"
+  },
+  {
+   "t": 18.84,
+   "wav": "content/01-countdown/voice/v17/f_8.wav"
+  },
+  {
+   "t": 19.22,
+   "wav": "content/01-countdown/voice/v17/f_9.wav"
+  },
+  {
+   "t": 20.21,
+   "wav": "content/01-countdown/voice/v17/f_10.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "split:",
+   "start": 0.0,
+   "end": 5.02,
+   "top": {
+    "drone": "assets/official/img/vc_day_aerial.jpg",
+    "cam": {
+     "x": [
+      0.5,
+      0.56
+     ],
+     "y": [
+      0.47,
+      0.45
+     ],
+     "zoom": [
+      1.05,
+      1.15
+     ]
+    }
+   },
+   "bottom": {
+    "rays": {
+     "c1": [
+      255,
+      196,
+      40
+     ],
+     "c2": [
+      62,
+      18,
+      84
+     ],
+     "n": 14,
+     "speed": 0.7
+    }
+   },
+   "reveal": -1,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 5.02,
+   "end": 15.97,
+   "top": {
+    "drone": "assets/official/stills/keys_bridge.png",
+    "cam": {
+     "x": [
+      0.42,
+      0.5
+     ],
+     "y": [
+      0.52,
+      0.47
+     ],
+     "zoom": [
+      1.02,
+      1.16
+     ]
+    }
+   },
+   "bottom": {
+    "rays": {
+     "c1": [
+      255,
+      196,
+      40
+     ],
+     "c2": [
+      62,
+      18,
+      84
+     ],
+     "n": 14,
+     "speed": 0.7
+    }
+   },
+   "reveal": -1,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 15.97,
+   "end": 18.84,
+   "top": {
+    "drone": "assets/official/gallery/Vice_City_15.jpg",
+    "cam": {
+     "x": [
+      0.3,
+      0.36
+     ],
+     "y": [
+      0.4,
+      0.4
+     ],
+     "zoom": [
+      1.05,
+      1.15
+     ]
+    }
+   },
+   "bottom": {
+    "rays": {
+     "c1": [
+      255,
+      196,
+      40
+     ],
+     "c2": [
+      62,
+      18,
+      84
+     ],
+     "n": 14,
+     "speed": 0.7
+    }
+   },
+   "reveal": -1,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 18.84,
+   "end": 21.7,
+   "top": {
+    "drone": "assets/official/stills/ocean_night.png",
+    "cam": {
+     "x": [
+      0.58,
+      0.64
+     ],
+     "y": [
+      0.45,
+      0.44
+     ],
+     "zoom": [
+      1.02,
+      1.1
+     ]
+    }
+   },
+   "bottom": {
+    "rays": {
+     "c1": [
+      255,
+      196,
+      40
+     ],
+     "c2": [
+      62,
+      18,
+      84
+     ],
+     "n": 14,
+     "speed": 0.7
+    }
+   },
+   "reveal": -1,
+   "flash": false,
+   "fade": 0
+  }
+ ]
+}

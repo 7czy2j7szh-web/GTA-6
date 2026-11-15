@@ -415,7 +415,8 @@ class Renderer:
             elif sc["image"].startswith("split:"):
                 # Vergleich: oben GTA 6, unten echtes Foto (wird zur Auflösung scharf)
                 from .split import SplitScene
-                bg = SplitScene(W, H, sc["top"], sc["bottom"], dur=sc["end"] - sc["start"], reveal=sc.get("reveal", 1.0))
+                bg = SplitScene(W, H, sc["top"], sc["bottom"], dur=sc["end"] - sc["start"], reveal=sc.get("reveal", 1.0),
+                                t0=sc["start"])
             elif sc["image"].startswith("clip:"):
                 # echte Videoszene aus einem offiziellen Trailer
                 from .clip import VideoClip
@@ -534,7 +535,22 @@ class Renderer:
     def _text_img(self, beat: Beat, text: str) -> Image.Image:
         key = (id(beat), text)
         if key not in self.cache:
-            if beat.image:
+            if beat.image and beat.style == "raw":          # freigestelltes Bild mit Leucht-Schein, ohne Karte
+                im = Image.open(os.path.join(ROOT, beat.image)).convert("RGBA")
+                w = beat.card_w
+                im = im.resize((w, int(im.height * w / im.width)), Image.LANCZOS)
+                pad = int(w * 0.25)
+                out = Image.new("RGBA", (im.width + 2 * pad, im.height + 2 * pad), (0, 0, 0, 0))
+                glow = Image.new("RGBA", out.size, (0, 0, 0, 0))
+                col = COLORS.get(beat.color, (255, 210, 80)) if beat.color else (255, 210, 80)
+                solid = Image.new("RGBA", im.size, col + (255,))
+                glow.paste(solid, (pad, pad), im.getchannel("A"))
+                glow = glow.filter(ImageFilter.GaussianBlur(w * 0.08))
+                glow.putalpha(glow.getchannel("A").point(lambda v: int(min(255, v * 1.6))))
+                out.alpha_composite(glow)
+                out.alpha_composite(im, (pad, pad))
+                self.cache[key] = out
+            elif beat.image:
                 self.cache[key] = render_card(beat.image, beat.card_w)
             else:
                 self.cache[key] = render_text(text, beat.style, beat.accent, beat.color, size=beat.size)
@@ -548,6 +564,10 @@ class Renderer:
         if anim in ("pop", "count", "ring"):
             scale = 0.55 + 0.45 * ease_out_back(lt / 0.28)
             alpha = min(1, lt / 0.08)
+        elif anim == "float":                           # aufploppen, dann sanft schweben (z. B. Token)
+            scale = 0.55 + 0.45 * ease_out_back(lt / 0.3)
+            alpha = min(1, lt / 0.08)
+            dy = 14 * math.sin(2 * math.pi * 0.7 * lt)
         elif anim == "pulse":                           # aufploppen, dann pulsieren (z. B. Folgen-Button)
             scale = 0.55 + 0.45 * ease_out_back(lt / 0.28)
             if lt > 0.3:
