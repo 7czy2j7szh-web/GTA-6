@@ -184,7 +184,13 @@ class Channel:
         self.subs = spec.get("subs", [])
         self.dark = Image.new("RGBA", (W, H), (0, 0, 0, int(255 * spec.get("darken", 0.2))))
         self.puppet = None
-        if spec.get("presenter") is not None:          # freigestellte Moderatorin (vorne/Profil/hinten)
+        if spec.get("greenclip") is not None:          # Moderatorin aus KI-Videoclips vor Grün
+            from .greenclip import GreenClip
+            gc = spec["greenclip"]
+            segs = [dict(s, src=os.path.join(ROOT, s["src"])) for s in gc["segments"]]
+            self.puppet = GreenClip(segs, scale=gc.get("scale", 1.35), top=gc.get("top", 742), x=gc.get("x", 540),
+                                    moves=gc.get("moves", ()))
+        elif spec.get("presenter") is not None:        # freigestellte Moderatorin (vorne/Profil/hinten)
             from .presenter import Stage
             pr, v = spec["presenter"], spec["voice"]
             _, level = mouth_levels(os.path.join(ROOT, v["wav"]), v["t"], self.n, self.fps)
@@ -248,6 +254,9 @@ class Channel:
 
     def frame(self, t: float) -> Image.Image:
         c = self._grade(self._scene(t))
+        if self.spec.get("bg_blur"):                           # Hintergrund leicht unscharf: Figur hebt sich ab
+            from PIL import ImageFilter
+            c = c.filter(ImageFilter.GaussianBlur(self.spec["bg_blur"]))
         c.alpha_composite(self.dark)
         for e in self.elements:
             e.frame(c, t)

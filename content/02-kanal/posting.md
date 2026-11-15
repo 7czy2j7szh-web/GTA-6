@@ -50,3 +50,20 @@ Quellen: Rockstar-Support (Mitternacht Ortszeit, Neuseeland = Mi. 12:00 deutsche
 | erste Tests am selben Tag | Insider Gaming (bestätigt Leaker NateTheHate) – **nicht offiziell** |
 | geleakte Songliste seit gestern | Berichte vom 14.11. (Vinyl-Rückseite, 34 Songs) – **unbestätigt** |
 | TikTok-Wortfilter unter Inhaltseinstellungen | TikTok-Funktion „Keywords filtern“ (Für dich / Folge ich) |
+
+## K3 – „Der größte Fehler am Release-Tag“ (Moderatorin aus KI-Clips, Stand 15.11.2026)
+
+**Datei:** `downloads/K3_groesster-fehler.mp4` (mit Musik) · `downloads/K3_groesster-fehler_ohne-musik.mp4`
+
+**Beschreibung:**
+Mach das bis Donnerstag – sonst schaust du nur zu 👀 #gta6 #gtavi #gta6news #ps5 #xbox #gaming #fürdich #fyp
+
+**Kommentar zum Anpinnen:**
+Hast du schon vorgeladen? 👇
+Vorladen geht mit digitaler Vorbestellung seit dem 10.11. Bei der Box zuerst den Code einlösen. Quellen: Rockstar (bis zu 212 GB), PlayStation Blog (Vorladen empfohlen).
+
+**Hinweise:**
+- „KI-generierte Inhalte“ einschalten (Figur, Stimme und Bewegung sind KI-erzeugt).
+- Thema gilt bis Mittwoch.
+
+**Schnitt:** Clip B komplett (ohne das doppelte „zwei“), aus Clip A nur „wartet stundenlang“, „Die Lösung“ und „Folg mir, wir sehen uns in Vice City“ plus Weglaufen; die unverständliche Stelle ist stumm und durch die Lösungskarte ersetzt.

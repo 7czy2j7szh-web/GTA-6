@@ -1,0 +1,559 @@
+{
+ "duration": 16.31,
+ "fps": 24,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 2.5,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "voice": {
+  "wav": "content/02-kanal/voice/k3/voice.wav",
+  "t": 0.0
+ },
+ "subs": [
+  {
+   "t": 0.23,
+   "end": 0.78,
+   "words": [
+    [
+     "Wenn",
+     0.23
+    ],
+    [
+     "du",
+     0.41
+    ],
+    [
+     "das",
+     0.61
+    ]
+   ]
+  },
+  {
+   "t": 0.78,
+   "end": 1.68,
+   "words": [
+    [
+     "bis",
+     0.78
+    ],
+    [
+     "Donnerstag",
+     1.06
+    ]
+   ]
+  },
+  {
+   "t": 1.68,
+   "end": 2.29,
+   "words": [
+    [
+     "nicht",
+     1.68
+    ],
+    [
+     "machst,",
+     1.91
+    ]
+   ]
+  },
+  {
+   "t": 2.29,
+   "end": 3.15,
+   "words": [
+    [
+     "schaust",
+     2.29
+    ],
+    [
+     "du",
+     2.48
+    ],
+    [
+     "anderen",
+     2.59
+    ]
+   ]
+  },
+  {
+   "t": 3.15,
+   "end": 4.01,
+   "words": [
+    [
+     "beim",
+     3.15
+    ],
+    [
+     "GTA",
+     3.26
+    ],
+    [
+     "6",
+     3.81
+    ]
+   ]
+  },
+  {
+   "t": 4.01,
+   "end": 5.15,
+   "words": [
+    [
+     "Spielen",
+     4.01
+    ],
+    [
+     "zu.",
+     4.34
+    ]
+   ]
+  },
+  {
+   "t": 5.18,
+   "end": 6.15,
+   "words": [
+    [
+     "Denn",
+     5.18
+    ],
+    [
+     "GTA",
+     5.37
+    ],
+    [
+     "6",
+     5.81
+    ]
+   ]
+  },
+  {
+   "t": 6.15,
+   "end": 6.76,
+   "words": [
+    [
+     "braucht",
+     6.15
+    ],
+    [
+     "bis",
+     6.4
+    ],
+    [
+     "zu",
+     6.52
+    ]
+   ]
+  },
+  {
+   "t": 6.76,
+   "end": 7.56,
+   "words": [
+    [
+     "212",
+     6.76
+    ]
+   ]
+  },
+  {
+   "t": 7.56,
+   "end": 9.06,
+   "words": [
+    [
+     "Gigabyte.",
+     7.56
+    ]
+   ]
+  },
+  {
+   "t": 9.06,
+   "end": 10.23,
+   "words": [
+    [
+     "wartet",
+     9.06
+    ],
+    [
+     "stundenlang.",
+     9.51
+    ]
+   ]
+  },
+  {
+   "t": 10.23,
+   "end": 11.11,
+   "words": [
+    [
+     "Die",
+     10.23
+    ],
+    [
+     "Lösung:",
+     10.38
+    ]
+   ]
+  },
+  {
+   "t": 12.36,
+   "end": 12.78,
+   "words": [
+    [
+     "Folg",
+     12.36
+    ],
+    [
+     "mir.",
+     12.61
+    ]
+   ]
+  },
+  {
+   "t": 12.78,
+   "end": 13.38,
+   "words": [
+    [
+     "Wir",
+     12.78
+    ],
+    [
+     "sehen",
+     12.89
+    ],
+    [
+     "uns",
+     13.23
+    ]
+   ]
+  },
+  {
+   "t": 13.38,
+   "end": 14.9,
+   "words": [
+    [
+     "in",
+     13.38
+    ],
+    [
+     "Vice",
+     13.6
+    ],
+    [
+     "City!",
+     13.77
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 5.12,
+   "y": 555,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Mach das bis Donnerstag",
+     "size": 88,
+     "at": 0.12
+    },
+    {
+     "type": "big",
+     "text": "SONST SCHAUST\nDU NUR ZU",
+     "size": 132,
+     "at": 2.29,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 26
+  },
+  {
+   "t": 2.6,
+   "end": 10.2,
+   "y": 300,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "DIE LÖSUNG · AM ENDE",
+     "size": 32
+    }
+   ]
+  },
+  {
+   "t": 5.12,
+   "end": 8.95,
+   "y": 550,
+   "rows": [
+    {
+     "type": "text",
+     "text": "GTA 6 braucht bis zu",
+     "size": 46,
+     "at": 0.1
+    },
+    {
+     "type": "count",
+     "to": 212,
+     "suffix": " GB",
+     "size": 220,
+     "at": 0.2,
+     "dur": 1.83
+    },
+    {
+     "type": "text",
+     "text": "laut Rockstar",
+     "size": 34,
+     "color": "second",
+     "at": 2.1399999999999997
+    }
+   ]
+  },
+  {
+   "t": 8.95,
+   "end": 10.25,
+   "y": 550,
+   "rows": [
+    {
+     "type": "text",
+     "text": "Wer erst am Donnerstag lädt …",
+     "size": 48,
+     "color": "cream",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "WARTET\nSTUNDENLANG",
+     "size": 130,
+     "at": 0.11,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 10.25,
+   "end": 13.8,
+   "y": 555,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "JETZT VORLADEN",
+     "size": 138,
+     "at": 1.15,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "noch heute starten"
+     ],
+     "psize": 44,
+     "ph": 100,
+     "at": 1.5,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "möglich seit 10.11.",
+     "size": 36,
+     "color": "second",
+     "glow": 0.5,
+     "at": 1.75
+    }
+   ],
+   "card": false,
+   "gap": 18
+  },
+  {
+   "t": 13.85,
+   "end": 16.31,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 0.0,
+   "end": 2.23,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.601
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 2.23,
+   "end": 5.12,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.616
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 5.12,
+   "end": 8.95,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.812
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.79,
+   "start": 8.95,
+   "end": 10.25,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 10.25,
+   "end": 12.25,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 12.25,
+   "end": 16.31,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.897
+   }
+  }
+ ],
+ "greenclip": {
+  "segments": [
+   {
+    "src": "assets/host/gen/clipB.mp4",
+    "a": 0.0,
+    "b": 6.8,
+    "t": 0.0
+   },
+   {
+    "src": "assets/host/gen/clipB.mp4",
+    "a": 7.3,
+    "b": 9.45,
+    "t": 6.8
+   },
+   {
+    "src": "assets/host/gen/clipA.mp4",
+    "a": 2.15,
+    "b": 3.45,
+    "t": 8.95
+   },
+   {
+    "src": "assets/host/gen/clipA.mp4",
+    "a": 3.97,
+    "b": 10.03,
+    "t": 10.25
+   }
+  ],
+  "scale": 1.35,
+  "top": 770,
+  "moves": [
+   {
+    "t0": 14.13,
+    "t1": 15.43,
+    "top": 196,
+    "scale": 1.35
+   }
+  ]
+ },
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 2.29,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 5.32,
+   "type": "riser",
+   "len": 1.58
+  },
+  {
+   "t": 9.06,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 11.4,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 11.4,
+   "type": "chime"
+  },
+  {
+   "t": 13.85,
+   "type": "pop"
+  },
+  {
+   "t": 8.83,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 10.13,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
