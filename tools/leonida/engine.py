@@ -50,6 +50,8 @@ STYLES = {
     "stamp": dict(font="Anton-Regular.ttf", size=150, stroke=10, color=WHITE),
     "note": dict(font="Poppins-SemiBold.ttf", size=38, stroke=5, color=WHITE),
     "arrow": dict(font="Inter-SemiBold.otf", size=170, stroke=9, color=PINK),
+    "cine": dict(font="Poppins-Bold.ttf", size=84, stroke=0, color=WHITE),
+    "cinebig": dict(font="Poppins-Black.ttf", size=130, stroke=0, color=PINK),
     # Suchleiste (generisch, keine Marke): weiße Pille, dunkler Text, Lupe links
     "search": dict(font="Inter-SemiBold.otf", size=56, stroke=0, color=(32, 33, 36), pill=WHITE,
                    icon="search", min_width=880, align="left"),
@@ -439,8 +441,39 @@ class Renderer:
         self.progress = spec.get("progress", True)
         self.watermark = spec.get("watermark")
         self.flash_strength = spec.get("flash_strength", 110)  # sanfter Blitz bei Bildwechsel (0 = aus)
+        # Kino-Look: {"contrast":1.06, "sat":1.1, "warm":0.04, "grain":0.035, "vignette":0.25}
+        self.grade = spec.get("grade")
+        self._grain = None
+        self._vig = None
         # Zoom-Stöße des Hintergrunds auf Schlägen: [[Zeit, Stärke], ...]
         self.pulses = [tuple(p) if isinstance(p, (list, tuple)) else (p, 0.05) for p in spec.get("pulses", [])]
+
+    def _apply_grade(self, canvas: Image.Image, t: float) -> Image.Image:
+        g = self.grade
+        a = np.asarray(canvas.convert("RGB"), dtype=np.float32)
+        c, sat, warm = g.get("contrast", 1.0), g.get("sat", 1.0), g.get("warm", 0.0)
+        if c != 1.0:
+            a = (a - 128.0) * c + 128.0
+        if sat != 1.0:
+            gray = a.mean(axis=2, keepdims=True)
+            a = gray + (a - gray) * sat
+        if warm:
+            a[..., 0] *= 1 + warm
+            a[..., 2] *= 1 - warm
+        if g.get("vignette"):
+            if self._vig is None:
+                yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+                r = np.sqrt(((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2)
+                self._vig = (1 - g["vignette"] * np.clip(r - 0.55, 0, 1) ** 1.5)[..., None]
+            a *= self._vig
+        if g.get("grain"):
+            if self._grain is None:
+                rng = np.random.default_rng(3)
+                self._grain = [rng.normal(0, 1, (H // 2, W // 2)).astype(np.float32) for _ in range(6)]
+            n = self._grain[int(t * 24) % 6]                       # Korn wechselt 24x pro Sekunde wie Film
+            n = np.repeat(np.repeat(n, 2, axis=0), 2, axis=1)[..., None]
+            a += n * 255 * g["grain"]
+        return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8)).convert("RGBA")
 
     def _karaoke_img(self, beat: Beat, lt: float) -> Image.Image:
         ws = beat.words or []
@@ -612,6 +645,8 @@ class Renderer:
                 k = 1 + amt * (1 - ease_out_cubic(dt / 0.3))
                 cw, ch = W / k, H / k
                 canvas = canvas.resize((W, H), Image.BICUBIC, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
+        if self.grade:
+            canvas = self._apply_grade(canvas, t)
         canvas.alpha_composite(self.overlay)
         for b in self.beats:
             if b.t <= t < b.end:

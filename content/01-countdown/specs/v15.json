@@ -1,0 +1,1311 @@
+{
+ "id": "V15",
+ "out": "exports/countdown/V15_fremdgehen.mp4",
+ "duration": 20.86,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 26.836,
+ "flash_strength": 0,
+ "overlay_strength": 0.4,
+ "chrome_from": 0,
+ "badge": null,
+ "progress": false,
+ "cover_at": 0.5,
+ "grade": {
+  "contrast": 1.03,
+  "sat": 1.07,
+  "warm": 0.03,
+  "grain": 0.025,
+  "vignette": 0.18
+ },
+ "pulses": [
+  [
+   13.84,
+   0.05
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 0.99,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Ist",
+     -0.02
+    ],
+    [
+     "GTA",
+     0.17
+    ],
+    [
+     "6",
+     0.76
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.99,
+   "end": 1.32,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "spielen",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 1.32,
+   "end": 2.06,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Fremdgehen?",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.07,
+   "end": 2.53,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Auf",
+     0.0
+    ],
+    [
+     "TikTok",
+     0.17
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.53,
+   "end": 3.23,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "sagen",
+     0.0
+    ],
+    [
+     "gerade",
+     0.29
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.23,
+   "end": 4.06,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "viele:",
+     0.0
+    ],
+    [
+     "Ja!",
+     0.46
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.06,
+   "end": 4.54,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Was",
+     -0.01
+    ],
+    [
+     "Rockstar",
+     0.16
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.54,
+   "end": 5.04,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "dazu",
+     0.0
+    ],
+    [
+     "sagt,",
+     0.28
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.04,
+   "end": 5.68,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "kommt",
+     0.0
+    ],
+    [
+     "gleich.",
+     0.26
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.68,
+   "end": 6.47,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Eine",
+     -0.03
+    ],
+    [
+     "Influencerin",
+     0.15
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 6.47,
+   "end": 7.1,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "verbietet",
+     0.0
+    ],
+    [
+     "ihrem",
+     0.45
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 7.1,
+   "end": 7.52,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Verlobten",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 7.52,
+   "end": 8.29,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "sogar",
+     0.0
+    ],
+    [
+     "das",
+     0.25
+    ],
+    [
+     "Spiel.",
+     0.42
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.29,
+   "end": 8.8,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Denn",
+     -0.02
+    ],
+    [
+     "du",
+     0.13
+    ],
+    [
+     "spielst",
+     0.31
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.8,
+   "end": 9.38,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "die",
+     0.0
+    ],
+    [
+     "Beziehung",
+     0.13
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 9.38,
+   "end": 9.73,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "von",
+     0.0
+    ],
+    [
+     "Jason",
+     0.1
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 9.73,
+   "end": 10.59,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "und",
+     0.0
+    ],
+    [
+     "Lucia.",
+     0.17
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.59,
+   "end": 11.49,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Die",
+     -0.02
+    ],
+    [
+     "andere",
+     0.14
+    ],
+    [
+     "Seite:",
+     0.47
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.49,
+   "end": 11.95,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Bei",
+     -0.02
+    ],
+    [
+     "Die",
+     0.16
+    ],
+    [
+     "Sims",
+     0.3
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.95,
+   "end": 12.51,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "sagt",
+     0.0
+    ],
+    [
+     "das",
+     0.15
+    ],
+    [
+     "auch",
+     0.41
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.51,
+   "end": 13.07,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "keiner.",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.07,
+   "end": 13.84,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     -0.03
+    ],
+    [
+     "Rockstar?",
+     0.17
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.84,
+   "end": 14.3,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Die",
+     -0.02
+    ],
+    [
+     "Romantik",
+     0.14
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.3,
+   "end": 15.24,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "ist",
+     0.0
+    ],
+    [
+     "optional.",
+     0.14
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.24,
+   "end": 16.03,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Aber",
+     0.0
+    ],
+    [
+     "die",
+     0.27
+    ],
+    [
+     "Beziehung",
+     0.35
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 16.03,
+   "end": 16.59,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "kannst",
+     0.0
+    ],
+    [
+     "du",
+     0.13
+    ],
+    [
+     "pflegen,",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 16.59,
+   "end": 17.63,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "oder",
+     0.0
+    ],
+    [
+     "verlieren.",
+     0.38
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.63,
+   "end": 18.07,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Also:",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.07,
+   "end": 18.54,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Fremdgehen",
+     -0.01
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.54,
+   "end": 18.93,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "oder",
+     0.0
+    ],
+    [
+     "nur",
+     0.26
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.93,
+   "end": 19.46,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "ein",
+     0.0
+    ],
+    [
+     "Spiel?",
+     0.23
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.46,
+   "end": 19.74,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Schreib's",
+     -0.02
+    ],
+    [
+     "in",
+     0.06
+    ],
+    [
+     "die",
+     0.18
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.74,
+   "end": 20.86,
+   "text": "",
+   "anim": "karaoke",
+   "size": 72,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Kommentare!",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 2.06,
+   "text": "Ist GTA 6 spielen",
+   "style": "cine",
+   "size": 80,
+   "y": 0.255,
+   "anim": "punch",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 2.06,
+   "text": "FREMDGEHEN?",
+   "style": "cinebig",
+   "size": 116,
+   "y": 0.33,
+   "anim": "punch",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.06,
+   "end": 5.68,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "comment",
+    "icon_at": 0.06,
+    "title": "Viral auf TikTok",
+    "subtitle": "„GTA 6 spielen\n= Fremdgehen“",
+    "border": "pink"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.06,
+   "end": 13.07,
+   "text": "ROCKSTARS ANTWORT · GLEICH",
+   "style": "label",
+   "size": 54,
+   "y": 0.148,
+   "anim": "slide",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.68,
+   "end": 8.29,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "lock",
+    "icon_at": 0.06,
+    "title": "Spielverbot",
+    "subtitle": "für den Verlobten\neiner Influencerin",
+    "border": "red"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.29,
+   "end": 10.59,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "duo",
+    "icon_at": 0.06,
+    "title": "Jason & Lucia",
+    "subtitle": "ein Paar – und du\nspielst ihre Beziehung",
+    "border": "pink"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.59,
+   "end": 13.07,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "info",
+    "icon": "gamepad",
+    "icon_at": 0.06,
+    "title": "Die andere Seite",
+    "subtitle": "Bei „Die Sims“ sagt\ndas auch keiner",
+    "border": "green"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.07,
+   "end": 15.24,
+   "text": "",
+   "anim": "stamp",
+   "y": 0.3,
+   "shake": 10,
+   "card": {
+    "type": "info",
+    "icon": "comment",
+    "icon_at": 0,
+    "title": "Rockstar sagt:",
+    "subtitle": "„Die Romantik\nist optional“",
+    "border": "white"
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.14,
+   "end": 15.24,
+   "text": "laut Interview mit Rob Nelson (Rockstar)",
+   "style": "note",
+   "size": 36,
+   "y": 0.485,
+   "anim": "fade",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.24,
+   "end": 17.63,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "choice",
+    "question": "Deine Entscheidung",
+    "qcolor": "white",
+    "border": "white",
+    "q_at": 0.05,
+    "options": [
+     {
+      "label": "Pflegen",
+      "color": "green",
+      "at": 1.03
+     },
+     {
+      "label": "Verlieren",
+      "color": "red",
+      "at": 1.73
+     }
+    ]
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.63,
+   "end": 20.86,
+   "text": "",
+   "anim": "card",
+   "y": 0.3,
+   "card": {
+    "type": "choice",
+    "question": "Was meinst du?",
+    "qcolor": "pink",
+    "border": "white",
+    "q_at": 1.83,
+    "label_size": 44,
+    "options": [
+     {
+      "label": "Fremdgehen",
+      "color": "red",
+      "at": 0.43
+     },
+     {
+      "label": "Nur ein Spiel",
+      "color": "green",
+      "at": 1.17
+     }
+    ]
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.74,
+   "end": 20.86,
+   "text": "→",
+   "style": "arrow",
+   "size": 170,
+   "x": 0.82,
+   "y": 0.6,
+   "anim": "nudge",
+   "exit": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 2.0,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 5.62,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 8.23,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 10.53,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 13.01,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 13.84,
+   "type": "hit",
+   "gain": 0.8
+  },
+  {
+   "t": 13.84,
+   "type": "chime",
+   "gain": 0.7
+  },
+  {
+   "t": 15.18,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 16.27,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 16.97,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 17.57,
+   "type": "whoosh",
+   "gain": 0.55
+  },
+  {
+   "t": 18.06,
+   "type": "pop",
+   "gain": 0.7
+  },
+  {
+   "t": 18.8,
+   "type": "pop",
+   "gain": 0.7
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.0,
+   "wav": "content/01-countdown/voice/v15/f_1.wav"
+  },
+  {
+   "t": 2.06,
+   "wav": "content/01-countdown/voice/v15/f_2.wav"
+  },
+  {
+   "t": 4.06,
+   "wav": "content/01-countdown/voice/v15/f_3.wav"
+  },
+  {
+   "t": 5.68,
+   "wav": "content/01-countdown/voice/v15/f_4.wav"
+  },
+  {
+   "t": 8.29,
+   "wav": "content/01-countdown/voice/v15/f_5.wav"
+  },
+  {
+   "t": 10.59,
+   "wav": "content/01-countdown/voice/v15/f_6.wav"
+  },
+  {
+   "t": 11.49,
+   "wav": "content/01-countdown/voice/v15/f_7.wav"
+  },
+  {
+   "t": 13.07,
+   "wav": "content/01-countdown/voice/v15/f_8.wav"
+  },
+  {
+   "t": 13.84,
+   "wav": "content/01-countdown/voice/v15/f_9.wav"
+  },
+  {
+   "t": 15.24,
+   "wav": "content/01-countdown/voice/v15/f_10.wav"
+  },
+  {
+   "t": 17.63,
+   "wav": "content/01-countdown/voice/v15/f_11.wav"
+  },
+  {
+   "t": 18.07,
+   "wav": "content/01-countdown/voice/v15/f_12.wav"
+  },
+  {
+   "t": 19.46,
+   "wav": "content/01-countdown/voice/v15/f_13.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 67.12,
+   "start": 0.0,
+   "end": 2.06,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.68
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
+   "start": 2.06,
+   "end": 4.06,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.72
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 6.65,
+   "start": 4.06,
+   "end": 5.68,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 88.27,
+   "start": 5.68,
+   "end": 7.1,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.85
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.3,
+   "start": 7.1,
+   "end": 8.29,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 8.29,
+   "end": 10.59,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.8
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.55,
+   "start": 10.59,
+   "end": 13.07,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.68
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 67.6,
+   "start": 13.07,
+   "end": 15.24,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.78
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 15.24,
+   "end": 16.59,
+   "cam": {
+    "x": 0.47,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.9
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 63.2,
+   "start": 16.59,
+   "end": 17.63,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.78
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 17.63,
+   "end": 18.54,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "clip:assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 67.12,
+   "start": 18.54,
+   "end": 20.86,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.6
+   },
+   "flash": false,
+   "fade": 0
+  }
+ ]
+}
