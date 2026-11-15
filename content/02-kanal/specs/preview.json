@@ -1,0 +1,434 @@
+{
+ "duration": 9.8,
+ "fps": 30,
+ "crf": 16,
+ "preset": "slow",
+ "darken": 0.2,
+ "grade": {
+  "contrast": 1.08,
+  "sat": 1.1
+ },
+ "voice": {
+  "wav": "content/02-kanal/voice/preview/voice.wav",
+  "t": 0.4
+ },
+ "subs": [
+  {
+   "t": 0.38,
+   "end": 1.08,
+   "words": [
+    [
+     "Noch",
+     0.38
+    ],
+    [
+     "vier",
+     0.52
+    ],
+    [
+     "Tage",
+     0.73
+    ]
+   ]
+  },
+  {
+   "t": 1.08,
+   "end": 1.89,
+   "words": [
+    [
+     "bis",
+     1.08
+    ],
+    [
+     "GTA",
+     1.3
+    ],
+    [
+     "6!",
+     1.75
+    ]
+   ]
+  },
+  {
+   "t": 1.89,
+   "end": 2.74,
+   "words": [
+    [
+     "Am",
+     1.89
+    ],
+    [
+     "19.",
+     2.03
+    ]
+   ]
+  },
+  {
+   "t": 2.74,
+   "end": 3.18,
+   "words": [
+    [
+     "November",
+     2.74
+    ]
+   ]
+  },
+  {
+   "t": 3.18,
+   "end": 3.76,
+   "words": [
+    [
+     "ist",
+     3.18
+    ],
+    [
+     "es",
+     3.35
+    ],
+    [
+     "endlich",
+     3.46
+    ]
+   ]
+  },
+  {
+   "t": 3.76,
+   "end": 4.25,
+   "words": [
+    [
+     "so",
+     3.76
+    ],
+    [
+     "weit.",
+     3.99
+    ]
+   ]
+  },
+  {
+   "t": 4.25,
+   "end": 4.85,
+   "words": [
+    [
+     "Bis",
+     4.25
+    ],
+    [
+     "dahin",
+     4.41
+    ]
+   ]
+  },
+  {
+   "t": 4.85,
+   "end": 5.31,
+   "words": [
+    [
+     "bring",
+     4.85
+    ],
+    [
+     "ich",
+     4.99
+    ],
+    [
+     "dir",
+     5.19
+    ]
+   ]
+  },
+  {
+   "t": 5.31,
+   "end": 5.84,
+   "words": [
+    [
+     "jeden",
+     5.31
+    ],
+    [
+     "Tag",
+     5.69
+    ]
+   ]
+  },
+  {
+   "t": 5.84,
+   "end": 6.54,
+   "words": [
+    [
+     "die",
+     5.84
+    ],
+    [
+     "wichtigsten",
+     5.97
+    ]
+   ]
+  },
+  {
+   "t": 6.54,
+   "end": 6.91,
+   "words": [
+    [
+     "Infos.",
+     6.54
+    ]
+   ]
+  },
+  {
+   "t": 6.91,
+   "end": 7.41,
+   "words": [
+    [
+     "Folg",
+     6.91
+    ],
+    [
+     "mir,",
+     7.03
+    ]
+   ]
+  },
+  {
+   "t": 7.41,
+   "end": 7.99,
+   "words": [
+    [
+     "damit",
+     7.41
+    ],
+    [
+     "du",
+     7.81
+    ]
+   ]
+  },
+  {
+   "t": 7.99,
+   "end": 9.05,
+   "words": [
+    [
+     "nichts",
+     7.99
+    ],
+    [
+     "verpasst!",
+     8.24
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 1.8299999999999998,
+   "y": 540,
+   "card": false,
+   "gap": 4,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Noch",
+     "size": 96,
+     "at": 0.15
+    },
+    {
+     "type": "big",
+     "text": "4 TAGE",
+     "size": 250,
+     "at": 0.52,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "bis GTA 6",
+     "size": 96,
+     "at": 1.08
+    }
+   ]
+  },
+  {
+   "t": 1.8299999999999998,
+   "end": 4.19,
+   "y": 545,
+   "rows": [
+    {
+     "type": "big",
+     "text": "19.11.",
+     "size": 230,
+     "at": 0.12,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Release für PS5 und Xbox Series X|S",
+     "size": 46,
+     "at": 0.91
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Donnerstag",
+      "weltweit"
+     ],
+     "at": 1.63
+    }
+   ]
+  },
+  {
+   "t": 4.19,
+   "end": 6.8500000000000005,
+   "y": 545,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Jeden Tag",
+     "size": 120,
+     "color": "accent",
+     "at": 0.12
+    },
+    {
+     "type": "text",
+     "text": "die wichtigsten Infos bis Release",
+     "size": 46,
+     "at": 1.12
+    },
+    {
+     "type": "pills",
+     "items": [
+      "News",
+      "Fakten",
+      "Countdown"
+     ],
+     "at": 2.35
+    }
+   ]
+  },
+  {
+   "t": 6.8500000000000005,
+   "end": 9.8,
+   "y": 560,
+   "card": false,
+   "exit": false,
+   "gap": 26,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Nichts verpassen",
+     "size": 104,
+     "at": 0.05
+    },
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.56,
+     "motion": "punch"
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.24,
+   "start": 0.0,
+   "end": 1.8299999999999998,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.75
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.5,
+   "start": 1.8299999999999998,
+   "end": 4.19,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.85
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 4.19,
+   "end": 6.8500000000000005,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.66
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.44,
+   "start": 6.8500000000000005,
+   "end": 9.8,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.9
+   }
+  }
+ ],
+ "mascot": {
+  "enter": 0.0,
+  "to_side": [
+   1.73
+  ],
+  "to_centre": [
+   6.75
+  ],
+  "poses": [
+   {
+    "pose": "surprised",
+    "from": 0.0,
+    "to": 0.38
+   },
+   {
+    "pose": "laugh",
+    "from": 8.82,
+    "to": 10.8
+   }
+  ]
+ },
+ "music": "chase",
+ "sfx": [
+  {
+   "t": 0.52,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 1.8299999999999998,
+   "type": "whoosh"
+  },
+  {
+   "t": 4.19,
+   "type": "whoosh"
+  },
+  {
+   "t": 6.8500000000000005,
+   "type": "whoosh"
+  },
+  {
+   "t": 7.41,
+   "type": "pop"
+  }
+ ]
+}

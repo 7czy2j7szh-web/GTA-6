@@ -1,2 +1,3 @@
 Anton, Bebas Neue (Google Fonts) und Inter (rsms) stehen alle unter der SIL Open Font License 1.1 (siehe OFL-Anton.txt; gleicher Lizenztext gilt für alle drei).
 Poppins (Indian Type Foundry, Google Fonts) steht ebenfalls unter der SIL Open Font License 1.1 (siehe OFL-Poppins.txt).
+Barlow Condensed und Albert Sans (Google Fonts) stehen unter der SIL Open Font License 1.1 (OFL-barlowcondensed.txt, OFL-albertsans.txt).
