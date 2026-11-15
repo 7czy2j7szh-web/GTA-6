@@ -66,7 +66,8 @@ def build_row(r: dict) -> Image.Image:
         return D.text(r["text"], D.albert(r.get("size", 44), r.get("weight", "SemiBold")), fill=r.get("color", "light"),
                       glow=r.get("glow", 0.2), spacing=r.get("spacing"))
     if t == "pills":
-        return D.row([D.pill(p, bg=r.get("bg", "accent")) for p in r["items"]], gap=r.get("gap", 18))
+        return D.row([D.pill(p, bg=r.get("bg", "accent"), size=r.get("psize", 36), h=r.get("ph", 84))
+                      for p in r["items"]], gap=r.get("gap", 18))
     if t == "glowpill":
         return D.glow_pill(r["text"], size=r.get("size", 40))
     if t == "strike":                                  # Wort, das gleich durchgestrichen wird

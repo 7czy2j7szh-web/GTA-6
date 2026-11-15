@@ -25,3 +25,28 @@ Quellen: Rockstar-Support (Box = Download-Code, keine Disc) · PlayStation Blog 
 | Code bei manchen PEGI-Boxen per Taschenlampe lesbar | Reddit/ResetEra-Berichte (Push Square, GameSpot) – **unbestätigt** |
 | Tests ohne Erfolg | GamesRadar (US- und UK-Box), Push Square |
 | Code sofort einlösbar, spielbar ab 19.11. | PlayStation-Support („use your code as soon as you receive your copy … not able to play until November 19, 2026“) |
+
+## K2 – „Spoiler-Gefahr ab Mittwoch“ (Stand 15.11.2026)
+
+**Datei:** `downloads/K2_spoiler-gefahr.mp4` (mit Musik) · `downloads/K2_spoiler-gefahr_ohne-musik.mp4`
+
+**Beschreibung:**
+Ab Mittwoch 12 Uhr wird TikTok gefährlich 😳 Schau bis zum Ende, wenn du GTA 6 spoilerfrei spielen willst #gta6 #gtavi #gta6news #spoiler #gaming #ps5 #fürdich #fyp
+
+**Kommentar zum Anpinnen:**
+Zockst du um Mitternacht direkt los? 👇
+Filter-Tipp: Einstellungen und Datenschutz → Inhaltseinstellungen → Wörter/Keywords filtern.
+Quellen: Rockstar-Support (Mitternacht Ortszeit, Neuseeland = Mi. 12:00 deutscher Zeit) · Insider Gaming (Tests am 18.11., nicht offiziell) · Songliste: angeblicher Leak, von Rockstar nicht bestätigt.
+
+**Hinweise:**
+- „KI-generierte Inhalte“ einschalten.
+- Posten am besten heute oder morgen (Thema gilt bis Mittwoch).
+
+**Fakten-Check:**
+| Aussage im Video | Quelle |
+|---|---|
+| Release um Mitternacht Ortszeit in allen Regionen | Rockstar-Support |
+| Neuseeland: Mitternacht = Mi., 18.11., 12:00 deutscher Zeit (NZDT = UTC+13) | Rechnung; u. a. Stuttgarter Nachrichten „12 Stunden früher“ |
+| erste Tests am selben Tag | Insider Gaming (bestätigt Leaker NateTheHate) – **nicht offiziell** |
+| geleakte Songliste seit gestern | Berichte vom 14.11. (Vinyl-Rückseite, 34 Songs) – **unbestätigt** |
+| TikTok-Wortfilter unter Inhaltseinstellungen | TikTok-Funktion „Keywords filtern“ (Für dich / Folge ich) |

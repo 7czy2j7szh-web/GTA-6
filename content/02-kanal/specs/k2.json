@@ -1,0 +1,1393 @@
+{
+ "duration": 34.356,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.2,
+ "grade": {
+  "contrast": 1.08,
+  "sat": 1.1
+ },
+ "voice": {
+  "wav": "content/02-kanal/voice/k2/final.wav",
+  "t": 0.4
+ },
+ "subs": [
+  {
+   "t": 0.38,
+   "end": 1.16,
+   "words": [
+    [
+     "Am",
+     0.38
+    ],
+    [
+     "Mittwoch",
+     0.52
+    ],
+    [
+     "um",
+     0.97
+    ]
+   ]
+  },
+  {
+   "t": 1.16,
+   "end": 1.59,
+   "words": [
+    [
+     "zwölf",
+     1.16
+    ],
+    [
+     "Uhr",
+     1.42
+    ]
+   ]
+  },
+  {
+   "t": 1.59,
+   "end": 2.4,
+   "words": [
+    [
+     "spielen",
+     1.59
+    ],
+    [
+     "die",
+     1.92
+    ],
+    [
+     "Ersten",
+     2.01
+    ]
+   ]
+  },
+  {
+   "t": 2.4,
+   "end": 3.4,
+   "words": [
+    [
+     "schon",
+     2.4
+    ],
+    [
+     "GTA",
+     2.54
+    ],
+    [
+     "6",
+     3.03
+    ]
+   ]
+  },
+  {
+   "t": 3.4,
+   "end": 4.09,
+   "words": [
+    [
+     "zwölf",
+     3.4
+    ],
+    [
+     "Stunden",
+     3.68
+    ]
+   ]
+  },
+  {
+   "t": 4.09,
+   "end": 4.77,
+   "words": [
+    [
+     "vor",
+     4.09
+    ],
+    [
+     "dir.",
+     4.37
+    ]
+   ]
+  },
+  {
+   "t": 4.77,
+   "end": 5.5,
+   "words": [
+    [
+     "Und",
+     4.77
+    ],
+    [
+     "genau",
+     4.99
+    ],
+    [
+     "dann",
+     5.38
+    ]
+   ]
+  },
+  {
+   "t": 5.5,
+   "end": 6.13,
+   "words": [
+    [
+     "wird",
+     5.5
+    ],
+    [
+     "TikTok",
+     5.86
+    ]
+   ]
+  },
+  {
+   "t": 6.13,
+   "end": 6.65,
+   "words": [
+    [
+     "gefährlich.",
+     6.13
+    ]
+   ]
+  },
+  {
+   "t": 6.65,
+   "end": 7.12,
+   "words": [
+    [
+     "Wie",
+     6.65
+    ],
+    [
+     "du",
+     6.81
+    ],
+    [
+     "dich",
+     6.89
+    ]
+   ]
+  },
+  {
+   "t": 7.12,
+   "end": 7.37,
+   "words": [
+    [
+     "schützt,",
+     7.12
+    ]
+   ]
+  },
+  {
+   "t": 7.37,
+   "end": 7.83,
+   "words": [
+    [
+     "verrate",
+     7.37
+    ],
+    [
+     "ich",
+     7.67
+    ],
+    [
+     "dir",
+     7.75
+    ]
+   ]
+  },
+  {
+   "t": 7.83,
+   "end": 8.28,
+   "words": [
+    [
+     "am",
+     7.83
+    ],
+    [
+     "Ende.",
+     7.91
+    ]
+   ]
+  },
+  {
+   "t": 8.28,
+   "end": 8.94,
+   "words": [
+    [
+     "In",
+     8.28
+    ],
+    [
+     "Neuseeland",
+     8.41
+    ]
+   ]
+  },
+  {
+   "t": 8.94,
+   "end": 9.6,
+   "words": [
+    [
+     "ist",
+     8.94
+    ],
+    [
+     "um",
+     9.22
+    ],
+    [
+     "zwölf",
+     9.4
+    ]
+   ]
+  },
+  {
+   "t": 9.6,
+   "end": 10.36,
+   "words": [
+    [
+     "Uhr",
+     9.6
+    ],
+    [
+     "deutscher",
+     9.75
+    ],
+    [
+     "Zeit",
+     10.12
+    ]
+   ]
+  },
+  {
+   "t": 10.36,
+   "end": 11.28,
+   "words": [
+    [
+     "schon",
+     10.36
+    ],
+    [
+     "Mitternacht.",
+     10.53
+    ]
+   ]
+  },
+  {
+   "t": 11.28,
+   "end": 11.82,
+   "words": [
+    [
+     "Laut",
+     11.28
+    ],
+    [
+     "Insidern",
+     11.42
+    ]
+   ]
+  },
+  {
+   "t": 11.82,
+   "end": 12.54,
+   "words": [
+    [
+     "kommen",
+     11.82
+    ],
+    [
+     "am",
+     12.1
+    ],
+    [
+     "selben",
+     12.25
+    ]
+   ]
+  },
+  {
+   "t": 12.54,
+   "end": 13.32,
+   "words": [
+    [
+     "Tag",
+     12.54
+    ],
+    [
+     "die",
+     12.75
+    ],
+    [
+     "ersten",
+     12.93
+    ]
+   ]
+  },
+  {
+   "t": 13.32,
+   "end": 13.79,
+   "words": [
+    [
+     "Tests.",
+     13.32
+    ]
+   ]
+  },
+  {
+   "t": 13.79,
+   "end": 14.71,
+   "words": [
+    [
+     "Und",
+     13.79
+    ],
+    [
+     "seit",
+     14.08
+    ],
+    [
+     "gestern",
+     14.34
+    ]
+   ]
+  },
+  {
+   "t": 14.71,
+   "end": 15.66,
+   "words": [
+    [
+     "geht",
+     14.71
+    ],
+    [
+     "schon",
+     14.93
+    ],
+    [
+     "eine",
+     15.16
+    ]
+   ]
+  },
+  {
+   "t": 15.66,
+   "end": 16.32,
+   "words": [
+    [
+     "geleakte",
+     15.66
+    ],
+    [
+     "Songliste",
+     15.93
+    ]
+   ]
+  },
+  {
+   "t": 16.32,
+   "end": 16.64,
+   "words": [
+    [
+     "rum.",
+     16.32
+    ]
+   ]
+  },
+  {
+   "t": 16.64,
+   "end": 17.16,
+   "words": [
+    [
+     "Ab",
+     16.64
+    ],
+    [
+     "Mittwoch",
+     16.79
+    ]
+   ]
+  },
+  {
+   "t": 17.16,
+   "end": 17.79,
+   "words": [
+    [
+     "kann",
+     17.16
+    ],
+    [
+     "dir",
+     17.29
+    ],
+    [
+     "jedes",
+     17.46
+    ]
+   ]
+  },
+  {
+   "t": 17.79,
+   "end": 18.68,
+   "words": [
+    [
+     "Video",
+     17.79
+    ],
+    [
+     "die",
+     18.2
+    ],
+    [
+     "Story",
+     18.33
+    ]
+   ]
+  },
+  {
+   "t": 18.68,
+   "end": 19.16,
+   "words": [
+    [
+     "spoilern.",
+     18.68
+    ]
+   ]
+  },
+  {
+   "t": 19.16,
+   "end": 19.39,
+   "words": [
+    [
+     "Zockst",
+     19.16
+    ],
+    [
+     "du",
+     19.3
+    ]
+   ]
+  },
+  {
+   "t": 19.39,
+   "end": 19.95,
+   "words": [
+    [
+     "um",
+     19.39
+    ],
+    [
+     "Mitternacht",
+     19.57
+    ]
+   ]
+  },
+  {
+   "t": 19.95,
+   "end": 20.55,
+   "words": [
+    [
+     "direkt",
+     19.95
+    ],
+    [
+     "los?",
+     20.33
+    ]
+   ]
+  },
+  {
+   "t": 20.55,
+   "end": 20.82,
+   "words": [
+    [
+     "Schreib's",
+     20.55
+    ],
+    [
+     "in",
+     20.64
+    ],
+    [
+     "die",
+     20.74
+    ]
+   ]
+  },
+  {
+   "t": 20.82,
+   "end": 21.79,
+   "words": [
+    [
+     "Kommentare!",
+     20.82
+    ]
+   ]
+  },
+  {
+   "t": 21.79,
+   "end": 22.5,
+   "words": [
+    [
+     "Die",
+     21.79
+    ],
+    [
+     "Lösung:",
+     21.94
+    ]
+   ]
+  },
+  {
+   "t": 22.5,
+   "end": 22.8,
+   "words": [
+    [
+     "In",
+     22.5
+    ],
+    [
+     "den",
+     22.63
+    ]
+   ]
+  },
+  {
+   "t": 22.8,
+   "end": 23.77,
+   "words": [
+    [
+     "TikTok-Einstellungen",
+     22.8
+    ]
+   ]
+  },
+  {
+   "t": 23.77,
+   "end": 24.51,
+   "words": [
+    [
+     "kannst",
+     23.77
+    ],
+    [
+     "du",
+     23.93
+    ],
+    [
+     "unter",
+     24.07
+    ]
+   ]
+  },
+  {
+   "t": 24.51,
+   "end": 25.42,
+   "words": [
+    [
+     "Inhaltseinstellungen",
+     24.51
+    ]
+   ]
+  },
+  {
+   "t": 25.42,
+   "end": 26.42,
+   "words": [
+    [
+     "Wörter",
+     25.42
+    ],
+    [
+     "filtern.",
+     25.76
+    ]
+   ]
+  },
+  {
+   "t": 26.42,
+   "end": 27.35,
+   "words": [
+    [
+     "Trag",
+     26.42
+    ],
+    [
+     "zum",
+     26.6
+    ],
+    [
+     "Beispiel",
+     26.82
+    ]
+   ]
+  },
+  {
+   "t": 27.35,
+   "end": 28.49,
+   "words": [
+    [
+     "GTA",
+     27.35
+    ],
+    [
+     "6",
+     27.82
+    ],
+    [
+     "Ende",
+     28.13
+    ]
+   ]
+  },
+  {
+   "t": 28.49,
+   "end": 29.51,
+   "words": [
+    [
+     "und",
+     28.49
+    ],
+    [
+     "Spoiler",
+     28.73
+    ],
+    [
+     "ein.",
+     29.14
+    ]
+   ]
+  },
+  {
+   "t": 29.51,
+   "end": 30.13,
+   "words": [
+    [
+     "Aber",
+     29.51
+    ],
+    [
+     "bitte",
+     29.8
+    ]
+   ]
+  },
+  {
+   "t": 30.13,
+   "end": 30.47,
+   "words": [
+    [
+     "nicht",
+     30.13
+    ],
+    [
+     "nur",
+     30.31
+    ]
+   ]
+  },
+  {
+   "t": 30.47,
+   "end": 31.08,
+   "words": [
+    [
+     "GTA",
+     30.47
+    ],
+    [
+     "6",
+     30.9
+    ]
+   ]
+  },
+  {
+   "t": 31.08,
+   "end": 31.53,
+   "words": [
+    [
+     "sonst",
+     31.08
+    ],
+    [
+     "siehst",
+     31.2
+    ],
+    [
+     "du",
+     31.34
+    ]
+   ]
+  },
+  {
+   "t": 31.53,
+   "end": 32.24,
+   "words": [
+    [
+     "mich",
+     31.53
+    ],
+    [
+     "nicht",
+     31.69
+    ],
+    [
+     "mehr.",
+     31.89
+    ]
+   ]
+  },
+  {
+   "t": 32.24,
+   "end": 32.58,
+   "words": [
+    [
+     "Folg",
+     32.24
+    ],
+    [
+     "mir",
+     32.47
+    ]
+   ]
+  },
+  {
+   "t": 32.58,
+   "end": 33.556,
+   "words": [
+    [
+     "bis",
+     32.58
+    ],
+    [
+     "zum",
+     32.71
+    ],
+    [
+     "Release!",
+     32.85
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 4.73,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Ersten spielen",
+     "size": 96,
+     "at": 0.15
+    },
+    {
+     "type": "big",
+     "text": "12 STUNDEN",
+     "size": 175,
+     "at": 3.4,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "vor dir",
+     "size": 96,
+     "at": 4.09
+    }
+   ],
+   "card": false,
+   "gap": 30
+  },
+  {
+   "t": 4.73,
+   "end": 8.24,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "TikTok wird",
+     "size": 96,
+     "at": 0.1
+    },
+    {
+     "type": "big",
+     "text": "GEFÄHRLICH",
+     "size": 150,
+     "at": 1.4,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 7.37,
+   "end": 21.43,
+   "y": 312,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "DIE LÖSUNG · AM ENDE",
+     "size": 32
+    }
+   ]
+  },
+  {
+   "t": 8.24,
+   "end": 11.24,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Neuseeland",
+     "size": 104,
+     "color": "accent",
+     "at": 0.1
+    },
+    {
+     "type": "big",
+     "text": "MI. 12:00",
+     "size": 170,
+     "at": 1.16,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "deutsche Zeit – dort schon Mitternacht",
+     "size": 42,
+     "at": 1.51
+    }
+   ]
+  },
+  {
+   "t": 11.24,
+   "end": 13.75,
+   "y": 590,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "laut Insidern"
+     ],
+     "at": 0.1
+    },
+    {
+     "type": "title",
+     "text": "Erste Tests",
+     "size": 112,
+     "color": "accent",
+     "at": 1.21
+    },
+    {
+     "type": "text",
+     "text": "am selben Tag: Mi., 18.11.",
+     "size": 44,
+     "at": 1.3
+    }
+   ]
+  },
+  {
+   "t": 13.75,
+   "end": 16.6,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Schon geleakt",
+     "size": 104,
+     "color": "accent",
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "text": "angebliche Songliste vom GTA-6-Album",
+     "size": 42,
+     "at": 2.18
+    },
+    {
+     "type": "pills",
+     "items": [
+      "unbestätigt"
+     ],
+     "bg": "second",
+     "at": 2.57
+    }
+   ]
+  },
+  {
+   "t": 16.6,
+   "end": 19.12,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Ab Mittwoch",
+     "size": 100,
+     "at": 0.08
+    },
+    {
+     "type": "big",
+     "text": "SPOILER",
+     "size": 240,
+     "at": 1.63,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "in jedem Video möglich",
+     "size": 76,
+     "at": 2.08
+    }
+   ],
+   "card": false,
+   "gap": 8
+  },
+  {
+   "t": 19.12,
+   "end": 21.43,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Zockst du um\nMitternacht?",
+     "size": 104,
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Sofort!",
+      "Erst morgen"
+     ],
+     "psize": 44,
+     "ph": 100,
+     "at": 1.21,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 24
+  },
+  {
+   "t": 20.55,
+   "end": 21.43,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  },
+  {
+   "t": 21.43,
+   "end": 26.38,
+   "y": 575,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Einstellungen und Datenschutz"
+     ],
+     "psize": 40,
+     "ph": 92,
+     "at": 1.37
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Inhaltseinstellungen"
+     ],
+     "psize": 40,
+     "ph": 92,
+     "at": 3.08
+    },
+    {
+     "type": "big",
+     "text": "WÖRTER FILTERN",
+     "size": 135,
+     "at": 3.99,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 18
+  },
+  {
+   "t": 26.38,
+   "end": 29.47,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Trag ein:",
+     "size": 100,
+     "at": 0.08
+    },
+    {
+     "type": "pills",
+     "items": [
+      "GTA 6 Ende"
+     ],
+     "psize": 56,
+     "ph": 116,
+     "at": 0.97,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Spoiler"
+     ],
+     "psize": 56,
+     "ph": 116,
+     "at": 2.35,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 29.47,
+   "end": 32.2,
+   "y": 590,
+   "rows": [
+    {
+     "type": "text",
+     "text": "aber bitte nicht nur",
+     "size": 46,
+     "at": 0.08
+    },
+    {
+     "type": "strike",
+     "text": "GTA 6",
+     "size": 170,
+     "at": 0.85,
+     "strike_at": 0.25
+    },
+    {
+     "type": "text",
+     "text": "sonst siehst du mich nicht mehr",
+     "size": 46,
+     "color": "cream",
+     "at": 1.61
+    }
+   ]
+  },
+  {
+   "t": 32.2,
+   "end": 34.356,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Bis zum Release",
+     "size": 104,
+     "at": 0.05
+    },
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.04,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 26,
+   "exit": false
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 0.0,
+   "end": 2.0,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.675
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 2.0,
+   "end": 4.73,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.813
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 42.47,
+   "start": 4.73,
+   "end": 6.18,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.945
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 47.58,
+   "start": 6.18,
+   "end": 7.18,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.96
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 39.85,
+   "start": 7.18,
+   "end": 8.24,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
+   "start": 8.24,
+   "end": 11.24,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.597
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 11.24,
+   "end": 13.75,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.896
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 46.58,
+   "start": 13.75,
+   "end": 14.65,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.989
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
+   "start": 14.65,
+   "end": 16.6,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.728
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 68.72,
+   "start": 16.6,
+   "end": 19.12,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.591
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 81.45,
+   "start": 19.12,
+   "end": 21.43,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.688
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 21.43,
+   "end": 26.38,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.737
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 26.38,
+   "end": 29.47,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 29.47,
+   "end": 32.2,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 63.15,
+   "start": 32.2,
+   "end": 34.356,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  }
+ ],
+ "mascot": {
+  "enter": 0.0,
+  "to_side": [
+   8.14
+  ],
+  "to_centre": [
+   21.35
+  ],
+  "poses": [
+   {
+    "pose": "surprised",
+    "from": 0.0,
+    "to": 0.38
+   },
+   {
+    "pose": "surprised",
+    "from": 21.47,
+    "to": 21.77
+   },
+   {
+    "pose": "laugh",
+    "from": 33.376,
+    "to": 35.356
+   }
+  ]
+ },
+ "music": "chase",
+ "sfx": [
+  {
+   "t": 3.4,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 6.13,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 7.37,
+   "type": "pop"
+  },
+  {
+   "t": 18.23,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 25.42,
+   "type": "chime"
+  },
+  {
+   "t": 30.57,
+   "type": "tick"
+  },
+  {
+   "t": 32.24,
+   "type": "pop"
+  },
+  {
+   "t": 8.12,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 21.31,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}

@@ -38,7 +38,7 @@ COLORS = {"cream": CREAM, "accent": ACCENT, "second": SECOND, "light": LIGHT, "w
 # TikTok-Zonen (1080x1920)
 SAFE = dict(x0=70, x1=890, y0=270, y1=1630, top_bar=255, btn_x=906, btn_y0=817, btn_y1=1888,
             cap_x1=773, cap_y=1644, card_y0=280, card_y1=818)
-PAD = 40                                   # Rand für Schatten/Glühen um jedes Element
+PAD = 64                                   # Rand für Schatten/Glühen um jedes Element
 
 
 def col(c):
@@ -58,7 +58,7 @@ def albert(size: int, weight: str = "Bold") -> ImageFont.FreeTypeFont:
     return f
 
 
-def shadowed(img: Image.Image, blur=14, alpha=0.6, dy=5, glow=0.0, glow_blur=40) -> Image.Image:
+def shadowed(img: Image.Image, blur=14, alpha=0.6, dy=5, glow=0.0, glow_blur=22) -> Image.Image:
     """Weicher Schatten (und optional dunkles Glühen) unter ein RGBA-Bild legen. Bild muss PAD-Rand haben."""
     a = img.getchannel("A")
     out = Image.new("RGBA", img.size, (0, 0, 0, 0))
