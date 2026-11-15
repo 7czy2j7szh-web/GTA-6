@@ -300,3 +300,39 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Zeit:** So 18–19 Uhr (mittags V11)
 - Quellen wie V13 (Logitech gegründet in der Schweiz, „Logitech G" baut Gaming-Mäuse)
 
+---
+
+## Debatte · `V15_fremdgehen.mp4` (20,9 s, Kino-Look, eine Stimm-Aufnahme)
+- **Thema:**
+  - Viraler TikTok-Streit „Ist GTA 6 spielen Fremdgehen?". Eine Influencerin sagt, ihr Verlobter werde das Spiel nicht spielen.
+  - Gegenseite: Bei „Die Sims" sagt das auch keiner.
+  - Rockstar (Rob Nelson im Interview): Die Romantik ist optional, die Beziehung kann man pflegen oder verlieren.
+- **Aufbau:**
+  - Hook als Kinotitel.
+  - Bis zur Auflösung steht oben „ROCKSTARS ANTWORT · GLEICH".
+  - Karten zu beiden Seiten.
+  - Auswahl „Pflegen / Verlieren".
+  - Am Ende die Umfrage „Fremdgehen / Nur ein Spiel" mit Pfeil zum Kommentar-Button.
+  - Das letzte Bild führt zurück zum ersten (Loop).
+- **Caption:**
+  ```
+  Ist GTA 6 spielen Fremdgehen? 💔 Rockstar hat dazu was gesagt… Was meinst du?
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #beziehung #gaming #jasonundlucia`
+- **Anpinnen:** `Fremdgehen oder nur ein Spiel? Ein Wort 👇`
+- Quellen: gulfnews.com, kotaku.com (TikTok-Debatte), vice.com / insider-gaming.com (Guardian-Interview), gtaintel.com
+
+---
+
+## Vergleich · `V16_orte-in-echt.mp4` (23,9 s, geteiltes Bild GTA 6 / echt)
+- **Orte:** Vice City → Miami (Skyline), Ocean Drive, South Beach, Leonida Keys → Seven Mile Bridge („sieht aus wie"), Grassrivers → Everglades.
+- **Effekt:** Oben GTA 6, unten das echte Foto. Das Foto ist verschwommen mit „?" und wird beim gesprochenen Ortsnamen scharf.
+- **Fotos (Pflicht-Nennung, steht im Video):** P. Hughes (CC BY-SA 4.0), chensiyuan (CC BY-SA 4.0), Jorge Royan (CC BY-SA 3.0), Ebyabe (CC BY-SA 3.0), NPS / G. Gardner (gemeinfrei); alle über Wikimedia Commons.
+- **Caption:**
+  ```
+  Diese Orte aus GTA 6 gibt es wirklich 🌴 Spiel oder echt – was sieht besser aus?
+  Fotos: P. Hughes, chensiyuan (CC BY-SA 4.0), Jorge Royan, Ebyabe (CC BY-SA 3.0), NPS (gemeinfrei) via Wikimedia Commons
+  ```
+- **Hashtags:** `#gta6 #gta6deutsch #vicecity #miami #florida`
+- **Anpinnen:** `Spiel oder echt? Und welchen Ort willst du zuerst sehen? 👇`
+
