@@ -184,13 +184,13 @@ class Channel:
         self.subs = spec.get("subs", [])
         self.dark = Image.new("RGBA", (W, H), (0, 0, 0, int(255 * spec.get("darken", 0.2))))
         self.puppet = None
-        if spec.get("presenter") is not None:          # freigestellte Moderatorin (ganzer Oberkörper)
-            from .presenter import PresenterPlacer
+        if spec.get("presenter") is not None:          # freigestellte Moderatorin (vorne/Profil/hinten)
+            from .presenter import Stage
             pr, v = spec["presenter"], spec["voice"]
             _, level = mouth_levels(os.path.join(ROOT, v["wav"]), v["t"], self.n, self.fps)
-            self.puppet = PresenterPlacer(os.path.join(ROOT, pr["image"]), level, self.fps, x=pr.get("x", 630),
-                                          bottom=pr.get("bottom", 1950), display_h=pr.get("display_h", 1150),
-                                          gestures=pr.get("gestures", ()), enter=pr.get("enter", 0.0))
+            self.puppet = Stage({k: os.path.join(ROOT, p) for k, p in pr["views"].items()}, level, self.fps,
+                                pr.get("actions", []), x0=pr.get("x0", 600), head_y=pr.get("head_y", 925),
+                                k_front=pr.get("k_front", 0.427))
         elif spec.get("host") is not None:             # Porträt-Moderatorin statt Maskottchen
             from .host import HostCard
             hst, v = spec["host"], spec["voice"]

@@ -387,31 +387,72 @@
   }
  ],
  "presenter": {
-  "image": "assets/host/host_cut.png",
-  "x": 630,
-  "bottom": 1950,
-  "display_h": 1100,
-  "enter": 0.0,
-  "gestures": [
+  "views": {
+   "front": "assets/host/host_cut.png",
+   "side": "assets/host/side_cut.png",
+   "back": "assets/host/back_cut.png"
+  },
+  "x0": -260,
+  "head_y": 925,
+  "actions": [
    {
-    "type": "nod",
-    "t": 0.53,
-    "dur": 0.7
+    "t": 0.0,
+    "walk": 610,
+    "speed": 560,
+    "enter": true
    },
    {
-    "type": "glass",
-    "t": 2.01,
-    "dur": 2.79
+    "t": 2.21,
+    "look": [
+     0,
+     -1
+    ],
+    "dur": 1.0
    },
    {
-    "type": "nod",
-    "t": 6.43,
+    "t": 3.64,
+    "gesture": "glass",
+    "dur": 1.3
+   },
+   {
+    "t": 4.54,
+    "gesture": "nod",
     "dur": 0.6
    },
    {
-    "type": "lean",
-    "t": 8.2,
-    "dur": 4.2
+    "t": 4.8,
+    "turn": "back",
+    "dur": 0.75
+   },
+   {
+    "t": 6.05,
+    "walk": 330,
+    "speed": 330
+   },
+   {
+    "t": 7.35,
+    "gesture": "point",
+    "dur": 0.95
+   },
+   {
+    "t": 8.25,
+    "gesture": "lean",
+    "dur": 1.5
+   },
+   {
+    "t": 8.35,
+    "gesture": "nod",
+    "dur": 0.6
+   },
+   {
+    "t": 8.97,
+    "gesture": "present",
+    "dur": 1.3
+   },
+   {
+    "t": 10.6,
+    "gesture": "glass",
+    "dur": 1.0
    }
   ]
  },
