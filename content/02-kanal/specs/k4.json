@@ -1,0 +1,603 @@
+{
+ "duration": 16.43,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.2,
+ "grade": {
+  "contrast": 1.08,
+  "sat": 1.1
+ },
+ "sub_y": 840,
+ "voice": {
+  "wav": "content/02-kanal/voice/k4/final.wav",
+  "t": 1.0
+ },
+ "subs": [
+  {
+   "t": 1.0,
+   "end": 1.96,
+   "words": [
+    [
+     "Halt",
+     1.0
+    ],
+    [
+     "dich",
+     1.23
+    ],
+    [
+     "fest:",
+     1.46
+    ]
+   ]
+  },
+  {
+   "t": 1.96,
+   "end": 2.83,
+   "words": [
+    [
+     "GTA",
+     1.96
+    ],
+    [
+     "6",
+     2.42
+    ],
+    [
+     "hat",
+     2.62
+    ]
+   ]
+  },
+  {
+   "t": 2.83,
+   "end": 3.69,
+   "words": [
+    [
+     "angeblich",
+     2.83
+    ],
+    [
+     "rund",
+     3.35
+    ]
+   ]
+  },
+  {
+   "t": 3.69,
+   "end": 5.23,
+   "words": [
+    [
+     "fünfzig",
+     3.69
+    ],
+    [
+     "Stunden",
+     4.15
+    ],
+    [
+     "Story.",
+     4.62
+    ]
+   ]
+  },
+  {
+   "t": 5.23,
+   "end": 6.16,
+   "words": [
+    [
+     "Und",
+     5.23
+    ],
+    [
+     "für",
+     5.38
+    ],
+    [
+     "Platin?",
+     5.58
+    ]
+   ]
+  },
+  {
+   "t": 6.16,
+   "end": 7.37,
+   "words": [
+    [
+     "Über",
+     6.16
+    ],
+    [
+     "zweihundert",
+     6.56
+    ]
+   ]
+  },
+  {
+   "t": 7.37,
+   "end": 8.77,
+   "words": [
+    [
+     "Stunden!",
+     7.37
+    ]
+   ]
+  },
+  {
+   "t": 8.77,
+   "end": 9.33,
+   "words": [
+    [
+     "Zwei",
+     8.77
+    ],
+    [
+     "Stunden",
+     8.94
+    ],
+    [
+     "am",
+     9.24
+    ]
+   ]
+  },
+  {
+   "t": 9.33,
+   "end": 9.71,
+   "words": [
+    [
+     "Tag?",
+     9.33
+    ]
+   ]
+  },
+  {
+   "t": 9.71,
+   "end": 10.08,
+   "words": [
+    [
+     "Dann",
+     9.71
+    ],
+    [
+     "bist",
+     9.81
+    ],
+    [
+     "du",
+     9.95
+    ]
+   ]
+  },
+  {
+   "t": 10.08,
+   "end": 10.82,
+   "words": [
+    [
+     "Mitte",
+     10.08
+    ],
+    [
+     "Dezember",
+     10.37
+    ]
+   ]
+  },
+  {
+   "t": 10.82,
+   "end": 11.21,
+   "words": [
+    [
+     "durch.",
+     10.82
+    ]
+   ]
+  },
+  {
+   "t": 11.21,
+   "end": 11.87,
+   "words": [
+    [
+     "Platin?",
+     11.21
+    ]
+   ]
+  },
+  {
+   "t": 11.87,
+   "end": 13.01,
+   "words": [
+    [
+     "Erst",
+     11.87
+    ],
+    [
+     "Ende",
+     12.33
+    ],
+    [
+     "Februar.",
+     12.65
+    ]
+   ]
+  },
+  {
+   "t": 13.01,
+   "end": 14.018,
+   "words": [
+    [
+     "Folg",
+     13.01
+    ],
+    [
+     "mir!",
+     13.34
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 5.19,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "GTA 6 Story",
+     "size": 100,
+     "color": "accent",
+     "at": 0.15
+    },
+    {
+     "type": "count",
+     "to": 50,
+     "suffix": " STUNDEN",
+     "size": 170,
+     "at": 0.4,
+     "dur": 3.33
+    },
+    {
+     "type": "text",
+     "text": "laut Insider Tom Henderson",
+     "size": 34,
+     "color": "second",
+     "at": 3.9899999999999998
+    }
+   ]
+  },
+  {
+   "t": 2.4,
+   "end": 8.93,
+   "y": 300,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "WANN BIST DU FERTIG? · GLEICH",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 5.19,
+   "end": 8.73,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Für Platin",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "count",
+     "to": 200,
+     "prefix": "über ",
+     "suffix": " STD.",
+     "size": 170,
+     "at": 0.25,
+     "dur": 1.31
+    },
+    {
+     "type": "text",
+     "text": "mit allen Nebenaufgaben",
+     "size": 36,
+     "color": "second",
+     "at": 2.18
+    }
+   ]
+  },
+  {
+   "t": 8.73,
+   "end": 11.17,
+   "y": 515,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "2 Stunden am Tag"
+     ],
+     "psize": 44,
+     "ph": 100,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Story durch am",
+     "size": 44,
+     "color": "cream",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "13. DEZ.",
+     "size": 200,
+     "at": 1.35,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 11.17,
+   "end": 12.97,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Platin am",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "26. FEB.",
+     "size": 200,
+     "at": 1.16,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "2027 – ab Release gerechnet",
+     "size": 34,
+     "color": "second",
+     "at": 1.48
+    }
+   ]
+  },
+  {
+   "t": 12.97,
+   "end": 16.43,
+   "y": 520,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Wie lange zockst du\nam ersten Tag?",
+     "size": 88,
+     "at": 0.05
+    },
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.3,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 28,
+   "exit": false
+  },
+  {
+   "t": 13.37,
+   "end": 16.43,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 0.0,
+   "end": 2.0,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.67
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 2.0,
+   "end": 5.19,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.693
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 5.19,
+   "end": 8.73,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 8.73,
+   "end": 11.17,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.918
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 11.17,
+   "end": 12.97,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 63.15,
+   "start": 12.97,
+   "end": 16.43,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.861
+   }
+  }
+ ],
+ "presenter": {
+  "views": {
+   "front": "assets/host/host_cut.png",
+   "side": "assets/host/side_cut.png",
+   "back": "assets/host/back_cut.png"
+  },
+  "x0": 600,
+  "head_y": 925,
+  "actions": [
+   {
+    "t": 0.0,
+    "gesture": "lean",
+    "dur": 1.7,
+    "amount": 1.0
+   },
+   {
+    "t": 4.09,
+    "gesture": "nod",
+    "dur": 0.6
+   },
+   {
+    "t": 5.17,
+    "look": [
+     0,
+     -1
+    ],
+    "dur": 0.9
+   },
+   {
+    "t": 6.35,
+    "gesture": "point",
+    "dur": 1.3
+   },
+   {
+    "t": 8.71,
+    "gesture": "present",
+    "dur": 1.6
+   },
+   {
+    "t": 11.2,
+    "gesture": "nod",
+    "dur": 0.6
+   },
+   {
+    "t": 12.9,
+    "gesture": "glass",
+    "dur": 0.9
+   },
+   {
+    "t": 13.83,
+    "turn": "back",
+    "dur": 0.35
+   },
+   {
+    "t": 14.63,
+    "walk": -320,
+    "speed": 520
+   }
+  ]
+ },
+ "music": "chase",
+ "sfx": [
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 3.33
+  },
+  {
+   "t": 3.69,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 6.56,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 10.08,
+   "type": "pop"
+  },
+  {
+   "t": 12.33,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 12.33,
+   "type": "chime"
+  },
+  {
+   "t": 13.27,
+   "type": "pop"
+  },
+  {
+   "t": 5.07,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 8.61,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
