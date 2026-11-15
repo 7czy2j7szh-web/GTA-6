@@ -1,0 +1,1975 @@
+{
+ "duration": 50.608,
+ "fps": 30,
+ "crf": 16,
+ "preset": "slow",
+ "darken": 0.2,
+ "grade": {
+  "contrast": 1.08,
+  "sat": 1.1
+ },
+ "voice": {
+  "wav": "content/02-kanal/voice/k1/final.wav",
+  "t": 0.4
+ },
+ "subs": [
+  {
+   "t": 0.38,
+   "end": 1.13,
+   "words": [
+    [
+     "Am",
+     0.38
+    ],
+    [
+     "Donnerstag",
+     0.57
+    ]
+   ]
+  },
+  {
+   "t": 1.13,
+   "end": 1.74,
+   "words": [
+    [
+     "machen",
+     1.13
+    ],
+    [
+     "viele",
+     1.5
+    ]
+   ]
+  },
+  {
+   "t": 1.74,
+   "end": 3.46,
+   "words": [
+    [
+     "ihre",
+     1.74
+    ],
+    [
+     "GTA-6-Box",
+     1.98
+    ],
+    [
+     "auf",
+     2.89
+    ]
+   ]
+  },
+  {
+   "t": 3.46,
+   "end": 3.97,
+   "words": [
+    [
+     "und",
+     3.46
+    ],
+    [
+     "können",
+     3.61
+    ],
+    [
+     "nicht",
+     3.89
+    ]
+   ]
+  },
+  {
+   "t": 3.97,
+   "end": 4.71,
+   "words": [
+    [
+     "sofort",
+     3.97
+    ],
+    [
+     "spielen.",
+     4.23
+    ]
+   ]
+  },
+  {
+   "t": 4.71,
+   "end": 5.33,
+   "words": [
+    [
+     "Und",
+     4.71
+    ],
+    [
+     "gerade",
+     4.85
+    ],
+    [
+     "geht",
+     5.23
+    ]
+   ]
+  },
+  {
+   "t": 5.33,
+   "end": 6.04,
+   "words": [
+    [
+     "noch",
+     5.33
+    ],
+    [
+     "eine",
+     5.44
+    ],
+    [
+     "zweite",
+     5.78
+    ]
+   ]
+  },
+  {
+   "t": 6.04,
+   "end": 6.87,
+   "words": [
+    [
+     "Warnung",
+     6.04
+    ],
+    [
+     "viral.",
+     6.26
+    ]
+   ]
+  },
+  {
+   "t": 6.87,
+   "end": 7.25,
+   "words": [
+    [
+     "Wie",
+     6.87
+    ],
+    [
+     "du",
+     7.01
+    ],
+    [
+     "nicht",
+     7.12
+    ]
+   ]
+  },
+  {
+   "t": 7.25,
+   "end": 7.77,
+   "words": [
+    [
+     "dazugehörst,",
+     7.25
+    ]
+   ]
+  },
+  {
+   "t": 7.77,
+   "end": 8.66,
+   "words": [
+    [
+     "verrate",
+     7.77
+    ],
+    [
+     "ich",
+     8.16
+    ],
+    [
+     "dir",
+     8.32
+    ]
+   ]
+  },
+  {
+   "t": 8.66,
+   "end": 9.21,
+   "words": [
+    [
+     "am",
+     8.66
+    ],
+    [
+     "Ende.",
+     8.79
+    ]
+   ]
+  },
+  {
+   "t": 9.21,
+   "end": 9.52,
+   "words": [
+    [
+     "Erstens:",
+     9.21
+    ]
+   ]
+  },
+  {
+   "t": 9.52,
+   "end": 10.17,
+   "words": [
+    [
+     "In",
+     9.52
+    ],
+    [
+     "der",
+     9.74
+    ],
+    [
+     "Box",
+     9.91
+    ]
+   ]
+  },
+  {
+   "t": 10.17,
+   "end": 10.86,
+   "words": [
+    [
+     "ist",
+     10.17
+    ],
+    [
+     "keine",
+     10.26
+    ],
+    [
+     "Disc.",
+     10.61
+    ]
+   ]
+  },
+  {
+   "t": 10.86,
+   "end": 11.52,
+   "words": [
+    [
+     "Nur",
+     10.86
+    ],
+    [
+     "ein",
+     11.03
+    ],
+    [
+     "Code.",
+     11.2
+    ]
+   ]
+  },
+  {
+   "t": 11.52,
+   "end": 12.36,
+   "words": [
+    [
+     "Heißt:",
+     11.52
+    ]
+   ]
+  },
+  {
+   "t": 12.36,
+   "end": 12.67,
+   "words": [
+    [
+     "Du",
+     12.36
+    ],
+    [
+     "musst",
+     12.44
+    ],
+    [
+     "erst",
+     12.54
+    ]
+   ]
+  },
+  {
+   "t": 12.67,
+   "end": 13.48,
+   "words": [
+    [
+     "bis",
+     12.67
+    ],
+    [
+     "zu",
+     12.8
+    ],
+    [
+     "212",
+     12.97
+    ]
+   ]
+  },
+  {
+   "t": 13.48,
+   "end": 14.71,
+   "words": [
+    [
+     "Gigabyte",
+     13.48
+    ],
+    [
+     "runterladen.",
+     13.87
+    ]
+   ]
+  },
+  {
+   "t": 14.71,
+   "end": 15.32,
+   "words": [
+    [
+     "In",
+     14.71
+    ],
+    [
+     "der",
+     14.83
+    ],
+    [
+     "Nacht,",
+     15.05
+    ]
+   ]
+  },
+  {
+   "t": 15.32,
+   "end": 16.12,
+   "words": [
+    [
+     "in",
+     15.32
+    ],
+    [
+     "der",
+     15.44
+    ],
+    [
+     "Millionen",
+     15.61
+    ]
+   ]
+  },
+  {
+   "t": 16.12,
+   "end": 17.57,
+   "words": [
+    [
+     "gleichzeitig",
+     16.12
+    ],
+    [
+     "laden.",
+     16.63
+    ]
+   ]
+  },
+  {
+   "t": 17.57,
+   "end": 18.52,
+   "words": [
+    [
+     "GTA",
+     17.57
+    ],
+    [
+     "6",
+     18.1
+    ],
+    [
+     "ist",
+     18.4
+    ]
+   ]
+  },
+  {
+   "t": 18.52,
+   "end": 19.98,
+   "words": [
+    [
+     "das",
+     18.52
+    ],
+    [
+     "meistvorbestellte",
+     18.7
+    ]
+   ]
+  },
+  {
+   "t": 19.98,
+   "end": 20.28,
+   "words": [
+    [
+     "Spiel",
+     19.98
+    ],
+    [
+     "in",
+     20.1
+    ],
+    [
+     "der",
+     20.18
+    ]
+   ]
+  },
+  {
+   "t": 20.28,
+   "end": 20.7,
+   "words": [
+    [
+     "Geschichte",
+     20.28
+    ],
+    [
+     "vom",
+     20.58
+    ]
+   ]
+  },
+  {
+   "t": 20.7,
+   "end": 21.38,
+   "words": [
+    [
+     "PlayStation",
+     20.7
+    ],
+    [
+     "Store.",
+     21.09
+    ]
+   ]
+  },
+  {
+   "t": 21.38,
+   "end": 21.92,
+   "words": [
+    [
+     "Sony",
+     21.38
+    ],
+    [
+     "rät",
+     21.58
+    ],
+    [
+     "deshalb",
+     21.68
+    ]
+   ]
+  },
+  {
+   "t": 21.92,
+   "end": 22.79,
+   "words": [
+    [
+     "offiziell:",
+     21.92
+    ]
+   ]
+  },
+  {
+   "t": 22.79,
+   "end": 23.17,
+   "words": [
+    [
+     "So",
+     22.79
+    ],
+    [
+     "früh",
+     22.92
+    ],
+    [
+     "wie",
+     23.02
+    ]
+   ]
+  },
+  {
+   "t": 23.17,
+   "end": 24.19,
+   "words": [
+    [
+     "möglich",
+     23.17
+    ],
+    [
+     "vorladen.",
+     23.41
+    ]
+   ]
+  },
+  {
+   "t": 24.19,
+   "end": 24.95,
+   "words": [
+    [
+     "Box",
+     24.19
+    ],
+    [
+     "oder",
+     24.32
+    ],
+    [
+     "digital?",
+     24.55
+    ]
+   ]
+  },
+  {
+   "t": 24.95,
+   "end": 25.6,
+   "words": [
+    [
+     "Was",
+     24.95
+    ],
+    [
+     "hast",
+     25.07
+    ],
+    [
+     "du?",
+     25.23
+    ]
+   ]
+  },
+  {
+   "t": 25.6,
+   "end": 26.09,
+   "words": [
+    [
+     "Schreib's",
+     25.6
+    ],
+    [
+     "in",
+     25.85
+    ],
+    [
+     "die",
+     25.93
+    ]
+   ]
+  },
+  {
+   "t": 26.09,
+   "end": 26.75,
+   "words": [
+    [
+     "Kommentare!",
+     26.09
+    ]
+   ]
+  },
+  {
+   "t": 26.75,
+   "end": 27.36,
+   "words": [
+    [
+     "Zweitens:",
+     26.75
+    ]
+   ]
+  },
+  {
+   "t": 27.36,
+   "end": 27.94,
+   "words": [
+    [
+     "Bei",
+     27.36
+    ],
+    [
+     "manchen",
+     27.45
+    ],
+    [
+     "Boxen",
+     27.72
+    ]
+   ]
+  },
+  {
+   "t": 27.94,
+   "end": 28.43,
+   "words": [
+    [
+     "in",
+     27.94
+    ],
+    [
+     "Europa",
+     28.04
+    ]
+   ]
+  },
+  {
+   "t": 28.43,
+   "end": 28.75,
+   "words": [
+    [
+     "soll",
+     28.43
+    ],
+    [
+     "man",
+     28.52
+    ],
+    [
+     "den",
+     28.65
+    ]
+   ]
+  },
+  {
+   "t": 28.75,
+   "end": 29.34,
+   "words": [
+    [
+     "Code",
+     28.75
+    ],
+    [
+     "mit",
+     28.86
+    ],
+    [
+     "einer",
+     29.05
+    ]
+   ]
+  },
+  {
+   "t": 29.34,
+   "end": 29.79,
+   "words": [
+    [
+     "Taschenlampe",
+     29.34
+    ]
+   ]
+  },
+  {
+   "t": 29.79,
+   "end": 30.57,
+   "words": [
+    [
+     "durch",
+     29.79
+    ],
+    [
+     "die",
+     29.97
+    ],
+    [
+     "geschlossene",
+     30.1
+    ]
+   ]
+  },
+  {
+   "t": 30.57,
+   "end": 31.67,
+   "words": [
+    [
+     "Hülle",
+     30.57
+    ],
+    [
+     "lesen",
+     30.73
+    ],
+    [
+     "können.",
+     30.99
+    ]
+   ]
+  },
+  {
+   "t": 31.67,
+   "end": 32.08,
+   "words": [
+    [
+     "Wer",
+     31.67
+    ],
+    [
+     "den",
+     31.83
+    ],
+    [
+     "Code",
+     31.91
+    ]
+   ]
+  },
+  {
+   "t": 32.08,
+   "end": 32.72,
+   "words": [
+    [
+     "zuerst",
+     32.08
+    ],
+    [
+     "einlöst,",
+     32.4
+    ]
+   ]
+  },
+  {
+   "t": 32.72,
+   "end": 33.69,
+   "words": [
+    [
+     "hat",
+     32.72
+    ],
+    [
+     "dein",
+     33.02
+    ],
+    [
+     "Spiel.",
+     33.22
+    ]
+   ]
+  },
+  {
+   "t": 33.69,
+   "end": 34.33,
+   "words": [
+    [
+     "Bestätigt",
+     33.69
+    ],
+    [
+     "ist",
+     34.06
+    ],
+    [
+     "das",
+     34.18
+    ]
+   ]
+  },
+  {
+   "t": 34.33,
+   "end": 34.42,
+   "words": [
+    [
+     "nicht.",
+     34.33
+    ]
+   ]
+  },
+  {
+   "t": 34.42,
+   "end": 34.99,
+   "words": [
+    [
+     "Bei",
+     34.42
+    ],
+    [
+     "Tests",
+     34.57
+    ],
+    [
+     "hat",
+     34.83
+    ]
+   ]
+  },
+  {
+   "t": 34.99,
+   "end": 36.52,
+   "words": [
+    [
+     "es",
+     34.99
+    ],
+    [
+     "nicht",
+     35.13
+    ],
+    [
+     "geklappt.",
+     35.29
+    ]
+   ]
+  },
+  {
+   "t": 36.52,
+   "end": 36.9,
+   "words": [
+    [
+     "Die",
+     36.52
+    ],
+    [
+     "Lösung",
+     36.62
+    ]
+   ]
+  },
+  {
+   "t": 36.9,
+   "end": 37.55,
+   "words": [
+    [
+     "für",
+     36.9
+    ],
+    [
+     "beides:",
+     37.05
+    ]
+   ]
+  },
+  {
+   "t": 37.55,
+   "end": 38.01,
+   "words": [
+    [
+     "Lös",
+     37.55
+    ],
+    [
+     "den",
+     37.71
+    ],
+    [
+     "Code",
+     37.85
+    ]
+   ]
+  },
+  {
+   "t": 38.01,
+   "end": 38.62,
+   "words": [
+    [
+     "sofort",
+     38.01
+    ],
+    [
+     "ein,",
+     38.51
+    ]
+   ]
+  },
+  {
+   "t": 38.62,
+   "end": 39.12,
+   "words": [
+    [
+     "sobald",
+     38.62
+    ],
+    [
+     "du",
+     38.79
+    ],
+    [
+     "die",
+     38.95
+    ]
+   ]
+  },
+  {
+   "t": 39.12,
+   "end": 39.62,
+   "words": [
+    [
+     "Box",
+     39.12
+    ],
+    [
+     "hast.",
+     39.34
+    ]
+   ]
+  },
+  {
+   "t": 39.62,
+   "end": 40.09,
+   "words": [
+    [
+     "Laut",
+     39.62
+    ],
+    [
+     "Sony",
+     39.79
+    ]
+   ]
+  },
+  {
+   "t": 40.09,
+   "end": 40.42,
+   "words": [
+    [
+     "geht",
+     40.09
+    ],
+    [
+     "das",
+     40.23
+    ],
+    [
+     "schon",
+     40.31
+    ]
+   ]
+  },
+  {
+   "t": 40.42,
+   "end": 40.82,
+   "words": [
+    [
+     "jetzt.",
+     40.42
+    ]
+   ]
+  },
+  {
+   "t": 40.82,
+   "end": 41.54,
+   "words": [
+    [
+     "Dann",
+     40.82
+    ],
+    [
+     "gehört",
+     40.94
+    ],
+    [
+     "das",
+     41.27
+    ]
+   ]
+  },
+  {
+   "t": 41.54,
+   "end": 42.0,
+   "words": [
+    [
+     "Spiel",
+     41.54
+    ],
+    [
+     "dir,",
+     41.64
+    ]
+   ]
+  },
+  {
+   "t": 42.0,
+   "end": 42.46,
+   "words": [
+    [
+     "und",
+     42.0
+    ],
+    [
+     "du",
+     42.12
+    ],
+    [
+     "kannst",
+     42.28
+    ]
+   ]
+  },
+  {
+   "t": 42.46,
+   "end": 43.19,
+   "words": [
+    [
+     "die",
+     42.46
+    ],
+    [
+     "212",
+     42.59
+    ]
+   ]
+  },
+  {
+   "t": 43.19,
+   "end": 43.62,
+   "words": [
+    [
+     "Gigabyte",
+     43.19
+    ]
+   ]
+  },
+  {
+   "t": 43.62,
+   "end": 44.54,
+   "words": [
+    [
+     "heute",
+     43.62
+    ],
+    [
+     "schon",
+     43.8
+    ],
+    [
+     "vorladen.",
+     43.88
+    ]
+   ]
+  },
+  {
+   "t": 44.54,
+   "end": 45.36,
+   "words": [
+    [
+     "Spielen",
+     44.54
+    ],
+    [
+     "kannst",
+     44.9
+    ],
+    [
+     "du",
+     45.09
+    ]
+   ]
+  },
+  {
+   "t": 45.36,
+   "end": 45.99,
+   "words": [
+    [
+     "ab",
+     45.36
+    ],
+    [
+     "dem",
+     45.46
+    ],
+    [
+     "19.",
+     45.59
+    ]
+   ]
+  },
+  {
+   "t": 45.99,
+   "end": 46.85,
+   "words": [
+    [
+     "November.",
+     45.99
+    ]
+   ]
+  },
+  {
+   "t": 46.85,
+   "end": 47.5,
+   "words": [
+    [
+     "Schick",
+     46.85
+    ],
+    [
+     "das",
+     47.0
+    ],
+    [
+     "jemandem,",
+     47.12
+    ]
+   ]
+  },
+  {
+   "t": 47.5,
+   "end": 47.8,
+   "words": [
+    [
+     "der",
+     47.5
+    ],
+    [
+     "die",
+     47.63
+    ]
+   ]
+  },
+  {
+   "t": 47.8,
+   "end": 48.27,
+   "words": [
+    [
+     "Box",
+     47.8
+    ],
+    [
+     "kauft",
+     47.93
+    ]
+   ]
+  },
+  {
+   "t": 48.27,
+   "end": 48.8,
+   "words": [
+    [
+     "und",
+     48.27
+    ],
+    [
+     "folg",
+     48.41
+    ],
+    [
+     "mir",
+     48.66
+    ]
+   ]
+  },
+  {
+   "t": 48.8,
+   "end": 49.758,
+   "words": [
+    [
+     "bis",
+     48.8
+    ],
+    [
+     "zum",
+     48.9
+    ],
+    [
+     "Release!",
+     49.05
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 4.67,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Box auf –",
+     "size": 104,
+     "at": 0.15
+    },
+    {
+     "type": "big",
+     "text": "NICHT",
+     "size": 250,
+     "at": 3.89,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "sofort spielen",
+     "size": 104,
+     "at": 3.97
+    }
+   ],
+   "card": false,
+   "gap": 6
+  },
+  {
+   "t": 4.67,
+   "end": 9.17,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Zweite Warnung",
+     "size": 112,
+     "color": "accent",
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "text": "geht gerade viral",
+     "size": 48,
+     "at": 1.59
+    }
+   ]
+  },
+  {
+   "t": 7.77,
+   "end": 36.48,
+   "y": 312,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "DIE LÖSUNG · AM ENDE",
+     "size": 32
+    }
+   ]
+  },
+  {
+   "t": 9.17,
+   "end": 12.32,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "In der Box",
+     "size": 96,
+     "at": 0.1
+    },
+    {
+     "type": "strike",
+     "text": "Disc",
+     "size": 150,
+     "at": 1.09,
+     "strike_at": 0.22
+    },
+    {
+     "type": "pills",
+     "items": [
+      "nur ein Download-Code"
+     ],
+     "at": 2.03
+    },
+    {
+     "type": "text",
+     "text": "laut Rockstar-Support",
+     "size": 34,
+     "color": "second",
+     "at": 2.28
+    }
+   ]
+  },
+  {
+   "t": 12.32,
+   "end": 17.53,
+   "y": 590,
+   "rows": [
+    {
+     "type": "text",
+     "text": "Download: bis zu",
+     "size": 44,
+     "at": 0.1
+    },
+    {
+     "type": "count",
+     "to": 212,
+     "suffix": " GB",
+     "size": 220,
+     "at": 0.65,
+     "dur": 0.8
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Release-Nacht"
+     ],
+     "at": 2.73
+    },
+    {
+     "type": "text",
+     "text": "Millionen laden gleichzeitig",
+     "size": 44,
+     "color": "cream",
+     "at": 3.29
+    }
+   ]
+  },
+  {
+   "t": 17.53,
+   "end": 21.34,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Meistvorbestellt",
+     "size": 104,
+     "color": "accent",
+     "at": 0.1
+    },
+    {
+     "type": "text",
+     "text": "Rekord im PlayStation Store",
+     "size": 46,
+     "at": 1.17
+    },
+    {
+     "type": "text",
+     "text": "und im Microsoft Store",
+     "size": 36,
+     "color": "second",
+     "at": 3.17
+    }
+   ]
+  },
+  {
+   "t": 21.34,
+   "end": 24.15,
+   "y": 590,
+   "rows": [
+    {
+     "type": "text",
+     "text": "Sony rät offiziell:",
+     "size": 46,
+     "at": 0.1
+    },
+    {
+     "type": "title",
+     "text": "„So früh wie möglich\nvorladen“",
+     "size": 92,
+     "at": 0.58
+    },
+    {
+     "type": "text",
+     "text": "PlayStation Blog, 10.11.",
+     "size": 34,
+     "color": "second",
+     "at": 0.8799999999999999
+    }
+   ]
+  },
+  {
+   "t": 24.15,
+   "end": 26.71,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Was hast du?",
+     "size": 110,
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Box",
+      "Digital"
+     ],
+     "at": 0.4,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 24
+  },
+  {
+   "t": 25.6,
+   "end": 26.71,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  },
+  {
+   "t": 26.71,
+   "end": 31.63,
+   "y": 590,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "manche Boxen in Europa"
+     ],
+     "at": 0.1
+    },
+    {
+     "type": "title",
+     "text": "Code lesbar?",
+     "size": 112,
+     "color": "accent",
+     "at": 1.33
+    },
+    {
+     "type": "text",
+     "text": "mit Taschenlampe\ndurch die geschlossene Hülle",
+     "size": 46,
+     "at": 2.63
+    }
+   ]
+  },
+  {
+   "t": 31.63,
+   "end": 33.65,
+   "y": 590,
+   "rows": [
+    {
+     "type": "text",
+     "text": "Wer den Code zuerst einlöst,",
+     "size": 46,
+     "at": 0.1
+    },
+    {
+     "type": "big",
+     "text": "HAT DEIN\nSPIEL",
+     "size": 170,
+     "at": 1.09,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 33.65,
+   "end": 36.48,
+   "y": 590,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "unbestätigt"
+     ],
+     "bg": "strike",
+     "at": 0.68,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Bei Tests hat es nicht geklappt",
+     "size": 46,
+     "at": 0.92
+    },
+    {
+     "type": "text",
+     "text": "GamesRadar, Push Square",
+     "size": 34,
+     "color": "second",
+     "at": 1.64
+    }
+   ]
+  },
+  {
+   "t": 36.48,
+   "end": 39.58,
+   "y": 575,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "CODE SOFORT",
+     "size": 170,
+     "at": 1.07,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "EINLÖSEN",
+     "size": 170,
+     "at": 2.03,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 30
+  },
+  {
+   "t": 39.58,
+   "end": 44.5,
+   "y": 590,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Geht schon jetzt",
+     "size": 100,
+     "color": "accent",
+     "at": 0.08
+    },
+    {
+     "type": "text",
+     "text": "laut PlayStation-Support",
+     "size": 36,
+     "color": "second",
+     "at": 0.3
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Spiel gehört dir"
+     ],
+     "at": 1.36
+    },
+    {
+     "type": "pills",
+     "items": [
+      "212 GB vorladen"
+     ],
+     "at": 4.3
+    }
+   ]
+  },
+  {
+   "t": 44.5,
+   "end": 46.81,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Spielen ab",
+     "size": 100,
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "19.11.",
+     "size": 260,
+     "at": 1.09,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 4
+  },
+  {
+   "t": 46.81,
+   "end": 50.608,
+   "y": 560,
+   "rows": [
+    {
+     "type": "text",
+     "text": "Schick's jemandem mit Box",
+     "size": 54,
+     "color": "cream",
+     "weight": "Bold",
+     "at": 0.05
+    },
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 1.6,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 26,
+   "exit": false
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 0.0,
+   "end": 2.4,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.562
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 68.72,
+   "start": 2.4,
+   "end": 4.67,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.656
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 46.58,
+   "start": 4.67,
+   "end": 5.87,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.742
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 43.95,
+   "start": 5.87,
+   "end": 6.81,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 39.85,
+   "start": 6.81,
+   "end": 9.17,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.602
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 9.17,
+   "end": 12.32,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.568
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 12.32,
+   "end": 15.26,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
+   "start": 15.26,
+   "end": 17.53,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.789
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.79,
+   "start": 17.53,
+   "end": 19.92,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.594
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 19.92,
+   "end": 21.34,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 21.34,
+   "end": 24.15,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.637
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 81.45,
+   "start": 24.15,
+   "end": 26.71,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.621
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 88.28,
+   "start": 26.71,
+   "end": 28.69,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.586
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 83.15,
+   "start": 28.69,
+   "end": 31.63,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.643
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.6,
+   "start": 31.63,
+   "end": 33.65,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.98
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 60.62,
+   "start": 33.65,
+   "end": 36.48,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.855
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 36.48,
+   "end": 39.58,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
+   "start": 39.58,
+   "end": 40.76,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 98.52,
+   "start": 40.76,
+   "end": 41.94,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.915
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 41.94,
+   "end": 44.5,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 6.85,
+   "start": 44.5,
+   "end": 46.81,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.528
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 63.15,
+   "start": 46.81,
+   "end": 50.608,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.787
+   }
+  }
+ ],
+ "mascot": {
+  "enter": 0.0,
+  "to_side": [
+   9.07
+  ],
+  "to_centre": [
+   35.73
+  ],
+  "poses": [
+   {
+    "pose": "surprised",
+    "from": 0.0,
+    "to": 0.38
+   },
+   {
+    "pose": "sceptical",
+    "from": 35.68,
+    "to": 36.5
+   },
+   {
+    "pose": "laugh",
+    "from": 49.578,
+    "to": 51.608
+   }
+  ]
+ },
+ "music": "chase",
+ "sfx": [
+  {
+   "t": 3.89,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 7.77,
+   "type": "pop"
+  },
+  {
+   "t": 10.48,
+   "type": "tick"
+  },
+  {
+   "t": 12.97,
+   "type": "riser",
+   "len": 0.8
+  },
+  {
+   "t": 32.72,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 37.55,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 37.55,
+   "type": "chime"
+  },
+  {
+   "t": 48.41,
+   "type": "pop"
+  },
+  {
+   "t": 9.05,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 26.59,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 36.36,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}

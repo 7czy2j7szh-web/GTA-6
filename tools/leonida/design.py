@@ -261,3 +261,21 @@ def paste(canvas: Image.Image, im: Image.Image, x: float, y: float, opacity: flo
         part = part.copy()
         part.putalpha(part.getchannel("A").point(lambda v: int(v * opacity)))
     canvas.alpha_composite(part, (x + l, y + t))
+
+
+def arrow(w=150, color="accent") -> Image.Image:
+    """Pfeil nach rechts (zeigt z. B. auf den Kommentar-Knopf), weicher Schatten."""
+    h = int(w * 0.62)
+    S2 = 3
+    im = Image.new("RGBA", ((w + 2 * PAD) * S2, (h + 2 * PAD) * S2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    x0, y0 = PAD * S2, PAD * S2
+    W2, H2 = w * S2, h * S2
+    shaft = H2 * 0.34
+    head = W2 * 0.45
+    pts = [(x0, y0 + H2 / 2 - shaft / 2), (x0 + W2 - head, y0 + H2 / 2 - shaft / 2), (x0 + W2 - head, y0),
+           (x0 + W2, y0 + H2 / 2), (x0 + W2 - head, y0 + H2), (x0 + W2 - head, y0 + H2 / 2 + shaft / 2),
+           (x0, y0 + H2 / 2 + shaft / 2)]
+    d.polygon(pts, fill=(*col(color), 255))
+    im = im.resize((w + 2 * PAD, h + 2 * PAD), Image.LANCZOS)
+    return shadowed(im, glow=0.3)

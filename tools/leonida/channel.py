@@ -69,6 +69,13 @@ def build_row(r: dict) -> Image.Image:
         return D.row([D.pill(p, bg=r.get("bg", "accent")) for p in r["items"]], gap=r.get("gap", 18))
     if t == "glowpill":
         return D.glow_pill(r["text"], size=r.get("size", 40))
+    if t == "strike":                                  # Wort, das gleich durchgestrichen wird
+        return D.text(r["text"].upper(), D.barlow(r.get("size", 120)), fill=r.get("color", "cream"),
+                      tracking=r.get("tracking", 1))
+    if t == "count":                                   # Zahl zählt hoch (Bild je Wert, siehe count_img)
+        return count_img(r, r["to"])
+    if t == "arrow":
+        return D.arrow(r.get("w", 150), r.get("color", "accent"))
     if t == "image":
         im = Image.open(os.path.join(ROOT, r["path"])).convert("RGBA")
         w = r.get("w", 400)
@@ -77,6 +84,17 @@ def build_row(r: dict) -> Image.Image:
         out.alpha_composite(im, (D.PAD, D.PAD))
         return D.shadowed(out)
     raise ValueError(t)
+
+
+_COUNT: dict = {}
+
+
+def count_img(r: dict, v: float) -> Image.Image:
+    key = (r["to"], r.get("prefix", ""), r.get("suffix", ""), r.get("size", 230), int(v))
+    if key not in _COUNT:
+        txt = f"{r.get('prefix', '')}{int(v):,}{r.get('suffix', '')}".replace(",", ".")
+        _COUNT[key] = D.gradient_text(txt, D.barlow(r.get("size", 230)))
+    return _COUNT[key]
 
 
 class Element:
@@ -118,6 +136,22 @@ class Element:
             if rl < 0:
                 continue
             rop, rdy, rsc = motion(r.get("motion", "glide"), rl)
+            if r["type"] == "count":
+                q = ease_out_cubic(rl / r.get("dur", 0.7))
+                im = count_img(r, r.get("from", 0) + (r["to"] - r.get("from", 0)) * q)
+                x = self.size[0] / 2 - im.width / 2
+            if r["type"] == "strike" and rl >= r.get("strike_at", 0.4):
+                q = ease_out_cubic((rl - r.get("strike_at", 0.4)) / 0.25)
+                im = im.copy()
+                from PIL import ImageDraw
+                dd = ImageDraw.Draw(im)
+                x0, x1 = D.PAD - 12, im.width - D.PAD + 12
+                ym = im.height / 2 + 4
+                th = max(10, int(im.height * 0.07))
+                dd.rounded_rectangle([x0, ym - th / 2, x0 + (x1 - x0) * q, ym + th / 2], radius=th // 2,
+                                     fill=(*D.STRIKE, 255))
+            if r.get("nudge"):
+                x += math.sin(rl * 7) * r["nudge"]
             if rsc != 1.0:
                 im = im.resize((max(int(im.width * rsc), 2), max(int(im.height * rsc), 2)), Image.BICUBIC)
                 x, y = x + (self.rows[k][1].width - im.width) / 2, y + (self.rows[k][1].height - im.height) / 2
