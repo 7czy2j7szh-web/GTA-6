@@ -336,3 +336,5 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 - **Hashtags:** `#gta6 #gta6deutsch #vicecity #miami #florida`
 - **Anpinnen:** `Spiel oder echt? Und welchen Ort willst du zuerst sehen? 👇`
 
+**Upload-Tipp für maximale Schärfe:** In den TikTok-Einstellungen bzw. beim Posten unter „Weitere Optionen" die Option für Uploads in hoher Qualität aktivieren (falls angeboten). Das Video direkt aus der Datei hochladen, nicht vorher in der TikTok-App bearbeiten oder mit Filtern versehen, sonst komprimiert TikTok doppelt.
+

@@ -122,3 +122,13 @@
 18. **Follower-Hebel:** Jede Frage bekommt eine Fortsetzung („Ergebnis am …"), angekündigt im angepinnten Kommentar und am Videoende.
 19. **Offene Schleife (V14):** Die Antwort wird im Hook versprochen („Verrat ich dir am Ende"), bleibt als Hinweis sichtbar und wird mit 2 Tipps aufgebaut; die Auflösung kommt bei ~80 % der Länge. Tipps laden zum Raten in den Kommentaren ein. Messen: „Ganz angesehen" im Vergleich zu V10 (40 %).
 20. **Technik: Erzählung immer in EINER TTS-Aufnahme.** Sätze aus verschiedenen Aufnahmen klingen wie verschiedene Personen (V14 v1: Hook 210–220 Hz, Rest 120–165 Hz). Neue Sätze = kompletten Text neu aufnehmen, nie Clips mischen.
+21. **Technik: maximale Schärfe (ab V15/V16 v2):**
+    - kein Filmkorn (wird nach jeder Kompression zu Pixelmatsch)
+    - Nachschärfen und Klarheit
+    - 30 fps statt 60 (mehr Daten pro Bild bei TikToks Bitrate)
+    - CRF 16 (Preset „slow")
+    - Zwischenclips nur ~12 % größer als die Ausgabe (einmal Lanczos aus 4K)
+    - 4K-Standbilder mit Kamerafahrt statt starker Zeitlupe (Zwischenbilder verschmieren)
+    - Fotos in 3840 px
+    - Downloads nicht nachträglich komprimieren
+    - Gemessene Detailschärfe V16: 529 → 1217.

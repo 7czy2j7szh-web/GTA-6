@@ -2,11 +2,13 @@
  "id": "V15",
  "out": "exports/countdown/V15_fremdgehen.mp4",
  "duration": 20.86,
- "fps": 60,
+ "fps": 30,
+ "crf": 16,
+ "preset": "slow",
  "music": "chase",
  "music_offset": 26.836,
  "flash_strength": 0,
- "overlay_strength": 0.4,
+ "overlay_strength": 0.3,
  "chrome_from": 0,
  "badge": null,
  "progress": false,
@@ -15,8 +17,9 @@
   "contrast": 1.03,
   "sat": 1.07,
   "warm": 0.03,
-  "grain": 0.025,
-  "vignette": 0.18
+  "sharpen": 0.45,
+  "clarity": 0.1,
+  "vignette": 0.15
  },
  "pulses": [
   [

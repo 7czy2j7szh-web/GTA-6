@@ -464,6 +464,14 @@ class Renderer:
         if warm:
             a[..., 0] *= 1 + warm
             a[..., 2] *= 1 - warm
+        if g.get("sharpen"):                               # Detailschärfe (feiner Radius) + Klarheit (großer Radius)
+            import cv2
+            amt = g["sharpen"]
+            blur = cv2.GaussianBlur(a, (0, 0), 1.1)
+            a = a + (a - blur) * amt
+            if g.get("clarity"):
+                big = cv2.GaussianBlur(a, (0, 0), 12)
+                a = a + (a - big) * g["clarity"]
         if g.get("vignette"):
             if self._vig is None:
                 yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
@@ -685,7 +693,8 @@ class Renderer:
                "-s", f"{W}x{H}", "-r", str(self.fps), "-i", "-"]
         if wav:
             cmd += ["-i", wav]
-        cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+        cmd += ["-c:v", "libx264", "-preset", self.spec.get("preset", "medium"), "-crf", str(self.spec.get("crf", 18)),
+                "-pix_fmt", "yuv420p",
                 "-profile:v", "high", "-movflags", "+faststart"]
         if wav:
             cmd += ["-c:a", "aac", "-b:a", "192k", "-shortest"]

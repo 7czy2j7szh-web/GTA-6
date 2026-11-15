@@ -25,8 +25,10 @@ class SplitScene:
             from .drone import DroneShot
             self.top = DroneShot(top["drone"], W, self.h2, cam=top.get("cam"))
         src = Image.open(os.path.join(ROOT, bottom["image"])).convert("RGB")
-        scale = max(W * 1.25 / src.width, self.h2 * 1.25 / src.height)
-        self.src = src.resize((int(src.width * scale), int(src.height * scale)), Image.LANCZOS)
+        scale = max(W * 1.6 / src.width, self.h2 * 1.6 / src.height)
+        if scale < 1:                                       # nur verkleinern, nie hochskalieren
+            src = src.resize((int(src.width * scale), int(src.height * scale)), Image.LANCZOS)
+        self.src = src
         self.b = dict(zoom=[1.0, 1.08], x=[0.5, 0.5], y=[0.5, 0.5]); self.b.update(bottom)
 
     def _bottom(self, q: float) -> Image.Image:
@@ -36,7 +38,7 @@ class SplitScene:
         cw, ch = self.W * cover / z, self.h2 * cover / z
         cx = min(max(L(self.b["x"]) * sw, cw / 2), sw - cw / 2)
         cy = min(max(L(self.b["y"]) * sh, ch / 2), sh - ch / 2)
-        return self.src.resize((self.W, self.h2), Image.BICUBIC, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
+        return self.src.resize((self.W, self.h2), Image.LANCZOS, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
 
     def frame(self, p: float) -> Image.Image:
         t = max(p, 0.0) * self.dur

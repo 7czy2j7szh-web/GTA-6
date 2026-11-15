@@ -2,21 +2,24 @@
  "id": "V16",
  "out": "exports/countdown/V16_orte-in-echt.mp4",
  "duration": 23.93,
- "fps": 60,
+ "fps": 30,
+ "crf": 16,
+ "preset": "slow",
  "music": "chase",
  "music_offset": 2.976,
  "flash_strength": 0,
- "overlay_strength": 0.3,
+ "overlay_strength": 0.25,
  "chrome_from": 0,
  "badge": null,
  "progress": false,
  "cover_at": 0.6,
  "grade": {
   "contrast": 1.03,
-  "sat": 1.06,
+  "sat": 1.07,
   "warm": 0.02,
-  "grain": 0.015,
-  "vignette": 0.12
+  "sharpen": 0.45,
+  "clarity": 0.1,
+  "vignette": 0.1
  },
  "pulses": [
   [
@@ -1148,17 +1151,26 @@
  ],
  "scenes": [
   {
-   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
-   "ss": 2.7,
+   "image": "drone:assets/official/img/vc_day_aerial.jpg",
    "start": 0.0,
    "end": 3.49,
    "cam": {
-    "x": 0.5,
-    "zoom": [
-     1.0,
-     1.06
+    "x": [
+     0.5,
+     0.57
     ],
-    "speed": 0.65
+    "y": [
+     0.47,
+     0.45
+    ],
+    "zoom": [
+     1.22,
+     1.36
+    ],
+    "roll": [
+     -1,
+     1
+    ]
    },
    "flash": false,
    "fade": 0
@@ -1185,7 +1197,7 @@
     }
    },
    "bottom": {
-    "image": "assets/free/real/skyline.jpg",
+    "image": "assets/free/real/skyline_hq.jpg",
     "zoom": [
      1.0,
      1.08
@@ -1208,19 +1220,24 @@
    "start": 5.93,
    "end": 8.36,
    "top": {
-    "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
-    "ss": 32.62,
+    "drone": "assets/official/stills/ocean_night.png",
     "cam": {
-     "x": 0.5,
-     "zoom": [
-      1.0,
-      1.05
+     "x": [
+      0.6,
+      0.66
      ],
-     "speed": 0.6
+     "y": [
+      0.45,
+      0.44
+     ],
+     "zoom": [
+      1.02,
+      1.12
+     ]
     }
    },
    "bottom": {
-    "image": "assets/free/real/ocean.jpg",
+    "image": "assets/free/real/ocean_hq.jpg",
     "zoom": [
      1.0,
      1.06
@@ -1260,7 +1277,7 @@
     }
    },
    "bottom": {
-    "image": "assets/free/real/ocean.jpg",
+    "image": "assets/free/real/ocean_hq.jpg",
     "zoom": [
      1.06,
      1.12
@@ -1283,19 +1300,24 @@
    "start": 10.27,
    "end": 13.55,
    "top": {
-    "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
-    "ss": 55.22,
+    "drone": "assets/official/stills/beach_plane.png",
     "cam": {
-     "x": 0.5,
-     "zoom": [
-      1.0,
-      1.05
+     "x": [
+      0.52,
+      0.58
      ],
-     "speed": 0.56
+     "y": [
+      0.5,
+      0.48
+     ],
+     "zoom": [
+      1.02,
+      1.12
+     ]
     }
    },
    "bottom": {
-    "image": "assets/free/real/beach.jpg",
+    "image": "assets/free/real/beach_hq.jpg",
     "zoom": [
      1.0,
      1.08
@@ -1318,19 +1340,24 @@
    "start": 13.55,
    "end": 17.46,
    "top": {
-    "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
-    "ss": 35.7,
+    "drone": "assets/official/stills/keys_bridge.png",
     "cam": {
-     "x": 0.5,
-     "zoom": [
-      1.0,
-      1.05
+     "x": [
+      0.4,
+      0.47
      ],
-     "speed": 0.44
+     "y": [
+      0.52,
+      0.48
+     ],
+     "zoom": [
+      1.02,
+      1.14
+     ]
     }
    },
    "bottom": {
-    "image": "assets/free/real/bridge.jpg",
+    "image": "assets/free/real/bridge_hq.jpg",
     "zoom": [
      1.0,
      1.08
@@ -1354,18 +1381,18 @@
    "end": 20.46,
    "top": {
     "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
-    "ss": 19.22,
+    "ss": 19.19,
     "cam": {
      "x": 0.5,
      "zoom": [
       1.0,
       1.05
      ],
-     "speed": 0.83
+     "speed": 0.84
     }
    },
    "bottom": {
-    "image": "assets/free/real/glades.jpg",
+    "image": "assets/free/real/glades_hq.jpg",
     "zoom": [
      1.0,
      1.08
@@ -1405,7 +1432,7 @@
     }
    },
    "bottom": {
-    "image": "assets/free/real/skyline.jpg",
+    "image": "assets/free/real/skyline_hq.jpg",
     "zoom": [
      1.08,
      1.14

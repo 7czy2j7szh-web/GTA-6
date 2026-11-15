@@ -38,6 +38,12 @@ class DroneShot:
     def __init__(self, path: str, W=1080, H=1920, cam: dict | None = None):
         self.src = cv2.cvtColor(cv2.imread(os.path.join(ROOT, path)), cv2.COLOR_BGR2RGB)
         self.sh, self.sw = self.src.shape[:2]
+        zmin = min((cam or {}).get("zoom", [1.15, 1.25]))
+        ratio = self.sh / (H * zmin)                       # Quellpixel je Ausgabepixel
+        if ratio > 1.25:                                   # hochwertig (Flächenmittel) auf ~1,15x verkleinern
+            k = 1.15 / ratio
+            self.src = cv2.resize(self.src, (int(self.sw * k), int(self.sh * k)), interpolation=cv2.INTER_AREA)
+            self.sh, self.sw = self.src.shape[:2]
         self.W, self.H = W, H
         c = dict(x=[0.5, 0.5], y=[0.5, 0.5], yaw=[0, 0], pitch=[0, 0], roll=[0, 0], zoom=[1.15, 1.25], hfov=70)
         c.update(cam or {})
@@ -78,5 +84,5 @@ class DroneShot:
     def frame(self, p: float) -> Image.Image:
         q = p                                     # konstante Geschwindigkeit; > 1 = Weiterflug in der Überblendung
         out = cv2.warpPerspective(self.src, self._H(q), (self.W, self.H),
-                                  flags=cv2.INTER_CUBIC | cv2.WARP_INVERSE_MAP, borderMode=cv2.BORDER_REFLECT)
+                                  flags=cv2.INTER_LANCZOS4 | cv2.WARP_INVERSE_MAP, borderMode=cv2.BORDER_REFLECT)
         return Image.fromarray(out)

@@ -59,12 +59,14 @@ class VideoClip:
         sw, sh, self.fps = _probe(self.src)
         need = dur * c["speed"] + extra
         self.aspect = W / H                                       # 9:16 im Vollbild, 9:8 im geteilten Bild
-        self.PW = PW
-        self.PH = int(round(PW / self.aspect / 2)) * 2
+        # Zwischenclip nur ~12 % größer als die Ausgabe: einmal hochwertig (Lanczos) aus 4K verkleinern,
+        # danach fast 1:1 abtasten -> keine doppelte Umrechnung, kein Flimmern
+        self.PW = int(round(W * 1.12 / 2)) * 2
+        self.PH = int(round(self.PW / self.aspect / 2)) * 2
         # Starke Zeitlupe (< 0,8): Zwischenbilder per Bewegungsschätzung berechnen (flüssig statt ruckelig)
-        self.interp = c.get("interp", c["speed"] < 0.8)
-        key = hashlib.sha1(json.dumps([path, ss, round(need, 3), c["x"], c["y"], c["h"], W, H,
-                                       c["speed"] if self.interp else 0]).encode()).hexdigest()[:14]
+        self.interp = c.get("interp", False)               # Zwischenbilder verschmieren Details -> nur auf Wunsch
+        key = hashlib.sha1(json.dumps([path, ss, round(need, 3), c["x"], c["y"], c["h"], W, H, self.PW,
+                                       c["speed"] if self.interp else 0, "v2"]).encode()).hexdigest()[:14]
         os.makedirs(PROXY_DIR, exist_ok=True)
         self.proxy = os.path.join(PROXY_DIR, f"{key}.mp4")
         if not os.path.exists(self.proxy):
@@ -80,7 +82,7 @@ class VideoClip:
                 vf += (f",setpts=PTS/{c['speed']},minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1")
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.3f}", "-i", self.src, "-t", f"{need:.3f}",
                             "-vf", vf, "-an",
-                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "13", "-pix_fmt", "yuv420p", tmp],
+                            "-c:v", "libx264", "-preset", "medium", "-crf", "10", "-pix_fmt", "yuv420p", tmp],
                            check=True)
             os.replace(tmp, self.proxy)
         if self.interp:                                   # Zwischenclip ist bereits verlangsamt (60 fps)
@@ -114,5 +116,5 @@ class VideoClip:
         k = self.W / self.PW * z
         M = np.array([[k, 0, self.W / 2 - k * self.PW / 2 + dx * self.W],
                       [0, k, self.H / 2 - k * self.PH / 2 + dy * self.H]], dtype=np.float32)
-        out = cv2.warpAffine(self.cur, M, (self.W, self.H), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
+        out = cv2.warpAffine(self.cur, M, (self.W, self.H), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REFLECT)
         return Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
