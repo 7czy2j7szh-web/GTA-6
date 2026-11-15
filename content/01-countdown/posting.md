@@ -338,3 +338,21 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 
 **Upload-Tipp für maximale Schärfe:** In den TikTok-Einstellungen bzw. beim Posten unter „Weitere Optionen" die Option für Uploads in hoher Qualität aktivieren (falls angeboten). Das Video direkt aus der Datei hochladen, nicht vorher in der TikTok-App bearbeiten oder mit Filtern versehen, sonst komprimiert TikTok doppelt.
 
+---
+
+## Meme · `V17_gta-oder-token.mp4` (21,7 s) – „Würdest du eher …?"
+- **Frage:** 1 Tag früher GTA 6 spielen oder den Fortnite Pirate Token finden?
+- **Fakten zum Token:**
+  - 14 Tage kompletter Item-Shop gratis.
+  - Chance 1 : 137.500 pro Truhe, von Epic bestätigt (Fortnite Status, 8.11.).
+  - Accounts mit Token werden angeblich für 10.000 $ angeboten (TweakTown).
+  - Finden bis 5.12.
+- **Token-Bild:** vom User geliefert, freigestellt. Eingeblendet: „Fortnite-Bild: Epic Games (Fan-Inhalt)".
+- **Caption:**
+  ```
+  Würdest du eher 1 Tag früher GTA 6 spielen oder den Pirate Token finden? 🏴‍☠️ GTA oder Token?
+  ```
+- **Hashtags:** `#gta6 #fortnite #piratetoken #würdestdueher #gaming`
+- **Anpinnen:** `GTA oder Token? Ein Wort 👇`
+- **Zeit:** bald posten, das Token-Thema läuft nur bis Anfang Dezember
+
