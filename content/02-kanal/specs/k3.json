@@ -1,5 +1,5 @@
 {
- "duration": 16.31,
+ "duration": 17.61,
  "fps": 24,
  "crf": 18,
  "preset": "slow",
@@ -196,6 +196,20 @@
    ]
   },
   {
+   "t": 11.23,
+   "end": 12.36,
+   "words": [
+    [
+     "Jetzt",
+     11.23
+    ],
+    [
+     "vorladen!",
+     11.55
+    ]
+   ]
+  },
+  {
    "t": 12.36,
    "end": 12.78,
    "words": [
@@ -348,7 +362,7 @@
      "type": "big",
      "text": "JETZT VORLADEN",
      "size": 138,
-     "at": 1.15,
+     "at": 0.97,
      "motion": "punch"
     },
     {
@@ -358,7 +372,7 @@
      ],
      "psize": 44,
      "ph": 100,
-     "at": 1.5,
+     "at": 1.32,
      "motion": "punch"
     },
     {
@@ -367,7 +381,7 @@
      "size": 36,
      "color": "second",
      "glow": 0.5,
-     "at": 1.75
+     "at": 1.57
     }
    ],
    "card": false,
@@ -375,7 +389,7 @@
   },
   {
    "t": 13.85,
-   "end": 16.31,
+   "end": 17.61,
    "y": 330,
    "rows": [
     {
@@ -388,6 +402,29 @@
    ],
    "card": false,
    "exit": false
+  },
+  {
+   "t": 16.06,
+   "end": 17.61,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Wir sehen uns in",
+     "size": 92,
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "VICE CITY",
+     "size": 190,
+     "at": 0.25,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false,
+   "gap": 10
   }
  ],
  "scenes": [
@@ -465,14 +502,14 @@
    "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
    "ss": 34.66,
    "start": 12.25,
-   "end": 16.31,
+   "end": 17.61,
    "cam": {
     "x": 0.5,
     "zoom": [
      1.0,
      1.05
     ],
-    "speed": 0.897
+    "speed": 0.679
    }
   }
  ],
@@ -512,6 +549,10 @@
     "top": 196,
     "scale": 1.35
    }
+  ],
+  "fade_out": [
+   15.96,
+   16.51
   ]
  },
  "music": "chase",
@@ -533,17 +574,22 @@
    "gain": 0.5
   },
   {
-   "t": 11.4,
+   "t": 11.22,
    "type": "hit",
    "gain": 0.6
   },
   {
-   "t": 11.4,
+   "t": 11.22,
    "type": "chime"
   },
   {
    "t": 13.85,
    "type": "pop"
+  },
+  {
+   "t": 16.31,
+   "type": "hit",
+   "gain": 0.5
   },
   {
    "t": 8.83,

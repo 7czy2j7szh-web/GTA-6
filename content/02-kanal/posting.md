@@ -66,4 +66,4 @@ Vorladen geht mit digitaler Vorbestellung seit dem 10.11. Bei der Box zuerst den
 - „KI-generierte Inhalte“ einschalten (Figur, Stimme und Bewegung sind KI-erzeugt).
 - Thema gilt bis Mittwoch.
 
-**Schnitt:** Clip B komplett (ohne das doppelte „zwei“), aus Clip A nur „wartet stundenlang“, „Die Lösung“ und „Folg mir, wir sehen uns in Vice City“ plus Weglaufen; die unverständliche Stelle ist stumm und durch die Lösungskarte ersetzt.
+**Schnitt:** Clip B komplett (ohne das doppelte „zwei“), aus Clip A nur „wartet stundenlang“, „Die Lösung“ und „Folg mir, wir sehen uns in Vice City“ plus Weglaufen. An der unverständlichen Stelle ist der Satz „Jetzt vorladen“ eingesetzt (andere KI-Stimme, in Tonhöhe und Klang angeglichen). Schluss: Figur blendet aus, „Wir sehen uns in Vice City“ + Folgen bleiben stehen.
