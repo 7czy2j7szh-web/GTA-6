@@ -1,0 +1,1427 @@
+{
+ "id": "V16",
+ "out": "exports/countdown/V16_orte-in-echt.mp4",
+ "duration": 23.93,
+ "fps": 60,
+ "music": "chase",
+ "music_offset": 2.976,
+ "flash_strength": 0,
+ "overlay_strength": 0.3,
+ "chrome_from": 0,
+ "badge": null,
+ "progress": false,
+ "cover_at": 0.6,
+ "grade": {
+  "contrast": 1.03,
+  "sat": 1.06,
+  "warm": 0.02,
+  "grain": 0.015,
+  "vignette": 0.12
+ },
+ "pulses": [
+  [
+   5.16,
+   0.03
+  ],
+  [
+   8.36,
+   0.03
+  ],
+  [
+   11.23,
+   0.03
+  ],
+  [
+   16.56,
+   0.03
+  ],
+  [
+   19.65,
+   0.03
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0.0,
+   "end": 0.86,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Diese",
+     -0.03
+    ],
+    [
+     "Orte",
+     0.35
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.86,
+   "end": 2.34,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "aus",
+     0.0
+    ],
+    [
+     "GTA",
+     0.27
+    ],
+    [
+     "6",
+     0.91
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 2.34,
+   "end": 3.49,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.7,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "gibt",
+     0.0
+    ],
+    [
+     "es",
+     0.25
+    ],
+    [
+     "wirklich.",
+     0.39
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.5,
+   "end": 4.07,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Die",
+     0.0
+    ],
+    [
+     "Skyline",
+     0.19
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.07,
+   "end": 4.92,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "von",
+     0.0
+    ],
+    [
+     "Vice",
+     0.18
+    ],
+    [
+     "City?",
+     0.35
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 4.92,
+   "end": 5.93,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Das",
+     -0.03
+    ],
+    [
+     "ist",
+     0.1
+    ],
+    [
+     "Miami.",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 5.93,
+   "end": 6.86,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Die",
+     0.0
+    ],
+    [
+     "Straße",
+     0.21
+    ],
+    [
+     "mit",
+     0.5
+    ],
+    [
+     "den",
+     0.67
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 6.86,
+   "end": 8.11,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Art-déco-Hotels:",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.11,
+   "end": 8.96,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Der",
+     -0.03
+    ],
+    [
+     "Ocean",
+     0.25
+    ],
+    [
+     "Drive",
+     0.67
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 8.96,
+   "end": 10.27,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "in",
+     0.0
+    ],
+    [
+     "Miami",
+     0.22
+    ],
+    [
+     "Beach.",
+     0.86
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 10.27,
+   "end": 11.22,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Der",
+     0.0
+    ],
+    [
+     "Strand",
+     0.16
+    ],
+    [
+     "davor:",
+     0.42
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.23,
+   "end": 11.64,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "South",
+     0.0
+    ],
+    [
+     "Beach,",
+     0.11
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 11.64,
+   "end": 12.7,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "mit",
+     0.0
+    ],
+    [
+     "seinen",
+     0.16
+    ],
+    [
+     "bunten",
+     0.57
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 12.7,
+   "end": 13.55,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Rettungstürmen.",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 13.55,
+   "end": 14.26,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Diese",
+     0.0
+    ],
+    [
+     "Brücke",
+     0.29
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 14.26,
+   "end": 15.88,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "in",
+     0.0
+    ],
+    [
+     "den",
+     0.17
+    ],
+    [
+     "Leonida",
+     0.29
+    ],
+    [
+     "Keys",
+     1.47
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 15.88,
+   "end": 16.33,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "sieht",
+     0.0
+    ],
+    [
+     "aus",
+     0.2
+    ],
+    [
+     "wie",
+     0.31
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 16.33,
+   "end": 17.46,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "die",
+     0.0
+    ],
+    [
+     "Seven",
+     0.23
+    ],
+    [
+     "Mile",
+     0.61
+    ],
+    [
+     "Bridge.",
+     0.74
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 17.46,
+   "end": 18.24,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Und",
+     -0.02
+    ],
+    [
+     "die",
+     0.12
+    ],
+    [
+     "Sümpfe",
+     0.28
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 18.24,
+   "end": 19.11,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "von",
+     0.0
+    ],
+    [
+     "Grassrivers?",
+     0.21
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.11,
+   "end": 19.65,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Das",
+     -0.02
+    ],
+    [
+     "sind",
+     0.09
+    ],
+    [
+     "die",
+     0.24
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 19.65,
+   "end": 20.46,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Everglades.",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 20.48,
+   "end": 21.4,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Was",
+     0.0
+    ],
+    [
+     "sieht",
+     0.16
+    ],
+    [
+     "besser",
+     0.3
+    ],
+    [
+     "aus?",
+     0.57
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 21.4,
+   "end": 22.36,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Spiel",
+     0.0
+    ],
+    [
+     "oder",
+     0.21
+    ],
+    [
+     "echt?",
+     0.6
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 22.36,
+   "end": 22.8,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Schreib's",
+     0.0
+    ],
+    [
+     "in",
+     0.14
+    ],
+    [
+     "die",
+     0.23
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 22.8,
+   "end": 23.93,
+   "text": "",
+   "anim": "karaoke",
+   "size": 66,
+   "y": 0.435,
+   "kfont": "Poppins-ExtraBold.ttf",
+   "khl": "pink",
+   "kstroke": 8,
+   "words": [
+    [
+     "Kommentare!",
+     0.0
+    ]
+   ],
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 3.49,
+   "text": "Diese Orte aus GTA 6",
+   "style": "cine",
+   "size": 74,
+   "y": 0.235,
+   "anim": "punch",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 0.0,
+   "end": 3.49,
+   "text": "GIBT ES\nWIRKLICH",
+   "style": "cinebig",
+   "size": 118,
+   "y": 0.355,
+   "anim": "punch",
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 3.49,
+   "end": 5.93,
+   "text": "GTA 6 · VICE CITY",
+   "style": "label",
+   "size": 52,
+   "x": 0.3,
+   "y": 0.155,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 3.59,
+   "end": 5.16,
+   "text": "?",
+   "style": "cinebig",
+   "size": 230,
+   "color": "white",
+   "x": 0.5,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 5.16,
+   "end": 5.93,
+   "text": "ECHT · MIAMI",
+   "style": "label",
+   "size": 56,
+   "x": 0.36,
+   "y": 0.545,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 5.46,
+   "end": 5.93,
+   "text": "Foto: P. Hughes · CC BY-SA 4.0",
+   "style": "note",
+   "size": 30,
+   "x": 0.5,
+   "y": 0.965,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 5.93,
+   "end": 10.27,
+   "text": "GTA 6 · VICE CITY",
+   "style": "label",
+   "size": 52,
+   "x": 0.3,
+   "y": 0.155,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 6.03,
+   "end": 8.36,
+   "text": "?",
+   "style": "cinebig",
+   "size": 230,
+   "color": "white",
+   "x": 0.5,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 8.36,
+   "end": 10.27,
+   "text": "ECHT · OCEAN DRIVE",
+   "style": "label",
+   "size": 56,
+   "x": 0.36,
+   "y": 0.545,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 8.66,
+   "end": 10.27,
+   "text": "Foto: chensiyuan · CC BY-SA 4.0 · oben: offizielles Artwork",
+   "style": "note",
+   "size": 30,
+   "x": 0.5,
+   "y": 0.965,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 10.27,
+   "end": 13.55,
+   "text": "GTA 6 · VICE BEACH",
+   "style": "label",
+   "size": 52,
+   "x": 0.3,
+   "y": 0.155,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 10.37,
+   "end": 11.23,
+   "text": "?",
+   "style": "cinebig",
+   "size": 230,
+   "color": "white",
+   "x": 0.5,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 11.23,
+   "end": 13.55,
+   "text": "ECHT · SOUTH BEACH",
+   "style": "label",
+   "size": 56,
+   "x": 0.36,
+   "y": 0.545,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 11.53,
+   "end": 13.55,
+   "text": "Foto: Jorge Royan · CC BY-SA 3.0",
+   "style": "note",
+   "size": 30,
+   "x": 0.5,
+   "y": 0.965,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 13.55,
+   "end": 17.46,
+   "text": "GTA 6 · LEONIDA KEYS",
+   "style": "label",
+   "size": 52,
+   "x": 0.3,
+   "y": 0.155,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 13.65,
+   "end": 16.56,
+   "text": "?",
+   "style": "cinebig",
+   "size": 230,
+   "color": "white",
+   "x": 0.5,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 16.56,
+   "end": 17.46,
+   "text": "ECHT · SEVEN MILE BRIDGE",
+   "style": "label",
+   "size": 56,
+   "x": 0.36,
+   "y": 0.545,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 16.86,
+   "end": 17.46,
+   "text": "Foto: Ebyabe · CC BY-SA 3.0",
+   "style": "note",
+   "size": 30,
+   "x": 0.5,
+   "y": 0.965,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 17.46,
+   "end": 20.46,
+   "text": "GTA 6 · GRASSRIVERS",
+   "style": "label",
+   "size": 52,
+   "x": 0.3,
+   "y": 0.155,
+   "anim": "slide",
+   "exit": "cut"
+  },
+  {
+   "t": 17.56,
+   "end": 19.65,
+   "text": "?",
+   "style": "cinebig",
+   "size": 230,
+   "color": "white",
+   "x": 0.5,
+   "y": 0.75,
+   "anim": "pop",
+   "exit": "cut"
+  },
+  {
+   "t": 19.65,
+   "end": 20.46,
+   "text": "ECHT · EVERGLADES",
+   "style": "label",
+   "size": 56,
+   "x": 0.36,
+   "y": 0.545,
+   "anim": "stamp",
+   "exit": "cut"
+  },
+  {
+   "t": 19.95,
+   "end": 20.46,
+   "text": "Foto: NPS / G. Gardner · gemeinfrei",
+   "style": "note",
+   "size": 30,
+   "x": 0.5,
+   "y": 0.965,
+   "anim": "fade",
+   "exit": "cut"
+  },
+  {
+   "t": 20.46,
+   "end": 23.93,
+   "text": "",
+   "anim": "card",
+   "y": 0.25,
+   "card": {
+    "type": "choice",
+    "question": "Was sieht besser aus?",
+    "qcolor": "pink",
+    "border": "white",
+    "q_at": 0.05,
+    "options": [
+     {
+      "label": "Spiel",
+      "color": "pink",
+      "at": 0.94
+     },
+     {
+      "label": "Echt",
+      "color": "green",
+      "at": 1.54
+     }
+    ]
+   },
+   "exit": "cut",
+   "x": 0.47
+  },
+  {
+   "t": 22.8,
+   "end": 23.93,
+   "text": "→",
+   "style": "arrow",
+   "size": 170,
+   "x": 0.82,
+   "y": 0.6,
+   "anim": "nudge",
+   "exit": "cut"
+  },
+  {
+   "t": 20.66,
+   "end": 23.93,
+   "text": "Fotos: P. Hughes · CC BY-SA 4.0",
+   "style": "note",
+   "size": 30,
+   "x": 0.5,
+   "y": 0.965,
+   "anim": "fade",
+   "exit": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 3.43,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 5.16,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 5.16,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 5.87,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 8.36,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 8.36,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 10.21,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 11.23,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 11.23,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 13.49,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 16.56,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 16.56,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 17.4,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 19.65,
+   "type": "hit",
+   "gain": 0.7
+  },
+  {
+   "t": 19.65,
+   "type": "chime",
+   "gain": 0.6
+  },
+  {
+   "t": 20.4,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ],
+ "voice_lines": [
+  {
+   "t": 0.0,
+   "wav": "content/01-countdown/voice/v16/f_1.wav"
+  },
+  {
+   "t": 3.49,
+   "wav": "content/01-countdown/voice/v16/f_2.wav"
+  },
+  {
+   "t": 4.92,
+   "wav": "content/01-countdown/voice/v16/f_3.wav"
+  },
+  {
+   "t": 5.93,
+   "wav": "content/01-countdown/voice/v16/f_4.wav"
+  },
+  {
+   "t": 8.11,
+   "wav": "content/01-countdown/voice/v16/f_5.wav"
+  },
+  {
+   "t": 10.27,
+   "wav": "content/01-countdown/voice/v16/f_6.wav"
+  },
+  {
+   "t": 11.22,
+   "wav": "content/01-countdown/voice/v16/f_7.wav"
+  },
+  {
+   "t": 13.55,
+   "wav": "content/01-countdown/voice/v16/f_8.wav"
+  },
+  {
+   "t": 17.46,
+   "wav": "content/01-countdown/voice/v16/f_9.wav"
+  },
+  {
+   "t": 19.11,
+   "wav": "content/01-countdown/voice/v16/f_10.wav"
+  },
+  {
+   "t": 20.46,
+   "wav": "content/01-countdown/voice/v16/f_11.wav"
+  },
+  {
+   "t": 21.4,
+   "wav": "content/01-countdown/voice/v16/f_12.wav"
+  },
+  {
+   "t": 22.36,
+   "wav": "content/01-countdown/voice/v16/f_13.wav"
+  }
+ ],
+ "scenes": [
+  {
+   "image": "clip:assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.7,
+   "start": 0.0,
+   "end": 3.49,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "speed": 0.65
+   },
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 3.49,
+   "end": 5.93,
+   "top": {
+    "drone": "assets/official/gallery/Vice_City_15.jpg",
+    "cam": {
+     "x": [
+      0.3,
+      0.36
+     ],
+     "y": [
+      0.4,
+      0.4
+     ],
+     "zoom": [
+      1.05,
+      1.15
+     ]
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/skyline.jpg",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "x": [
+     0.45,
+     0.55
+    ],
+    "y": [
+     0.45,
+     0.45
+    ]
+   },
+   "reveal": 1.67,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 5.93,
+   "end": 8.36,
+   "top": {
+    "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+    "ss": 32.62,
+    "cam": {
+     "x": 0.5,
+     "zoom": [
+      1.0,
+      1.05
+     ],
+     "speed": 0.6
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/ocean.jpg",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "x": [
+     0.6,
+     0.55
+    ],
+    "y": [
+     0.5,
+     0.5
+    ]
+   },
+   "reveal": 7.43,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 8.36,
+   "end": 10.27,
+   "top": {
+    "drone": "assets/official/gallery/hero.jpg",
+    "cam": {
+     "x": [
+      0.8,
+      0.83
+     ],
+     "y": [
+      0.4,
+      0.38
+     ],
+     "zoom": [
+      1.55,
+      1.68
+     ]
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/ocean.jpg",
+    "zoom": [
+     1.06,
+     1.12
+    ],
+    "x": [
+     0.55,
+     0.5
+    ],
+    "y": [
+     0.5,
+     0.5
+    ]
+   },
+   "reveal": 0.0,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 10.27,
+   "end": 13.55,
+   "top": {
+    "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+    "ss": 55.22,
+    "cam": {
+     "x": 0.5,
+     "zoom": [
+      1.0,
+      1.05
+     ],
+     "speed": 0.56
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/beach.jpg",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "x": [
+     0.5,
+     0.55
+    ],
+    "y": [
+     0.5,
+     0.5
+    ]
+   },
+   "reveal": 0.96,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 13.55,
+   "end": 17.46,
+   "top": {
+    "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+    "ss": 35.7,
+    "cam": {
+     "x": 0.5,
+     "zoom": [
+      1.0,
+      1.05
+     ],
+     "speed": 0.44
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/bridge.jpg",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "x": [
+     0.4,
+     0.5
+    ],
+    "y": [
+     0.5,
+     0.5
+    ]
+   },
+   "reveal": 3.01,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 17.46,
+   "end": 20.46,
+   "top": {
+    "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+    "ss": 19.22,
+    "cam": {
+     "x": 0.5,
+     "zoom": [
+      1.0,
+      1.05
+     ],
+     "speed": 0.83
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/glades.jpg",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "x": [
+     0.5,
+     0.5
+    ],
+    "y": [
+     0.5,
+     0.5
+    ]
+   },
+   "reveal": 2.19,
+   "flash": false,
+   "fade": 0
+  },
+  {
+   "image": "split:",
+   "start": 20.46,
+   "end": 23.93,
+   "top": {
+    "drone": "assets/official/gallery/Vice_City_15.jpg",
+    "cam": {
+     "x": [
+      0.36,
+      0.4
+     ],
+     "y": [
+      0.4,
+      0.4
+     ],
+     "zoom": [
+      1.15,
+      1.22
+     ]
+    }
+   },
+   "bottom": {
+    "image": "assets/free/real/skyline.jpg",
+    "zoom": [
+     1.08,
+     1.14
+    ],
+    "x": [
+     0.55,
+     0.6
+    ],
+    "y": [
+     0.45,
+     0.45
+    ]
+   },
+   "reveal": -1.0,
+   "flash": false,
+   "fade": 0
+  }
+ ]
+}

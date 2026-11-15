@@ -412,6 +412,10 @@ class Renderer:
                     from .drive import NeonDrive
                     drive_cache[key] = NeonDrive(W, H, bpm=key[0], car=key[1])
                 bg = drive_cache[key]
+            elif sc["image"].startswith("split:"):
+                # Vergleich: oben GTA 6, unten echtes Foto (wird zur Auflösung scharf)
+                from .split import SplitScene
+                bg = SplitScene(W, H, sc["top"], sc["bottom"], dur=sc["end"] - sc["start"], reveal=sc.get("reveal", 1.0))
             elif sc["image"].startswith("clip:"):
                 # echte Videoszene aus einem offiziellen Trailer
                 from .clip import VideoClip
