@@ -132,3 +132,4 @@
     - Fotos in 3840 px
     - Downloads nicht nachträglich komprimieren
     - Gemessene Detailschärfe V16: 529 → 1217.
+22. **Technik: englische Wörter in der deutschen TTS lautschriftlich schreiben.** Fenrir liest sonst deutsch („Pi-ra-te"). Im Sprechtext steht dann z. B. „Pairet Token" bzw. „Aitem-Shop", in den Untertiteln die richtige Schreibweise. Danach die Aussprache per Lautschrift-Prüfung (IPA) kontrollieren.

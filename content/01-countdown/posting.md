@@ -340,7 +340,7 @@ Quelle Release-Uhrzeit: Rockstar-Support-Artikel (Stand 03.11.), zitiert u. a. v
 
 ---
 
-## Meme · `V17_gta-oder-token.mp4` (21,7 s) – „Würdest du eher …?"
+## Meme · `V17_gta-oder-token.mp4` (23,6 s) – „Würdest du eher …?"
 - **Frage:** 1 Tag früher GTA 6 spielen oder den Fortnite Pirate Token finden?
 - **Fakten zum Token:**
   - 14 Tage kompletter Item-Shop gratis.
