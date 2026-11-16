@@ -90,6 +90,25 @@ class GreenClip:
         alpha = np.maximum(alpha, glass)
         return np.dstack([rgb, alpha * 255])
 
+    def _matte(self, rgb_bgr, mask):
+        """Freistellung mit fertiger Maske (Clip ohne Grün): Kante glätten, Randfarbe von innen."""
+        f = rgb_bgr.astype(np.float32)
+        b, g, r = f[..., 0], f[..., 1], f[..., 2]
+        alpha = mask.astype(np.float32) / 255
+        alpha = cv2.erode(alpha, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3)))
+        alpha = cv2.GaussianBlur(alpha, (0, 0), 1.0)
+        alpha = np.clip((alpha - 0.15) / 0.75, 0, 1)
+        rgb = np.dstack([r, g, b])
+        solid = (alpha > 0.98).astype(np.float32)
+        wsum = cv2.GaussianBlur(solid, (0, 0), 2.6) + 1e-4
+        inner = cv2.GaussianBlur(rgb * solid[..., None], (0, 0), 2.6) / wsum[..., None]
+        edge = ((alpha < 0.98) & (wsum > 0.05))[..., None]
+        rgb = np.where(edge, inner, rgb)
+        if self.sharpen:
+            blur = cv2.GaussianBlur(rgb, (0, 0), 1.2)
+            rgb = np.where(solid[..., None] > 0, np.clip(rgb + (rgb - blur) * self.sharpen, 0, 255), rgb)
+        return np.dstack([rgb, alpha * 255])
+
     def _params(self, t):
         top, sc = self.top0, self.scale0
         for m in self.moves:
@@ -111,13 +130,23 @@ class GreenClip:
             if seg is None:
                 return
         src_t = min(seg["a"] + (t - seg["t"]), seg["b"] - 1e-3)
-        frame = self._read(seg["src"], int(round(src_t * self.fps[seg["src"]])))
+        idx = int(round(src_t * self.fps[seg["src"]]))
+        frame = self._read(seg["src"], idx)
         if frame is None:
             return
         top, sc = self._params(t)
         h, w = frame.shape[:2]
-        big = cv2.resize(frame, (int(round(w * sc)), int(round(h * sc))), interpolation=cv2.INTER_CUBIC)
-        rgba = self._key(big)
+        size = (int(round(w * sc)), int(round(h * sc)))
+        big = cv2.resize(frame, size, interpolation=cv2.INTER_CUBIC)
+        if seg.get("mask_dir"):
+            import os
+            mp = os.path.join(seg["mask_dir"], f"{idx:04d}.png")
+            if not os.path.exists(mp):
+                return
+            m = cv2.imread(mp, cv2.IMREAD_GRAYSCALE)
+            rgba = self._matte(big, cv2.resize(m, size, interpolation=cv2.INTER_CUBIC))
+        else:
+            rgba = self._key(big)
         fade = 1.0
         if self.fade_out and t > self.fade_out[0]:
             fade = 1 - _smooth((t - self.fade_out[0]) / max(self.fade_out[1] - self.fade_out[0], 1e-3))

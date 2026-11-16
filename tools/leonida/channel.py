@@ -187,7 +187,9 @@ class Channel:
         if spec.get("greenclip") is not None:          # Moderatorin aus KI-Videoclips vor Grün
             from .greenclip import GreenClip
             gc = spec["greenclip"]
-            segs = [dict(s, src=os.path.join(ROOT, s["src"])) for s in gc["segments"]]
+            segs = [dict(s, src=os.path.join(ROOT, s["src"]),
+                         **({"mask_dir": os.path.join(ROOT, s["mask_dir"])} if s.get("mask_dir") else {}))
+                    for s in gc["segments"]]
             self.puppet = GreenClip(segs, scale=gc.get("scale", 1.35), top=gc.get("top", 742), x=gc.get("x", 540),
                                     moves=gc.get("moves", ()), fade_out=gc.get("fade_out"))
         elif spec.get("presenter") is not None:        # freigestellte Moderatorin (vorne/Profil/hinten)
