@@ -67,3 +67,20 @@ Vorladen geht mit digitaler Vorbestellung seit dem 10.11. Bei der Box zuerst den
 - Thema gilt bis Mittwoch.
 
 **Schnitt:** Clip B komplett (ohne das doppelte „zwei“), aus Clip A nur „wartet stundenlang“, „Die Lösung“ und „Folg mir, wir sehen uns in Vice City“ plus Weglaufen. An der unverständlichen Stelle ist der Satz „Jetzt vorladen“ eingesetzt (andere KI-Stimme, in Tonhöhe und Klang angeglichen). Schluss: Figur blendet aus, „Wir sehen uns in Vice City“ + Folgen bleiben stehen.
+
+## K4 – „Wie lange dauert GTA 6?“ (Moderatorin aus Gemini-Clips, Stand 16.11.2026)
+
+**Datei:** `downloads/K4_spielzeit.mp4` (mit Musik) · `downloads/K4_spielzeit_ohne-musik.mp4`
+
+**Beschreibung:**
+50 Stunden Story, 200+ für Platin – wann bist DU fertig? ⏳ #gta6 #gtavi #gta6news #ps5 #xbox #gaming #fürdich #fyp
+
+**Kommentar zum Anpinnen:**
+Wie lange zockst du am ersten Tag? 👇
+Rechnung: 2 Std./Tag ab Release am 19.11. → Story (50 Std.) am 13.12. durch, Platin (200+ Std.) am 26.02.2027. Spielzeiten laut Insider Tom Henderson, von Rockstar nicht bestätigt.
+
+**Hinweise:**
+- „KI-generierte Inhalte“ einschalten (Figur, Stimme und Bewegung sind KI-erzeugt).
+- Zahlen sind ein Insider-Bericht und nicht offiziell. Im Video steht deshalb „angeblich“ bzw. „laut Insider“.
+
+**Schnitt:** Clip mit dem Vorbeugen zuerst (0–9,5 s, ohne Grün, Figur pro Bild mit KI-Maske freigestellt), danach der Greenscreen-Clip komplett inklusive Weglaufen. Schluss: Figur blendet aus, die Frage „Wie lange zockst du am ersten Tag?“ und Folgen bleiben stehen.
