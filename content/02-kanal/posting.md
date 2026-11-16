@@ -73,7 +73,9 @@ Vorladen geht mit digitaler Vorbestellung seit dem 10.11. Bei der Box zuerst den
 **Datei:** `downloads/K4_spielzeit.mp4` (mit Musik) · `downloads/K4_spielzeit_ohne-musik.mp4`
 
 **Beschreibung:**
-50 Stunden Story, 200+ für Platin – wann bist DU fertig? ⏳ #gta6 #gtavi #gta6news #ps5 #xbox #gaming #fürdich #fyp
+GTA 6 Spielzeit: Wie lange dauert die Story? ⏳ Laut Insider Tom Henderson rund 50 Stunden, für Platin über 200. Mit 2 Stunden am Tag bist du Mitte Dezember durch. Speicher dir das 📌 #gta6 #gta6deutsch #gta6spielzeit #gta6news #ps5
+
+*(Such-Version: „GTA 6 Spielzeit“ steht vorne, Beschreibung über 50 Zeichen mit echten Zahlen, Speicher-Aufforderung. Grund: V11 wurde von TikTok als „hilfreich“ geboostet, weil es über die Suche gefunden und geteilt wurde.)*
 
 **Kommentar zum Anpinnen:**
 Wie lange zockst du am ersten Tag? 👇
