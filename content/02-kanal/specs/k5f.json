@@ -1,0 +1,839 @@
+{
+ "duration": 27.42,
+ "fps": 24,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 2.5,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "voice": {
+  "wav": "content/02-kanal/voice/k5final/voice.wav",
+  "t": 0.0
+ },
+ "subs": [
+  {
+   "t": 0.57,
+   "end": 1.46,
+   "words": [
+    [
+     "Achtung!",
+     0.57
+    ]
+   ]
+  },
+  {
+   "t": 2.28,
+   "end": 2.82,
+   "words": [
+    [
+     "Dein",
+     2.28
+    ],
+    [
+     "Geld",
+     2.43
+    ],
+    [
+     "in",
+     2.62
+    ]
+   ]
+  },
+  {
+   "t": 2.82,
+   "end": 4.44,
+   "words": [
+    [
+     "GTA",
+     2.82
+    ],
+    [
+     "6:",
+     3.55
+    ]
+   ]
+  },
+  {
+   "t": 4.53,
+   "end": 5.2,
+   "words": [
+    [
+     "Drei",
+     4.53
+    ],
+    [
+     "Regeln,",
+     4.77
+    ]
+   ]
+  },
+  {
+   "t": 5.2,
+   "end": 6.45,
+   "words": [
+    [
+     "die",
+     5.2
+    ],
+    [
+     "du",
+     5.67
+    ],
+    [
+     "vor",
+     6.03
+    ],
+    [
+     "dem",
+     6.23
+    ]
+   ]
+  },
+  {
+   "t": 6.45,
+   "end": 7.93,
+   "words": [
+    [
+     "Start",
+     6.45
+    ],
+    [
+     "kennen",
+     6.8
+    ],
+    [
+     "musst!",
+     7.17
+    ]
+   ]
+  },
+  {
+   "t": 7.93,
+   "end": 8.72,
+   "words": [
+    [
+     "Erstens:",
+     7.93
+    ]
+   ]
+  },
+  {
+   "t": 8.72,
+   "end": 9.58,
+   "words": [
+    [
+     "Bargeld",
+     8.72
+    ],
+    [
+     "ist",
+     9.08
+    ],
+    [
+     "weg,",
+     9.31
+    ]
+   ]
+  },
+  {
+   "t": 9.58,
+   "end": 10.54,
+   "words": [
+    [
+     "wenn",
+     9.58
+    ],
+    [
+     "du",
+     9.71
+    ],
+    [
+     "stirbst.",
+     10.07
+    ]
+   ]
+  },
+  {
+   "t": 10.54,
+   "end": 11.38,
+   "words": [
+    [
+     "Zweitens:",
+     10.54
+    ]
+   ]
+  },
+  {
+   "t": 11.38,
+   "end": 12.13,
+   "words": [
+    [
+     "Beute",
+     11.38
+    ],
+    [
+     "zahlt",
+     11.77
+    ],
+    [
+     "erst",
+     11.93
+    ]
+   ]
+  },
+  {
+   "t": 12.13,
+   "end": 13.03,
+   "words": [
+    [
+     "der",
+     12.13
+    ],
+    [
+     "Hehler.",
+     12.28
+    ]
+   ]
+  },
+  {
+   "t": 13.03,
+   "end": 13.66,
+   "words": [
+    [
+     "Drittens:",
+     13.03
+    ]
+   ]
+  },
+  {
+   "t": 13.66,
+   "end": 14.52,
+   "words": [
+    [
+     "Ohne",
+     13.66
+    ],
+    [
+     "Geld",
+     14.01
+    ],
+    [
+     "geht's",
+     14.4
+    ]
+   ]
+  },
+  {
+   "t": 14.52,
+   "end": 15.03,
+   "words": [
+    [
+     "in",
+     14.52
+    ],
+    [
+     "der",
+     14.67
+    ],
+    [
+     "Story",
+     14.75
+    ]
+   ]
+  },
+  {
+   "t": 15.03,
+   "end": 15.91,
+   "words": [
+    [
+     "nicht",
+     15.03
+    ],
+    [
+     "weiter.",
+     15.25
+    ]
+   ]
+  },
+  {
+   "t": 15.91,
+   "end": 16.86,
+   "words": [
+    [
+     "Die",
+     15.91
+    ],
+    [
+     "Lösung:",
+     16.16
+    ]
+   ]
+  },
+  {
+   "t": 16.86,
+   "end": 18.28,
+   "words": [
+    [
+     "Sofort",
+     16.86
+    ],
+    [
+     "einzahlen!",
+     17.39
+    ]
+   ]
+  },
+  {
+   "t": 18.56,
+   "end": 19.24,
+   "words": [
+    [
+     "Und",
+     18.56
+    ],
+    [
+     "was",
+     18.75
+    ],
+    [
+     "kaufst",
+     18.96
+    ]
+   ]
+  },
+  {
+   "t": 19.24,
+   "end": 20.75,
+   "words": [
+    [
+     "du",
+     19.24
+    ],
+    [
+     "dir",
+     19.46
+    ],
+    [
+     "als",
+     19.71
+    ],
+    [
+     "Erstes?",
+     19.86
+    ]
+   ]
+  },
+  {
+   "t": 21.72,
+   "end": 22.84,
+   "words": [
+    [
+     "Folg",
+     21.72
+    ],
+    [
+     "mir!",
+     21.95
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 4.47,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "GTA 6 GELD",
+     "size": 180,
+     "at": 0.0,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Das musst du wissen",
+     "size": 80,
+     "at": 0.35
+    }
+   ],
+   "card": false,
+   "gap": 12
+  },
+  {
+   "t": 4.47,
+   "end": 7.85,
+   "y": 550,
+   "rows": [
+    {
+     "type": "big",
+     "text": "3 REGELN",
+     "size": 190,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "die du vor dem Start kennen musst",
+     "size": 40,
+     "color": "cream",
+     "at": 1.98
+    }
+   ]
+  },
+  {
+   "t": 2.6,
+   "end": 10.48,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "WIE SCHÜTZT DU DEIN GELD? · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 10.48,
+   "end": 15.75,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "SCHON MAL ALLES VERLOREN? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 7.87,
+   "end": 10.48,
+   "y": 550,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "REGEL 1"
+     ],
+     "psize": 40,
+     "ph": 90,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "strike",
+     "text": "BARGELD",
+     "size": 170,
+     "at": 0.85,
+     "strike_at": 0.59
+    },
+    {
+     "type": "text",
+     "text": "weg, wenn du stirbst · laut Previews",
+     "size": 36,
+     "color": "second",
+     "at": 1.71
+    }
+   ]
+  },
+  {
+   "t": 10.48,
+   "end": 12.97,
+   "y": 550,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "REGEL 2 · BEUTE"
+     ],
+     "psize": 40,
+     "ph": 90,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "0 $",
+     "size": 170,
+     "at": 0.9,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "bis der Hehler sie kauft",
+     "size": 44,
+     "color": "cream",
+     "at": 1.8
+    }
+   ]
+  },
+  {
+   "t": 12.97,
+   "end": 15.75,
+   "y": 550,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "REGEL 3 · STORY"
+     ],
+     "psize": 40,
+     "ph": 90,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "GESPERRT",
+     "size": 170,
+     "at": 2.06,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "bis du genug Geld hast · laut Preview-Bericht",
+     "size": 32,
+     "color": "second",
+     "at": 2.28
+    }
+   ]
+  },
+  {
+   "t": 15.85,
+   "end": 18.5,
+   "y": 550,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "EINZAHLEN!",
+     "size": 150,
+     "at": 1.54,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Bank = sicher"
+     ],
+     "psize": 44,
+     "ph": 100,
+     "at": 1.94,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 18.5,
+   "end": 22.6,
+   "y": 550,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Was kaufst du dir\nals Erstes?",
+     "size": 92,
+     "at": 0.05
+    },
+    {
+     "type": "glowpill",
+     "text": "Schreib's in die Kommentare",
+     "size": 40,
+     "at": 0.45,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 21.66,
+   "end": 27.42,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 25.12,
+   "end": 27.42,
+   "y": 820,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Was kaufst du dir\nals Erstes?",
+     "size": 96,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 25.42,
+   "end": 27.42,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 68.72,
+   "start": 0.0,
+   "end": 2.2,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.673
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.6,
+   "start": 2.2,
+   "end": 4.47,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.771
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 4.47,
+   "end": 7.85,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.849
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 7.85,
+   "end": 10.48,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.677
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 10.48,
+   "end": 12.97,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.9
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 12.97,
+   "end": 15.75,
+   "cam": {
+    "x": 0.47,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.64
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 15.75,
+   "end": 18.5,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 18.5,
+   "end": 22.6,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.539
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 22.6,
+   "end": 27.42,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.755
+   }
+  }
+ ],
+ "greenclip": {
+  "segments": [
+   {
+    "src": "assets/host/gen/k5_b.mp4",
+    "a": 0.0,
+    "b": 7.85,
+    "t": 0.0
+   },
+   {
+    "src": "assets/host/gen/k5_a.mp4",
+    "a": 0.35,
+    "b": 10.02,
+    "t": 15.75
+   }
+  ],
+  "scale": 1.35,
+  "top": 770,
+  "moves": [
+   {
+    "t0": 22.5,
+    "t1": 23.8,
+    "top": 230,
+    "scale": 1.35
+   }
+  ],
+  "fade_out": [
+   25.07,
+   25.62
+  ]
+ },
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 0.57,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 2.32,
+   "type": "riser",
+   "len": 2.25
+  },
+  {
+   "t": 4.53,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 7.97,
+   "type": "pop"
+  },
+  {
+   "t": 9.31,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 10.58,
+   "type": "pop"
+  },
+  {
+   "t": 11.38,
+   "type": "pop"
+  },
+  {
+   "t": 13.07,
+   "type": "pop"
+  },
+  {
+   "t": 15.03,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 17.39,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 17.39,
+   "type": "chime"
+  },
+  {
+   "t": 18.8,
+   "type": "pop"
+  },
+  {
+   "t": 21.96,
+   "type": "pop"
+  },
+  {
+   "t": 7.73,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 15.63,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}

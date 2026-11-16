@@ -87,14 +87,19 @@ Rechnung: 2 Std./Tag ab Release am 19.11. → Story (50 Std.) am 13.12. durch, P
 
 **Schnitt:** Clip mit dem Vorbeugen zuerst (0–9,5 s, ohne Grün, Figur pro Bild mit KI-Maske freigestellt), danach der Greenscreen-Clip komplett inklusive Weglaufen. Schluss: Figur blendet aus, die Frage „Wie lange zockst du am ersten Tag?“ und Folgen bleiben stehen.
 
-## K5 – „GTA 6 Geld“ (Such-Video, Vorlage, Stand 16.11.2026)
+## K5 – „GTA 6 Geld“ (Such-Video aus Gemini-Clips, Stand 16.11.2026)
 
-**Vorlage:** `downloads/K5_geld_vorlage.mp4` (2D-Figur, Platzhalter-Stimme). Prompts: `content/02-kanal/prompts/k5_gemini.md`.
+**Datei:** `downloads/K5_gta6-geld.mp4` (mit Musik) · `downloads/K5_gta6-geld_ohne-musik.mp4` (27,4 s)
+Vorlage: `downloads/K5_geld_vorlage.mp4`. Prompts: `content/02-kanal/prompts/k5_gemini.md` (Version 3 ging durch).
+
+**Titelbild:** In TikTok ein Bild aus der ersten Sekunde wählen, auf dem „GTA 6 GELD“ groß zu sehen ist.
+
+**Schnitt:** Clip 1 bis „… kennen musst!“, dann die drei Regeln als Sprecherstimme über Trailer-Szenen (in Tonhöhe und Klang an ihre Stimme angeglichen, sie ist dabei nicht im Bild), dann Clip 2 komplett mit Weglaufen. Schluss: „Was kaufst du dir als Erstes?“ und Folgen bleiben stehen.
 
 **Suchbegriff:** „GTA 6 Geld“ steht vorne in der Beschreibung, im ersten Bild („GTA 6 GELD“) und im ersten Satz („In GTA 6 ist dein Bargeld weg …“).
 
-**Beschreibung (Entwurf):**
-GTA 6 Geld: Das musst du vor dem Start wissen 💸 Stirbst du, ist dein Bargeld weg. Beute bringt erst beim Hehler Geld, und ohne Geld geht's in der Story nicht weiter. Lösung: sofort einzahlen. Speicher dir das 📌 #gta6 #gta6deutsch #gta6geld #gta6tipps #ps5
+**Beschreibung:**
+GTA 6 Geld: Das musst du vor dem Start wissen 💸 Stirbst du, ist dein Bargeld weg. Beute bringt erst beim Hehler Geld, und ohne Geld geht's in der Story nicht weiter (laut Preview-Berichten). Lösung: sofort einzahlen. Speicher dir das 📌 #gta6 #gta6deutsch #gta6geld #gta6tipps #ps5
 
 **Kommentar zum Anpinnen:**
 Was kaufst du dir als Erstes? 👇
