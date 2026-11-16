@@ -86,3 +86,20 @@ Rechnung: 2 Std./Tag ab Release am 19.11. → Story (50 Std.) am 13.12. durch, P
 - Zahlen sind ein Insider-Bericht und nicht offiziell. Im Video steht deshalb „angeblich“ bzw. „laut Insider“.
 
 **Schnitt:** Clip mit dem Vorbeugen zuerst (0–9,5 s, ohne Grün, Figur pro Bild mit KI-Maske freigestellt), danach der Greenscreen-Clip komplett inklusive Weglaufen. Schluss: Figur blendet aus, die Frage „Wie lange zockst du am ersten Tag?“ und Folgen bleiben stehen.
+
+## K5 – „GTA 6 Geld“ (Such-Video, Vorlage, Stand 16.11.2026)
+
+**Vorlage:** `downloads/K5_geld_vorlage.mp4` (2D-Figur, Platzhalter-Stimme). Prompts: `content/02-kanal/prompts/k5_gemini.md`.
+
+**Suchbegriff:** „GTA 6 Geld“ steht vorne in der Beschreibung, im ersten Bild („GTA 6 GELD“) und im ersten Satz („In GTA 6 ist dein Bargeld weg …“).
+
+**Beschreibung (Entwurf):**
+GTA 6 Geld: Das musst du vor dem Start wissen 💸 Stirbst du, ist dein Bargeld weg. Beute bringt erst beim Hehler Geld, und ohne Geld geht's in der Story nicht weiter. Lösung: sofort einzahlen. Speicher dir das 📌 #gta6 #gta6deutsch #gta6geld #gta6tipps #ps5
+
+**Kommentar zum Anpinnen:**
+Was kaufst du dir als Erstes? 👇
+Infos aus Preview-Berichten (u. a. GamesRadar). Rockstar hat die Details noch nicht offiziell bestätigt.
+
+**Hinweise:**
+- „KI-generierte Inhalte“ einschalten.
+- Im Video sind die Fakten als „laut Previews“ bzw. „laut Preview-Bericht“ gekennzeichnet.

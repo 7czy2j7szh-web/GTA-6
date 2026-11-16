@@ -1,0 +1,583 @@
+{
+ "duration": 13.63,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.2,
+ "grade": {
+  "contrast": 1.08,
+  "sat": 1.1
+ },
+ "sub_y": 840,
+ "voice": {
+  "wav": "content/02-kanal/voice/k5/final.wav",
+  "t": 0.7
+ },
+ "subs": [
+  {
+   "t": 0.68,
+   "end": 1.19,
+   "words": [
+    [
+     "Achtung!",
+     0.68
+    ]
+   ]
+  },
+  {
+   "t": 1.19,
+   "end": 2.09,
+   "words": [
+    [
+     "In",
+     1.19
+    ],
+    [
+     "GTA",
+     1.33
+    ],
+    [
+     "6",
+     1.97
+    ]
+   ]
+  },
+  {
+   "t": 2.09,
+   "end": 3.36,
+   "words": [
+    [
+     "ist",
+     2.09
+    ],
+    [
+     "dein",
+     2.38
+    ],
+    [
+     "Bargeld",
+     2.56
+    ],
+    [
+     "weg,",
+     2.89
+    ]
+   ]
+  },
+  {
+   "t": 3.36,
+   "end": 4.36,
+   "words": [
+    [
+     "wenn",
+     3.36
+    ],
+    [
+     "du",
+     3.57
+    ],
+    [
+     "stirbst.",
+     3.88
+    ]
+   ]
+  },
+  {
+   "t": 4.36,
+   "end": 5.03,
+   "words": [
+    [
+     "Und",
+     4.36
+    ],
+    [
+     "Beute",
+     4.53
+    ],
+    [
+     "zahlt",
+     4.88
+    ]
+   ]
+  },
+  {
+   "t": 5.03,
+   "end": 6.57,
+   "words": [
+    [
+     "erst",
+     5.03
+    ],
+    [
+     "der",
+     5.19
+    ],
+    [
+     "Hehler.",
+     5.44
+    ]
+   ]
+  },
+  {
+   "t": 6.57,
+   "end": 7.38,
+   "words": [
+    [
+     "Ohne",
+     6.57
+    ],
+    [
+     "Geld",
+     6.94
+    ],
+    [
+     "geht's",
+     7.29
+    ]
+   ]
+  },
+  {
+   "t": 7.38,
+   "end": 7.91,
+   "words": [
+    [
+     "in",
+     7.38
+    ],
+    [
+     "der",
+     7.53
+    ],
+    [
+     "Story",
+     7.7
+    ]
+   ]
+  },
+  {
+   "t": 7.91,
+   "end": 8.55,
+   "words": [
+    [
+     "nicht",
+     7.91
+    ],
+    [
+     "weiter.",
+     8.1
+    ]
+   ]
+  },
+  {
+   "t": 8.55,
+   "end": 9.26,
+   "words": [
+    [
+     "Die",
+     8.55
+    ],
+    [
+     "Lösung:",
+     8.7
+    ]
+   ]
+  },
+  {
+   "t": 9.26,
+   "end": 10.22,
+   "words": [
+    [
+     "Sofort",
+     9.26
+    ],
+    [
+     "einzahlen!",
+     9.59
+    ]
+   ]
+  },
+  {
+   "t": 10.22,
+   "end": 11.262,
+   "words": [
+    [
+     "Folg",
+     10.22
+    ],
+    [
+     "mir!",
+     10.54
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 4.32,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "GTA 6 Geld",
+     "size": 100,
+     "color": "accent",
+     "at": 0.1
+    },
+    {
+     "type": "strike",
+     "text": "BARGELD",
+     "size": 170,
+     "at": 0.3,
+     "strike_at": 2.5900000000000003
+    },
+    {
+     "type": "text",
+     "text": "weg, wenn du stirbst · laut Previews",
+     "size": 36,
+     "color": "second",
+     "at": 3.36
+    }
+   ]
+  },
+  {
+   "t": 2.4,
+   "end": 6.53,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "WIE SCHÜTZT DU DEIN GELD? · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 4.32,
+   "end": 6.53,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Deine Beute",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "0 $",
+     "size": 170,
+     "at": 0.21,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "bis der Hehler sie kauft",
+     "size": 44,
+     "color": "cream",
+     "at": 1.12
+    }
+   ]
+  },
+  {
+   "t": 6.53,
+   "end": 8.51,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "SCHON MAL ALLES VERLOREN? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 6.53,
+   "end": 8.51,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Story-Missionen",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "GESPERRT",
+     "size": 170,
+     "at": 1.38,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "bis du genug Geld hast · laut Preview-Bericht",
+     "size": 32,
+     "color": "second",
+     "at": 1.73
+    }
+   ]
+  },
+  {
+   "t": 8.51,
+   "end": 10.18,
+   "y": 515,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 100,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "EINZAHLEN!",
+     "size": 150,
+     "at": 1.08,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Bank = sicher"
+     ],
+     "psize": 44,
+     "ph": 100,
+     "at": 1.4300000000000002,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 10.18,
+   "end": 13.63,
+   "y": 520,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Was kaufst du dir\nals Erstes?",
+     "size": 88,
+     "at": 0.05
+    },
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.3,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 28,
+   "exit": false
+  },
+  {
+   "t": 10.58,
+   "end": 13.63,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 68.72,
+   "start": 0.0,
+   "end": 2.0,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.74
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.6,
+   "start": 2.0,
+   "end": 4.32,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.754
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 4.32,
+   "end": 6.53,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 6.53,
+   "end": 8.51,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.899
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 8.51,
+   "end": 10.18,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 10.18,
+   "end": 13.63,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.641
+   }
+  }
+ ],
+ "presenter": {
+  "views": {
+   "front": "assets/host/host_cut.png",
+   "side": "assets/host/side_cut.png",
+   "back": "assets/host/back_cut.png"
+  },
+  "x0": 600,
+  "head_y": 925,
+  "actions": [
+   {
+    "t": 0.0,
+    "gesture": "lean",
+    "dur": 1.6,
+    "amount": 1.0
+   },
+   {
+    "t": 2.83,
+    "gesture": "nod",
+    "dur": 0.6
+   },
+   {
+    "t": 5.28,
+    "gesture": "present",
+    "dur": 1.4
+   },
+   {
+    "t": 7.85,
+    "look": [
+     0,
+     -1
+    ],
+    "dur": 0.8
+   },
+   {
+    "t": 8.54,
+    "gesture": "point",
+    "dur": 1.3
+   },
+   {
+    "t": 10.11,
+    "gesture": "glass",
+    "dur": 0.9
+   },
+   {
+    "t": 11.03,
+    "turn": "back",
+    "dur": 0.35
+   },
+   {
+    "t": 11.83,
+    "walk": -320,
+    "speed": 520
+   }
+  ]
+ },
+ "music": "chase",
+ "sfx": [
+  {
+   "t": 0.3,
+   "type": "riser",
+   "len": 2.63
+  },
+  {
+   "t": 2.89,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 4.53,
+   "type": "pop"
+  },
+  {
+   "t": 7.91,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 9.59,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 9.59,
+   "type": "chime"
+  },
+  {
+   "t": 10.48,
+   "type": "pop"
+  },
+  {
+   "t": 4.2,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 8.39,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
