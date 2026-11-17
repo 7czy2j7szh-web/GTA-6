@@ -424,7 +424,7 @@
  ],
  "elements": [
   {
-   "t": 0.0,
+   "t": -0.22,
    "end": 2.94,
    "y": 560,
    "rows": [
@@ -439,11 +439,12 @@
      "type": "title",
      "text": "Vorgeladen reicht nicht!",
      "size": 74,
-     "at": 0.85
+     "at": 1.07
     }
    ],
    "card": false,
-   "gap": 14
+   "gap": 14,
+   "motion": "none"
   },
   {
    "t": 2.5,
@@ -578,7 +579,7 @@
   {
    "t": 16.96,
    "end": 23.73,
-   "y": 524,
+   "y": 520,
    "rows": [
     {
      "type": "title",
@@ -599,8 +600,8 @@
      "items": [
       "PS5: Options › Nach Update suchen"
      ],
-     "psize": 34,
-     "ph": 74,
+     "psize": 38,
+     "ph": 80,
      "at": 1.73,
      "motion": "punch"
     },
@@ -609,8 +610,8 @@
      "items": [
       "Xbox: Menü › Spiel verwalten › Updates"
      ],
-     "psize": 34,
-     "ph": 74,
+     "psize": 38,
+     "ph": 80,
      "bg": "second",
      "at": 3.36,
      "motion": "punch"
