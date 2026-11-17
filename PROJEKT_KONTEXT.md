@@ -90,8 +90,13 @@
 | K3 | Größter Fehler am Release-Tag: nicht vorgeladen |
 | K4 | Spielzeit: 50 h Story / 200+ h Platin laut Insider Tom Henderson; mit 2 h/Tag Story am 13.12. durch, Platin am 26.02.2027 |
 | K5 | GTA 6 Geld: Bargeld weg beim Tod, Beute erst beim Hehler, Story braucht Geld (laut Previews); Lösung: einzahlen |
-| K6 | GTA 6 Update (in Arbeit, siehe 9.) |
-| K7 | GTA 6 auf Xbox One per Cloud (in Arbeit, siehe 9.) |
+| K6 | GTA 6 Update (zweites Update vor Release) |
+| K7 | GTA 6 auf Xbox One per Cloud |
+| K8 | GTA 6 Test: Embargo laut Insidern 18.11., frühe Metacritic-Nutzerwertung 6,5 (5 Stimmen) – im Video versprochen: „morgen die echten Zahlen“ |
+| K9 | GTA 6 Deutsch: englische Stimmen, deutsche Untertitel, USK 18, wohl ungeschnitten |
+| K10 | GTA 6 Online: zum Start nur Story, laut Twitch-Chef 2027 |
+| K11 | GTA 6 Code: fehlende/benutzte Codes in der Box, was tun |
+| K12 | GTA 6 PC: nicht angekündigt, GTA 5 +19 Monate, RDR2 +1 Jahr, Lösung Remote Play |
 
 ---
 
@@ -281,6 +286,8 @@ Falls die Dateien fehlen, die Videos nach diesem Plan neu bauen.
 - **Pillen:** „ES GIBT EINEN HAKEN · LÖSUNG AM ENDE“, danach „WELCHE KONSOLE? · SCHREIB'S MIR“.
 
 ### Nächste Ideen (ab Release 19.11.)
+- **Mi 18.11. Pflicht:** Video mit den echten Test-Wertungen (in K8 versprochen), sobald das Embargo fällt.
+- Ablauf für mehrere Videos (bewährt am 17.11.): Recherche in der Haupt-Session, Auftrag je Video als Datei in `content/02-kanal/auftraege/kX.md` (+ `_gemeinsam.md`), je Video ein Agent (`general-purpose`) mit kurzem Prompt, höchstens 3 gleichzeitig; neueste Vorlage `tools/pipeline/beispiele/build_k12.py`.
 - „Das Erste, was du in GTA 6 machen solltest“ / „GTA 6 erste Schritte“ (Suchwelle ab Release)
 - Launch-Probleme: Server, Download-Code in der Box (laut Berichten fehlt er bei manchen Exemplaren oder funktioniert nicht)
 - „GTA 6 PC – kommt es?“ (Rockstar hat nichts angekündigt; Vergleich: GTA 5 kam rund 19 Monate später auf PC, RDR2 rund 13 Monate)

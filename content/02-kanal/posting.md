@@ -134,3 +134,71 @@ Welche Konsole hast du – PS5, Series X|S, Xbox One oder PS4? 👇
 Quellen: Xbox Wire (Cloud-Start 19.11., 7 Uhr), Eurogamer (Cloud-Limit: Essential 5, Premium 10, Ultimate 15 Std.)
 
 **Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## Zeitplan Dienstag 17.11.2026
+16:30 K6 Update · 17:30 K11 Code · 18:30 K9 Deutsch · 19:30 K8 Test · 20:30 K10 Online · 21:30 K12 PC · (Mi 12:00 K7 Xbox One)
+
+## K11 – „GTA 6 Code“ (ohne Moderatorin, Stand 17.11.2026, posten 17:30 Uhr)
+
+**Datei:** `downloads/K11_gta6-code.mp4` (mit Musik) · `downloads/K11_gta6-code_ohne-musik.mp4` (25,6 s)
+
+**Beschreibung:**
+GTA 6 Code: Manche Käufer der Box-Version melden fehlende oder schon benutzte Download-Codes – eine Disc gibt es nicht. Bisher Einzelfälle. Das hilft: Box und Kassenbon fotografieren, zuerst zum Händler, dann Rockstar Support. Speicher dir das 📌 #gta6 #gta6deutsch #ps5 #xbox #gaming
+
+**Kommentar zum Anpinnen:**
+Hat dein Code geklappt? 👇
+Quellen: Berichte (LevelUp, TweakTown, VGTimes), PlayStation-Support: bei fehlendem Code an den Händler wenden.
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## K9 – „GTA 6 Deutsch“ (ohne Moderatorin, Stand 17.11.2026, posten 18:30 Uhr)
+
+**Datei:** `downloads/K9_gta6-deutsch.mp4` (mit Musik) · `downloads/K9_gta6-deutsch_ohne-musik.mp4` (25,1 s)
+
+**Beschreibung:**
+GTA 6 Deutsch: Die Stimmen sind englisch, Deutsch gibt's bei Menüs und Untertiteln (noch nicht offiziell bestätigt). In Deutschland kommt GTA 6 mit USK 18 – nach allem, was bekannt ist, ungeschnitten. Speicher dir das 📌 #gta6 #gta6deutsch #usk18 #gaming #ps5
+
+**Kommentar zum Anpinnen:**
+Englisch oder Synchro – was wäre dir lieber? 👇
+Quellen: USK-Einstufung, Release-Infos (z. B. keymap.io); Sprachen von Rockstar noch nicht offiziell bestätigt.
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## K8 – „GTA 6 Test“ (ohne Moderatorin, Stand 17.11.2026, posten 19:30 Uhr)
+
+**Datei:** `downloads/K8_gta6-test.mp4` (mit Musik) · `downloads/K8_gta6-test_ohne-musik.mp4` (28,8 s)
+
+**Beschreibung:**
+GTA 6 Test: Laut Insidern fallen morgen (Mi, 18.11.) die ersten Wertungen – einen Tag vor Release, von Rockstar nicht bestätigt. Eine frühe Metacritic-Nutzerwertung von 6,5 kam von nur 5 Stimmen. Speicher dir das 📌 #gta6 #gta6deutsch #gta6test #metacritic #gaming
+
+**Kommentar zum Anpinnen:**
+Welche Wertung tippst du? 👇
+Quellen: Insider Gaming, NateTheHate (Embargo 18.11., nicht offiziell).
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## K10 – „GTA 6 Online“ (ohne Moderatorin, Stand 17.11.2026, posten 20:30 Uhr)
+
+**Datei:** `downloads/K10_gta6-online.mp4` (mit Musik) · `downloads/K10_gta6-online_ohne-musik.mp4` (28,2 s)
+
+**Beschreibung:**
+GTA 6 Online: Zum Start am 19.11. gibt's nur die Story – ein Datum für den Multiplayer hat Rockstar nicht genannt. Laut Twitch-Chef soll GTA Online 2027 kommen, Anfang oder Ende ist unklar. Das alte GTA Online läuft weiter. Speicher dir das 📌 #gta6 #gta6deutsch #gta6online #gtaonline #gaming
+
+**Kommentar zum Anpinnen:**
+Mit wem willst du als Erstes online zocken? 👇
+Quellen: Bloomberg (Twitch-CEO Dan Clancy), Vice; 2027 ist nicht von Rockstar bestätigt.
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## K12 – „GTA 6 PC“ (ohne Moderatorin, Stand 17.11.2026, posten 21:30 Uhr)
+
+**Datei:** `downloads/K12_gta6-pc.mp4` (mit Musik) · `downloads/K12_gta6-pc_ohne-musik.mp4` (26,7 s)
+
+**Beschreibung:**
+GTA 6 PC: Zum Release am 19.11. gibt's keine PC-Version, angekündigt ist bisher nichts – und Xbox Cloud Gaming gilt nur für Konsolen. GTA 5 kam 19 Monate später auf PC, RDR2 nach gut einem Jahr. Mit PS5 geht Remote Play. Speicher dir das 📌 #gta6 #gta6deutsch #gta6pc #pcgaming #ps5
+
+**Kommentar zum Anpinnen:**
+Wartest du auf die PC-Version? 👇
+Quellen: GameStar, Notebookcheck, Play3 (Remote Play); Erscheinungstermine GTA 5/RDR2.
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
