@@ -1,0 +1,928 @@
+{
+ "duration": 28.803,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 0,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "lufs": -14,
+ "voice": {
+  "wav": "content/02-kanal/voice/k8/final.wav",
+  "t": 0.1
+ },
+ "subs": [
+  {
+   "t": 0.09,
+   "end": 1.62,
+   "words": [
+    [
+     "GTA",
+     0.09
+    ],
+    [
+     "6",
+     0.88
+    ],
+    [
+     "Test:",
+     1.14
+    ]
+   ]
+  },
+  {
+   "t": 1.62,
+   "end": 2.62,
+   "words": [
+    [
+     "Morgen",
+     1.62
+    ],
+    [
+     "fallen",
+     2.32
+    ]
+   ]
+  },
+  {
+   "t": 2.62,
+   "end": 4.05,
+   "words": [
+    [
+     "die",
+     2.62
+    ],
+    [
+     "ersten",
+     2.81
+    ],
+    [
+     "Wertungen!",
+     3.18
+    ]
+   ]
+  },
+  {
+   "t": 4.05,
+   "end": 5.27,
+   "words": [
+    [
+     "Laut",
+     4.05
+    ],
+    [
+     "Insidern",
+     4.27
+    ],
+    [
+     "endet",
+     4.96
+    ]
+   ]
+  },
+  {
+   "t": 5.27,
+   "end": 6.17,
+   "words": [
+    [
+     "die",
+     5.27
+    ],
+    [
+     "Sperre",
+     5.48
+    ],
+    [
+     "für",
+     5.86
+    ],
+    [
+     "Tests",
+     6.06
+    ]
+   ]
+  },
+  {
+   "t": 6.17,
+   "end": 7.05,
+   "words": [
+    [
+     "am",
+     6.17
+    ],
+    [
+     "Mittwoch,",
+     6.45
+    ]
+   ]
+  },
+  {
+   "t": 7.05,
+   "end": 8.49,
+   "words": [
+    [
+     "einen",
+     7.05
+    ],
+    [
+     "Tag",
+     7.4
+    ],
+    [
+     "vor",
+     7.63
+    ],
+    [
+     "Release.",
+     7.82
+    ]
+   ]
+  },
+  {
+   "t": 8.49,
+   "end": 9.52,
+   "words": [
+    [
+     "Bestätigt",
+     8.49
+    ],
+    [
+     "hat",
+     9.01
+    ],
+    [
+     "Rockstar",
+     9.17
+    ]
+   ]
+  },
+  {
+   "t": 9.52,
+   "end": 10.06,
+   "words": [
+    [
+     "das",
+     9.52
+    ],
+    [
+     "nicht.",
+     9.67
+    ]
+   ]
+  },
+  {
+   "t": 10.06,
+   "end": 10.99,
+   "words": [
+    [
+     "Aber",
+     10.06
+    ],
+    [
+     "Achtung:",
+     10.23
+    ]
+   ]
+  },
+  {
+   "t": 10.99,
+   "end": 12.42,
+   "words": [
+    [
+     "Auf",
+     10.99
+    ],
+    [
+     "Metacritic",
+     11.17
+    ],
+    [
+     "tauchte",
+     12.02
+    ]
+   ]
+  },
+  {
+   "t": 12.42,
+   "end": 13.76,
+   "words": [
+    [
+     "schon",
+     12.42
+    ],
+    [
+     "eine",
+     12.61
+    ],
+    [
+     "Nutzerwertung",
+     12.99
+    ]
+   ]
+  },
+  {
+   "t": 13.76,
+   "end": 15.1,
+   "words": [
+    [
+     "von",
+     13.76
+    ],
+    [
+     "6,5",
+     13.93
+    ],
+    [
+     "auf,",
+     14.61
+    ]
+   ]
+  },
+  {
+   "t": 15.1,
+   "end": 16.04,
+   "words": [
+    [
+     "aus",
+     15.1
+    ],
+    [
+     "nur",
+     15.26
+    ],
+    [
+     "5",
+     15.38
+    ],
+    [
+     "Stimmen.",
+     15.56
+    ]
+   ]
+  },
+  {
+   "t": 16.04,
+   "end": 16.85,
+   "words": [
+    [
+     "Was",
+     16.04
+    ],
+    [
+     "tippst",
+     16.28
+    ],
+    [
+     "du,",
+     16.41
+    ]
+   ]
+  },
+  {
+   "t": 16.85,
+   "end": 17.61,
+   "words": [
+    [
+     "welche",
+     16.85
+    ],
+    [
+     "Wertung",
+     17.23
+    ]
+   ]
+  },
+  {
+   "t": 17.61,
+   "end": 18.77,
+   "words": [
+    [
+     "kriegt",
+     17.61
+    ],
+    [
+     "GTA",
+     17.9
+    ],
+    [
+     "6?",
+     18.4
+    ]
+   ]
+  },
+  {
+   "t": 18.77,
+   "end": 20.13,
+   "words": [
+    [
+     "Schreib's",
+     18.77
+    ],
+    [
+     "in",
+     18.87
+    ],
+    [
+     "die",
+     19.03
+    ],
+    [
+     "Kommentare!",
+     19.24
+    ]
+   ]
+  },
+  {
+   "t": 20.39,
+   "end": 20.99,
+   "words": [
+    [
+     "Die",
+     20.39
+    ],
+    [
+     "Lösung:",
+     20.5
+    ]
+   ]
+  },
+  {
+   "t": 20.99,
+   "end": 21.65,
+   "words": [
+    [
+     "Achte",
+     20.99
+    ],
+    [
+     "morgen",
+     21.29
+    ]
+   ]
+  },
+  {
+   "t": 21.65,
+   "end": 22.88,
+   "words": [
+    [
+     "auf",
+     21.65
+    ],
+    [
+     "die",
+     21.83
+    ],
+    [
+     "Presse-Wertungen,",
+     21.99
+    ]
+   ]
+  },
+  {
+   "t": 22.99,
+   "end": 23.42,
+   "words": [
+    [
+     "nicht",
+     22.99
+    ],
+    [
+     "auf",
+     23.21
+    ]
+   ]
+  },
+  {
+   "t": 23.42,
+   "end": 24.59,
+   "words": [
+    [
+     "ein",
+     23.42
+    ],
+    [
+     "paar",
+     23.62
+    ],
+    [
+     "Nutzer.",
+     23.83
+    ]
+   ]
+  },
+  {
+   "t": 24.59,
+   "end": 25.22,
+   "words": [
+    [
+     "Folg",
+     24.59
+    ],
+    [
+     "mir,",
+     24.87
+    ]
+   ]
+  },
+  {
+   "t": 25.22,
+   "end": 25.9,
+   "words": [
+    [
+     "morgen",
+     25.22
+    ],
+    [
+     "zeig",
+     25.48
+    ],
+    [
+     "ich",
+     25.66
+    ],
+    [
+     "dir",
+     25.82
+    ]
+   ]
+  },
+  {
+   "t": 25.9,
+   "end": 27.4,
+   "words": [
+    [
+     "die",
+     25.9
+    ],
+    [
+     "echten",
+     26.14
+    ],
+    [
+     "Zahlen!",
+     26.51
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": -0.22,
+   "end": 4.01,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "GTA 6 TEST",
+     "size": 160,
+     "at": 0.0,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Morgen fallen die Wertungen",
+     "size": 64,
+     "at": 1.84
+    }
+   ],
+   "card": false,
+   "gap": 14,
+   "motion": "none"
+  },
+  {
+   "t": 2.5,
+   "end": 16.0,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "WAS TAUGT GTA 6? · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 16.0,
+   "end": 20.35,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "DEIN TIPP? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 4.01,
+   "end": 8.45,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Test-Sperre endet",
+     "size": 84,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "MI 18.11.",
+     "size": 160,
+     "at": 2.44,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "laut Insider · nicht bestätigt",
+     "size": 40,
+     "color": "cream",
+     "at": 3.04
+    }
+   ]
+  },
+  {
+   "t": 8.45,
+   "end": 10.02,
+   "y": 560,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "GTA 5",
+      "RDR 2"
+     ],
+     "psize": 56,
+     "ph": 116,
+     "gap": 34,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Tests am Tag vor Release",
+     "size": 64,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "t": 10.02,
+   "end": 16.0,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Metacritic",
+     "size": 92,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "6,5?",
+     "size": 190,
+     "at": 3.91,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "nur 5 Nutzerstimmen · wieder weg",
+     "size": 40,
+     "color": "cream",
+     "at": 4.26
+    }
+   ]
+  },
+  {
+   "t": 16.0,
+   "end": 20.35,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Dein Tipp?",
+     "size": 100,
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "90+",
+      "95+",
+      "100"
+     ],
+     "psize": 56,
+     "ph": 116,
+     "gap": 34,
+     "at": 0.85,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 20.35,
+   "end": 24.55,
+   "y": 540,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 80,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "PRESSE-WERTUNG",
+     "size": 104,
+     "at": 1.64,
+     "motion": "punch"
+    },
+    {
+     "type": "strike",
+     "text": "ein paar Nutzer",
+     "size": 64,
+     "at": 2.64,
+     "strike_at": 0.84
+    }
+   ],
+   "gap": 16,
+   "pad": 46
+  },
+  {
+   "t": 24.55,
+   "end": 28.803,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 27.4,
+   "end": 28.803,
+   "y": 820,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Welche Wertung\ntippst du?",
+     "size": 100,
+     "at": 0.0,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 27.55,
+   "end": 28.803,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 42.47,
+   "start": 0.0,
+   "end": 1.58,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.861
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 1.58,
+   "end": 4.01,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.909
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 4.01,
+   "end": 8.45,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.646
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.6,
+   "start": 8.45,
+   "end": 10.02,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 10.02,
+   "end": 16.0,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.609
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 16.0,
+   "end": 18.73,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.821
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
+   "start": 18.73,
+   "end": 20.35,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 60.62,
+   "start": 20.35,
+   "end": 22.95,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.846
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 22.95,
+   "end": 24.55,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 24.55,
+   "end": 28.803,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.731
+   }
+  }
+ ],
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 2.78
+  },
+  {
+   "t": 3.18,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 6.45,
+   "type": "pop"
+  },
+  {
+   "t": 8.5,
+   "type": "pop"
+  },
+  {
+   "t": 13.93,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 16.85,
+   "type": "pop"
+  },
+  {
+   "t": 21.99,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 21.99,
+   "type": "chime"
+  },
+  {
+   "t": 23.83,
+   "type": "pop"
+  },
+  {
+   "t": 24.6,
+   "type": "pop"
+  },
+  {
+   "t": 27.4,
+   "type": "pop"
+  },
+  {
+   "t": 3.89,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 9.9,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 15.88,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 20.23,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
