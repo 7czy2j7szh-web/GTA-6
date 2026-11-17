@@ -1,0 +1,864 @@
+{
+ "duration": 26.178,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 0,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "voice": {
+  "wav": "content/02-kanal/voice/k6/final.wav",
+  "t": 0.1
+ },
+ "subs": [
+  {
+   "t": 0.08,
+   "end": 1.74,
+   "words": [
+    [
+     "GTA",
+     0.08
+    ],
+    [
+     "6",
+     0.67
+    ],
+    [
+     "vorgeladen?",
+     0.85
+    ]
+   ]
+  },
+  {
+   "t": 1.88,
+   "end": 2.98,
+   "words": [
+    [
+     "Das",
+     1.88
+    ],
+    [
+     "reicht",
+     2.06
+    ],
+    [
+     "nicht!",
+     2.36
+    ]
+   ]
+  },
+  {
+   "t": 2.98,
+   "end": 3.68,
+   "words": [
+    [
+     "Rockstar",
+     2.98
+    ],
+    [
+     "hat",
+     3.28
+    ],
+    [
+     "schon",
+     3.5
+    ]
+   ]
+  },
+  {
+   "t": 3.68,
+   "end": 4.8,
+   "words": [
+    [
+     "das",
+     3.68
+    ],
+    [
+     "zweite",
+     3.83
+    ],
+    [
+     "Update",
+     4.28
+    ]
+   ]
+  },
+  {
+   "t": 4.8,
+   "end": 5.89,
+   "words": [
+    [
+     "verteilt,",
+     4.8
+    ],
+    [
+     "noch",
+     5.46
+    ],
+    [
+     "vor",
+     5.72
+    ]
+   ]
+  },
+  {
+   "t": 5.89,
+   "end": 6.92,
+   "words": [
+    [
+     "dem",
+     5.89
+    ],
+    [
+     "Release.",
+     6.09
+    ]
+   ]
+  },
+  {
+   "t": 6.92,
+   "end": 7.7,
+   "words": [
+    [
+     "Auf",
+     6.92
+    ],
+    [
+     "PS5",
+     7.13
+    ],
+    [
+     "rund",
+     7.59
+    ]
+   ]
+  },
+  {
+   "t": 7.7,
+   "end": 8.63,
+   "words": [
+    [
+     "600",
+     7.7
+    ],
+    [
+     "Megabyte,",
+     8.23
+    ]
+   ]
+  },
+  {
+   "t": 8.63,
+   "end": 9.81,
+   "words": [
+    [
+     "auf",
+     8.63
+    ],
+    [
+     "Xbox",
+     9.07
+    ]
+   ]
+  },
+  {
+   "t": 9.81,
+   "end": 11.39,
+   "words": [
+    [
+     "1,6",
+     9.81
+    ],
+    [
+     "Gigabyte.",
+     10.53
+    ]
+   ]
+  },
+  {
+   "t": 11.39,
+   "end": 11.94,
+   "words": [
+    [
+     "Was",
+     11.39
+    ],
+    [
+     "drin",
+     11.57
+    ],
+    [
+     "ist,",
+     11.72
+    ]
+   ]
+  },
+  {
+   "t": 11.94,
+   "end": 12.7,
+   "words": [
+    [
+     "verrät",
+     11.94
+    ],
+    [
+     "Rockstar",
+     12.34
+    ]
+   ]
+  },
+  {
+   "t": 12.7,
+   "end": 13.11,
+   "words": [
+    [
+     "nicht.",
+     12.7
+    ]
+   ]
+  },
+  {
+   "t": 13.11,
+   "end": 14.43,
+   "words": [
+    [
+     "PS5",
+     13.11
+    ],
+    [
+     "oder",
+     13.62
+    ],
+    [
+     "Xbox,",
+     13.94
+    ]
+   ]
+  },
+  {
+   "t": 14.43,
+   "end": 15.17,
+   "words": [
+    [
+     "was",
+     14.43
+    ],
+    [
+     "zockst",
+     14.63
+    ],
+    [
+     "du?",
+     14.89
+    ]
+   ]
+  },
+  {
+   "t": 15.17,
+   "end": 15.59,
+   "words": [
+    [
+     "Schreib's",
+     15.17
+    ],
+    [
+     "in",
+     15.33
+    ],
+    [
+     "die",
+     15.41
+    ]
+   ]
+  },
+  {
+   "t": 15.59,
+   "end": 16.48,
+   "words": [
+    [
+     "Kommentare!",
+     15.59
+    ]
+   ]
+  },
+  {
+   "t": 17.0,
+   "end": 17.66,
+   "words": [
+    [
+     "Die",
+     17.0
+    ],
+    [
+     "Lösung:",
+     17.2
+    ]
+   ]
+  },
+  {
+   "t": 17.66,
+   "end": 18.69,
+   "words": [
+    [
+     "Prüf",
+     17.66
+    ],
+    [
+     "es",
+     17.88
+    ],
+    [
+     "jetzt.",
+     18.11
+    ]
+   ]
+  },
+  {
+   "t": 18.69,
+   "end": 19.65,
+   "words": [
+    [
+     "Spiel",
+     18.69
+    ],
+    [
+     "markieren,",
+     18.94
+    ]
+   ]
+  },
+  {
+   "t": 19.65,
+   "end": 20.32,
+   "words": [
+    [
+     "Options-Taste,",
+     19.65
+    ]
+   ]
+  },
+  {
+   "t": 20.32,
+   "end": 21.05,
+   "words": [
+    [
+     "Nach",
+     20.32
+    ],
+    [
+     "Update",
+     20.62
+    ]
+   ]
+  },
+  {
+   "t": 21.05,
+   "end": 21.94,
+   "words": [
+    [
+     "suchen.",
+     21.05
+    ]
+   ]
+  },
+  {
+   "t": 21.94,
+   "end": 22.25,
+   "words": [
+    [
+     "Dann",
+     21.94
+    ],
+    [
+     "geht's",
+     22.12
+    ]
+   ]
+  },
+  {
+   "t": 22.25,
+   "end": 23.06,
+   "words": [
+    [
+     "am",
+     22.25
+    ],
+    [
+     "Donnerstag",
+     22.42
+    ]
+   ]
+  },
+  {
+   "t": 23.06,
+   "end": 23.77,
+   "words": [
+    [
+     "sofort",
+     23.06
+    ],
+    [
+     "los.",
+     23.43
+    ]
+   ]
+  },
+  {
+   "t": 23.77,
+   "end": 24.88,
+   "words": [
+    [
+     "Folg",
+     23.77
+    ],
+    [
+     "mir!",
+     23.99
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 2.94,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "GTA 6 UPDATE",
+     "size": 150,
+     "at": 0.0,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Vorgeladen reicht nicht!",
+     "size": 74,
+     "at": 0.85
+    }
+   ],
+   "card": false,
+   "gap": 14
+  },
+  {
+   "t": 2.5,
+   "end": 13.07,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "IST DEINE KONSOLE BEREIT? · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 13.07,
+   "end": 16.96,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "PS5 ODER XBOX? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 2.94,
+   "end": 6.88,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Update Nr. 2",
+     "size": 92,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "01.002.001",
+     "size": 150,
+     "at": 0.89,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "seit 16.11. · noch vor dem Release",
+     "size": 40,
+     "color": "cream",
+     "at": 2.52
+    }
+   ]
+  },
+  {
+   "t": 6.88,
+   "end": 11.35,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "PS5 · 602 MB",
+     "size": 124,
+     "at": 0.25,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "XBOX · 1,6 GB",
+     "size": 124,
+     "at": 2.19,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Update 1 kam schon am 13.11.",
+     "size": 40,
+     "color": "cream",
+     "at": 3.65
+    }
+   ]
+  },
+  {
+   "t": 11.35,
+   "end": 13.07,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "???",
+     "size": 190,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "keine Patchnotes von Rockstar",
+     "size": 44,
+     "color": "cream",
+     "at": 0.59
+    }
+   ]
+  },
+  {
+   "t": 13.07,
+   "end": 16.96,
+   "y": 560,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "PS5",
+      "XBOX"
+     ],
+     "psize": 56,
+     "ph": 116,
+     "gap": 34,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Was zockst du?",
+     "size": 100,
+     "at": 1.36
+    }
+   ]
+  },
+  {
+   "t": 16.96,
+   "end": 23.73,
+   "y": 524,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 80,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "JETZT PRÜFEN",
+     "size": 120,
+     "at": 0.7,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "PS5: Options › Nach Update suchen"
+     ],
+     "psize": 34,
+     "ph": 74,
+     "at": 1.73,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Xbox: Menü › Spiel verwalten › Updates"
+     ],
+     "psize": 34,
+     "ph": 74,
+     "bg": "second",
+     "at": 3.36,
+     "motion": "punch"
+    }
+   ],
+   "gap": 16,
+   "pad": 46
+  },
+  {
+   "t": 23.73,
+   "end": 26.178,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 24.88,
+   "end": 26.178,
+   "y": 820,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Hast du das\nUpdate schon?",
+     "size": 100,
+     "at": 0.0,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 25.03,
+   "end": 26.178,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 68.72,
+   "start": 0.0,
+   "end": 2.94,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.503
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 2.94,
+   "end": 6.88,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.561
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 6.88,
+   "end": 11.35,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.642
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 39.85,
+   "start": 11.35,
+   "end": 13.07,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.82
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 81.45,
+   "start": 13.07,
+   "end": 15.13,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.767
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 98.52,
+   "start": 15.13,
+   "end": 16.96,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.585
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 16.96,
+   "end": 23.73,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.538
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 26.42,
+   "start": 23.73,
+   "end": 26.178,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.547
+   }
+  }
+ ],
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 1.96
+  },
+  {
+   "t": 2.36,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 3.83,
+   "type": "pop"
+  },
+  {
+   "t": 7.13,
+   "type": "pop"
+  },
+  {
+   "t": 9.07,
+   "type": "pop"
+  },
+  {
+   "t": 11.4,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 13.12,
+   "type": "pop"
+  },
+  {
+   "t": 17.66,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 17.66,
+   "type": "chime"
+  },
+  {
+   "t": 18.69,
+   "type": "pop"
+  },
+  {
+   "t": 20.32,
+   "type": "pop"
+  },
+  {
+   "t": 23.78,
+   "type": "pop"
+  },
+  {
+   "t": 24.88,
+   "type": "pop"
+  },
+  {
+   "t": 2.82,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 12.95,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 16.84,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}

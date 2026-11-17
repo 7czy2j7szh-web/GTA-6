@@ -1,0 +1,1036 @@
+{
+ "duration": 27.938,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 0,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "voice": {
+  "wav": "content/02-kanal/voice/k7/final.wav",
+  "t": 0.0
+ },
+ "subs": [
+  {
+   "t": 0.04,
+   "end": 0.94,
+   "words": [
+    [
+     "GTA",
+     0.04
+    ],
+    [
+     "6",
+     0.59
+    ]
+   ]
+  },
+  {
+   "t": 0.94,
+   "end": 1.96,
+   "words": [
+    [
+     "auf",
+     0.94
+    ],
+    [
+     "der",
+     1.13
+    ],
+    [
+     "Xbox",
+     1.27
+    ],
+    [
+     "One?",
+     1.54
+    ]
+   ]
+  },
+  {
+   "t": 1.96,
+   "end": 2.37,
+   "words": [
+    [
+     "Geht,",
+     1.96
+    ]
+   ]
+  },
+  {
+   "t": 2.37,
+   "end": 3.28,
+   "words": [
+    [
+     "ab",
+     2.37
+    ],
+    [
+     "Donnerstag!",
+     2.56
+    ]
+   ]
+  },
+  {
+   "t": 3.28,
+   "end": 4.32,
+   "words": [
+    [
+     "Microsoft",
+     3.28
+    ],
+    [
+     "streamt",
+     3.88
+    ]
+   ]
+  },
+  {
+   "t": 4.32,
+   "end": 5.34,
+   "words": [
+    [
+     "es",
+     4.32
+    ],
+    [
+     "über",
+     4.6
+    ],
+    [
+     "Xbox",
+     4.88
+    ]
+   ]
+  },
+  {
+   "t": 5.34,
+   "end": 6.15,
+   "words": [
+    [
+     "Cloud",
+     5.34
+    ],
+    [
+     "Gaming,",
+     5.7
+    ]
+   ]
+  },
+  {
+   "t": 6.15,
+   "end": 7.15,
+   "words": [
+    [
+     "ab",
+     6.15
+    ],
+    [
+     "7",
+     6.29
+    ],
+    [
+     "Uhr",
+     6.63
+    ],
+    [
+     "morgens,",
+     6.86
+    ]
+   ]
+  },
+  {
+   "t": 7.15,
+   "end": 8.33,
+   "words": [
+    [
+     "in",
+     7.15
+    ],
+    [
+     "Series-S-Grafik.",
+     7.44
+    ]
+   ]
+  },
+  {
+   "t": 9.03,
+   "end": 9.53,
+   "words": [
+    [
+     "Aber",
+     9.03
+    ],
+    [
+     "es",
+     9.25
+    ],
+    [
+     "gibt",
+     9.41
+    ]
+   ]
+  },
+  {
+   "t": 9.53,
+   "end": 10.21,
+   "words": [
+    [
+     "einen",
+     9.53
+    ],
+    [
+     "Haken:",
+     9.67
+    ]
+   ]
+  },
+  {
+   "t": 10.21,
+   "end": 11.14,
+   "words": [
+    [
+     "Das",
+     10.21
+    ],
+    [
+     "Spiel",
+     10.42
+    ],
+    [
+     "musst",
+     10.75
+    ],
+    [
+     "du",
+     10.93
+    ]
+   ]
+  },
+  {
+   "t": 11.14,
+   "end": 12.22,
+   "words": [
+    [
+     "trotzdem",
+     11.14
+    ],
+    [
+     "kaufen.",
+     11.78
+    ]
+   ]
+  },
+  {
+   "t": 12.22,
+   "end": 13.1,
+   "words": [
+    [
+     "Und",
+     12.22
+    ],
+    [
+     "mit",
+     12.35
+    ],
+    [
+     "Game",
+     12.51
+    ],
+    [
+     "Pass",
+     12.86
+    ]
+   ]
+  },
+  {
+   "t": 13.1,
+   "end": 13.75,
+   "words": [
+    [
+     "hast",
+     13.1
+    ],
+    [
+     "du",
+     13.26
+    ],
+    [
+     "nur",
+     13.41
+    ],
+    [
+     "ein",
+     13.54
+    ]
+   ]
+  },
+  {
+   "t": 13.75,
+   "end": 14.64,
+   "words": [
+    [
+     "Stunden-Limit.",
+     13.75
+    ]
+   ]
+  },
+  {
+   "t": 14.89,
+   "end": 15.56,
+   "words": [
+    [
+     "Welche",
+     14.89
+    ],
+    [
+     "Konsole",
+     15.11
+    ]
+   ]
+  },
+  {
+   "t": 15.56,
+   "end": 15.93,
+   "words": [
+    [
+     "hast",
+     15.56
+    ],
+    [
+     "du?",
+     15.66
+    ]
+   ]
+  },
+  {
+   "t": 15.93,
+   "end": 16.31,
+   "words": [
+    [
+     "Schreib's",
+     15.93
+    ],
+    [
+     "in",
+     16.12
+    ],
+    [
+     "die",
+     16.2
+    ]
+   ]
+  },
+  {
+   "t": 16.31,
+   "end": 17.2,
+   "words": [
+    [
+     "Kommentare!",
+     16.31
+    ]
+   ]
+  },
+  {
+   "t": 17.24,
+   "end": 18.66,
+   "words": [
+    [
+     "Für",
+     17.24
+    ],
+    [
+     "PS4",
+     17.36
+    ],
+    [
+     "und",
+     18.02
+    ],
+    [
+     "PC",
+     18.24
+    ]
+   ]
+  },
+  {
+   "t": 18.66,
+   "end": 19.36,
+   "words": [
+    [
+     "ist",
+     18.66
+    ],
+    [
+     "bisher",
+     18.84
+    ],
+    [
+     "nichts",
+     19.26
+    ]
+   ]
+  },
+  {
+   "t": 19.36,
+   "end": 20.25,
+   "words": [
+    [
+     "angekündigt.",
+     19.36
+    ]
+   ]
+  },
+  {
+   "t": 20.43,
+   "end": 20.92,
+   "words": [
+    [
+     "Die",
+     20.43
+    ],
+    [
+     "Lösung",
+     20.53
+    ]
+   ]
+  },
+  {
+   "t": 20.92,
+   "end": 21.84,
+   "words": [
+    [
+     "für",
+     20.92
+    ],
+    [
+     "die",
+     21.01
+    ],
+    [
+     "Xbox",
+     21.26
+    ],
+    [
+     "One:",
+     21.46
+    ]
+   ]
+  },
+  {
+   "t": 21.84,
+   "end": 22.75,
+   "words": [
+    [
+     "Spiel",
+     21.84
+    ],
+    [
+     "kaufen,",
+     22.18
+    ]
+   ]
+  },
+  {
+   "t": 22.75,
+   "end": 23.76,
+   "words": [
+    [
+     "Game",
+     22.75
+    ],
+    [
+     "Pass",
+     22.95
+    ],
+    [
+     "aktiv,",
+     23.34
+    ]
+   ]
+  },
+  {
+   "t": 23.76,
+   "end": 24.42,
+   "words": [
+    [
+     "Donnerstag",
+     23.76
+    ],
+    [
+     "ab",
+     24.3
+    ]
+   ]
+  },
+  {
+   "t": 24.42,
+   "end": 25.6,
+   "words": [
+    [
+     "7",
+     24.42
+    ],
+    [
+     "Uhr",
+     24.7
+    ],
+    [
+     "streamen.",
+     25.01
+    ]
+   ]
+  },
+  {
+   "t": 25.6,
+   "end": 26.11,
+   "words": [
+    [
+     "Folg",
+     25.6
+    ],
+    [
+     "mir!",
+     25.77
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": 0.0,
+   "end": 3.22,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "GTA 6 auf der",
+     "size": 96,
+     "color": "accent",
+     "at": -0.5
+    },
+    {
+     "type": "big",
+     "text": "XBOX ONE?",
+     "size": 190,
+     "at": -0.3,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "GEHT!",
+     "size": 150,
+     "at": 1.96,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 18,
+   "motion": "none"
+  },
+  {
+   "t": 2.5,
+   "end": 14.83,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "ES GIBT EINEN HAKEN · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 14.83,
+   "end": 20.37,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "WELCHE KONSOLE? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 3.22,
+   "end": 8.97,
+   "y": 550,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Xbox Cloud Gaming",
+     "size": 96,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "AB 7 UHR",
+     "size": 170,
+     "at": 1.38,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "19.11. · Series-S-Grafik · 30 FPS · laut Xbox",
+     "size": 36,
+     "color": "second",
+     "at": 3.93
+    }
+   ]
+  },
+  {
+   "t": 8.97,
+   "end": 12.16,
+   "y": 550,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "HAKEN 1"
+     ],
+     "psize": 40,
+     "ph": 90,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "SPIEL KAUFEN",
+     "size": 140,
+     "at": 0.7,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Game Pass schaltet GTA 6 nicht frei",
+     "size": 40,
+     "color": "cream",
+     "at": 2.17
+    }
+   ]
+  },
+  {
+   "t": 12.16,
+   "end": 14.83,
+   "y": 560,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "HAKEN 2"
+     ],
+     "psize": 38,
+     "ph": 84,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Cloud-Stunden je Abo",
+     "size": 80,
+     "color": "accent",
+     "at": 0.35
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Essential 5",
+      "Premium 10",
+      "Ultimate 15"
+     ],
+     "psize": 34,
+     "ph": 80,
+     "gap": 14,
+     "at": 1.25,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Stunden Cloud-Zeit · laut Eurogamer",
+     "size": 34,
+     "color": "second",
+     "at": 1.59
+    }
+   ],
+   "gap": 18,
+   "pad": 50
+  },
+  {
+   "t": 14.83,
+   "end": 17.18,
+   "y": 550,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Welche Konsole hast du?",
+     "size": 76,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "PS5",
+      "SERIES X|S"
+     ],
+     "psize": 40,
+     "ph": 90,
+     "at": 0.28,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "XBOX ONE",
+      "PS4"
+     ],
+     "psize": 40,
+     "ph": 90,
+     "at": 0.53,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 17.18,
+   "end": 20.37,
+   "y": 550,
+   "rows": [
+    {
+     "type": "strike",
+     "text": "PS4 & PC",
+     "size": 180,
+     "at": 0.18,
+     "strike_at": 1.9
+    },
+    {
+     "type": "text",
+     "text": "bisher nichts angekündigt",
+     "size": 44,
+     "color": "cream",
+     "at": 1.66
+    }
+   ]
+  },
+  {
+   "t": 20.37,
+   "end": 25.54,
+   "y": 525,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 84,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "1 Spiel kaufen"
+     ],
+     "psize": 44,
+     "ph": 90,
+     "at": 1.47,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "2 Game Pass aktiv"
+     ],
+     "psize": 44,
+     "ph": 90,
+     "at": 2.38,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "3 Do. ab 7 Uhr streamen"
+     ],
+     "psize": 44,
+     "ph": 90,
+     "at": 3.39,
+     "motion": "punch"
+    }
+   ],
+   "gap": 14,
+   "pad": 48
+  },
+  {
+   "t": 25.54,
+   "end": 27.938,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.06,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 26.11,
+   "end": 27.938,
+   "y": 820,
+   "rows": [
+    {
+     "type": "big",
+     "text": "ZOCKST DU\nIN DER CLOUD?",
+     "size": 120,
+     "at": 0.0,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 26.41,
+   "end": 27.938,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
+   "start": 0.0,
+   "end": 3.22,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.553
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 3.22,
+   "end": 8.97,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.541
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 8.97,
+   "end": 12.16,
+   "cam": {
+    "x": 0.47,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.558
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 83.15,
+   "start": 12.16,
+   "end": 14.83,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.704
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
+   "start": 14.83,
+   "end": 17.18,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.6
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 17.18,
+   "end": 20.37,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.558
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 6.85,
+   "start": 20.37,
+   "end": 21.78,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.858
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 21.78,
+   "end": 25.54,
+   "cam": {
+    "x": 0.42,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.596
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.79,
+   "start": 25.54,
+   "end": 27.938,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.588
+   }
+  }
+ ],
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 0.3,
+   "type": "riser",
+   "len": 1.66
+  },
+  {
+   "t": 1.96,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 4.6,
+   "type": "pop"
+  },
+  {
+   "t": 9.02,
+   "type": "pop"
+  },
+  {
+   "t": 9.67,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 12.21,
+   "type": "pop"
+  },
+  {
+   "t": 13.41,
+   "type": "pop"
+  },
+  {
+   "t": 15.11,
+   "type": "pop"
+  },
+  {
+   "t": 19.26,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 20.53,
+   "type": "chime"
+  },
+  {
+   "t": 21.84,
+   "type": "pop"
+  },
+  {
+   "t": 22.75,
+   "type": "pop"
+  },
+  {
+   "t": 23.76,
+   "type": "hit",
+   "gain": 0.4
+  },
+  {
+   "t": 25.6,
+   "type": "pop"
+  },
+  {
+   "t": 26.11,
+   "type": "pop"
+  },
+  {
+   "t": 3.1,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 8.85,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 17.06,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 20.25,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
