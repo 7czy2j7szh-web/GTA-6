@@ -1,0 +1,935 @@
+{
+ "duration": 26.662,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 0,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "lufs": -14,
+ "voice": {
+  "wav": "content/02-kanal/voice/k12/final.wav",
+  "t": 0.1
+ },
+ "subs": [
+  {
+   "t": 0.08,
+   "end": 0.93,
+   "words": [
+    [
+     "GTA",
+     0.08
+    ],
+    [
+     "6",
+     0.56
+    ]
+   ]
+  },
+  {
+   "t": 0.93,
+   "end": 1.91,
+   "words": [
+    [
+     "auf",
+     0.93
+    ],
+    [
+     "dem",
+     1.07
+    ],
+    [
+     "PC?",
+     1.21
+    ]
+   ]
+  },
+  {
+   "t": 1.91,
+   "end": 3.38,
+   "words": [
+    [
+     "Am",
+     1.91
+    ],
+    [
+     "Donnerstag",
+     2.14
+    ],
+    [
+     "nicht!",
+     2.75
+    ]
+   ]
+  },
+  {
+   "t": 3.38,
+   "end": 4.09,
+   "words": [
+    [
+     "Rockstar",
+     3.38
+    ],
+    [
+     "hat",
+     3.59
+    ],
+    [
+     "bisher",
+     3.82
+    ]
+   ]
+  },
+  {
+   "t": 4.09,
+   "end": 5.11,
+   "words": [
+    [
+     "keine",
+     4.09
+    ],
+    [
+     "PC-Version",
+     4.34
+    ]
+   ]
+  },
+  {
+   "t": 5.11,
+   "end": 6.0,
+   "words": [
+    [
+     "angekündigt.",
+     5.11
+    ]
+   ]
+  },
+  {
+   "t": 6.2,
+   "end": 6.99,
+   "words": [
+    [
+     "Und",
+     6.2
+    ],
+    [
+     "auch",
+     6.3
+    ],
+    [
+     "Xbox",
+     6.51
+    ]
+   ]
+  },
+  {
+   "t": 6.99,
+   "end": 7.76,
+   "words": [
+    [
+     "Cloud",
+     6.99
+    ],
+    [
+     "Gaming",
+     7.38
+    ]
+   ]
+  },
+  {
+   "t": 7.76,
+   "end": 8.71,
+   "words": [
+    [
+     "lässt",
+     7.76
+    ],
+    [
+     "PC-Spieler",
+     8.09
+    ]
+   ]
+  },
+  {
+   "t": 8.71,
+   "end": 9.82,
+   "words": [
+    [
+     "außen",
+     8.71
+    ],
+    [
+     "vor.",
+     8.94
+    ]
+   ]
+  },
+  {
+   "t": 9.82,
+   "end": 10.58,
+   "words": [
+    [
+     "Zum",
+     9.82
+    ],
+    [
+     "Vergleich:",
+     9.98
+    ]
+   ]
+  },
+  {
+   "t": 10.58,
+   "end": 11.85,
+   "words": [
+    [
+     "GTA",
+     10.58
+    ],
+    [
+     "5",
+     11.09
+    ],
+    [
+     "kam",
+     11.36
+    ],
+    [
+     "erst",
+     11.59
+    ]
+   ]
+  },
+  {
+   "t": 11.85,
+   "end": 12.77,
+   "words": [
+    [
+     "19",
+     11.85
+    ],
+    [
+     "Monate",
+     12.36
+    ]
+   ]
+  },
+  {
+   "t": 12.77,
+   "end": 14.07,
+   "words": [
+    [
+     "später",
+     12.77
+    ],
+    [
+     "auf",
+     13.11
+    ],
+    [
+     "den",
+     13.17
+    ],
+    [
+     "PC,",
+     13.39
+    ]
+   ]
+  },
+  {
+   "t": 14.07,
+   "end": 14.69,
+   "words": [
+    [
+     "Red",
+     14.07
+    ],
+    [
+     "Dead",
+     14.24
+    ],
+    [
+     "2",
+     14.5
+    ]
+   ]
+  },
+  {
+   "t": 14.69,
+   "end": 15.9,
+   "words": [
+    [
+     "nach",
+     14.69
+    ],
+    [
+     "gut",
+     14.87
+    ],
+    [
+     "einem",
+     15.07
+    ],
+    [
+     "Jahr.",
+     15.22
+    ]
+   ]
+  },
+  {
+   "t": 15.9,
+   "end": 16.98,
+   "words": [
+    [
+     "PC",
+     15.9
+    ],
+    [
+     "oder",
+     16.25
+    ],
+    [
+     "Konsole,",
+     16.55
+    ]
+   ]
+  },
+  {
+   "t": 16.98,
+   "end": 17.66,
+   "words": [
+    [
+     "wie",
+     16.98
+    ],
+    [
+     "zockst",
+     17.2
+    ],
+    [
+     "du?",
+     17.37
+    ]
+   ]
+  },
+  {
+   "t": 17.66,
+   "end": 18.12,
+   "words": [
+    [
+     "Schreib's",
+     17.66
+    ],
+    [
+     "in",
+     17.95
+    ],
+    [
+     "die",
+     18.04
+    ]
+   ]
+  },
+  {
+   "t": 18.12,
+   "end": 19.01,
+   "words": [
+    [
+     "Kommentare!",
+     18.12
+    ]
+   ]
+  },
+  {
+   "t": 19.65,
+   "end": 20.46,
+   "words": [
+    [
+     "Die",
+     19.65
+    ],
+    [
+     "Lösung:",
+     19.85
+    ]
+   ]
+  },
+  {
+   "t": 20.46,
+   "end": 21.67,
+   "words": [
+    [
+     "Mit",
+     20.46
+    ],
+    [
+     "einer",
+     20.61
+    ],
+    [
+     "PS5",
+     20.93
+    ]
+   ]
+  },
+  {
+   "t": 21.67,
+   "end": 22.27,
+   "words": [
+    [
+     "kannst",
+     21.67
+    ],
+    [
+     "du",
+     21.9
+    ],
+    [
+     "per",
+     22.1
+    ]
+   ]
+  },
+  {
+   "t": 22.27,
+   "end": 22.93,
+   "words": [
+    [
+     "Remote",
+     22.27
+    ],
+    [
+     "Play",
+     22.74
+    ]
+   ]
+  },
+  {
+   "t": 22.93,
+   "end": 24.26,
+   "words": [
+    [
+     "auf",
+     22.93
+    ],
+    [
+     "dem",
+     23.09
+    ],
+    [
+     "PC",
+     23.28
+    ],
+    [
+     "spielen.",
+     23.63
+    ]
+   ]
+  },
+  {
+   "t": 24.26,
+   "end": 25.38,
+   "words": [
+    [
+     "Folg",
+     24.26
+    ],
+    [
+     "mir!",
+     24.49
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": -0.22,
+   "end": 3.34,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "GTA 6 PC?",
+     "size": 150,
+     "at": 0.0,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Nicht am Donnerstag!",
+     "size": 84,
+     "at": 2.13
+    }
+   ],
+   "card": false,
+   "gap": 14,
+   "motion": "none"
+  },
+  {
+   "t": 2.5,
+   "end": 15.86,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "PC-SPIELER AUFGEPASST · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 15.86,
+   "end": 19.61,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "PC ODER KONSOLE? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 3.34,
+   "end": 6.16,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "NICHT ANGEKÜNDIGT",
+     "size": 100,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "laut Rockstar bisher keine PC-Version",
+     "size": 40,
+     "color": "cream",
+     "at": 0.75
+    }
+   ],
+   "gap": 16
+  },
+  {
+   "t": 6.16,
+   "end": 9.78,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Xbox Cloud Gaming",
+     "size": 88,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "strike",
+     "text": "PC",
+     "size": 170,
+     "at": 1.6,
+     "strike_at": 0.95
+    },
+    {
+     "type": "text",
+     "text": "nur Xbox-Konsolen",
+     "size": 42,
+     "color": "cream",
+     "at": 2.55
+    }
+   ],
+   "gap": 16
+  },
+  {
+   "t": 9.78,
+   "end": 15.86,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Zum Vergleich",
+     "size": 92,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "GTA 5: +19 Monate"
+     ],
+     "psize": 50,
+     "ph": 104,
+     "at": 2.07,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "RDR 2: +1 Jahr"
+     ],
+     "psize": 50,
+     "ph": 104,
+     "bg": "second",
+     "at": 4.29,
+     "motion": "punch"
+    }
+   ],
+   "gap": 22
+  },
+  {
+   "t": 15.86,
+   "end": 19.61,
+   "y": 560,
+   "rows": [
+    {
+     "type": "pills",
+     "items": [
+      "PC",
+      "KONSOLE"
+     ],
+     "psize": 56,
+     "ph": 116,
+     "gap": 34,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Wie zockst du?",
+     "size": 100,
+     "at": 1.12
+    }
+   ]
+  },
+  {
+   "t": 19.61,
+   "end": 24.22,
+   "y": 540,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 84,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "REMOTE PLAY",
+     "size": 130,
+     "at": 0.85,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "mit PS5 auf dem PC spielen",
+     "size": 42,
+     "color": "cream",
+     "at": 2.06
+    }
+   ],
+   "gap": 16,
+   "pad": 46
+  },
+  {
+   "t": 24.22,
+   "end": 26.662,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 25.38,
+   "end": 26.662,
+   "y": 820,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Wartest du auf\ndie PC-Version?",
+     "size": 96,
+     "at": 0.0,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 25.53,
+   "end": 26.662,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 0.0,
+   "end": 3.34,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.662
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 3.34,
+   "end": 6.16,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 6.85,
+   "start": 6.16,
+   "end": 7.72,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.776
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 60.62,
+   "start": 7.72,
+   "end": 9.78,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 9.78,
+   "end": 14.03,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.856
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 14.03,
+   "end": 15.86,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.973
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 15.86,
+   "end": 17.62,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
+   "start": 17.62,
+   "end": 19.61,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.709
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 37.49,
+   "start": 19.61,
+   "end": 21.63,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 21.63,
+   "end": 24.22,
+   "cam": {
+    "x": 0.55,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 83.15,
+   "start": 24.22,
+   "end": 26.662,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.77
+   }
+  }
+ ],
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 1.51
+  },
+  {
+   "t": 1.91,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 3.39,
+   "type": "pop"
+  },
+  {
+   "t": 4.09,
+   "type": "pop"
+  },
+  {
+   "t": 6.21,
+   "type": "pop"
+  },
+  {
+   "t": 8.71,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 9.83,
+   "type": "pop"
+  },
+  {
+   "t": 11.85,
+   "type": "pop"
+  },
+  {
+   "t": 14.07,
+   "type": "pop"
+  },
+  {
+   "t": 15.91,
+   "type": "pop"
+  },
+  {
+   "t": 20.46,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 20.46,
+   "type": "chime"
+  },
+  {
+   "t": 24.27,
+   "type": "pop"
+  },
+  {
+   "t": 25.38,
+   "type": "pop"
+  },
+  {
+   "t": 3.22,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 9.66,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 15.74,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 19.49,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
