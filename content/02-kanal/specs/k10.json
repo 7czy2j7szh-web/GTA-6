@@ -1,0 +1,926 @@
+{
+ "duration": 28.18,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.25,
+ "bg_blur": 0,
+ "grade": {
+  "contrast": 1.06,
+  "sat": 1.08
+ },
+ "sub_y": 835,
+ "lufs": -14,
+ "voice": {
+  "wav": "content/02-kanal/voice/k10/final.wav",
+  "t": 0.1
+ },
+ "subs": [
+  {
+   "t": 0.2,
+   "end": 1.69,
+   "words": [
+    [
+     "GTA",
+     0.2
+    ],
+    [
+     "6",
+     0.78
+    ],
+    [
+     "Online",
+     1.21
+    ]
+   ]
+  },
+  {
+   "t": 1.69,
+   "end": 2.89,
+   "words": [
+    [
+     "am",
+     1.69
+    ],
+    [
+     "Donnerstag?",
+     2.0
+    ]
+   ]
+  },
+  {
+   "t": 3.23,
+   "end": 3.87,
+   "words": [
+    [
+     "Vergiss",
+     3.23
+    ],
+    [
+     "es!",
+     3.56
+    ]
+   ]
+  },
+  {
+   "t": 3.87,
+   "end": 5.36,
+   "words": [
+    [
+     "GTA",
+     3.87
+    ],
+    [
+     "6",
+     4.53
+    ],
+    [
+     "startet",
+     4.85
+    ]
+   ]
+  },
+  {
+   "t": 5.36,
+   "end": 6.66,
+   "words": [
+    [
+     "nur",
+     5.36
+    ],
+    [
+     "mit",
+     5.58
+    ],
+    [
+     "der",
+     5.92
+    ],
+    [
+     "Story,",
+     6.11
+    ]
+   ]
+  },
+  {
+   "t": 6.66,
+   "end": 7.83,
+   "words": [
+    [
+     "ohne",
+     6.66
+    ],
+    [
+     "Online-Modus.",
+     6.94
+    ]
+   ]
+  },
+  {
+   "t": 7.95,
+   "end": 8.48,
+   "words": [
+    [
+     "Ein",
+     7.95
+    ],
+    [
+     "Datum",
+     8.07
+    ],
+    [
+     "für",
+     8.35
+    ]
+   ]
+  },
+  {
+   "t": 8.48,
+   "end": 9.1,
+   "words": [
+    [
+     "den",
+     8.48
+    ],
+    [
+     "Multiplayer",
+     8.62
+    ]
+   ]
+  },
+  {
+   "t": 9.1,
+   "end": 9.55,
+   "words": [
+    [
+     "hat",
+     9.1
+    ],
+    [
+     "Rockstar",
+     9.25
+    ]
+   ]
+  },
+  {
+   "t": 9.55,
+   "end": 10.61,
+   "words": [
+    [
+     "noch",
+     9.55
+    ],
+    [
+     "nicht",
+     9.75
+    ],
+    [
+     "genannt.",
+     9.9
+    ]
+   ]
+  },
+  {
+   "t": 10.61,
+   "end": 11.88,
+   "words": [
+    [
+     "Laut",
+     10.61
+    ],
+    [
+     "Twitch-Chef",
+     10.99
+    ]
+   ]
+  },
+  {
+   "t": 11.98,
+   "end": 12.27,
+   "words": [
+    [
+     "soll",
+     11.98
+    ],
+    [
+     "er",
+     12.16
+    ]
+   ]
+  },
+  {
+   "t": 12.27,
+   "end": 14.27,
+   "words": [
+    [
+     "2027",
+     12.27
+    ],
+    [
+     "kommen.",
+     13.64
+    ]
+   ]
+  },
+  {
+   "t": 14.27,
+   "end": 15.61,
+   "words": [
+    [
+     "Ob",
+     14.27
+    ],
+    [
+     "Anfang",
+     14.49
+    ],
+    [
+     "oder",
+     14.87
+    ],
+    [
+     "Ende",
+     15.26
+    ]
+   ]
+  },
+  {
+   "t": 15.61,
+   "end": 16.28,
+   "words": [
+    [
+     "des",
+     15.61
+    ],
+    [
+     "Jahres,",
+     15.75
+    ]
+   ]
+  },
+  {
+   "t": 16.28,
+   "end": 17.33,
+   "words": [
+    [
+     "ist",
+     16.28
+    ],
+    [
+     "unklar.",
+     16.74
+    ]
+   ]
+  },
+  {
+   "t": 17.33,
+   "end": 18.43,
+   "words": [
+    [
+     "Mit",
+     17.33
+    ],
+    [
+     "wem",
+     17.58
+    ],
+    [
+     "willst",
+     17.9
+    ],
+    [
+     "du",
+     18.27
+    ]
+   ]
+  },
+  {
+   "t": 18.43,
+   "end": 18.85,
+   "words": [
+    [
+     "als",
+     18.43
+    ],
+    [
+     "Erstes",
+     18.57
+    ]
+   ]
+  },
+  {
+   "t": 18.85,
+   "end": 19.85,
+   "words": [
+    [
+     "online",
+     18.85
+    ],
+    [
+     "zocken?",
+     19.33
+    ]
+   ]
+  },
+  {
+   "t": 19.85,
+   "end": 20.29,
+   "words": [
+    [
+     "Schreib's",
+     19.85
+    ],
+    [
+     "in",
+     20.05
+    ],
+    [
+     "die",
+     20.18
+    ]
+   ]
+  },
+  {
+   "t": 20.29,
+   "end": 21.18,
+   "words": [
+    [
+     "Kommentare!",
+     20.29
+    ]
+   ]
+  },
+  {
+   "t": 21.56,
+   "end": 22.42,
+   "words": [
+    [
+     "Die",
+     21.56
+    ],
+    [
+     "Lösung:",
+     21.78
+    ]
+   ]
+  },
+  {
+   "t": 22.42,
+   "end": 22.89,
+   "words": [
+    [
+     "Das",
+     22.42
+    ],
+    [
+     "alte",
+     22.62
+    ]
+   ]
+  },
+  {
+   "t": 22.89,
+   "end": 23.7,
+   "words": [
+    [
+     "GTA",
+     22.89
+    ],
+    [
+     "Online",
+     23.27
+    ]
+   ]
+  },
+  {
+   "t": 23.7,
+   "end": 24.39,
+   "words": [
+    [
+     "läuft",
+     23.7
+    ],
+    [
+     "weiter,",
+     23.9
+    ]
+   ]
+  },
+  {
+   "t": 24.39,
+   "end": 24.88,
+   "words": [
+    [
+     "und",
+     24.39
+    ],
+    [
+     "bis",
+     24.51
+    ],
+    [
+     "dahin",
+     24.65
+    ]
+   ]
+  },
+  {
+   "t": 24.88,
+   "end": 25.4,
+   "words": [
+    [
+     "hast",
+     24.88
+    ],
+    [
+     "du",
+     25.05
+    ],
+    [
+     "Zeit",
+     25.2
+    ]
+   ]
+  },
+  {
+   "t": 25.4,
+   "end": 25.99,
+   "words": [
+    [
+     "für",
+     25.4
+    ],
+    [
+     "die",
+     25.5
+    ],
+    [
+     "Story.",
+     25.63
+    ]
+   ]
+  },
+  {
+   "t": 25.99,
+   "end": 27.06,
+   "words": [
+    [
+     "Folg",
+     25.99
+    ],
+    [
+     "mir!",
+     26.17
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": -0.22,
+   "end": 3.83,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "GTA 6 ONLINE?",
+     "size": 136,
+     "at": 0.0,
+     "motion": "punch"
+    },
+    {
+     "type": "title",
+     "text": "Nicht am Donnerstag!",
+     "size": 72,
+     "at": 3.45
+    }
+   ],
+   "card": false,
+   "gap": 14,
+   "motion": "none"
+  },
+  {
+   "t": 2.5,
+   "end": 17.29,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "KEIN ONLINE? · LÖSUNG AM ENDE",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 17.29,
+   "end": 21.52,
+   "y": 282,
+   "card": false,
+   "motion": "punch",
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "MIT WEM ZOCKST DU? · SCHREIB'S MIR",
+     "size": 30
+    }
+   ]
+  },
+  {
+   "t": 3.83,
+   "end": 7.91,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Zum Start",
+     "size": 84,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "NUR STORY",
+     "size": 160,
+     "at": 2.28,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 7.91,
+   "end": 10.57,
+   "y": 560,
+   "rows": [
+    {
+     "type": "big",
+     "text": "KEIN DATUM",
+     "size": 150,
+     "at": 0.16,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "von Rockstar",
+     "size": 48,
+     "color": "cream",
+     "at": 1.34
+    }
+   ]
+  },
+  {
+   "t": 10.57,
+   "end": 17.29,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Laut Twitch-Chef",
+     "size": 84,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "big",
+     "text": "2027",
+     "size": 200,
+     "at": 1.7,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Anfang oder Ende?\nGerüchte widersprechen sich",
+     "size": 42,
+     "color": "cream",
+     "at": 3.7
+    }
+   ]
+  },
+  {
+   "t": 17.29,
+   "end": 21.52,
+   "y": 560,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Mit wem zockst du?",
+     "size": 100,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ]
+  },
+  {
+   "t": 21.52,
+   "end": 25.95,
+   "y": 540,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Die Lösung",
+     "size": 80,
+     "color": "accent",
+     "at": 0.05
+    },
+    {
+     "type": "pills",
+     "items": [
+      "GTA Online (alt) läuft weiter"
+     ],
+     "psize": 46,
+     "ph": 100,
+     "at": 0.9,
+     "motion": "punch"
+    },
+    {
+     "type": "pills",
+     "items": [
+      "Zeit für die Story"
+     ],
+     "psize": 46,
+     "ph": 100,
+     "at": 3.68,
+     "motion": "punch"
+    }
+   ],
+   "gap": 22,
+   "pad": 46
+  },
+  {
+   "t": 25.95,
+   "end": 28.18,
+   "y": 330,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56,
+     "at": 0.05,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 27.06,
+   "end": 28.18,
+   "y": 820,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Story oder\nOnline?",
+     "size": 110,
+     "at": 0.0,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "exit": false
+  },
+  {
+   "t": 27.21,
+   "end": 28.18,
+   "y": 1200,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 180,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 34.66,
+   "start": 0.0,
+   "end": 3.83,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.95
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 66.25,
+   "start": 3.83,
+   "end": 7.91,
+   "cam": {
+    "x": 0.6,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.703
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.6,
+   "start": 7.91,
+   "end": 10.57,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.658
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 2.72,
+   "start": 10.57,
+   "end": 14.23,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.604
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 83.15,
+   "start": 14.23,
+   "end": 17.29,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.614
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
+   "start": 17.29,
+   "end": 19.81,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.56
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.79,
+   "start": 19.81,
+   "end": 21.52,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.825
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 141.88,
+   "start": 21.52,
+   "end": 24.35,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.629
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 40.48,
+   "start": 24.35,
+   "end": 25.95,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 38.42,
+   "start": 25.95,
+   "end": 28.18,
+   "cam": {
+    "x": 0.5,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 1.0
+   }
+  }
+ ],
+ "music": "chase",
+ "duck": 21,
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 0.4,
+   "type": "riser",
+   "len": 2.83
+  },
+  {
+   "t": 3.23,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 6.11,
+   "type": "pop"
+  },
+  {
+   "t": 8.07,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 9.25,
+   "type": "pop"
+  },
+  {
+   "t": 12.27,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 14.27,
+   "type": "pop"
+  },
+  {
+   "t": 17.34,
+   "type": "pop"
+  },
+  {
+   "t": 22.42,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 22.42,
+   "type": "chime"
+  },
+  {
+   "t": 25.2,
+   "type": "pop"
+  },
+  {
+   "t": 26.0,
+   "type": "pop"
+  },
+  {
+   "t": 27.06,
+   "type": "pop"
+  },
+  {
+   "t": 3.71,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 10.45,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 17.17,
+   "type": "whoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 21.4,
+   "type": "whoosh",
+   "gain": 0.6
+  }
+ ]
+}
