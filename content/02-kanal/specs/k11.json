@@ -621,7 +621,7 @@
   {
    "t": 15.92,
    "end": 23.18,
-   "y": 515,
+   "y": 495,
    "rows": [
     {
      "type": "title",
@@ -635,8 +635,8 @@
      "items": [
       "1  Box + Bon fotografieren"
      ],
-     "psize": 42,
-     "ph": 78,
+     "psize": 48,
+     "ph": 86,
      "at": 0.72,
      "motion": "punch"
     },
@@ -645,8 +645,8 @@
      "items": [
       "2  Händler"
      ],
-     "psize": 42,
-     "ph": 78,
+     "psize": 48,
+     "ph": 86,
      "bg": "second",
      "at": 2.73,
      "motion": "punch"
@@ -656,15 +656,15 @@
      "items": [
       "3  Rockstar Support"
      ],
-     "psize": 42,
-     "ph": 78,
+     "psize": 48,
+     "ph": 86,
      "at": 3.88,
      "motion": "punch"
     },
     {
      "type": "text",
      "text": "Code nie online zeigen!",
-     "size": 46,
+     "size": 50,
      "color": "cream",
      "at": 5.44
     }

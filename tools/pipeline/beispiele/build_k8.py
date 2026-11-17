@@ -61,7 +61,7 @@ el(t_kom, t_sol, rows=[
     {"type": "pills", "items": ["90+", "95+", "100"], "psize": 56, "ph": 116, "gap": 34,
      "at": rel(w(5, 1, 0), t_kom), "motion": "punch"}])
 # 6 Lösung
-el(t_sol, t_folg, y=540, gap=16, pad=46, rows=[
+el(t_sol, t_folg, y=540, gap=22, pad=46, rows=[
     {"type": "title", "text": "Die Lösung", "size": 80, "color": "accent", "at": 0.05},
     {"type": "big", "text": "PRESSE-WERTUNG", "size": 104, "at": rel(w(8, 1, 2), t_sol), "motion": "punch"},
     {"type": "strike", "text": "ein paar Nutzer", "size": 64, "at": rel(w(9, 0, 0), t_sol),
@@ -77,7 +77,7 @@ E.append({"t": r(t_q + 0.15), "end": END, "y": 1200, "x": 805, "card": False, "e
 V = "assets/official/video/"
 L, T1, T2 = V + "GTAVI_Launch_Trailer.mp4", V + "GTAVI_Trailer_1.mp4", V + "GTAVI_Trailer_2.mp4"
 cuts = [0.0, t_mor, t_ins, t_rock, t_meta, t_kom, t_schreib, t_sol, t_nicht, t_folg, END]
-SH = [(T1, 42.47, 43.86, 0.5),     # Hook: Pool-Alligator
+SH = [(T1, 68.72, 70.23, 0.5),     # Hook: Ladenüberfall
       (T1, 2.72, 4.96, 0.5),       # Morgen fallen …: Highway Sonnenuntergang
       (T2, 66.25, 69.15, 0.6),     # Test-Sperre: Parkplatz (nicht über 69.15)
       (T1, 76.60, 78.38, 0.5),     # Rockstar bestätigt nicht: Türeingang

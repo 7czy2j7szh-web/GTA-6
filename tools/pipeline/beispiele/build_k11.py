@@ -65,15 +65,15 @@ el(t_kom, t_sol, rows=[
     {"type": "pills", "items": ["BOX", "DIGITAL"], "psize": 56, "ph": 116, "gap": 34, "at": 0.05, "motion": "punch"},
     {"type": "title", "text": "Was hast du?", "size": 100, "at": rel(w(5, 1, 0), t_kom)}])
 # 6 Lösung
-el(t_sol, t_folg, y=515, gap=14, pad=42, rows=[
+el(t_sol, t_folg, y=495, gap=14, pad=42, rows=[
     {"type": "title", "text": "Die Lösung", "size": 80, "color": "accent", "at": 0.05},
-    {"type": "pills", "items": ["1  Box + Bon fotografieren"], "psize": 42, "ph": 78,
+    {"type": "pills", "items": ["1  Box + Bon fotografieren"], "psize": 48, "ph": 86,
      "at": rel(w(8, 0, 0), t_sol), "motion": "punch"},
-    {"type": "pills", "items": ["2  Händler"], "psize": 42, "ph": 78, "bg": "second",
+    {"type": "pills", "items": ["2  Händler"], "psize": 48, "ph": 86, "bg": "second",
      "at": rel(w(9, 0, 0), t_sol), "motion": "punch"},
-    {"type": "pills", "items": ["3  Rockstar Support"], "psize": 42, "ph": 78,
+    {"type": "pills", "items": ["3  Rockstar Support"], "psize": 48, "ph": 86,
      "at": rel(w(10, 0, 0), t_sol), "motion": "punch"},
-    {"type": "text", "text": "Code nie online zeigen!", "size": 46, "color": "cream",
+    {"type": "text", "text": "Code nie online zeigen!", "size": 50, "color": "cream",
      "at": rel(w(11, 0, 0), t_sol)}])
 # 7 Ende
 el(t_folg, END, card=False, y=330, exit=False, rows=[
