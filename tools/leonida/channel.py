@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import math
 import os
+import re
 import subprocess
 import sys
 
@@ -300,8 +301,14 @@ class Channel:
         for path, music in outs:
             wav = path.rsplit(".", 1)[0] + ".wav"
             self._audio(wav, music)
+            af = []
+            if self.spec.get("lufs") is not None:            # Lautheit angleichen (z. B. -14 LUFS für TikTok), linear
+                o = subprocess.run(["ffmpeg", "-i", wav, "-af", "ebur128", "-f", "null", "-"],
+                                   capture_output=True, text=True).stderr
+                i_lufs = float(re.findall(r"I:\s+(-?[\d.]+) LUFS", o)[-1])
+                af = ["-af", f"volume={round(self.spec['lufs'] - i_lufs, 2)}dB"]
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-map", "0:v", "-map", "1:a",
-                            "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", path],
+                            "-c:v", "copy", *af, "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", path],
                            check=True)
             os.remove(wav)
         os.remove(silent)

@@ -2,8 +2,10 @@
 
 Repo: /home/user/GTA-6 (immer dort arbeiten). Hilfsskripte: P=/home/user/GTA-6/tools/pipeline (Skripte), W=/home/user/GTA-6/work (Zwischendateien, gitignored; anderer Ort per Umgebungsvariable LEONIDA_WORK)
 Ergebnis: 1080x1920, 30 fps, Trailer-Szenen im Hintergrund, lila Info-Karten (Plum-Design), Wort-für-Wort-Untertitel, weibliche Gemini-Stimme, Musik "chase". KEINE Figur/Moderatorin im Bild.
-Vorlage zum Kopieren: $P/beispiele/build_k5.py (Spec-Aufbau, Karten, Szenen, sfx). Daraus den Key "presenter" komplett entfernen. Für die Untertitel-Endzeiten die Logik aus $P/beispiele/build_k5f.py nehmen (s1 = min(nächste Seite, letztes Wort + 0.85)).
+**Beste Vorlage: $P/beispiele/build_k6.py** (ohne Moderatorin, fertig geprüft) bzw. build_k7.py. Kopieren nach $P/beispiele/build_<id>.py und nur Text-Zeiten, Karten und Szenen anpassen. In die Spec immer `"lufs": -14` schreiben: Dann gleicht der Renderer die Lautheit selbst an, ein Nachmisch-Skript (k6_loud/k7_relevel) ist nicht mehr nötig. Für die Untertitel-Endzeiten die Logik aus $P/beispiele/build_k5f.py nehmen (s1 = min(nächste Seite, letztes Wort + 0.85)).
 Renderer: tools/leonida/channel.py (Doku oben in der Datei), Design: tools/leonida/design.py.
+
+Vorher einmal: `mkdir -p /home/user/GTA-6/work`.
 
 ## 1. Stimme (nur Gemini-TTS)
 ```
@@ -38,7 +40,7 @@ python3 $P/finalize_words.py <id>            # optional: <wortindex> <pause_s> f
 ```
 -> schreibt content/02-kanal/voice/<id>/final.wav und words.json. Zeilen mit "!" prüfen; offensichtlich falsche Zeiten anhand der Lautstärke (10/20-ms-Energie) von Hand korrigieren.
 
-## 3. Spec bauen ($W/build_<id>.py, schreibt content/02-kanal/specs/<id>.json)
+## 3. Spec bauen ($P/beispiele/build_<id>.py, schreibt content/02-kanal/specs/<id>.json)
 - Ab dem ERSTEN Bild (t=0) steht der Suchbegriff groß im Bild (Karte card=False, Zeile type "big").
 - Karten oben (y≈520–550), Untertitel sub_y 835, darunter freie Trailer-Szene. bg_blur 0 (keine Figur), darken 0.25, grade wie in der Vorlage.
 - Oben (y≈282) eine glowpill-Zeile als FOMO-Hinweis ("… · LÖSUNG AM ENDE"), in der Mitte eine Kommentar-Aufforderung ("… · SCHREIB'S MIR").
@@ -60,7 +62,7 @@ Erzeugt auch <Datei>_ohne-musik.mp4. Timeout großzügig setzen (600000 ms).
 ## 5. Prüfen (Pflicht)
 - Dunkle Bilder: jedes Bild Graustufen-Mittel < 40 -> Szene tauschen/kürzen.
 - Kontaktbogen: ffmpeg -i <mp4> -vf "fps=2,scale=216:-1,tile=11x6" -frames:v 1 <jpg> und ansehen: Texte lesbar, nichts abgeschnitten, keine Überlappung Karte/Pille/Untertitel, Szenen passen.
-- Lautheit: ffmpeg -i <mp4> -af ebur128 -f null - (Integrated ≈ -13 bis -15 LUFS).
+- Lautheit: ffmpeg -i <mp4> -af ebur128 -f null - (Integrated ≈ -14 LUFS; mit "lufs": -14 in der Spec automatisch).
 - End-STT auf der Version ohne Musik (ffmpeg -ac 1 -ar 16000 → $P/stt_full.py): alle Sätze richtig.
 - Bei Fehlern korrigieren und neu rendern.
 
