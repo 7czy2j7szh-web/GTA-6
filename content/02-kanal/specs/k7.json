@@ -790,9 +790,9 @@
    "y": 820,
    "rows": [
     {
-     "type": "big",
-     "text": "ZOCKST DU\nIN DER CLOUD?",
-     "size": 120,
+     "type": "title",
+     "text": "Zockst du\nin der Cloud?",
+     "size": 116,
      "at": 0.0,
      "motion": "punch"
     }
@@ -874,12 +874,12 @@
    }
   },
   {
-   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
-   "ss": 96.18,
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.79,
    "start": 14.83,
    "end": 17.18,
    "cam": {
-    "x": 0.45,
+    "x": 0.5,
     "zoom": [
      1.0,
      1.05
@@ -930,12 +930,12 @@
    }
   },
   {
-   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
-   "ss": 21.79,
+   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
+   "ss": 96.18,
    "start": 25.54,
    "end": 27.938,
    "cam": {
-    "x": 0.5,
+    "x": 0.45,
     "zoom": [
      1.0,
      1.05

@@ -108,3 +108,29 @@ Infos aus Preview-Berichten (u. a. GamesRadar). Rockstar hat die Details noch ni
 **Hinweise:**
 - „KI-generierte Inhalte“ einschalten.
 - Im Video sind die Fakten als „laut Previews“ bzw. „laut Preview-Bericht“ gekennzeichnet.
+
+## K6 – „GTA 6 Update“ (ohne Moderatorin, Stand 17.11.2026)
+
+**Datei:** `downloads/K6_gta6-update.mp4` (mit Musik) · `downloads/K6_gta6-update_ohne-musik.mp4` (26,2 s)
+
+**Beschreibung:**
+GTA 6 Update: Rockstar hat noch vor dem Release schon das zweite Update verteilt (Version 01.002.001, seit 16.11.) – PS5 ca. 602 MB, Xbox ca. 1,6 GB. Patchnotes gibt's keine. Jetzt nach Updates suchen, dann geht's am Donnerstag um 0 Uhr sofort los. Speicher dir das 📌 #gta6 #gta6deutsch #gta6update #ps5 #xbox
+
+**Kommentar zum Anpinnen:**
+Ist Update 01.002.001 bei dir schon drauf – PS5 oder Xbox? 👇
+Quelle: Berichte von play3.de und Sportskeeda. Rockstar hat keine Patchnotes veröffentlicht.
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## K7 – „GTA 6 Xbox One“ (ohne Moderatorin, Stand 17.11.2026)
+
+**Datei:** `downloads/K7_gta6-xbox-one.mp4` (mit Musik) · `downloads/K7_gta6-xbox-one_ohne-musik.mp4` (27,9 s)
+
+**Beschreibung:**
+GTA 6 Xbox One: Ab Donnerstag, 19.11., 7 Uhr streamt Microsoft GTA 6 per Xbox Cloud Gaming auch auf die Xbox One – in Series-S-Grafik mit 30 FPS. Aber: Kaufen musst du das Spiel trotzdem, und die Cloud-Stunden sind je Game-Pass-Abo begrenzt. Speicher dir das 📌 #gta6 #gta6deutsch #xboxone #xboxcloudgaming #gamepass
+
+**Kommentar zum Anpinnen:**
+Welche Konsole hast du – PS5, Series X|S, Xbox One oder PS4? 👇
+Quellen: Xbox Wire (Cloud-Start 19.11., 7 Uhr), Eurogamer (Cloud-Limit: Essential 5, Premium 10, Ultimate 15 Std.)
+
+**Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).

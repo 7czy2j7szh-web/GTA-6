@@ -232,7 +232,7 @@ Tempo (speed) = Fenster ÷ Szenenlänge, möglichst ≥ 0,55. Ohne Figur: bg_blu
 
 ## 9. Offene Aufgaben (Stand 17.11.2026, nachmittags)
 
-Zwei Agents produzieren gerade parallel, jeweils ohne Moderatorin und mit Kore-Stimme. Ergebnisse erwartet in `exports/kanal/` und `downloads/`.
+**K6 und K7 sind fertig** (17.11.): von zwei Agents parallel produziert, geprüft, in `downloads/`, Posting-Texte in `content/02-kanal/posting.md`, Bau-Skripte in `tools/pipeline/beispiele/` (`build_k6.py`, `build_k7.py`; danach jeweils `k6_loud.py` bzw. `k7_relevel.py`, weil der Renderer etwa 2–3 dB zu laut mischt). Die folgenden Pläne dienen nur noch als Referenz.
 
 **Danach in der Haupt-Session:**
 1. Ergebnisse prüfen.
