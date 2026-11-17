@@ -35,7 +35,7 @@ def el(t, end, rows, **kw):
 HOOK = -0.22                                         # Element startet vor Bild 1: Suchbegriff ab t=0 voll sichtbar
 el(HOOK, t_story, card=False, gap=14, y=560, motion="none", rows=[
     {"type": "big", "text": "GTA 6 ONLINE?", "size": 136, "at": 0.0, "motion": "punch"},
-    {"type": "title", "text": "Nicht am Donnerstag!", "size": 72, "at": rel(w(1, 0, 0), HOOK)}])
+    {"type": "title", "text": "Nicht am Donnerstag!", "size": 72, "at": rel(w(0, 1, 1), HOOK)}])
 # Oben: FOMO-Pille, dann Kommentar-Pille
 E.append({"t": 2.5, "end": t_kom, "y": 282, "card": False, "motion": "punch",
           "rows": [{"type": "glowpill", "text": "KEIN ONLINE? · LÖSUNG AM ENDE", "size": 30}]})
@@ -76,7 +76,7 @@ E.append({"t": r(t_q + 0.15), "end": END, "y": 1200, "x": 805, "card": False, "e
 V = "assets/official/video/"
 L, T1, T2 = V + "GTAVI_Launch_Trailer.mp4", V + "GTAVI_Trailer_1.mp4", V + "GTAVI_Trailer_2.mp4"
 cuts = [0.0, t_story, t_datum, t_twitch, t_ob, t_kom, t_schreib, t_sol, t_und, t_folg, END]
-SH = [(T2, 34.66, 38.33, 0.5),     # Hook + Vergiss es: Fahrt Fahrerperspektive
+SH = [(T2, 34.66, 37.30, 0.5),     # Hook + Vergiss es: Fahrt Fahrerperspektive (vor Schildern/Flugzeug ab ~37.3)
       (T2, 66.25, 69.15, 0.6),     # Nur Story: Parkplatz (nicht über 69.15)
       (T1, 76.60, 78.38, 0.5),     # Kein Datum von Rockstar: Türeingang
       (T1, 2.72, 4.96, 0.5),       # 2027: Highway Sonnenuntergang

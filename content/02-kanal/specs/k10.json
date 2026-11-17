@@ -492,7 +492,7 @@
      "type": "title",
      "text": "Nicht am Donnerstag!",
      "size": 72,
-     "at": 3.45
+     "at": 2.22
     }
    ],
    "card": false,
@@ -707,7 +707,7 @@
      1.0,
      1.05
     ],
-    "speed": 0.95
+    "speed": 0.681
    }
   },
   {
