@@ -46,12 +46,12 @@ E.append({"t": t_kom, "end": t_sol, "y": 282, "card": False, "motion": "punch",
 # 2 Berichte: fehlt / schon benutzt
 el(t_kaeuf, t_disc, rows=[
     {"type": "text", "text": "Berichte von Käufern:", "size": 46, "color": "cream", "at": 0.05},
-    {"type": "pills", "items": ["FEHLT"], "psize": 60, "ph": 120, "at": rel(w(2, 1, 2), t_kaeuf), "motion": "punch"},
+    {"type": "pills", "items": ["FEHLT"], "psize": 60, "ph": 120, "at": rel(w(2, 1, 1), t_kaeuf), "motion": "punch"},
     {"type": "pills", "items": ["SCHON BENUTZT"], "psize": 60, "ph": 120, "bg": "second",
      "at": rel(w(2, 3, 0), t_kaeuf), "motion": "punch"}])
 # 3 Keine Disc
 el(t_disc, t_oft, rows=[
-    {"type": "big", "text": "KEINE DISC", "size": 140, "at": rel(w(3, 0, 2), t_disc), "motion": "punch"},
+    {"type": "big", "text": "KEINE DISC", "size": 140, "at": 0.05, "motion": "punch"},
     {"type": "text", "text": "nur Download-Code in der Box", "size": 42, "color": "cream",
      "at": rel(w(3, 1, 0), t_disc)}])
 # 4 Wie oft? Unklar
@@ -110,8 +110,8 @@ spec = {"duration": END, "fps": 30, "crf": 18, "preset": "slow", "darken": 0.25,
         "sfx": [{"t": 0.05, "type": "hit", "gain": 0.5},
                 {"t": 0.4, "type": "riser", "len": r(w(1, 1, 1) - 0.4 - LEAD)},
                 {"t": rel(w(1, 1, 1), 0), "type": "hit", "gain": 0.6},
-                {"t": rel(w(2, 1, 2), 0), "type": "pop"}, {"t": rel(w(2, 3, 0), 0), "type": "pop"},
-                {"t": rel(w(3, 0, 2), 0), "type": "hit", "gain": 0.5},
+                {"t": rel(w(2, 1, 1), 0), "type": "pop"}, {"t": rel(w(2, 3, 0), 0), "type": "pop"},
+                {"t": r(t_disc + 0.05), "type": "hit", "gain": 0.5},
                 {"t": rel(w(4, 2, 1), 0), "type": "pop"},
                 {"t": r(t_kom + 0.05), "type": "pop"},
                 {"t": r(t_sol + 0.05), "type": "hit", "gain": 0.5}, {"t": r(t_sol + 0.05), "type": "chime"},

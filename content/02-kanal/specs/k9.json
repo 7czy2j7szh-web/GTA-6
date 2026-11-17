@@ -546,7 +546,7 @@
      ],
      "psize": 50,
      "ph": 104,
-     "at": 1.03,
+     "at": 0.05,
      "motion": "punch"
     },
     {
@@ -790,17 +790,17 @@
    }
   },
   {
-   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
-   "ss": 60.62,
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
    "start": 15.98,
    "end": 18.09,
    "cam": {
-    "x": 0.5,
+    "x": 0.45,
     "zoom": [
      1.0,
      1.05
     ],
-    "speed": 1.0
+    "speed": 0.844
    }
   },
   {
@@ -869,7 +869,7 @@
    "type": "pop"
   },
   {
-   "t": 6.61,
+   "t": 5.63,
    "type": "pop"
   },
   {

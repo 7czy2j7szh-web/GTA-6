@@ -46,7 +46,7 @@ el(t_stim, t_deu, rows=[
     {"type": "big", "text": "ENGLISCH", "size": 170, "at": rel(w(2, 1, 0), t_stim), "motion": "punch"}])
 # 3 Deutsch nur Menüs + Untertitel (unbestätigt)
 el(t_deu, t_daf, rows=[
-    {"type": "pills", "items": ["Menüs: Deutsch"], "psize": 50, "ph": 104, "at": rel(w(3, 1, 1), t_deu), "motion": "punch"},
+    {"type": "pills", "items": ["Menüs: Deutsch"], "psize": 50, "ph": 104, "at": 0.05, "motion": "punch"},
     {"type": "pills", "items": ["Untertitel: Deutsch"], "psize": 50, "ph": 104, "bg": "second",
      "at": rel(w(3, 2, 1), t_deu), "motion": "punch"},
     {"type": "text", "text": "laut Release-Infos · nicht offiziell bestätigt", "size": 34, "color": "cream",
@@ -83,7 +83,7 @@ SH = [(T1, 2.72, 4.96, 0.5),       # Hook: Highway Sonnenuntergang
       (T1, 39.85, 41.29, 0.5),     # nicht offiziell bestätigt: VICE-Schriftzug
       (T2, 66.25, 69.15, 0.6),     # USK 18: Parkplatz (nicht über 69.15)
       (T1, 68.72, 70.23, 0.5),     # ungeschnitten: Ladenüberfall
-      (T2, 60.62, 62.85, 0.5),     # Englisch oder Synchro: Jason am Zaun (vor Schnitt ~62.9)
+      (L, 55.22, 57.03, 0.45),     # Englisch oder Synchro: Strand mit Doppeldecker
       (T2, 96.18, 97.62, 0.45),    # Schreib's in die Kommentare: Yacht
       (T2, 34.66, 38.33, 0.5),     # Lösung: Fahrt Fahrerperspektive
       (T2, 83.15, 85.06, 0.5)]     # Folg mir + Abschluss: Steg/Meer
@@ -101,7 +101,7 @@ spec = {"duration": END, "fps": 30, "crf": 18, "preset": "slow", "darken": 0.25,
                 {"t": 0.4, "type": "riser", "len": r(w(1, 0, 0) - 0.4 - LEAD)},
                 {"t": rel(w(1, 0, 0), 0), "type": "hit", "gain": 0.6},
                 {"t": rel(w(2, 1, 0), 0), "type": "pop"},
-                {"t": rel(w(3, 1, 1), 0), "type": "pop"}, {"t": rel(w(3, 2, 1), 0), "type": "pop"},
+                {"t": r(t_deu + 0.05), "type": "pop"}, {"t": rel(w(3, 2, 1), 0), "type": "pop"},
                 {"t": r(t_daf + 0.05), "type": "hit", "gain": 0.5},
                 {"t": rel(w(5, 4, 0), 0), "type": "pop"},
                 {"t": r(t_eng + 0.05), "type": "pop"},
