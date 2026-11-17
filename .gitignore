@@ -9,3 +9,4 @@ assets/music/*.wav
 models/
 assets/voice_cache/
 assets/host/
+work/
