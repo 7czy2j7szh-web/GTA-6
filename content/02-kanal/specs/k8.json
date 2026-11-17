@@ -596,7 +596,7 @@
      "type": "big",
      "text": "6,5?",
      "size": 190,
-     "at": 3.91,
+     "at": 1.15,
      "motion": "punch"
     },
     {
@@ -604,7 +604,7 @@
      "text": "nur 5 Nutzerstimmen · wieder weg",
      "size": 40,
      "color": "cream",
-     "at": 4.26
+     "at": 3.91
     }
    ]
   },
@@ -881,9 +881,13 @@
    "type": "pop"
   },
   {
-   "t": 13.93,
+   "t": 11.17,
    "type": "hit",
    "gain": 0.6
+  },
+  {
+   "t": 13.93,
+   "type": "pop"
   },
   {
    "t": 16.85,

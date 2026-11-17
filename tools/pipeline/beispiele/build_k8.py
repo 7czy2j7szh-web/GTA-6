@@ -52,9 +52,9 @@ el(t_rock, t_meta, rows=[
 # 4 Metacritic
 el(t_meta, t_kom, rows=[
     {"type": "title", "text": "Metacritic", "size": 92, "color": "accent", "at": 0.05},
-    {"type": "big", "text": "6,5?", "size": 190, "at": rel(w(4, 3, 1), t_meta), "motion": "punch"},
+    {"type": "big", "text": "6,5?", "size": 190, "at": rel(w(4, 1, 1), t_meta), "motion": "punch"},
     {"type": "text", "text": "nur 5 Nutzerstimmen · wieder weg", "size": 40, "color": "cream",
-     "at": rel(w(4, 3, 1), t_meta) + 0.35}])
+     "at": rel(w(4, 3, 1), t_meta)}])
 # 5 Kommentar-Frage
 el(t_kom, t_sol, rows=[
     {"type": "title", "text": "Dein Tipp?", "size": 100, "at": 0.05},
@@ -102,7 +102,7 @@ spec = {"duration": END, "fps": 30, "crf": 18, "preset": "slow", "darken": 0.25,
                 {"t": rel(w(1, 1, 2), 0), "type": "hit", "gain": 0.6},
                 {"t": rel(w(2, 2, 1), 0), "type": "pop"},
                 {"t": r(t_rock + 0.05), "type": "pop"},
-                {"t": rel(w(4, 3, 1), 0), "type": "hit", "gain": 0.6},
+                {"t": rel(w(4, 1, 1), 0), "type": "hit", "gain": 0.6}, {"t": rel(w(4, 3, 1), 0), "type": "pop"},
                 {"t": rel(w(5, 1, 0), 0), "type": "pop"},
                 {"t": rel(w(8, 1, 2), 0), "type": "hit", "gain": 0.5}, {"t": rel(w(8, 1, 2), 0), "type": "chime"},
                 {"t": rel(w(9, 1, 2), 0), "type": "pop"},
