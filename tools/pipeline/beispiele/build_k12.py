@@ -24,7 +24,7 @@ END = r(END_VOICE + 1.9)                             # Nachlauf nach „mir!“
 
 t_rock, t_xbox, t_vgl, t_rdr, t_kon, t_schreib, t_sol, t_folg = s(2), s(3), s(4), s(6), s(7), s(8), s(9), s(11)
 t_aus = r(w(3, 2, 0) - 0.08)                          # Schnitt bei „lässt PC-Spieler außen vor“
-t_kannst = r(w(10, 1, 0) - 0.08)                      # Schnitt bei „kannst du per Remote Play“
+t_remote = r(w(10, 2, 0) - 0.08)                      # Schnitt bei „Remote Play“
 t_q = r(LAST_SUB)                                     # Abschlussfrage erst nach dem letzten Untertitel
 CY = 560
 E = []
@@ -34,7 +34,7 @@ def el(t, end, rows, **kw):
 # 1 Suchbegriff ab dem ersten Bild
 HOOK = -0.22                                         # Element startet vor Bild 1: Suchbegriff ab t=0 voll sichtbar
 el(HOOK, t_rock, card=False, gap=14, y=560, motion="none", rows=[
-    {"type": "big", "text": "GTA 6 PC?", "size": 150, "at": 0.0, "motion": "punch"},
+    {"type": "big", "text": "GTA 6 PC?", "size": 170, "at": 0.0, "motion": "punch"},
     {"type": "title", "text": "Nicht am Donnerstag!", "size": 84, "at": rel(w(1, 0, 0), HOOK)}])
 # Oben: FOMO-Pille, dann Kommentar-Pille
 E.append({"t": 2.5, "end": t_kon, "y": 282, "card": False, "motion": "punch",
@@ -43,7 +43,7 @@ E.append({"t": t_kon, "end": t_sol, "y": 282, "card": False, "motion": "punch",
           "rows": [{"type": "glowpill", "text": "PC ODER KONSOLE? · SCHREIB'S MIR", "size": 30}]})
 # 2 Nicht angekündigt
 el(t_rock, t_xbox, gap=16, rows=[
-    {"type": "big", "text": "NICHT ANGEKÜNDIGT", "size": 100, "at": 0.05, "motion": "punch"},
+    {"type": "big", "text": "NICHT ANGEKÜNDIGT", "size": 108, "at": 0.05, "motion": "punch"},
     {"type": "text", "text": "laut Rockstar bisher keine PC-Version", "size": 40, "color": "cream",
      "at": rel(w(2, 1, 0), t_rock)}])
 # 3 Xbox Cloud Gaming ohne PC
@@ -77,17 +77,17 @@ E.append({"t": r(t_q + 0.15), "end": END, "y": 1200, "x": 805, "card": False, "e
 
 V = "assets/official/video/"
 L, T1, T2 = V + "GTAVI_Launch_Trailer.mp4", V + "GTAVI_Trailer_1.mp4", V + "GTAVI_Trailer_2.mp4"
-cuts = [0.0, t_rock, t_xbox, t_aus, t_vgl, t_rdr, t_kon, t_schreib, t_sol, t_kannst, t_folg, END]
+cuts = [0.0, t_rock, t_xbox, t_aus, t_vgl, t_rdr, t_kon, t_schreib, t_sol, t_remote, t_folg, END]
 SH = [(T1, 2.72, 4.96, 0.5),       # Hook: Highway Sonnenuntergang
       (T2, 66.25, 69.15, 0.6),     # Nicht angekündigt: Parkplatz (nicht über 69.15)
       (T2, 6.85, 8.09, 0.5),       # Xbox Cloud Gaming: Insel von oben
-      (T2, 60.62, 62.85, 0.5),     # PC-Spieler außen vor: Jason am Zaun (vor Schnitt ~62.9)
-      (T2, 34.66, 38.33, 0.5),     # Zum Vergleich GTA 5: Fahrt Fahrerperspektive
+      (T1, 76.60, 78.38, 0.5),     # PC-Spieler außen vor: Türeingang (danach Logo)
+      (T2, 38.42, 41.56, 0.55),    # Zum Vergleich GTA 5: Strand-Fitness
       (T2, 141.88, 143.69, 0.5),   # Red Dead 2: Motorrad
       (L, 40.48, 42.29, 0.5),      # PC oder Konsole: Jason & Lucia am Auto
       (T2, 96.18, 97.62, 0.5),     # Schreib's in die Kommentare: Party auf Yacht
-      (T1, 37.49, 39.76, 0.5),     # Die Lösung: Dachterrasse/Pool
-      (T2, 38.42, 41.56, 0.55),    # Remote Play: Strand-Fitness
+      (L, 55.22, 57.03, 0.45),     # Die Lösung: Strand mit Doppeldecker
+      (T1, 21.79, 23.23, 0.5),     # Remote Play: voller Strand
       (T2, 83.15, 85.06, 0.5)]     # Folg mir + Abschluss: Steg/Meer
 scenes = []
 for k, (src, ss, se, x) in enumerate(SH):

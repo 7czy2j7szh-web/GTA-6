@@ -454,7 +454,7 @@
     {
      "type": "big",
      "text": "GTA 6 PC?",
-     "size": 150,
+     "size": 170,
      "at": 0.0,
      "motion": "punch"
     },
@@ -505,7 +505,7 @@
     {
      "type": "big",
      "text": "NICHT ANGEKÜNDIGT",
-     "size": 100,
+     "size": 108,
      "at": 0.05,
      "motion": "punch"
     },
@@ -731,8 +731,8 @@
    }
   },
   {
-   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
-   "ss": 60.62,
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 76.6,
    "start": 7.72,
    "end": 9.78,
    "cam": {
@@ -741,21 +741,21 @@
      1.0,
      1.05
     ],
-    "speed": 1.0
+    "speed": 0.85
    }
   },
   {
    "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
-   "ss": 34.66,
+   "ss": 38.42,
    "start": 9.78,
    "end": 14.03,
    "cam": {
-    "x": 0.5,
+    "x": 0.55,
     "zoom": [
      1.0,
      1.05
     ],
-    "speed": 0.856
+    "speed": 0.732
    }
   },
   {
@@ -801,31 +801,31 @@
    }
   },
   {
-   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
-   "ss": 37.49,
+   "clip": "assets/official/video/GTAVI_Launch_Trailer.mp4",
+   "ss": 55.22,
    "start": 19.61,
-   "end": 21.63,
+   "end": 22.23,
+   "cam": {
+    "x": 0.45,
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "speed": 0.679
+   }
+  },
+  {
+   "clip": "assets/official/video/GTAVI_Trailer_1.mp4",
+   "ss": 21.79,
+   "start": 22.23,
+   "end": 24.22,
    "cam": {
     "x": 0.5,
     "zoom": [
      1.0,
      1.05
     ],
-    "speed": 1.0
-   }
-  },
-  {
-   "clip": "assets/official/video/GTAVI_Trailer_2.mp4",
-   "ss": 38.42,
-   "start": 21.63,
-   "end": 24.22,
-   "cam": {
-    "x": 0.55,
-    "zoom": [
-     1.0,
-     1.05
-    ],
-    "speed": 1.0
+    "speed": 0.709
    }
   },
   {
