@@ -1,0 +1,477 @@
+{
+ "duration": 22.167,
+ "fps": 30,
+ "crf": 18,
+ "preset": "slow",
+ "darken": 0.0,
+ "bg_blur": 0,
+ "sub_y": 805,
+ "lufs": -14,
+ "voice": {
+  "wav": "content/02-kanal/voice/s1/final.wav",
+  "t": 0.0
+ },
+ "subs": [
+  {
+   "t": 3.18,
+   "end": 3.98,
+   "words": [
+    [
+     "Das …",
+     3.18
+    ]
+   ]
+  },
+  {
+   "t": 3.98,
+   "end": 5.534,
+   "words": [
+    [
+     "zurück",
+     3.98
+    ],
+    [
+     "ins",
+     4.46
+    ],
+    [
+     "Regal.",
+     4.8
+    ]
+   ]
+  },
+  {
+   "t": 5.76,
+   "end": 6.29,
+   "words": [
+    [
+     "Das",
+     5.76
+    ],
+    [
+     "war",
+     6.08
+    ]
+   ]
+  },
+  {
+   "t": 6.29,
+   "end": 7.34,
+   "words": [
+    [
+     "im",
+     6.29
+    ],
+    [
+     "Regal",
+     6.46
+    ],
+    [
+     "gestanden.",
+     6.96
+    ]
+   ]
+  },
+  {
+   "t": 7.34,
+   "end": 7.96,
+   "words": [
+    [
+     "Ich",
+     7.34
+    ],
+    [
+     "hab",
+     7.44
+    ],
+    [
+     "die",
+     7.58
+    ],
+    [
+     "Packung",
+     7.73
+    ]
+   ]
+  },
+  {
+   "t": 7.96,
+   "end": 9.08,
+   "words": [
+    [
+     "erst",
+     7.96
+    ],
+    [
+     "gekauft.",
+     8.19
+    ]
+   ]
+  },
+  {
+   "t": 9.22,
+   "end": 10.06,
+   "words": [
+    [
+     "Einfach",
+     9.22
+    ],
+    [
+     "nur",
+     9.38
+    ],
+    [
+     "noch",
+     9.5
+    ]
+   ]
+  },
+  {
+   "t": 10.06,
+   "end": 11.2,
+   "words": [
+    [
+     "ein",
+     10.06
+    ],
+    [
+     "f*cking",
+     10.29
+    ],
+    [
+     "Ding",
+     10.61
+    ],
+    [
+     "drin.",
+     10.88
+    ]
+   ]
+  },
+  {
+   "t": 11.2,
+   "end": 11.89,
+   "words": [
+    [
+     "Wollt",
+     11.2
+    ],
+    [
+     "ihr",
+     11.32
+    ],
+    [
+     "mich",
+     11.58
+    ]
+   ]
+  },
+  {
+   "t": 11.89,
+   "end": 13.11,
+   "words": [
+    [
+     "komplett",
+     11.89
+    ],
+    [
+     "verarschen?",
+     12.22
+    ]
+   ]
+  },
+  {
+   "t": 13.94,
+   "end": 14.97,
+   "words": [
+    [
+     "Warum,",
+     13.94
+    ],
+    [
+     "wegen",
+     14.19
+    ],
+    [
+     "ein",
+     14.38
+    ],
+    [
+     "Teil",
+     14.49
+    ]
+   ]
+  },
+  {
+   "t": 14.97,
+   "end": 15.95,
+   "words": [
+    [
+     "schickst",
+     14.97
+    ],
+    [
+     "du",
+     15.47
+    ],
+    [
+     "das",
+     15.64
+    ]
+   ]
+  },
+  {
+   "t": 15.95,
+   "end": 16.63,
+   "words": [
+    [
+     "ganze",
+     15.95
+    ],
+    [
+     "Ding",
+     16.4
+    ]
+   ]
+  },
+  {
+   "t": 16.63,
+   "end": 17.77,
+   "words": [
+    [
+     "wieder",
+     16.63
+    ],
+    [
+     "zurück?",
+     16.88
+    ]
+   ]
+  },
+  {
+   "t": 17.954,
+   "end": 19.064,
+   "words": [
+    [
+     "Mehr",
+     17.954
+    ],
+    [
+     "GTA-6-Momente?",
+     18.174
+    ]
+   ]
+  },
+  {
+   "t": 19.584,
+   "end": 20.674,
+   "words": [
+    [
+     "Folg",
+     19.584
+    ],
+    [
+     "mir!",
+     19.784
+    ]
+   ]
+  }
+ ],
+ "elements": [
+  {
+   "t": -0.22,
+   "end": 2.967,
+   "y": 1150,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Fustler zockt GTA 6",
+     "size": 82,
+     "at": 0.0,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "UND DANN DAS!",
+     "size": 140,
+     "at": 2.06,
+     "motion": "punch"
+    }
+   ],
+   "card": false,
+   "gap": 10,
+   "motion": "none"
+  },
+  {
+   "t": -0.22,
+   "end": 5.534,
+   "y": 130,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "Clip: twitch.tv/fustler",
+     "size": 30
+    }
+   ],
+   "x": 818,
+   "card": false,
+   "motion": "none",
+   "exit": false
+  },
+  {
+   "t": 5.534,
+   "end": 22.167,
+   "y": 473,
+   "rows": [],
+   "card": true,
+   "w": 1160,
+   "pad": 523,
+   "gap": 0,
+   "motion": "none",
+   "exit": false
+  },
+  {
+   "t": 5.534,
+   "end": 22.167,
+   "y": 262,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "Clip: twitch.tv/fustler",
+     "size": 30
+    }
+   ],
+   "card": false,
+   "motion": "none",
+   "exit": false
+  },
+  {
+   "t": 5.534,
+   "end": 17.364,
+   "y": 555,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Nur noch",
+     "size": 96,
+     "at": 0.05,
+     "motion": "punch"
+    },
+    {
+     "type": "big",
+     "text": "EIN LEBKUCHEN?!",
+     "size": 122,
+     "at": 0.3,
+     "motion": "punch"
+    },
+    {
+     "type": "text",
+     "text": "Fustler ließ nur einen übrig\n(laut Clip-Titel)",
+     "size": 38,
+     "color": "cream",
+     "at": 1.0
+    }
+   ],
+   "card": false,
+   "gap": 14,
+   "motion": "none"
+  },
+  {
+   "t": 17.364,
+   "end": 22.167,
+   "y": 600,
+   "rows": [
+    {
+     "type": "title",
+     "text": "Hättest du die Packung\nzurückgestellt?",
+     "size": 82
+    }
+   ],
+   "card": false,
+   "exit": false,
+   "motion": "punch"
+  },
+  {
+   "t": 19.584,
+   "end": 22.167,
+   "y": 400,
+   "rows": [
+    {
+     "type": "glowpill",
+     "text": "+ Folgen",
+     "size": 56
+    }
+   ],
+   "card": false,
+   "exit": false,
+   "motion": "punch"
+  },
+  {
+   "t": 17.514,
+   "end": 22.167,
+   "y": 1210,
+   "x": 805,
+   "card": false,
+   "exit": false,
+   "rows": [
+    {
+     "type": "arrow",
+     "w": 170,
+     "nudge": 14
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "clip": "work/s1/clip_1080.mp4",
+   "ss": 0.0,
+   "start": 0.0,
+   "end": 22.167,
+   "cam": {
+    "x": 0.5,
+    "y": 0.5,
+    "zoom": [
+     1.0,
+     1.0
+    ],
+    "speed": 1.0
+   }
+  }
+ ],
+ "music": false,
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "hit",
+   "gain": 0.5
+  },
+  {
+   "t": 1.84,
+   "type": "hit",
+   "gain": 0.6
+  },
+  {
+   "t": 5.834,
+   "type": "pop"
+  },
+  {
+   "t": 17.364,
+   "type": "pop"
+  },
+  {
+   "t": 19.584,
+   "type": "pop"
+  },
+  {
+   "t": 2.847,
+   "type": "whoosh",
+   "gain": 0.5
+  },
+  {
+   "t": 5.414,
+   "type": "whoosh",
+   "gain": 0.5
+  }
+ ]
+}

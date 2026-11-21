@@ -202,3 +202,15 @@ Wartest du auf die PC-Version? 👇
 Quellen: GameStar, Notebookcheck, Play3 (Remote Play); Erscheinungstermine GTA 5/RDR2.
 
 **Hinweis:** „KI-generierte Inhalte“ einschalten (KI-Stimme).
+
+## S1 – „Fustler: nur noch ein Lebkuchen“ (Streamer-Clip mit Erlaubnis, Stand 21.11.2026)
+
+**Datei:** `downloads/S1_fustler-lebkuchen.mp4` (22,2 s, ohne Musik). Erlaubnis von fustler liegt als Screenshot beim Nutzer.
+
+**Beschreibung:**
+Fustler lässt nur noch EINEN Lebkuchen übrig 😭 Clip mit Erlaubnis von twitch.tv/fustler – schaut bei ihm vorbei! Speicher dir das 📌 #fustler #gta6 #twitch #streamer #lustig
+
+**Kommentar zum Anpinnen:**
+Hättest du die Packung zurückgestellt? 👇 Clip mit Erlaubnis von twitch.tv/fustler
+
+**Hinweise:** „KI-generierte Inhalte“ einschalten (Hook/Outro mit KI-Stimme). Sponsor-Banner aus dem Stream (yfood/SNOCKS) sind überdeckt.
