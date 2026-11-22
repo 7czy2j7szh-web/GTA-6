@@ -214,3 +214,18 @@ Fustler lässt nur noch EINEN Lebkuchen übrig 😭 Clip mit Erlaubnis von twitc
 Hättest du die Packung zurückgestellt? 👇 Clip mit Erlaubnis von twitch.tv/fustler
 
 **Hinweise:** „KI-generierte Inhalte“ einschalten (Hook/Outro mit KI-Stimme). Sponsor-Banner aus dem Stream (yfood/SNOCKS) sind überdeckt.
+
+## M1–M3 – Memes aus eigener Aufnahme (Chamäleon-Würfe, Stand 22.11.2026)
+Originalton komplett entfernt (Stimme des Nutzers), neuer Ton: eigene Musik, Effekte, kurze KI-Stimme → „KI-generierte Inhalte“ einschalten.
+
+**M1 `downloads/M1_gta6-rentner.mp4` (8,8 s)**
+Beschreibung: Rentner in Vice City haben es nicht leicht 🦎 #gta6 #gta6deutsch #gta6funny #gaming #meme
+Kommentar: Was hättest du geworfen? 👇
+
+**M2 `downloads/M2_gta6-jogger.mp4` (12,3 s)**
+Beschreibung: Er wollte nur joggen… 🏃‍♂️🦎 #gta6 #gta6deutsch #gta6funny #gaming #meme
+Kommentar: Wer hätte schneller rennen müssen? 👇
+
+**M3 `downloads/M3_gta6-13-jahre.mp4` (11,2 s)**
+Beschreibung: 13 Jahre gewartet für DAS 🦎😂 #gta6 #gta6deutsch #gta6funny #gaming #meme
+Kommentar: Was war das Erste, was du in GTA 6 gemacht hast? 👇
